@@ -59,9 +59,6 @@ from django.utils import six
 from django.utils.functional import lazy
 from django.utils.translation import ugettext_lazy as _
 
-"""All two letter country codes according to ISO 3166-1, with their common names and not their official names
-Source: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Current_codes
-"""
 ISO_3166_COUNTRIES = {"AD": _("Andorra"),
                       "AE": _("United Arab Emirates"),
                       "AF": _("Afghanistan"),
@@ -313,10 +310,10 @@ ISO_3166_COUNTRIES = {"AD": _("Andorra"),
                       "ZM": _("Zambia"),
                       "ZW": _("Zimbabwe"),
                       }
-
-"""List of UN Member States
-Source: http://www.un.org/en/members/index.shtml
+"""All two letter country codes according to ISO 3166-1, with their common names and not their official names
+Source: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Current_codes
 """
+
 UN_MEMBER_STATES = ('AD', 'AE', 'AF', 'AG', 'AL', 'AM', 'AO', 'AR', 'AT', 'AU', 'AZ', 'BA', 'BB', 'BD', 'BE', 'BF',
                     'BG', 'BH', 'BI', 'BJ', 'BN', 'BO', 'BR', 'BS', 'BT', 'BW', 'BY', 'BZ', 'CA', 'CD', 'CF', 'CG',
                     'CH', 'CI', 'CL', 'CM', 'CN', 'CO', 'CR', 'CU', 'CV', 'CY', 'CZ', 'DE', 'DJ', 'DK', 'DM', 'DO',
@@ -330,37 +327,41 @@ UN_MEMBER_STATES = ('AD', 'AE', 'AF', 'AG', 'AL', 'AM', 'AO', 'AR', 'AT', 'AU', 
                     'SO', 'SR', 'SS', 'ST', 'SV', 'SY', 'SZ', 'TD', 'TG', 'TH', 'TJ', 'TL', 'TM', 'TN', 'TO', 'TR',
                     'TT', 'TV', 'TZ', 'UA', 'UG', 'US', 'UY', 'UZ', 'VC', 'VE', 'VN', 'VU', 'WS', 'YE', 'ZA', 'ZM',
                     'ZW')
+"""List of UN Member States
+Source: http://www.un.org/en/members/index.shtml
+"""
 
+UN_OBSERVER_STATES = ('PS', 'VA')
 """List of UN Observer States
 Source: http://www.un.org/en/members/nonmembers.shtml
 """
-UN_OBSERVER_STATES = ('PS', 'VA')
 
-"""Disputed UN states.
-Source: https://en.wikipedia.org/wiki/List_of_sovereign_states#List_of_states
-No ISO 3166-1 code has yet been assigned, and thus not included, for:
-Abkhazia
-Nagorno-Karabakh
-Northern Cyprus
-Sahrawi Arab Democratic Republic
-Somaliland
-South Ossetia
-Transnistria
-
-(Kosovo is included temporarily as XK,
- see http://ec.europa.eu/budget/contracts_grants/info_contracts/inforeuro/inforeuro_en.cfm)
-"""
 UN_DISPUTED_STATES = ('CK', 'NU', 'TW', 'XK')
+"""Disputed UN states.
 
-"""List of the (rather arbitrary) UN non-self-governing states
-Source: http://www.un.org/en/decolonization/nonselfgovterritories.shtml
+Source: https://en.wikipedia.org/wiki/List_of_sovereign_states#List_of_states
+
+No ISO 3166-1 code has yet been assigned, and thus not included, for:
+
+* Abkhazia
+* Nagorno-Karabakh
+* Northern Cyprus
+* Sahrawi Arab Democratic Republic
+* Somaliland
+* South Ossetia
+* Transnistria
+
+Although Kosovo has no ISO 3166-1 code either, it is generally accepted to be XK temporarily; see
+http://ec.europa.eu/budget/contracts_grants/info_contracts/inforeuro/inforeuro_en.cfm
 """
+
 UN_NON_SELF_GOVERNING_STATES = ('EH', 'AI', 'BM', 'VG', 'KY', 'FK', 'MS', 'SH', 'TC', 'VI', 'GI', 'AS', 'PF', 'GU',
                                 'NC', 'PN', 'TK')
+"""List of the (rather arbitrary) UN non-self-governing states
 
-"""List of countries as defined by IOC.
-Source: https://en.wikipedia.org/wiki/Comparison_of_IOC,_FIFA,_and_ISO_3166_country_codes
+Source: http://www.un.org/en/decolonization/nonselfgovterritories.shtml
 """
+
 IOC_RECOGNIZED_COUNTRIES = ('AF', 'AL', 'DZ', 'AS', 'AD', 'AO', 'AG', 'AR', 'AM', 'AW', 'AU', 'AT', 'AZ', 'BS', 'BH',
                             'BD', 'BB', 'BY', 'BE', 'BZ', 'BJ', 'BM', 'BT', 'BO', 'BA', 'BW', 'BR', 'VG', 'BN', 'BG',
                             'BF', 'BI', 'KH', 'CM', 'CA', 'CV', 'KY', 'CF', 'TD', 'CL', 'CN', 'CO', 'KM', 'CG', 'CD',
@@ -375,8 +376,13 @@ IOC_RECOGNIZED_COUNTRIES = ('AF', 'AL', 'DZ', 'AS', 'AD', 'AO', 'AG', 'AR', 'AM'
                             'SK', 'SI', 'SB', 'SO', 'ZA', 'ES', 'LK', 'SD', 'SR', 'SZ', 'SE', 'CH', 'SY', 'TW', 'TJ',
                             'TZ', 'TH', 'TL', 'TG', 'TO', 'TT', 'TN', 'TR', 'TM', 'TV', 'UG', 'UA', 'AE', 'GB', 'US',
                             'VI', 'UY', 'UZ', 'VU', 'VE', 'VN', 'YE', 'ZM', 'ZW')
+"""List of countries as defined by IOC.
+
+Source: https://en.wikipedia.org/wiki/Comparison_of_IOC,_FIFA,_and_ISO_3166_country_codes
+"""
 
 UN_RECOGNIZED_COUNTRIES = UN_MEMBER_STATES + UN_OBSERVER_STATES + UN_NON_SELF_GOVERNING_STATES + UN_DISPUTED_STATES
+"""Combined list of all UN_* data constants."""
 
 
 def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):

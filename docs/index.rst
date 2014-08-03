@@ -9,6 +9,7 @@ countries. This package aims to fill the gap and provides fields that are design
 .. toctree::
    :maxdepth: 2
 
+   countries
    iban
 
 Indices and tables
