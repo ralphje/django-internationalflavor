@@ -18,6 +18,17 @@ To accommodate for these differences, this module chooses to include the followi
 Both fields provided by this module provide ways to manually add or exclude items from this list, as long as they are
 valid ISO 3166-1 alpha-2 codes.
 
+The list of ISO 3166-1 countries included with this module uses the common names of countries, rather than using their
+official names.
+
+.. note::
+
+   While this module tries to provide some sort of equal ground most people would agree on, the choices that have been
+   made may be grounds for disputes on sovereignty. First of all, I'm sorry if the choices that have been made make you
+   feel uncomfortable. Second of all, you are not required to use the provided default list and you can easily include
+   or exclude countries to your liking. And finally, you are welcome to open a ticket (or pull request) on Github, but
+   please keep it civilized and try to maintain a unbiased position.
+
 .. autoclass:: internationalflavor.countries.models.CountryField
 .. autoclass:: internationalflavor.countries.forms.CountryFormField
 
@@ -42,6 +53,14 @@ You can use the following constants to specify your own set of available countri
 
 .. autodata:: internationalflavor.countries.data.IOC_RECOGNIZED_COUNTRIES
    :annotation: = (...)
+
+Comparison with other packages
+==============================
+:mod:`django-countries`
+   This module has a more elaborate ``CountryField``. It returns ``Country`` objects instead of ISO 3166-1 alpha-2 codes
+   that allow easy access to the full name of a country or its country flag. However, it only provides the basic ISO
+   country code list, with official country names (rather than using their common names).
+
 
 .. seealso::
    `UN member states <http://www.un.org/en/members/index.shtml>`_

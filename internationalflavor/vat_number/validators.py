@@ -11,6 +11,30 @@ VIES_CHECK_WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsd
 
 
 class VATNumberValidator(object):
+    """Validator for checking whether a given VAT number is valid. A VAT number starts with two characters representing
+    the country code, followed by at least 2 characters representing the local VAT number.
+
+    :param bool eu_only: By default, all countries are allowed. However, if you are an EU company, you are likely to
+        only want to accept EU VAT numbers.
+
+    :param include_countries: If set, the list of countries will be limited to the provided list.
+
+    :param bool vies_check: By default, this validator will only validate the syntax of the VAT number. If you need to
+        validate using the EU VAT Information Exchange System (VIES) checker (see
+        http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. This option implies ``eu_only`` and
+        requires the :mod:`suds` module to be installed.
+
+    .. note::
+
+       If the VIES service can not be reached, this part of the validation will succeed.
+
+    .. warning::
+
+       The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
+       feel there's an error.
+
+    """
+
     def __init__(self, eu_only=False, include_countries=None, vies_check=False):
         self.regexes = VAT_NUMBER_REGEXES
 

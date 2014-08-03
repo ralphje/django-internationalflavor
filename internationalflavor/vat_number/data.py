@@ -72,3 +72,7 @@ VAT_NUMBER_REGEXES = {
 
 EU_VAT_AREA = ['AT', 'BE', 'BG', 'CV', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
                'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'RO', 'SE', 'SI', 'SK']
+
+
+VAT_MIN_LENGTH = 4   # Romania seems to have the shortest
+VAT_MAX_LENGTH = 16  # BR seems to be the longest

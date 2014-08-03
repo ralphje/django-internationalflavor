@@ -1,16 +1,12 @@
-====
-IBAN
-====
+==========
+IBAN / BIC
+==========
 .. module:: internationalflavor.iban
 
 Most countries over the world use IBAN for international payments. Starting at August 1, 2014, the European Union has
 mandated that all its member countries must use IBAN for domestic and international transactions. Even if your country
 does not require IBAN for domestic transactions, it may be a good idea to use and store IBANs anyway. This allows you
 to handle bank account numbers from different countries.
-
-Please note that :mod:`localflavor` also supports a ``IBANField``, but that module does not validate against regular
-expressions, but rather validate the length of the IBAN. This means that the validation in this module is more
-extensive. Additionally, this module contributes a ``BICField`` for SWIFT BIC validation.
 
 IBAN
 ====
@@ -23,6 +19,21 @@ BIC
 .. autoclass:: internationalflavor.iban.validators.BICValidator
 .. autoclass:: internationalflavor.iban.models.BICField
 .. autoclass:: internationalflavor.iban.forms.BICFormField
+
+
+Comparison with other packages
+==============================
+:mod:`localflavor`
+   This module also supports a ``IBANField``, but does not validate against regular expressions, rather
+   validating the length of the IBAN for each country code. The validation provided by :mod:`internationalflavor` is more
+   extensive by using regular expressions. Additionally, we provide a :class:`BICField` for SWIFT BIC validation.
+
+   If you are already using :mod:`localflavor` and do not need any of the other fields provided by
+   :mod:`internationalflavor`, you may be better off choosing :mod:`localflavor`.
+
+:mod:`django-iban`
+   The validation in this module is equal to the `localflavor` validation. The author of this package is seeking to
+   retire his package, so it may be best to not use this package in new projects.
 
 .. seealso::
    `IBAN Registry <http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf>`_

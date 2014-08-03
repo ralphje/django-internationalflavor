@@ -1,3 +1,4 @@
-from iban.validators import IBANValidator
+from iban.validators import IBANValidator, BICValidator
+from vat_number.validators import VATNumberValidator
 
-__all__ = ['IBANValidator']
+__all__ = ['IBANValidator', 'BICValidator', 'VATNumberValidator']

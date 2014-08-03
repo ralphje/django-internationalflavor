@@ -22,6 +22,11 @@ class IBANValidator(object):
     :param bool use_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the 
         SWIFT organization, but Nordea has  specified a few additional IBAN formats. By setting this parameter to True,
         these extensions are also allowed.
+
+    .. warning::
+
+       The validation of the Nordea extensions may be wrong for some countries, as there is no standard for these
+       numbers.
     """
 
     def __init__(self, sepa_only=False, include_countries=None, use_nordea_extensions=False):
