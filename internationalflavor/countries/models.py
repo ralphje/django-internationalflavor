@@ -17,7 +17,7 @@ class CountryField(models.CharField):
         self.exclude = exclude
 
         kwargs.setdefault('max_length', 2)
-        kwargs.setdefault('choices', get_countries_lazy(countries, exclude))
+        kwargs['choices'] = get_countries_lazy(countries, exclude)
 
         super(CountryField, self).__init__(*args, **kwargs)
 
@@ -29,9 +29,10 @@ class CountryField(models.CharField):
             kwargs['exclude'] = self.exclude
         if 'max_length' in kwargs and kwargs["max_length"] == 2:
             del kwargs["max_length"]
+        del kwargs["choices"]
         return name, path, args, kwargs
 
     def formfield(self, **kwargs):
         defaults = {'choices_form_class': CountryFormField}
         defaults.update(kwargs)
-        return super(CountryField, self).formfield(**kwargs)
+        return super(CountryField, self).formfield(**defaults)
