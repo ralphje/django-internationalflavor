@@ -406,4 +406,4 @@ def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     return tuple(sorted(((k, v) for k, v in ISO_3166_COUNTRIES.items() if k in countries and k not in exclude),
                         key=lambda item: item[1]))
 
-get_countries_lazy = lazy(get_countries, six.string_types)
+get_countries_lazy = lazy(get_countries, tuple)

@@ -15,8 +15,9 @@ class CountryField(models.CharField):
     def __init__(self, countries=UN_RECOGNIZED_COUNTRIES, exclude=(), *args, **kwargs):
         self.countries = countries
         self.exclude = exclude
+
         kwargs.setdefault('max_length', 2)
-        self._choices = get_countries_lazy(countries, exclude)
+        kwargs.setdefault('choices', get_countries_lazy(countries, exclude))
 
         super(CountryField, self).__init__(*args, **kwargs)
 
@@ -31,6 +32,6 @@ class CountryField(models.CharField):
         return name, path, args, kwargs
 
     def formfield(self, **kwargs):
-        defaults = {'form_class': CountryFormField}
+        defaults = {'choices_form_class': CountryFormField}
         defaults.update(kwargs)
-        return super(CountryField, self).formfield(**defaults)
+        return super(CountryField, self).formfield(**kwargs)
