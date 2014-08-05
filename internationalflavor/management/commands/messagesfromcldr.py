@@ -52,9 +52,10 @@ class Command(BaseCommand):
                         if entry.msgid in country_list and country_list[entry.msgid] in territories and \
                                 not 'manual' in entry.comment:
                             entry.msgstr = territories[country_list[entry.msgid]]
-                            entry.comment = "auto-generated from CLDR"
+                            entry.comment = "auto-generated from CLDR -- see docs before updating"
 
                     pofile.save()
+                    pofile.save_as_mofile(os.path.join(path_to_locale, lc, 'LC_MESSAGES', 'django.mo'))
 
                 except IOError as e:
                     self.stderr.write("Error while handling %s: %s (possibly no valid .po file)" % (language, e))
