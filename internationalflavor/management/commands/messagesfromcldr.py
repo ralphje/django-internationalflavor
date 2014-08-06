@@ -9,49 +9,68 @@ from django.core.management.base import BaseCommand, CommandError
 import shutil
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
 
+# We need a reverse lookup of ISO countries to get the translation strings
+COUNTRY_LIST = dict(zip(ISO_3166_COUNTRIES.values(), ISO_3166_COUNTRIES.keys()))
 
 class Command(BaseCommand):
-    help = 'Updates locales based on the Unicode CLDR'
-    args = '<path to cldr zip>'
+    help = ('Updates locales of the internationalflavor module using data from the Unicode '
+            'Common Locale Data Repository (CLDR)')
+    args = '<path to cldr json zip>'
 
     def handle(self, *args, **options):
+        # We need one argument
         if len(args) == 0:
             raise CommandError("You need to pass in a path to a zip containing CLDR JSON files.")
-        translation.deactivate_all()  # ensure that we use the raw language strings
+            
+        # Ensure that we use the raw language strings, as we are going to modify the po files based on the
+        # raw language strings.
+        translation.deactivate_all()
 
-        # We need a reverse lookup of ISO countries to get the translation strings
-        country_list = dict(zip(ISO_3166_COUNTRIES.values(), ISO_3166_COUNTRIES.keys()))
-
+        # Get the path to the locale directory
         path_to_locale = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'locale')
+        
+        # And create a temporary directory to unzip files to
         unzipdir = tempfile.mkdtemp()
         try:
-            with zipfile.ZipFile(args[0]) as zf:
-                self.stdout.write("Reading CLDR from %s" % os.path.abspath(args[0]))
-                zf.extractall(unzipdir)
+            # Unzip the files
+            try:
+                with zipfile.ZipFile(args[0]) as zf:
+                    self.stdout.write("Reading CLDR from %s" % os.path.abspath(args[0]))
+                    zf.extractall(unzipdir)
+            
+            except OSError as e:
+                raise CommandError("Error while reading zip file: %s" % e)
 
+            # Loop over all languages accepted by Django
             for lc, language in settings.LANGUAGES:
-                pofile = None
                 try:
+                    self.stdout.write("Parsing language %s" % language)
+                    
+                    # Open the PO file
                     pofile = polib.pofile(os.path.join(path_to_locale, lc, 'LC_MESSAGES', 'django.po'))
 
+                    # Rather ugly method to convert locale names, but it works properly for all accepted languages
                     if lc == 'zh-cn':
-                        lc = 'zh-Hans-CN'
+                        cldr_lc = 'zh-Hans-CN'
                     elif lc == 'zh-tw':
-                        lc = 'zh-Hant-TW'
+                        cldr_lc = 'zh-Hant-TW'
                     else:
-                        lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn")
-
-                    self.stdout.write("Parsing language %s" % language)
-                    os.chdir(os.path.join(unzipdir, "main", lc))
-
+                        cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn")
+                    
+                    os.chdir(os.path.join(unzipdir, "main", cldr_lc))
+                    
+                    # Load territories data. Unsure whether this is according to CLDR recommendation, but it does
+                    # not matter for this script. It is not exactly meant to be ran by end-users.
                     with open("territories.json", "r") as f:
                         data = json.load(f)
-                        territories = data['main'][lc]['localeDisplayNames']['territories']
-
+                        territories = data['main'][cldr_lc]['localeDisplayNames']['territories']
+                    
                     for entry in pofile:
-                        if entry.msgid in country_list and country_list[entry.msgid] in territories and \
+                        # Update the territory information
+                        if entry.msgid in COUNTRY_LIST and COUNTRY_LIST[entry.msgid] in territories and \
+                                territories[COUNTRY_LIST[entry.msgid]] != COUNTRY_LIST[entry.msgid] and \
                                 not 'manual' in entry.comment:
-                            entry.msgstr = territories[country_list[entry.msgid]]
+                            entry.msgstr = territories[COUNTRY_LIST[entry.msgid]]
                             entry.comment = "auto-generated from CLDR -- see docs before updating"
 
                     pofile.save()
@@ -62,9 +81,6 @@ class Command(BaseCommand):
 
                 except Exception as e:
                     self.stderr.write("Error while handling %s: %s" % (language, e))
-
-        except OSError as e:
-            raise CommandError("Error while handling zip file: %s" % e)
 
         finally:
             self.stdout.write("Cleaning up...")
