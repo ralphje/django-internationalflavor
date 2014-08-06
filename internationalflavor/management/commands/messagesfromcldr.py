@@ -7,7 +7,7 @@ import zipfile
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 import shutil
-from internationalflavor.countries.data import ISO_3166_COUNTRIES
+from internationalflavor.countries.data import COUNTRY_NAMES
 
 
 class Command(BaseCommand):
@@ -26,7 +26,7 @@ class Command(BaseCommand):
 
         # Prepare some constants
         # We need a reverse lookup of ISO countries to get the translation strings
-        COUNTRY_LIST = dict(zip(ISO_3166_COUNTRIES.values(), ISO_3166_COUNTRIES.keys()))
+        COUNTRY_LIST = dict(zip(COUNTRY_NAMES.values(), COUNTRY_NAMES.keys()))
         # Alternative entries in the CLDR list we use
         COUNTRY_ALTERNATIVE_KEYS = {'HK': 'HK-alt-short', 'MO': 'MO-alt-short', 'PS': 'PS-alt-short'}
         # Get the path to the locale directory
