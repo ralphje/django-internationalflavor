@@ -15,7 +15,7 @@ class IBANField(models.CharField):
     .. code-block:: python
 
         from django.db import models
-        from internationalflavor.models import IBANField
+        from internationalflavor.iban import IBANField
 
         class MyModel(models.Model):
             iban = IBANField(include_countries=['NL', 'BE'])

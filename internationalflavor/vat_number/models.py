@@ -14,10 +14,10 @@ class VATNumberField(models.CharField):
     .. code-block:: python
 
         from django.db import models
-        from internationalflavor.models import VATNumberFormField
+        from internationalflavor.vat_number import VATNumberField
 
         class MyModel(models.Model):
-            iban = VATNumberFormField(include_countries=['NL', 'BE'])
+            iban = VATNumberField(include_countries=['NL', 'BE'])
 
     This field is an extension of a CharField.
     """
