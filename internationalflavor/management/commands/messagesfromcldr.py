@@ -52,12 +52,9 @@ class Command(BaseCommand):
                         
                         # Load territories data. Unsure whether this is according to CLDR recommendation, but it does
                         # not matter for this script. It is not exactly meant to be ran by end-users.
-                        f = cldr_zip.open(os.path.join("main", cldr_ld, "territories.json"))
-                        try:
+                        with cldr_zip.open(os.path.join("main", cldr_ld, "territories.json")) as f:
                             data = json.load(f)
                             territories = data['main'][cldr_lc]['localeDisplayNames']['territories']
-                        finally:
-                            f.close()
                         
                         for entry in pofile:
                             # Update the territory information
