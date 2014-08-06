@@ -9,8 +9,6 @@ from django.core.management.base import BaseCommand, CommandError
 import shutil
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
 
-# We need a reverse lookup of ISO countries to get the translation strings
-COUNTRY_LIST = dict(zip(ISO_3166_COUNTRIES.values(), ISO_3166_COUNTRIES.keys()))
 
 class Command(BaseCommand):
     help = ('Updates locales of the internationalflavor module using data from the Unicode '
@@ -26,8 +24,13 @@ class Command(BaseCommand):
         # raw language strings.
         translation.deactivate_all()
 
+        # Prepare some constants
+        # We need a reverse lookup of ISO countries to get the translation strings
+        COUNTRY_LIST = dict(zip(ISO_3166_COUNTRIES.values(), ISO_3166_COUNTRIES.keys()))
+        # Alternative entries in the CLDR list we use
+        COUNTRY_ALTERNATIVE_KEYS = {'HK': 'HK-alt-short', 'MO': 'MO-alt-short', 'PS': 'PS-alt-short'}
         # Get the path to the locale directory
-        path_to_locale = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'locale')
+        PATH_TO_LOCALE = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'locale')
         
         try:
             # Unzip the files
@@ -40,7 +43,7 @@ class Command(BaseCommand):
                         self.stdout.write("Parsing language %s" % language)
                         
                         # Open the PO file
-                        pofile = polib.pofile(os.path.join(path_to_locale, lc, 'LC_MESSAGES', 'django.po'))
+                        pofile = polib.pofile(os.path.join(PATH_TO_LOCALE, lc, 'LC_MESSAGES', 'django.po'))
     
                         # Rather ugly method to convert locale names, but it works properly for all accepted languages
                         if lc == 'zh-cn':
@@ -56,15 +59,27 @@ class Command(BaseCommand):
                         territories = data['main'][cldr_lc]['localeDisplayNames']['territories']
                         
                         for entry in pofile:
+                            # Skip entries marked as manual
+                            if 'manual' in entry.comment:
+                                continue
+
                             # Update the territory information
-                            if entry.msgid in COUNTRY_LIST and COUNTRY_LIST[entry.msgid] in territories and \
-                                    territories[COUNTRY_LIST[entry.msgid]] != COUNTRY_LIST[entry.msgid] and \
-                                    not 'manual' in entry.comment:
-                                entry.msgstr = territories[COUNTRY_LIST[entry.msgid]]
-                                entry.comment = "auto-generated from CLDR -- see docs before updating"
+                            if entry.msgid in COUNTRY_LIST:
+                                territory = COUNTRY_LIST[entry.msgid]
+
+                                # Use the short HK/MO/PS name if available
+                                if territory in COUNTRY_ALTERNATIVE_KEYS and \
+                                                COUNTRY_ALTERNATIVE_KEYS[territory] in territories and \
+                                                territories[COUNTRY_ALTERNATIVE_KEYS[territory]] != territory:
+                                    territory = COUNTRY_ALTERNATIVE_KEYS[territory]
+
+                                # Only use the territory name if it exists and is not the country code itself
+                                if territory in territories and territories[territory] != territory:
+                                    entry.msgstr = territories[territory]
+                                    entry.comment = "auto-generated from CLDR -- see docs before updating"
     
                         pofile.save()
-                        pofile.save_as_mofile(os.path.join(path_to_locale, lc, 'LC_MESSAGES', 'django.mo'))
+                        pofile.save_as_mofile(os.path.join(PATH_TO_LOCALE, lc, 'LC_MESSAGES', 'django.mo'))
     
                     except IOError as e:
                         self.stderr.write("Error while handling %s: %s (possibly no valid .po file)" % (language, e))
