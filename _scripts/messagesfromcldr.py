@@ -1,16 +1,14 @@
 import argparse
 import json
 import os
-import polib
-import tempfile
-import shutil
-import sys
 import zipfile
+
+import polib
 import django
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 from django.utils import translation
-from internationalflavor.countries.data import COUNTRY_NAMES
+
 
 
 # This is almost a management command, but we do not want it to be added to the django-admin namespace for the simple
@@ -27,11 +25,12 @@ class Command(BaseCommand):
         # raw language strings.
         translation.deactivate_all()
 
-        # Prepare some constants
+        # Prepare and load some constants (we can't do this earlier to ensure settings.configure has run)
+        from internationalflavor.countries.data import COUNTRY_NAMES
+        # Alternative entries in the CLDR list we use
+        from _common import COUNTRY_ALTERNATIVE_KEYS
         # We need a reverse lookup of ISO countries to get the translation strings
         COUNTRY_LIST = dict(zip(COUNTRY_NAMES.values(), COUNTRY_NAMES.keys()))
-        # Alternative entries in the CLDR list we use
-        COUNTRY_ALTERNATIVE_KEYS = {'HK': 'HK-alt-short', 'MO': 'MO-alt-short', 'PS': 'PS-alt-short'}
         # Get the path to the locale directory
         PATH_TO_LOCALE = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'internationalflavor', 'locale')
 

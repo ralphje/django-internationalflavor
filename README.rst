@@ -22,3 +22,15 @@ Installation
 Tests
 -----
 There are no tests yet. Sorry!
+
+CLDR
+----
+The folder ``_scripts`` contains some useful scripts to update the repository data according to the CLDR. You probably
+want to execute the scripts in the following order::
+
+    _scripts/datafromcldr.py cldr.zip
+    django-admin makemessages
+    _scripts/messagesfromcldr.py cldr.zip
+
+Translators should note that all CLDR data will be automatically overwritten with translations. In the off chance that
+a manual override is required, add a comment with ``manual`` in it.
