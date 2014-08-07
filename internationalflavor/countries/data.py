@@ -116,10 +116,7 @@ No ISO 3166-1 code has yet been assigned, and thus not included, for:
 * Transnistria
 
 Although Kosovo has no ISO 3166-1 code either, it is generally accepted to be XK temporarily; see
-http://ec.europa.eu/budget/contracts_grants/info_contracts/inforeuro/inforeuro_en.cfm
-
-Note, however, that XK is not included by default in our messages catalogue and that it will be missing from your lists
-if you do not add it manually.
+http://ec.europa.eu/budget/contracts_grants/info_contracts/inforeuro/inforeuro_en.cfm or the CLDR
 """
 
 UN_NON_SELF_GOVERNING_STATES = ('EH', 'AI', 'BM', 'VG', 'KY', 'FK', 'MS', 'SH', 'TC', 'VI', 'GI', 'AS', 'PF', 'GU',
