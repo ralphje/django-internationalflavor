@@ -25,21 +25,21 @@ There are no tests yet. Sorry!
 
 CLDR
 ----
-The folder ``_scripts`` contains some useful scripts to update the repository data according to the CLDR. To update
+The folder ``scripts`` contains some useful scripts to update the repository data according to the CLDR. To update
 all data, use::
 
-    _scripts/datafromcldr.py cldr.zip
+    scripts/datafromcldr.py cldr.zip
 
 This will generate (or update) two types of files: all ``_cldr_data.py`` files, with dicts containing translatable
 strings, and ``cldr.po`` files, that contain the translations of all CLDR strings. You can merge these into the
 Django translation files using::
 
-    _scripts/mergemessages.py
+    scripts/mergemessages.py
 
 This command will also synchronize with file named ``django_only.po``, which can be used by translators to translate
 messages (instead of the huge ``django.po`` file that also contains CLDR strings).
 
-Always run ``mergemessages`` after running ``django-admin makemessages``.
+Always run ``mergemessages.py`` after running ``django-admin makemessages``.
 
 Translators should note that all CLDR data will be automatically overwritten with translations. If any modification is
 required, a translation should be made in the ``django.po`` file (as ``cldr.po`` is always overwritten) and marked
