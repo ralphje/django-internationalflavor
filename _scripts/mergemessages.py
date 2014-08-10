@@ -31,9 +31,26 @@ class Command(BaseCommand):
             try:
                 self.stdout.write("Parsing language %s" % language)
 
+                # Get some files ready
+                # The pofile is our combined file
                 pofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.po'))
+                # The cldrfile contain only messages from CLDR
                 cldrfile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'cldr.po'))
+                # The djangofile will only contain messages not from CLDR
+                try:
+                    djangofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django_only.po'))
+                except IOError:
+                    djangofile = polib.POFile()
 
+                # Merge all non-django messages to the djangofile
+                django_only_messages = polib.POFile()
+                for entry in pofile:
+                    if cldrfile.find(entry.msgid) is None and not entry.obsolete and not 'fuzzy' in entry.flags:
+                        django_only_messages.append(entry)
+                djangofile.merge(django_only_messages)
+                djangofile.save(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django_only.po'))
+
+                # Add all entries from the CLDR file to the combined file
                 for entry in cldrfile:
                     e = pofile.find(entry.msgid)
                     if e is None:
@@ -49,6 +66,17 @@ class Command(BaseCommand):
                     e.comment = entry.comment
                     if 'fuzzy' in e.flags:
                         e.flags.remove('fuzzy')
+
+                # Add entries from the Django file to the combined file
+                for entry in djangofile:
+                    e = pofile.find(entry.msgid)
+                    # If not in main file, then skip
+                    if e is None:
+                        continue
+                    e.obsolete = entry.obsolete
+                    e.msgstr = entry.msgstr
+                    e.comment = entry.comment
+                    e.flags = entry.flags
 
                 pofile.save()
                 pofile.save_as_mofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.mo'))

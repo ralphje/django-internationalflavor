@@ -1,0 +1,67 @@
+# 
+msgid ""
+msgstr ""
+
+#: countries/models.py:13
+msgid "A country"
+msgstr ""
+
+#: iban/models.py:26
+msgid "An International Bank Account Number"
+msgstr ""
+
+#: iban/models.py:69
+msgid "An International Bank Code"
+msgstr ""
+
+#: iban/validators.py:49
+msgid "This IBAN does not start with a country code and checksum."
+msgstr ""
+
+#: iban/validators.py:55
+#, python-format
+msgid "%(country)s IBANs are not allowed in this field."
+msgstr ""
+
+#: iban/validators.py:59
+#, python-format
+msgid "This IBAN does not match the requirements for %(country)s ."
+msgstr ""
+
+#: iban/validators.py:61
+msgid "This IBAN is not for a known country."
+msgstr ""
+
+#: iban/validators.py:74
+msgid "This IBAN does not have a valid checksum."
+msgstr ""
+
+#: iban/validators.py:80
+msgid "This Bank Identifier Code (BIC) is invalid."
+msgstr ""
+
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr ""
+
+#: vat_number/validators.py:62
+msgid "This VAT number does not start with a country code."
+msgstr ""
+
+#: vat_number/validators.py:68
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr ""
+
+#: vat_number/validators.py:70
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr ""
+
+#: vat_number/validators.py:76
+msgid "This VAT number is not for a known country."
+msgstr ""
+
+#: vat_number/validators.py:102
+msgid "This VAT number does not exist."
+msgstr ""

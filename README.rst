@@ -36,5 +36,7 @@ Django translation files using::
 
     _scripts/mergemessages.py
 
-Translators should note that all CLDR data will be automatically overwritten with translations. In the off chance that
-a manual override is required, add a comment with the string ``manual`` in it.
+This command will also synchronize with file named ``django_only.po``, which can be used by translators to translate
+messages (instead of the huge ``django.po`` file that also contains CLDR strings).
+
+Translators should note that all CLDR data will be automatically overwritten with translations.
