@@ -41,6 +41,8 @@ class Command(BaseCommand):
                     djangofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django_only.po'))
                 except IOError:
                     djangofile = polib.POFile()
+                    djangofile.metadata = pofile.metadata
+                    djangofile.header = pofile.header
 
                 # Merge all non-django messages to the djangofile
                 django_only_messages = polib.POFile()
@@ -57,7 +59,7 @@ class Command(BaseCommand):
                         e = polib.POEntry()
                         e.msgid = entry.msgid
                         pofile.append(e)
-                    elif 'manual' in e.comment.lower():
+                    elif 'manual' in e.tcomment.lower():
                         self.stdout.write("-- Skipping %s of %s" % (e.msgid, language))
                         continue
 
@@ -77,6 +79,9 @@ class Command(BaseCommand):
                     e.msgstr = entry.msgstr
                     e.comment = entry.comment
                     e.flags = entry.flags
+                # We copy over the header and metadata from the djangofile.
+                pofile.metadata = djangofile.metadata
+                pofile.header = djangofile.header
 
                 pofile.save()
                 pofile.save_as_mofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.mo'))
