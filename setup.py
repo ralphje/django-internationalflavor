@@ -3,8 +3,7 @@ from distutils.core import setup
 setup(
     name='django-internationalflavor',
     version='0.1',
-    packages=['internationalflavor', 'internationalflavor.iban', 'internationalflavor.countries',
-              'internationalflavor.vat_number'],
+    packages=['internationalflavor'],
     url='https://github.com/ralphje/django-internationalflavor',
     license='MIT',
     author='Ralph Broenink',

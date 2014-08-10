@@ -18,13 +18,16 @@ Installation
 
     pip install django-internationalflavor
 
+Contributing
+------------
+If you'd like to contribute, please follow these steps:
 
 Tests
------
+~~~~~
 There are no tests yet. Sorry!
 
-CLDR
-----
+Common Locale Data Repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The folder ``scripts`` contains some useful scripts to update the repository data according to the CLDR. To update
 all data, use::
 
@@ -38,6 +41,9 @@ Django translation files using::
 
 This command will also synchronize with file named ``django_only.po``, which can be used by translators to translate
 messages (instead of the huge ``django.po`` file that also contains CLDR strings).
+
+The repository should only contain a compiled ``django.mo`` file, the ``cldr.po`` and ``django_only.po`` files don't
+need to be compiled.
 
 Always run ``mergemessages.py`` after running ``django-admin makemessages``.
 
