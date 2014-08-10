@@ -1,0 +1,71 @@
+import argparse
+import os
+import polib
+import django
+from django.conf import settings
+from django.core.management.base import BaseCommand
+from django.utils import translation
+
+
+# This is almost a management command, but we do not want it to be added to the django-admin namespace for the simple
+# reason that it is not expected to be executed by package users, only by the package maintainers.
+# We use a thin __main__ wrapper to make it work (ish) like a management command.
+
+MODULE_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'internationalflavor')
+LOCALE_PATH = os.path.join(MODULE_PATH, 'locale')
+
+
+def mark_entry(entry):
+    if 'fuzzy' in entry.flags:
+        entry.flags.remove('fuzzy')
+    entry.comment = "auto-generated from CLDR -- see docs before updating"
+
+
+class Command(BaseCommand):
+    help = 'Updates messages in the PO file with messages from the CLDR'
+
+    def handle(self, *args, **options):
+        translation.deactivate_all()
+
+        for lc, language in settings.LANGUAGES:
+            try:
+                self.stdout.write("Parsing language %s" % language)
+
+                pofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.po'))
+                cldrfile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'cldr.po'))
+
+                for entry in cldrfile:
+                    e = pofile.find(entry.msgid)
+                    if e is None:
+                        e = polib.POEntry()
+                        e.msgid = entry.msgid
+                        pofile.append(e)
+                    elif 'manual' in e.comment.lower():
+                        self.stdout.write("-- Skipping %s of %s" % (e.msgid, language))
+                        continue
+
+                    e.obsolete = False
+                    e.msgstr = entry.msgstr
+                    e.comment = entry.comment
+                    if 'fuzzy' in e.flags:
+                        e.flags.remove('fuzzy')
+
+                pofile.save()
+                pofile.save_as_mofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.mo'))
+
+            except IOError as e:
+                self.stderr.write("Error while handling %s: %s (possibly no valid .po file)" % (language, e))
+
+            except Exception as e:
+                self.stderr.write("Error while handling %s: %s" % (language, e))
+
+if __name__ == '__main__':
+    settings.configure()
+    if hasattr(django, 'setup'):
+        django.setup()
+
+    # We parse arguments ourselves. Django 1.8 uses argparse (finally) but we can just as easily use it ourselves.
+    parser = argparse.ArgumentParser(description=Command.help)
+    args = parser.parse_args()
+
+    Command().execute(**vars(args))

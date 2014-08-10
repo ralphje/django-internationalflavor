@@ -3,9 +3,39 @@
 # Do not edit manually.
 
 from __future__ import unicode_literals
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import ugettext_lazy as _  # 
 
 COUNTRY_NAMES = {
+    "001": _("World"),
+    "002": _("Africa"),
+    "003": _("North America"),
+    "005": _("South America"),
+    "009": _("Oceania"),
+    "011": _("Western Africa"),
+    "013": _("Central America"),
+    "014": _("Eastern Africa"),
+    "015": _("Northern Africa"),
+    "017": _("Middle Africa"),
+    "018": _("Southern Africa"),
+    "019": _("Americas"),
+    "021": _("Northern America"),
+    "029": _("Caribbean"),
+    "030": _("Eastern Asia"),
+    "034": _("Southern Asia"),
+    "035": _("South-Eastern Asia"),
+    "039": _("Southern Europe"),
+    "053": _("Australasia"),
+    "054": _("Melanesia"),
+    "057": _("Micronesian Region"),
+    "061": _("Polynesia"),
+    "142": _("Asia"),
+    "143": _("Central Asia"),
+    "145": _("Western Asia"),
+    "150": _("Europe"),
+    "151": _("Eastern Europe"),
+    "154": _("Northern Europe"),
+    "155": _("Western Europe"),
+    "419": _("Latin America"),
     "AC": _("Ascension Island"),
     "AD": _("Andorra"),
     "AE": _("United Arab Emirates"),

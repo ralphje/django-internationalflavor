@@ -25,12 +25,16 @@ There are no tests yet. Sorry!
 
 CLDR
 ----
-The folder ``_scripts`` contains some useful scripts to update the repository data according to the CLDR. You probably
-want to execute the scripts in the following order::
+The folder ``_scripts`` contains some useful scripts to update the repository data according to the CLDR. To update
+all data, use::
 
     _scripts/datafromcldr.py cldr.zip
-    django-admin makemessages
-    _scripts/messagesfromcldr.py cldr.zip
+
+This will generate (or update) two types of files: all ``_cldr_data.py`` files, with dicts containing translatable
+strings, and ``cldr.po`` files, that contain the translations of all CLDR strings. You can merge these into the
+Django translation files using::
+
+    _scripts/mergemessages.py
 
 Translators should note that all CLDR data will be automatically overwritten with translations. In the off chance that
-a manual override is required, add a comment with ``manual`` in it.
+a manual override is required, add a comment with the string ``manual`` in it.
