@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.abspath('..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
+    'sphinx.ext.autodoc', 'sphinx.ext.intersphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -261,6 +261,12 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+intersphinx_mapping = {
+    'http://docs.python.org/': None,
+    'django': ('http://docs.djangoproject.com/en/dev/',
+               'http://docs.djangoproject.com/en/dev/_objects/'),
+}
 
 # on_rtd is whether we are on readthedocs.org
 import os
