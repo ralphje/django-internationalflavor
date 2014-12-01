@@ -1,3 +1,5 @@
+from django.utils import six
+from django.utils.encoding import force_text
 from django.utils.functional import lazy
 import itertools
 from _cldr_data import METAZONE_NAMES, TIMEZONE_NAMES, METAZONE_MAPPING
@@ -23,10 +25,15 @@ def get_timezones_cities_sorted(timezones=COMMON_TIMEZONES, exclude=()):
     return result
 
 
+def _format_tz_name(*strings):
+    return ', '.join(force_text(s) for s in strings[::-1])
+format_tz_name = lazy(_format_tz_name, six.text_type)
+
+
 def get_timezones_cities(timezones=COMMON_TIMEZONES, exclude=()):
     """Same as get_timezones_cities_sorted, but does not sort or group the values."""
 
-    return [(k, ', '.join(v[::-1])) for k, v in TIMEZONE_NAMES.items() if k in timezones and k not in exclude]
+    return [(k, format_tz_name(*v)) for k, v in TIMEZONE_NAMES.items() if k in timezones and k not in exclude]
 
 
 get_timezones_cities_sorted_lazy = lazy(get_timezones_cities_sorted, list)

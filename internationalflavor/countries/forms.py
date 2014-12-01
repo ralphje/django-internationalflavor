@@ -1,5 +1,5 @@
 from django import forms
-from .data import UN_RECOGNIZED_COUNTRIES, get_countries_sorted_lazy
+from .data import UN_RECOGNIZED_COUNTRIES, get_countries_sorted_lazy, get_countries_sorted
 
 
 class CountryFormField(forms.TypedChoiceField):
@@ -9,5 +9,10 @@ class CountryFormField(forms.TypedChoiceField):
     """
 
     def __init__(self, countries=UN_RECOGNIZED_COUNTRIES, exclude=(), *args, **kwargs):
-        kwargs['choices'] = get_countries_sorted_lazy(countries, exclude)
+        # Maintain the empty choice if available
+        if kwargs['choices'] and kwargs['choices'][0][0] == '':
+            kwargs['choices'] = [kwargs['choices'][0]] + get_countries_sorted(countries, exclude)
+        else:
+            kwargs['choices'] = get_countries_sorted_lazy(countries, exclude)
+
         super(CountryFormField, self).__init__(*args, **kwargs)
