@@ -168,14 +168,14 @@ def get_countries_sorted(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     non-self-governing territory or disputed state.
     """
 
-    return tuple(sorted(((k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude),
-                        key=lambda item: item[1]))
+    return list(sorted(((k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude),
+                       key=lambda item: item[1]))
 
 
 def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     """Same as get_countries_sorted, but does not sort the values."""
 
-    return tuple(((k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude))
+    return [(k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude]
 
-get_countries_sorted_lazy = lazy(get_countries_sorted, tuple)
-get_countries_lazy = lazy(get_countries, tuple)
+get_countries_sorted_lazy = lazy(get_countries_sorted, list)
+get_countries_lazy = lazy(get_countries, list)

@@ -20,6 +20,7 @@ Available data types
 
    countries
    iban
+   timezone
    vat_number
 
 (Expected soon: telephone numbers)
