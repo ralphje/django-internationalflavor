@@ -49,4 +49,4 @@ Always run ``mergemessages.py`` after running ``django-admin makemessages``.
 
 Translators should note that all CLDR data will be automatically overwritten with translations. If any modification is
 required, a translation should be made in the ``django.po`` file (as ``cldr.po`` is always overwritten) and marked
-with a comment containing the text ``manual``. However, please submit corrected translations always to the CLDR instead.
+with a comment containing the text ``manual``. However, please submit corrected translations always to the CLDR.
