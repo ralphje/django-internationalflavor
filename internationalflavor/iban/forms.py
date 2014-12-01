@@ -26,6 +26,7 @@ class IBANFormField(forms.CharField):
 
     def prepare_value(self, value):
         """The display format for IBAN has a space every 4 characters."""
+        value = super(IBANFormField, self).prepare_value(value)
         if value is None:
             return value
         value = value.upper().replace(' ', '').replace('-', '')
@@ -41,6 +42,12 @@ class BICFormField(forms.CharField):
 
     def to_python(self, value):
         value = super(BICFormField, self).to_python(value)
+        if value is not None:
+            return value.upper().replace(' ', '').replace('-', '')
+        return value
+
+    def prepare_value(self, value):
+        value = super(BICFormField, self).prepare_value(value)
         if value is not None:
             return value.upper().replace(' ', '').replace('-', '')
         return value
