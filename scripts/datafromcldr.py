@@ -128,7 +128,7 @@ class Command(BaseCommand):
                         mzone = None
                         try:
                             # The mzone that has no end date is valid
-                            mzoneinfo = get_from_path(metazone_info, region_path)
+                            mzoneinfo = get_from_path(metazone_info, region_path.split('/'))
                             for u in mzoneinfo:
                                 if '_to' not in u['usesMetazone']:
                                     mzone = u['usesMetazone']['_mzone']

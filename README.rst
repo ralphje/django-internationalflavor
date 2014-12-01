@@ -39,7 +39,7 @@ Django translation files using::
 
     scripts/mergemessages.py
 
-This command will also synchronize with file named ``django_only.po``, which can be used by translators to translate
+This command will also synchronize with a file named ``django_only.po``, which can be used by translators to translate
 messages (instead of the huge ``django.po`` file that also contains CLDR strings).
 
 The repository should only contain a compiled ``django.mo`` file, the ``cldr.po`` and ``django_only.po`` files don't
