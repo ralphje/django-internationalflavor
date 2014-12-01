@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 
 """Contains all country specific regexes for IBAN numbers.
 Source: http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
-Accurate to version 49 (August 2014)
+Accurate to version 53 (December 2014)
 """
 IBAN_REGEXES = {
     'AD': r'^\d{10}[0-9A-Z]{12}$',  # AD2!n4!n4!n12!c
@@ -72,9 +72,11 @@ IBAN_REGEXES = {
     'SI': r'^\d{17}$',  # SI2!n5!n8!n2!n
     'SK': r'^\d{22}$',  # SK2!n4!n6!n10!n
     'SM': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # SM2!n1!a5!n5!n12!c
+    'TL': r'^\d{21}$',  # TL2!n3!n14!n2!n
     'TN': r'^\d{22}$',  # TN592!n3!n13!n2!n
     'TR': r'^\d{7}[0-9A-Z]{17}$',  # TR2!n5!n1!c16!c
     'VG': r'^\d{2}[A-Z]{4}\d{16}$',  # VG2!n4!a16!n
+    'XK': r'^\d{18}$',  # XK2!n4!n10!n2!n
 }
 
 """Nordea has some additional IBAN formats defined, which are not recognized by the SWIFT union.
@@ -85,10 +87,13 @@ NORDEA_IBAN_REGEXES = {
     'BF': r'^\d{25}$',   # BFkk nnnn nnnn nnnn nnnn nnnn nnn
     'BI': r'^\d{14}$',  # BIkk nnnn nnnn nnnn
     'BJ': r'^\d{2}[A-Z]\d{23}$',  # BJkk annn nnnn nnnn nnnn nnnn nnnn
+    'CG': r'^\d{25}$',  # CGkk nnnn nnnn nnnn nnnn nnnn nnn
     'CI': r'^\d{2}[A-Z]\d{23}$',  # CIkk annn nnnn nnnn nnnn nnnn nnnn
     'CM': r'^\d{25}$',  # CMkk nnnn nnnn nnnn nnnn nnnn nnn
     'CV': r'^\d{23}$',  # CVkk nnnn nnnn nnnn nnnn nnnn n
     'DZ': r'^\d{18}$',  # DZkk nnnn nnnn nnnn nnnn nnnn
+    'EG': r'^\d{25}$',  # EGkk nnnn nnnn nnnn nnnn nnnn nnn
+    'GA': r'^\d{25}$',  # GAkk nnnn nnnn nnnn nnnn nnnn nnn
     'IR': r'^\d{24}$',  # IRkk nnnn nnnn nnnn nnnn nnnn nn
     'MG': r'^\d{25}$',  # MGkk nnnn nnnn nnnn nnnn nnnn nnn
     'ML': r'^\d{2}[A-Z]\d{23}$',  # MLkk annn nnnn nnnn nnnn nnnn nnnn
@@ -96,7 +101,6 @@ NORDEA_IBAN_REGEXES = {
     'SN': r'^\d{2}[A-Z]\d{23}$',  # SNkk annn nnnn nnnn nnnn nnnn nnnn
     'UA': r'^\d{2}[A-Z0-9]{6}\d{19}$',  # UAkk bbbb bbcc cccc cccc cccc cccc c
 }
-
 
 # FI includes AX for SEPA
 # FR includes GF* GP* MQ* RE* PF TF YT* NC BL MF PM* WF (* incl for SEPA)
