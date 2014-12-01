@@ -102,14 +102,35 @@ def find_package_data(where='.', package='',
     return out
 
 
+version = find_version("internationalflavor", "__init__.py")
+
 setup(
     name='django-internationalflavor',
-    version=find_version("internationalflavor", "__init__.py"),
+    version=version,
     packages=find_packages(exclude=['tests', 'tests.*']),
     package_data=find_package_data(),
     url='https://github.com/ralphje/django-internationalflavor',
+    download_url='https://github.com/ralphje/django-internationalflavor/tarball/' + version,
     license='MIT',
     author='Ralph Broenink',
     author_email='ralph@ralphbroenink.net',
-    description='Complementing django-localflavor with fields that are applicable to multiple countries'
+    description='Complementing django-localflavor with fields that are applicable to multiple countries',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Environment :: Web Environment',
+        'Framework :: Django',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Topic :: Internet :: WWW/HTTP',
+    ],
+    zip_safe=False,
 )
