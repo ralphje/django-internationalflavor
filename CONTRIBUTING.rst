@@ -1,11 +1,19 @@
 ==========================================
 Contributing to django-internationalflavor
 ==========================================
-If you'd like to contribute, please follow these steps:
+Since django-internationalflavor is an open source project, contributions of many forms are welcomed. Examples of
+possible contributions include:
+
+* Bug patches
+* Data corrections
+* New features
+* Documentation improvements
+* Bug reports and reviews of pull requests
 
 Tests
 =====
-There are no tests yet. Sorry!
+Running tests is as simple as `installing Tox <http://tox.readthedocs.org/en/latest/install.html>`_ and running it in
+the root directory.
 
 Common Locale Data Repository
 =============================
