@@ -33,7 +33,7 @@ class IBANField(models.CharField):
         kwargs.setdefault('max_length', IBAN_MAX_LENGTH)
         super(IBANField, self).__init__(*args, **kwargs)
         self.validators.append(IBANValidator(sepa_only=sepa_only, include_countries=include_countries,
-                                             use_nordea_extensions=use_nordea_extensions))
+                                             use_nordea_extensions=use_nordea_extensions))  # pylint: disable=E1101
 
     def deconstruct(self):
         name, path, args, kwargs = super(IBANField, self).deconstruct()
@@ -71,7 +71,7 @@ class BICField(models.CharField):
     def __init__(self, *args, **kwargs):
         kwargs.setdefault('max_length', 11)
         super(BICField, self).__init__(*args, **kwargs)
-        self.validators.append(BICValidator())
+        self.validators.append(BICValidator())  # pylint: disable=E1101
 
     def deconstruct(self):
         name, path, args, kwargs = super(BICField, self).deconstruct()
