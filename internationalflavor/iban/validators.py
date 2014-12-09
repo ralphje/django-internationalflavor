@@ -13,14 +13,14 @@ class IBANValidator(object):
     """Validator for checking whether a given IBAN is valid. An IBAN consists of up to 34 alphanumeric characters, where
     the first two characters indicate a country code, the third and fourth indicate a checksum and the rest of the IBAN
     are localized characters (the so-called BBAN).
-    
+
     :param bool sepa_only: By default, all countries are allowed. If you want to reduce the list of countries to the
         list of SEPA countries (i.e. Single European Payments Area), for instance if you are an European company wanting
         to perform direct debits, you can set this to True.
-        
+
     :param include_countries: If set, the list of countries will be limited to the provided list.
 
-    :param bool use_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the 
+    :param bool use_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the
         SWIFT organization, but Nordea has  specified a few additional IBAN formats. By setting this parameter to True,
         these extensions are also allowed.
 

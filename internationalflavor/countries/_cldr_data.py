@@ -3,7 +3,7 @@
 # Do not edit manually.
 
 from __future__ import unicode_literals
-from django.utils.translation import ugettext_lazy as _  # 
+from django.utils.translation import ugettext_lazy as _
 
 COUNTRY_NAMES = {
     "001": _("World"),

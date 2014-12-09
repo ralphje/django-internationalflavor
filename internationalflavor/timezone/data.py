@@ -2,7 +2,7 @@ from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
 import itertools
-from _cldr_data import METAZONE_NAMES, TIMEZONE_NAMES, METAZONE_MAPPING
+from _cldr_data import TIMEZONE_NAMES
 
 
 try:

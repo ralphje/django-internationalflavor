@@ -149,7 +149,6 @@ UN_RECOGNIZED_COUNTRIES = UN_MEMBER_STATES + UN_OBSERVER_STATES + UN_NON_SELF_GO
 """Combined list of all UN_* data constants."""
 
 
-
 def get_countries_sorted(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     """Returns a sorted (based on value) list of (country code, country name)-pairs. Since the order is based on
     value, these values must be translated on sorting. Ensure that you are calling this method in the proper i18n

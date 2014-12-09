@@ -37,13 +37,15 @@ class VATNumberValidator(object):
 
     def __init__(self, eu_only=False, include_countries=None, vies_check=False):
         self.regexes = VAT_NUMBER_REGEXES
+        self.suds_client = None
 
         self.vies_check = vies_check
         if self.vies_check:
             eu_only = True
 
             try:
-                import suds
+                from suds.client import Client as SudsClient
+                self.suds_client = SudsClient
             except ImportError:
                 raise ImproperlyConfigured("The VAT VIES check requires suds to be installed.")
 
@@ -91,8 +93,7 @@ class VATNumberValidator(object):
         # Check with WSDL services for valid VAT number
         if self.vies_check:
             try:
-                from suds.client import Client
-                c = Client(VIES_CHECK_WSDL, timeout=3)
+                c = self.suds_client(VIES_CHECK_WSDL, timeout=3)
                 res = c.service.checkVat(country, rest)
                 valid = res.valid is not False
             except Exception:  # may be suds.WebFault, or ImmportError
