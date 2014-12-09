@@ -6,6 +6,9 @@ django-internationalflavor
 .. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png
     :target: https://coveralls.io/r/ralphje/django-internationalflavor
 
+.. image:: https://badge.fury.io/py/django-internationalflavor.svg
+    :target: http://badge.fury.io/py/django-internationalflavor
+
 ``django-internationalflavor`` is born to complement the ``django-localflavor`` package. While localflavor is
 awesome when you are making a localized app, the reality is that you often need to accommodate for users from multiple
 countries. While Django has great support for internationalization and localization, there is no package that helps you
