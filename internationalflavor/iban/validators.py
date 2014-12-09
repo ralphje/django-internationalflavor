@@ -49,6 +49,7 @@ class IBANValidator(object):
             raise ValidationError(_('This IBAN does not start with a country code and checksum, or contains '
                                     'invalid characters.'))
 
+        # Check if country code is valid
         country = value[0:2]
         rest = value[2:]
 
@@ -64,7 +65,7 @@ class IBANValidator(object):
         # Check checksum
         bban = rest[2:]
         digits = ""
-        for character in (bban + country + '00'):
+        for character in bban + country + '00':
             if character.isdigit():
                 digits += character
             else:

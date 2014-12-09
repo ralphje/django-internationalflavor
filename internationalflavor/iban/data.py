@@ -105,11 +105,11 @@ https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+c
 # FI includes AX for SEPA
 # FR includes GF* GP* MQ* RE* PF TF YT* NC BL MF PM* WF (* incl for SEPA)
 # PT includes Azores and Madeira for SEPA
-"""List of all sepa country codes."""
 SEPA_COUNTRIES = ['AT', 'BE', 'BG', 'CH', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES',
                   'FI', 'FO', 'GB', 'GI', 'GL', 'GR', 'HU', 'IE', 'IS', 'IT',
                   'LI', 'LT', 'LU', 'LV', 'MC', 'MT', 'NL', 'NO', 'PL', 'PT',
                   'RO', 'SE', 'SI', 'SK']
+"""List of all sepa country codes."""
 
 IBAN_MIN_LENGTH = 16  # Belgium seems to have the shortest
 IBAN_MAX_LENGTH = 34
