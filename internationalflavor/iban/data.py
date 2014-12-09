@@ -4,10 +4,6 @@
 from __future__ import absolute_import
 from __future__ import unicode_literals
 
-"""Contains all country specific regexes for IBAN numbers.
-Source: http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
-Accurate to version 53 (December 2014)
-"""
 IBAN_REGEXES = {
     'AD': r'^\d{10}[0-9A-Z]{12}$',  # AD2!n4!n4!n12!c
     'AE': r'^\d{21}$',  # AE2!n3!n16!n
@@ -78,10 +74,11 @@ IBAN_REGEXES = {
     'VG': r'^\d{2}[A-Z]{4}\d{16}$',  # VG2!n4!a16!n
     'XK': r'^\d{18}$',  # XK2!n4!n10!n2!n
 }
-
-"""Nordea has some additional IBAN formats defined, which are not recognized by the SWIFT union.
-https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+countries/908462.html
+"""Contains all country specific regexes for IBAN numbers.
+Source: http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
+Accurate to version 53 (December 2014)
 """
+
 NORDEA_IBAN_REGEXES = {
     'AO': r'^\d{19}$',  # AOkk nnnn nnnn nnnn nnnn nnnn n
     'BF': r'^\d{25}$',   # BFkk nnnn nnnn nnnn nnnn nnnn nnn
@@ -101,6 +98,9 @@ NORDEA_IBAN_REGEXES = {
     'SN': r'^\d{2}[A-Z]\d{23}$',  # SNkk annn nnnn nnnn nnnn nnnn nnnn
     'UA': r'^\d{2}[A-Z0-9]{6}\d{19}$',  # UAkk bbbb bbcc cccc cccc cccc cccc c
 }
+"""Nordea has some additional IBAN formats defined, which are not recognized by the SWIFT union.
+https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+countries/908462.html
+"""
 
 # FI includes AX for SEPA
 # FR includes GF* GP* MQ* RE* PF TF YT* NC BL MF PM* WF (* incl for SEPA)

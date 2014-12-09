@@ -1,8 +1,9 @@
+from __future__ import absolute_import
 from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
 import itertools
-from _cldr_data import TIMEZONE_NAMES
+from ._cldr_data import TIMEZONE_NAMES
 
 
 try:
