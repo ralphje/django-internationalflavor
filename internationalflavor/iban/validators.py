@@ -2,7 +2,6 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 import re
-import string
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from .data import IBAN_REGEXES, NORDEA_IBAN_REGEXES, SEPA_COUNTRIES
@@ -70,7 +69,7 @@ class IBANValidator(object):
                 digits += character
             else:
                 digits += str(ord(character) - ord('A') + 10)
-        expected_checksum = string.zfill(str(98 - (int(digits) % 97)), 2)
+        expected_checksum = str(98 - (int(digits) % 97)).zfill(2)
 
         if expected_checksum != value[2:4]:
             raise ValidationError(_('This IBAN does not have a valid checksum.'))
