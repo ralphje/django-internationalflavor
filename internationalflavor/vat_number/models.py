@@ -31,8 +31,9 @@ class VATNumberField(models.CharField):
 
         kwargs.setdefault('max_length', VAT_MAX_LENGTH)
         super(VATNumberField, self).__init__(*args, **kwargs)
-        self.validators.append(VATNumberValidator(eu_only=eu_only, include_countries=include_countries,
-                                                  vies_check=vies_check))  # pylint: disable=E1101
+        self.validators.append(VATNumberValidator(eu_only=eu_only,  # pylint: disable=E1101
+                                                  include_countries=include_countries,
+                                                  vies_check=vies_check))
 
     def deconstruct(self):
         name, path, args, kwargs = super(VATNumberField, self).deconstruct()

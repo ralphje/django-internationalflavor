@@ -32,8 +32,9 @@ class IBANField(models.CharField):
 
         kwargs.setdefault('max_length', IBAN_MAX_LENGTH)
         super(IBANField, self).__init__(*args, **kwargs)
-        self.validators.append(IBANValidator(sepa_only=sepa_only, include_countries=include_countries,
-                                             use_nordea_extensions=use_nordea_extensions))  # pylint: disable=E1101
+        self.validators.append(IBANValidator(sepa_only=sepa_only,  # pylint: disable=E1101
+                                             include_countries=include_countries,
+                                             use_nordea_extensions=use_nordea_extensions))
 
     def deconstruct(self):
         name, path, args, kwargs = super(IBANField, self).deconstruct()
