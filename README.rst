@@ -6,6 +6,9 @@ django-internationalflavor
 .. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png
     :target: https://coveralls.io/r/ralphje/django-internationalflavor
 
+.. image:: https://landscape.io/github/ralphje/django-internationalflavor/master/landscape.svg
+   :target: https://landscape.io/github/ralphje/django-internationalflavor/master
+
 .. image:: https://badge.fury.io/py/django-internationalflavor.svg
     :target: http://badge.fury.io/py/django-internationalflavor
 
