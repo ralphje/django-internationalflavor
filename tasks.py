@@ -12,7 +12,9 @@ def clean():
 @task
 def test():
     print('Python version: ' + sys.version)
-    test_cmd = 'coverage run `which django-admin.py` test --settings=tests.settings'
+    # For some reason, the rcfile does not work properly under Py2.6 and Py2.7, so setting it explicitly here
+    test_cmd = 'coverage run --source=internationalflavor --branch ' \
+               '`which django-admin.py` test --settings=tests.settings'
     flake_cmd = 'flake8 --ignore=W801,E128,E501,W402'
 
     # Fix issue #49

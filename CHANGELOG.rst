@@ -11,4 +11,4 @@ This file contains the changelog for the project.
 0.1 (2014-12-01)
 ================
 * Initial release
-* Added modules `countries`, `iban`, `timezone` and `vat_number`
+* Added modules ``countries``, ``iban``, ``timezone`` and ``vat_number``
