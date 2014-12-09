@@ -1,10 +1,10 @@
 django-internationalflavor
 ==========================
-.. image:: https://travis-ci.org/ralphje/django-internationalflavor.svg
-    :target: https://travis-ci.org/ralphje/django-internationalflavor
+.. image:: https://travis-ci.org/ralphje/django-internationalflavor.svg?branch=master
+    :target: https://travis-ci.org/ralphje/django-internationalflavor?branch=master
 
-.. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png
-    :target: https://coveralls.io/r/ralphje/django-internationalflavor
+.. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png?branch=master
+    :target: https://coveralls.io/r/ralphje/django-internationalflavor?branch=master
 
 .. image:: https://landscape.io/github/ralphje/django-internationalflavor/master/landscape.svg
    :target: https://landscape.io/github/ralphje/django-internationalflavor/master
