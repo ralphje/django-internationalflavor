@@ -60,8 +60,9 @@ class VATNumberValidator(object):
         if value is None:
             return value
 
-        if not re.match("[A-Z]{2}[A-Z0-9]+", value):
-            raise ValidationError(_('This VAT number does not start with a country code.'))
+        if not re.match(r"^[A-Z]{2}[A-Z0-9]+$", value):
+            raise ValidationError(_('This VAT number does not start with a country code, or contains invalid '
+                                    'characters.'))
 
         country = value[0:2]
         rest = value[2:]

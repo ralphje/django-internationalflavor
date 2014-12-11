@@ -1,11 +1,3 @@
-"""List of all VAT number regexes to be used for validating European VAT numbers. Regexes do not include any
-formatting characters.
-
-Sources:
-EU: http://www.hmrc.gov.uk/vat/managing/international/esl/country-codes.htm
-CA: http://www.cra-arc.gc.ca/tx/bsnss/tpcs/bn-ne/wrks-eng.html
-others: https://en.wikipedia.org/wiki/VAT_identification_number
-"""
 VAT_NUMBER_REGEXES = {
     # EU VAT number regexes have a high certainty
     'AT': r'^U\d{8}$',
@@ -38,7 +30,7 @@ VAT_NUMBER_REGEXES = {
     'SK': r'^\d{10}$',
 
     # Others
-    # if no source listed above, these regexes are based on Wikipedia
+    # if no source listed below, these regexes are based on Wikipedia
     # patches (with sources) for these are welcome
     'AL': r'^[JK]\d{8}[A-Z]$',
     'AU': r'^\d{9}$',
@@ -69,6 +61,14 @@ VAT_NUMBER_REGEXES = {
     'VE': r'^[EGJV]\d{9}$',
 
 }
+"""List of all VAT number regexes to be used for validating European VAT numbers. Regexes do not include any
+formatting characters.
+
+Sources:
+EU: http://www.hmrc.gov.uk/vat/managing/international/esl/country-codes.htm
+CA: http://www.cra-arc.gc.ca/tx/bsnss/tpcs/bn-ne/wrks-eng.html
+others: https://en.wikipedia.org/wiki/VAT_identification_number
+"""
 
 EU_VAT_AREA = ['AT', 'BE', 'BG', 'CV', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
                'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'RO', 'SE', 'SI', 'SK']
