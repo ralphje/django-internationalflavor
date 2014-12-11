@@ -1,16 +1,19 @@
 django-internationalflavor
 ==========================
 .. image:: https://travis-ci.org/ralphje/django-internationalflavor.svg?branch=master
-    :target: https://travis-ci.org/ralphje/django-internationalflavor?branch=master
+   :target: https://travis-ci.org/ralphje/django-internationalflavor?branch=master
 
 .. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png?branch=master
-    :target: https://coveralls.io/r/ralphje/django-internationalflavor?branch=master
+   :target: https://coveralls.io/r/ralphje/django-internationalflavor?branch=master
 
 .. image:: https://landscape.io/github/ralphje/django-internationalflavor/master/landscape.svg
    :target: https://landscape.io/github/ralphje/django-internationalflavor/master
 
 .. image:: https://badge.fury.io/py/django-internationalflavor.svg
-    :target: http://badge.fury.io/py/django-internationalflavor
+   :target: http://badge.fury.io/py/django-internationalflavor
+
+.. image:: https://readthedocs.org/projects/django-internationalflavor/badge/?version=latest
+   :target: https://readthedocs.org/projects/django-internationalflavor/?badge=latest
 
 ``django-internationalflavor`` is born to complement the ``django-localflavor`` package. While localflavor is
 awesome when you are making a localized app, the reality is that you often need to accommodate for users from multiple
