@@ -22,7 +22,7 @@ class VATNumberValidator(object):
     :param bool vies_check: By default, this validator will only validate the syntax of the VAT number. If you need to
         validate using the EU VAT Information Exchange System (VIES) checker (see
         http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. This option implies ``eu_only`` and
-        requires the :mod:`suds` module to be installed.
+        requires the :mod:`suds` module to be installed. (You could use the ``suds-jurko`` fork for Py3k compatibility)
 
     .. note::
 
@@ -33,6 +33,7 @@ class VATNumberValidator(object):
        The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
        feel there's an error.
 
+    The need for :mod:`suds` could (should) be removed in a future version of this package.
     """
 
     def __init__(self, eu_only=False, include_countries=None, vies_check=False):
@@ -46,7 +47,7 @@ class VATNumberValidator(object):
             try:
                 import suds
             except ImportError:
-                raise ImproperlyConfigured("The VAT VIES check requires suds to be installed.")
+                raise ImproperlyConfigured("The VAT VIES check requires the suds module to be installed.")
             else:
                 del suds  # this suppresses some flake warnings
 
