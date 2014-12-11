@@ -45,7 +45,7 @@ class IBANValidator(object):
             return value
 
         # Check generic IBAN regex
-        if not re.match("^[A-Z]{2}[0-9]{2}[A-Z0-9]+$", value, re.U):
+        if not re.match("^[A-Z]{2}[0-9]{2}[A-Z0-9]+$", value):
             raise ValidationError(_('This IBAN does not start with a country code and checksum, or contains '
                                     'invalid characters.'))
 
