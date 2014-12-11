@@ -37,7 +37,6 @@ class VATNumberValidator(object):
 
     def __init__(self, eu_only=False, include_countries=None, vies_check=False):
         self.regexes = VAT_NUMBER_REGEXES
-        self._suds = None
         self._suds_exception = None
 
         self.vies_check = vies_check
@@ -46,9 +45,10 @@ class VATNumberValidator(object):
 
             try:
                 import suds
-                self._suds = suds
             except ImportError:
                 raise ImproperlyConfigured("The VAT VIES check requires suds to be installed.")
+            else:
+                del suds  # this suppresses some flake warnings
 
         self.included_countries = []
         if eu_only:
@@ -94,13 +94,15 @@ class VATNumberValidator(object):
 
         # Check with WSDL services for valid VAT number
         if self.vies_check:
+            import suds
+            import suds.client
+            import suds.transport
             try:
-                c = self._suds.client.Client(VIES_CHECK_WSDL, timeout=3)
+                c = suds.client.Client(VIES_CHECK_WSDL, timeout=3)
                 res = c.service.checkVat(country, rest)
                 valid = res.valid is not False
-            except self._suds.WebFault as e:
-                valid = True
+            except (suds.WebFault, suds.transport.TransportError) as e:
                 self._suds_exception = e
-
-            if not valid:
-                raise ValidationError(_('This VAT number does not exist.'))
+            else:
+                if not valid:
+                    raise ValidationError(_('This VAT number does not exist.'))
