@@ -1,0 +1,9 @@
+include LICENSE
+include README.rst
+include CONTRIBUTING.rst
+include tasks.py
+include tox.ini
+include .coveragerc
+recursive-include internationalflavor/locale *.po *.mo
+recursive-include docs *
+recursive-include tests *

@@ -22,6 +22,7 @@ Available data types
    iban
    timezone
    vat_number
+   changelog
 
 (Expected soon: telephone numbers)
 
