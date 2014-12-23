@@ -25,25 +25,25 @@ class IBANField(models.CharField):
 
     description = _('An International Bank Account Number')
 
-    def __init__(self, sepa_only=False, include_countries=None, use_nordea_extensions=False, *args, **kwargs):
+    def __init__(self, sepa_only=False, countries=None, accept_nordea_extensions=False, *args, **kwargs):
         self.sepa_only = sepa_only
-        self.include_countries = include_countries
-        self.use_nordea_extensions = use_nordea_extensions
+        self.countries = countries
+        self.accept_nordea_extensions = accept_nordea_extensions
 
         kwargs.setdefault('max_length', IBAN_MAX_LENGTH)
         super(IBANField, self).__init__(*args, **kwargs)
         self.validators.append(IBANValidator(sepa_only=sepa_only,  # pylint: disable=E1101
-                                             include_countries=include_countries,
-                                             use_nordea_extensions=use_nordea_extensions))
+                                             countries=countries,
+                                             accept_nordea_extensions=accept_nordea_extensions))
 
     def deconstruct(self):
         name, path, args, kwargs = super(IBANField, self).deconstruct()
         if self.sepa_only:
             kwargs['sepa_only'] = self.sepa_only
-        if self.include_countries:
-            kwargs['include_countries'] = self.include_countries
-        if self.use_nordea_extensions:
-            kwargs['use_nordea_extensions'] = self.use_nordea_extensions
+        if self.countries:
+            kwargs['countries'] = self.countries
+        if self.accept_nordea_extensions:
+            kwargs['accept_nordea_extensions'] = self.accept_nordea_extensions
         if 'max_length' in kwargs and kwargs["max_length"] == IBAN_MAX_LENGTH:
             del kwargs["max_length"]
         return name, path, args, kwargs

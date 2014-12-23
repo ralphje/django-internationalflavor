@@ -17,9 +17,9 @@ class IBANValidator(object):
         list of SEPA countries (i.e. Single European Payments Area), for instance if you are an European company wanting
         to perform direct debits, you can set this to True.
 
-    :param include_countries: If set, the list of countries will be limited to the provided list.
+    :param countries: If set, the list of countries will be limited to the provided list.
 
-    :param bool use_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the
+    :param bool accept_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the
         SWIFT organization, but Nordea has  specified a few additional IBAN formats. By setting this parameter to True,
         these extensions are also allowed.
 
@@ -29,16 +29,16 @@ class IBANValidator(object):
        numbers.
     """
 
-    def __init__(self, sepa_only=False, include_countries=None, use_nordea_extensions=False):
+    def __init__(self, sepa_only=False, countries=None, accept_nordea_extensions=False):
         self.regexes = IBAN_REGEXES.copy()
-        if use_nordea_extensions:
+        if accept_nordea_extensions:
             self.regexes.update(NORDEA_IBAN_REGEXES)
 
         self.included_countries = []
         if sepa_only:
             self.included_countries += SEPA_COUNTRIES
-        if include_countries is not None:
-            self.included_countries += include_countries
+        if countries is not None:
+            self.included_countries += countries
 
     def __call__(self, value):
         if value is None:

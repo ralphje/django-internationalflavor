@@ -101,7 +101,7 @@ class IBANTestCase(TestCase):
                 self.assertEqual(context_manager.exception.messages, errors[::-1])
 
     def test_use_nordea_extensions(self):
-        validator = IBANValidator(use_nordea_extensions=True)
+        validator = IBANValidator(accept_nordea_extensions=True)
         validator('EG1100006001880800100014553')
 
     include_countries = ('NL', 'BE', 'LU')
@@ -115,11 +115,11 @@ class IBANTestCase(TestCase):
     }
 
     def test_include_countries_form_field(self):
-        self.assertFieldOutput(IBANFormField, field_kwargs={'include_countries': self.include_countries},
+        self.assertFieldOutput(IBANFormField, field_kwargs={'countries': self.include_countries},
                                valid=self.include_countries_valid, invalid=self.include_countries_invalid)
 
     def test_include_countries_model_field(self):
-        iban_model_field = IBANField(include_countries=self.include_countries)
+        iban_model_field = IBANField(countries=self.include_countries)
         for input, output in self.include_countries_valid.items():
             self.assertEqual(iban_model_field.clean(input, None), output)
 
