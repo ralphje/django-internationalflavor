@@ -1,13 +1,15 @@
+from __future__ import unicode_literals
 from django.test import SimpleTestCase
 from django.utils import translation
+from django.utils.encoding import force_text
 from internationalflavor.timezone.forms import TimezoneFormField
 
 
 class CountriesTestCase(SimpleTestCase):
     def test_form_field(self):
         field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/GMT'])
-        self.assertEqual(set([str(f[0]) for f in field.choices]), set(['Europe', 'Americas', 'World']))
-        self.assertEqual(set([str(g[0]) for f in field.choices for g in f[1]]),
+        self.assertEqual(set([force_text(f[0]) for f in field.choices]), set(['Europe', 'Americas', 'World']))
+        self.assertEqual(set([force_text(g[0]) for f in field.choices for g in f[1]]),
                          set(['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/GMT']))
 
     def test_form_field_render(self):

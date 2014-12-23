@@ -1,6 +1,6 @@
 django-internationalflavor
 ==========================
-.. image:: https://travis-ci.org/ralphje/django-internationalflavor.svg?branch=master
+.. image:: https://img.shields.io/travis/ralphje/django-internationalflavor.svg
    :target: https://travis-ci.org/ralphje/django-internationalflavor?branch=master
 
 .. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png?branch=master
