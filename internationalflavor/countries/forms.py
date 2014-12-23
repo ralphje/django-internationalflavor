@@ -1,5 +1,6 @@
 from django import forms
-from .data import UN_RECOGNIZED_COUNTRIES, get_countries_sorted_lazy, get_countries_sorted
+from .data import UN_RECOGNIZED_COUNTRIES, get_countries_lazy
+from internationalflavor.forms import SortedSelect
 
 
 class CountryFormField(forms.TypedChoiceField):
@@ -8,11 +9,11 @@ class CountryFormField(forms.TypedChoiceField):
     specific countries.
     """
 
+    widget = SortedSelect
+
     def __init__(self, countries=UN_RECOGNIZED_COUNTRIES, exclude=(), *args, **kwargs):
         # Maintain the empty choice if available
-        if kwargs['choices'] and kwargs['choices'][0][0] == '':
-            kwargs['choices'] = [kwargs['choices'][0]] + get_countries_sorted(countries, exclude)
-        else:
-            kwargs['choices'] = get_countries_sorted_lazy(countries, exclude)
+        if 'choices' not in kwargs or not kwargs['choices']:
+            kwargs['choices'] = get_countries_lazy(countries, exclude)
 
         super(CountryFormField, self).__init__(*args, **kwargs)

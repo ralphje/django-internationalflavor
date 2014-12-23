@@ -149,10 +149,8 @@ UN_RECOGNIZED_COUNTRIES = UN_MEMBER_STATES + UN_OBSERVER_STATES + UN_NON_SELF_GO
 """Combined list of all UN_* data constants."""
 
 
-def get_countries_sorted(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
-    """Returns a sorted (based on value) list of (country code, country name)-pairs. Since the order is based on
-    value, these values must be translated on sorting. Ensure that you are calling this method in the proper i18n
-    context!
+def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
+    """Returns a list of (country code, country name)-pairs.
 
     Only countries present in the countries argument, and not present in the excluded argument, are returned. If you
     wish, for instance, to list all available countries, you could use
@@ -167,14 +165,6 @@ def get_countries_sorted(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     non-self-governing territory or disputed state.
     """
 
-    return list(sorted(((k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude),
-                       key=lambda item: item[1]))
-
-
-def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
-    """Same as get_countries_sorted, but does not sort the values."""
-
     return [(k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude]
 
-get_countries_sorted_lazy = lazy(get_countries_sorted, list)
 get_countries_lazy = lazy(get_countries, list)
