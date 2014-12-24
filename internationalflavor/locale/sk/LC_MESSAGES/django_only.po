@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-24 16:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: countries/models.py:13
+msgid "A country"
+msgstr ""
+
+#: iban/models.py:26
+msgid "An International Bank Account Number"
+msgstr ""
+
+#: iban/models.py:70
+msgid "An International Bank Code"
+msgstr ""
+
+#: iban/validators.py:49
+msgid ""
+"This IBAN does not start with a country code and checksum, or contains "
+"invalid characters."
+msgstr ""
+
+#: iban/validators.py:57
+#, python-format
+msgid "%(country)s IBANs are not allowed in this field."
+msgstr ""
+
+#: iban/validators.py:61
+#, python-format
+msgid "This IBAN does not match the requirements for %(country)s."
+msgstr ""
+
+#: iban/validators.py:63
+#, python-format
+msgid "%(country)s is not a valid country code for IBAN."
+msgstr ""
+
+#: iban/validators.py:76
+msgid "This IBAN does not have a valid checksum."
+msgstr ""
+
+#: iban/validators.py:82
+msgid "This Bank Identifier Code (BIC) is invalid."
+msgstr ""
+
+#: iban/validators.py:85
+#, python-format
+msgid "%(country)s is not a valid country code."
+msgstr ""
+
+#: timezone/models.py:27
+msgid "A timezone"
+msgstr ""
+
+#: timezone/models.py:72
+#, python-format
+msgid "Timezone %s is invalid"
+msgstr ""
+
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr ""
+
+#: vat_number/validators.py:66
+msgid ""
+"This VAT number does not start with a country code, or contains invalid "
+"characters."
+msgstr ""
+
+#: vat_number/validators.py:73
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr ""
+
+#: vat_number/validators.py:75
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr ""
+
+#: vat_number/validators.py:81
+msgid "This VAT number is not for a known country."
+msgstr ""
+
+#: vat_number/validators.py:109
+msgid "This VAT number does not exist."
+msgstr ""
