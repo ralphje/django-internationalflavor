@@ -23,8 +23,8 @@ almost every country, while enforcing consistent data types.
 
 Please note, this package is still in development. Most importantly, it lacks tests.
 
-Documentation
--------------
+Documentation and source
+------------------------
 The documentation of this project is available at http://django-internationalflavor.readthedocs.org/en/latest/
 
 The source code lives at https://github.com/ralphje/django-internationalflavor
