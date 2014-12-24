@@ -52,6 +52,10 @@ docs/_build/
 # PyBuilder
 target/
 
+# Compiled .mo files that are not required
+cldr.mo
+django_only.mo
+
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 

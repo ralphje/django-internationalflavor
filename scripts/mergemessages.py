@@ -27,7 +27,12 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         translation.deactivate_all()
 
-        for lc, language in settings.LANGUAGES:
+        if options['l']:
+            languages = (options['l'], dict(settings.LANGUAGES)[options['l']]),
+        else:
+            languages = settings.LANGUAGES
+
+        for lc, language in languages:
             try:
                 self.stdout.write("Parsing language %s" % language)
 
@@ -99,6 +104,7 @@ if __name__ == '__main__':
 
     # We parse arguments ourselves. Django 1.8 uses argparse (finally) but we can just as easily use it ourselves.
     parser = argparse.ArgumentParser(description=Command.help)
+    parser.add_argument('-l')
     args = parser.parse_args()
 
     Command().execute(**vars(args))

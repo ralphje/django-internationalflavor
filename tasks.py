@@ -18,7 +18,6 @@ def test():
                '`which django-admin.py` test --settings=tests.settings'
     flake_cmd = 'flake8 --ignore=W801,E128,E501,W402'
 
-    # Fix issue #49
     cwp = os.path.dirname(os.path.abspath(__name__))
     pythonpath = os.environ.get('PYTHONPATH', '').split(os.pathsep)
     pythonpath.append(os.path.join(cwp, 'tests'))
@@ -28,21 +27,33 @@ def test():
     run('{0} tests'.format(test_cmd))
     run('coverage report')
 
-# Taken from django-internationalflavor, but needs work
-#@task
-#def translations(pull=False, locale=None):
-#    if pull:
-#        if locale:
-#            run('tx pull -l {0}'.format(locale))
-#        else:
-#            run('tx pull -a')
-#    if locale:
-#        run('cd localflavor; django-admin.py makemessages -l {0}; '
-#            'django-admin.py compilemessages -l {0}; cd ..'.format(locale))
-#    else:
-#        run('cd localflavor; django-admin.py makemessages -a; '
-#            'django-admin.py compilemessages; cd ..')
 
+@task
+def compile_translations():
+    run('cd internationalflavor; django-admin.py compilemessages; cd ..')
+
+
+@task(post=[compile_translations])
+def pull_translations(locale=None):
+    if locale:
+        run('tx pull -f -l {0}'.format(locale))
+    else:
+        run('tx pull --minimum-perc=1 -f -a')
+
+
+@task(post=[compile_translations])
+def make_translations(locale=None):
+    if locale:
+        run('cd internationalflavor; django-admin.py makemessages -l {0}; cd ..'.format(locale))
+        run('python scripts/mergemessages.py -l {0}'.format(locale))
+    else:
+        run('cd internationalflavor; django-admin.py makemessages -a; cd ..')
+        run('python scripts/mergemessages.py')
+
+
+@task(post=[make_translations])
+def pull_cldr(path):
+    run('python scripts/datafromcldr.py {0}'.format(path))
 
 @task
 def docs():

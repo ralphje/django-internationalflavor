@@ -249,7 +249,6 @@ msgstr "Zuid-Azië"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:25
-#| msgid "Southern Asia"
 msgid "Southeast Asia"
 msgstr "Zuidoost-Azië"
 
@@ -407,7 +406,6 @@ msgstr "Afghanistan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:43
-#| msgid "Antigua and Barbuda"
 msgid "Antigua & Barbuda"
 msgstr "Antigua en Barbuda"
 
@@ -483,7 +481,6 @@ msgstr "Azerbeidzjan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:57
-#| msgid "Bosnia and Herzegovina"
 msgid "Bosnia & Herzegovina"
 msgstr "Bosnië en Herzegovina"
 
@@ -529,7 +526,6 @@ msgstr "Benin"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:66 timezone/_cldr_data.py:489
-#| msgid "Saint Barthélemy"
 msgid "St. Barthélemy"
 msgstr "Saint-Barthélemy"
 
@@ -725,7 +721,6 @@ msgstr "Algerije"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:105
-#| msgid "Ceuta and Melilla"
 msgid "Ceuta & Melilla"
 msgstr "Ceuta en Melilla"
 
@@ -1026,7 +1021,6 @@ msgstr "Comoren"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:165
-#| msgid "Saint Kitts and Nevis"
 msgid "St. Kitts & Nevis"
 msgstr "Saint Kitts en Nevis"
 
@@ -1068,7 +1062,7 @@ msgstr "Libanon"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:173 timezone/_cldr_data.py:463
 msgid "St. Lucia"
-msgstr "St. Lucia"
+msgstr "Saint Lucia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:174
@@ -1132,7 +1126,6 @@ msgstr "Montenegro"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:186
-#| msgid "Saint Martin"
 msgid "St. Martin"
 msgstr "Saint-Martin"
 
@@ -1328,7 +1321,6 @@ msgstr "Polen"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:225
-#| msgid "Saint Pierre and Miquelon"
 msgid "St. Pierre & Miquelon"
 msgstr "Saint-Pierre en Miquelon"
 
@@ -1439,7 +1431,6 @@ msgstr "Slovenië"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:247
-#| msgid "Svalbard and Jan Mayen"
 msgid "Svalbard & Jan Mayen"
 msgstr "Spitsbergen en Jan Mayen"
 
@@ -1480,7 +1471,6 @@ msgstr "Zuid-Soedan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:255
-#| msgid "São Tomé and Príncipe"
 msgid "São Tomé & Príncipe"
 msgstr "Sao Tomé en Principe"
 
@@ -1511,7 +1501,6 @@ msgstr "Tristan da Cunha"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
-#| msgid "Turks and Caicos Islands"
 msgid "Turks & Caicos Islands"
 msgstr "Turks- en Caicoseilanden"
 
@@ -1572,7 +1561,6 @@ msgstr "Turkije"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:273
-#| msgid "Trinidad and Tobago"
 msgid "Trinidad & Tobago"
 msgstr "Trinidad en Tobago"
 
@@ -1658,7 +1646,6 @@ msgstr "Vanuatu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:290
-#| msgid "Wallis and Futuna"
 msgid "Wallis & Futuna"
 msgstr "Wallis en Futuna"
 
@@ -1710,34 +1697,42 @@ msgstr ""
 msgid "An International Bank Account Number"
 msgstr ""
 
-#: iban/models.py:69
+#: iban/models.py:70
 msgid "An International Bank Code"
 msgstr ""
 
 #: iban/validators.py:49
-msgid "This IBAN does not start with a country code and checksum."
+msgid ""
+"This IBAN does not start with a country code and checksum, or contains "
+"invalid characters."
 msgstr ""
 
-#: iban/validators.py:55
+#: iban/validators.py:57
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
 msgstr ""
 
-#: iban/validators.py:59
-#, python-format
-msgid "This IBAN does not match the requirements for %(country)s ."
-msgstr ""
-
 #: iban/validators.py:61
-msgid "This IBAN is not for a known country."
+#, python-format
+msgid "This IBAN does not match the requirements for %(country)s."
 msgstr ""
 
-#: iban/validators.py:74
+#: iban/validators.py:63
+#, python-format
+msgid "%(country)s is not a valid country code for IBAN."
+msgstr ""
+
+#: iban/validators.py:76
 msgid "This IBAN does not have a valid checksum."
 msgstr ""
 
-#: iban/validators.py:80
+#: iban/validators.py:82
 msgid "This Bank Identifier Code (BIC) is invalid."
+msgstr ""
+
+#: iban/validators.py:85
+#, python-format
+msgid "%(country)s is not a valid country code."
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
@@ -2497,7 +2492,6 @@ msgstr "São Paulo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:624
-#| msgid "Lower Prince's Quarter"
 msgid "Lower Prince’s Quarter"
 msgstr "Beneden Prinsen Kwartier"
 
@@ -2983,7 +2977,6 @@ msgstr "Novokuznetsk"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:732
-#| msgid "Uzhgorod"
 msgid "Uzhhorod"
 msgstr "Oezjhorod"
 
@@ -3789,7 +3782,6 @@ msgstr "Anadyr-tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:913
-#| msgid "Armenia Time"
 msgid "Apia Time"
 msgstr "Apia-tijd"
 
@@ -3980,7 +3972,6 @@ msgstr "Oost-Europese tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:951
-#| msgid "Eastern European Time"
 msgid "Further-eastern European Time"
 msgstr "Verder-oostelijk-Europese tijd"
 
@@ -4006,7 +3997,6 @@ msgstr "Frans-Guyaanse tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:956
-#| msgid "French Southern and Antarctic Time"
 msgid "French Southern & Antarctic Time"
 msgstr "Franse zuidelijke en Antarctische tijd"
 
@@ -4337,7 +4327,6 @@ msgstr "Phoenixeilandse tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1022
-#| msgid "Saint Pierre and Miquelon Time"
 msgid "St. Pierre & Miquelon Time"
 msgstr "Saint Pierre en Miquelon-tijd"
 
@@ -4493,7 +4482,6 @@ msgstr "Wake-eilandse tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1053
-#| msgid "Wallis and Futuna Time"
 msgid "Wallis & Futuna Time"
 msgstr "Wallis en Futunase tijd"
 
@@ -4507,29 +4495,40 @@ msgstr "Jakoetsk-tijd"
 msgid "Yekaterinburg Time"
 msgstr "Jekaterinenburg-tijd"
 
+#: timezone/models.py:27
+msgid "A timezone"
+msgstr ""
+
+#: timezone/models.py:72
+#, python-format
+msgid "Timezone %s is invalid"
+msgstr ""
+
 #: vat_number/models.py:25
 msgid "A number used for VAT registration"
 msgstr ""
 
-#: vat_number/validators.py:62
-msgid "This VAT number does not start with a country code."
+#: vat_number/validators.py:66
+msgid ""
+"This VAT number does not start with a country code, or contains invalid "
+"characters."
 msgstr ""
 
-#: vat_number/validators.py:68
+#: vat_number/validators.py:73
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr ""
 
-#: vat_number/validators.py:70
+#: vat_number/validators.py:75
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 
-#: vat_number/validators.py:76
+#: vat_number/validators.py:81
 msgid "This VAT number is not for a known country."
 msgstr ""
 
-#: vat_number/validators.py:102
+#: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
 

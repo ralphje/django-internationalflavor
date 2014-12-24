@@ -24,7 +24,9 @@ def translate(language, original, translated):
     entry.msgid = original
     entry.msgstr = translated
     entry.comment = "auto-generated from CLDR -- see docs before updating"
-    LANGUAGES[language].append(entry)
+
+    if entry not in LANGUAGES[language]:
+        LANGUAGES[language].append(entry)
 
 
 class Command(BaseCommand):
