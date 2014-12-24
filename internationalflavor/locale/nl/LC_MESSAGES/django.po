@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Ralph Broenink, 2014
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-10 18:36+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2014-08-10 21:24+0200\n"
+"PO-Revision-Date: 2014-12-24 17:04+0000\n"
+"Last-Translator: Ralph Broenink\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/django-internationalflavor/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -1691,49 +1692,51 @@ msgstr "onbekend gebied"
 
 #: countries/models.py:13
 msgid "A country"
-msgstr ""
+msgstr "Een land"
 
 #: iban/models.py:26
 msgid "An International Bank Account Number"
-msgstr ""
+msgstr "Een Internationaal Bank Account Nummer"
 
 #: iban/models.py:70
 msgid "An International Bank Code"
-msgstr ""
+msgstr "Een Internationale Bank Code"
 
 #: iban/validators.py:49
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
 msgstr ""
+"Dit IBAN begint niet met een landcode en controlegetal of bevat ongeldige "
+"karakters."
 
 #: iban/validators.py:57
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
-msgstr ""
+msgstr "%(country)s IBANS zijn niet toegestaand in dit veld."
 
 #: iban/validators.py:61
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
-msgstr ""
+msgstr "Dit IBAN voldoet niet aan de vereisten voor %(country)s."
 
 #: iban/validators.py:63
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
-msgstr ""
+msgstr "%(country)s is geen geldige landcode voor IBAN."
 
 #: iban/validators.py:76
 msgid "This IBAN does not have a valid checksum."
-msgstr ""
+msgstr "Dit IBAN heeft geen geldig controlegetal."
 
 #: iban/validators.py:82
 msgid "This Bank Identifier Code (BIC) is invalid."
-msgstr ""
+msgstr "Deze Bank Identificatie Code (BIC) is ongeldig."
 
 #: iban/validators.py:85
 #, python-format
 msgid "%(country)s is not a valid country code."
-msgstr ""
+msgstr "%(country)s is een ongeldige landcode."
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:454
@@ -4497,40 +4500,41 @@ msgstr "Jekaterinenburg-tijd"
 
 #: timezone/models.py:27
 msgid "A timezone"
-msgstr ""
+msgstr "Een tijdzone"
 
 #: timezone/models.py:72
 #, python-format
 msgid "Timezone %s is invalid"
-msgstr ""
+msgstr "Tijdzone %s is ongeldig."
 
 #: vat_number/models.py:25
 msgid "A number used for VAT registration"
-msgstr ""
+msgstr "Een nummer gebruikt voor btw-registratie."
 
 #: vat_number/validators.py:66
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
+"Dit btw-nummer begint niet met een landcode of bevat ongeldige karakters."
 
 #: vat_number/validators.py:73
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr ""
+msgstr "%(country)s btw-nummers zijn niet toegestaan in dit veld."
 
 #: vat_number/validators.py:75
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
-msgstr ""
+msgstr "Dit btw-nummer voldoet niet aan de vereisten voor %(country)s."
 
 #: vat_number/validators.py:81
 msgid "This VAT number is not for a known country."
-msgstr ""
+msgstr "Dit btw-nummer is niet voor een bekend land."
 
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
-msgstr ""
+msgstr "Dit btw-nummer bestaat niet."
 
 #~ msgid "South-Eastern Asia"
 #~ msgstr "Zuidoost-Azië"
