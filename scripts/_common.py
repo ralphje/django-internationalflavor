@@ -61,5 +61,5 @@ def get_language(lc):
     elif lc == 'zh-tw':
         cldr_lc = 'zh-Hant-TW'
     else:
-        cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn")
+        cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn").replace("HANS", "Hans").replace("HANT", "Hant")
     return cldr_lc

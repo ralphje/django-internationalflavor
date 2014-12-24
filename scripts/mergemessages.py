@@ -34,7 +34,7 @@ class Command(BaseCommand):
 
         for lc, language in languages:
             try:
-                self.stdout.write("Parsing language %s" % language)
+                self.stdout.write("Parsing language %s [%s]" % (language, lc))
 
                 # Get some files ready
                 # The pofile is our combined file

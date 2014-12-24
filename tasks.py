@@ -29,8 +29,14 @@ def test():
 
 
 @task
+def push_translation():
+    run('tx push -s')
+
+
+@task
 def compile_translations():
-    run('cd internationalflavor; django-admin.py compilemessages; cd ..')
+    run('python scripts/mergemessages.py')
+    # run('cd internationalflavor; django-admin.py compilemessages; cd ..')
 
 
 @task(post=[compile_translations])
@@ -45,10 +51,8 @@ def pull_translations(locale=None):
 def make_translations(locale=None):
     if locale:
         run('cd internationalflavor; django-admin.py makemessages -l {0}; cd ..'.format(locale))
-        run('python scripts/mergemessages.py -l {0}'.format(locale))
     else:
         run('cd internationalflavor; django-admin.py makemessages -a; cd ..')
-        run('python scripts/mergemessages.py')
 
 
 @task(post=[make_translations])
