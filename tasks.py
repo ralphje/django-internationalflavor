@@ -29,11 +29,6 @@ def test():
 
 
 @task
-def push_translation():
-    run('tx push -s')
-
-
-@task
 def compile_translations():
     run('python scripts/mergemessages.py')
     # run('cd internationalflavor; django-admin.py compilemessages; cd ..')
@@ -55,9 +50,15 @@ def make_translations(locale=None):
         run('cd internationalflavor; django-admin.py makemessages -a; cd ..')
 
 
+@task(pre=[make_translations])
+def push_translations():
+    run('tx push -s')
+
+
 @task(post=[make_translations])
 def pull_cldr(path):
     run('python scripts/datafromcldr.py {0}'.format(path))
+
 
 @task
 def docs():

@@ -56,6 +56,8 @@ target/
 cldr.mo
 django_only.mo
 
+# Don't care about the .tox folder
+.tox
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 

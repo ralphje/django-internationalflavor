@@ -10,32 +10,86 @@ possible contributions include:
 * Documentation improvements
 * Bug reports and reviews of pull requests
 
+We use GitHub to keep track of issues and pull requests. You can always
+`submit an issue <https://github.com/ralphje/django-internationalflavor/issues>`_ when you encounter something out of
+the ordinary.
+
+Development
+===========
+For some of the management commands below, we use ``invoke``, amongst other tools. To set up your development
+environment, you probably want to install the requirements in the ``tests/requirements.txt`` file::
+
+    $ git clone https://github.com/ralphje/django-internationalflavor
+    $ virtualenv venvs/django-internationalflavor
+    $ . venvs/django-internationalflavor/bin/activate
+    $ cd django-internationalflavor
+    $ pip install -r tests/requirements.txt
+
+The documentation is built using Spinx. Additional requirements to build the documentation can be found in
+``docs/requirements.txt``
+
 Tests
 =====
-Running tests is as simple as `installing Tox <http://tox.readthedocs.org/en/latest/install.html>`_ and running it in
-the root directory.
+We use Tox to test this project in different environments. Running tests is therefore as simple as
+`installing Tox <http://tox.readthedocs.org/en/latest/install.html>`_ and running it in the root checkout directory::
+
+    $ git clone https://github.com/ralphje/django-internationalflavor
+    $ cd django-internationalflavor
+    $ tox
+    [...]
+      congratulations :)
+
+If you only want to test in a specific environment, you can do so by using::
+
+    tox -e py34-1.7
+
+You can list all available environments with ``tox -l``.
 
 Common Locale Data Repository
 =============================
-The folder ``scripts`` contains some useful scripts to update the repository data according to the CLDR. To update
-all data, use::
+We use the CLDR for several pieces of international data. The following command can be ran to update the repository
+data with the latest CLDR (download the full JSON zip)::
 
-    scripts/datafromcldr.py cldr.zip
+    invoke pull_cldr cldr.zip
 
 This will generate (or update) two types of files: all ``_cldr_data.py`` files, with dicts containing translatable
-strings, and ``cldr.po`` files, that contain the translations of all CLDR strings. You can merge these into the
-Django translation files using::
+strings, and ``cldr.po`` files, that contain the translations of all CLDR strings.
 
-    scripts/mergemessages.py
+Translations
+============
+If you wish to contribute translations, please do so
+`online at Transifex <https://www.transifex.com/projects/p/django-internationalflavor/>`_.
 
-This command will also synchronize with a file named ``django_only.po``, which can be used by translators to translate
-messages (instead of the huge ``django.po`` file that also contains CLDR strings).
+If some translations from the CLDR are incorrect or incomplete, please contribute these online to
+`the CLDR repository <http://cldr.unicode.org/index/survey-tool>`_.
 
-The repository should only contain a compiled ``django.mo`` file, the ``cldr.po`` and ``django_only.po`` files don't
-need to be compiled.
+Since we use the CLDR as an additional source of translations, we need to merge different files together. Instead of
+running ``django-admin.py makemessages`` and ``django-admin.py compilemessages`` after changing any translation
+strings, you should run::
 
-Always run ``mergemessages.py`` after running ``django-admin makemessages``.
+    invoke make_translations
 
-Translators should note that all CLDR data will be automatically overwritten with translations. If any modification is
-required, a translation should be made in the ``django.po`` file (as ``cldr.po`` is always overwritten) and marked
-with a comment containing the text ``manual``. However, please submit corrected translations always to the CLDR.
+This will automatically find the translation strings (just as ``makemessages`` would), but additionally merges and
+compiles the correct files. This should result in the following files in the repository:
+
+* ``django.po`` and ``django.mo``, fully merged and compiled translation file which will be used by Django;
+* ``django_only.po``, file solely containing the strings that are not translated by the CLDR - this file is kept in
+  sync with Transifex. Newly discovered strings are automatically added in the same way as ``makemessages`` updates the
+  ``django.po`` file;
+* and ``cldr.po``, which is already created by ``pull_cldr``
+
+Modifications in the ``django.po`` file will be lost when ``make_translations`` is ran: translated strings in
+``django_only.po`` and ``cldr.po`` take precedence. Also note that the ``cldr.po`` file is automatically overwritten
+when running ``pull_cldr``.
+
+Transifex sync
+--------------
+This section only applies to those having maintainer access to the Transifex repository.
+
+You can synchronize the translations with Transifex by running::
+
+    invoke pull_translations
+
+After new translations have been added, please run::
+
+    invoke push_translations
