@@ -18,7 +18,7 @@ class IBANField(models.CharField):
         from internationalflavor.iban import IBANField
 
         class MyModel(models.Model):
-            iban = IBANField(include_countries=['NL', 'BE'])
+            iban = IBANField(countries=['NL', 'BE'])
 
     This field is an extension of a CharField.
     """

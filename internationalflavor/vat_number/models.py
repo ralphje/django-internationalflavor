@@ -17,7 +17,7 @@ class VATNumberField(models.CharField):
         from internationalflavor.vat_number import VATNumberField
 
         class MyModel(models.Model):
-            vat_number = VATNumberField(include_countries=['NL', 'BE'])
+            vat_number = VATNumberField(countries=['NL', 'BE'])
 
     This field is an extension of a CharField.
     """
