@@ -34,6 +34,11 @@ class VATNumberValidator(object):
        The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
        feel there's an error.
 
+    .. note::
+
+       If regulations require you to validate against the VIES service, you probably also want to set ``eu_only``. You
+       probably can't accept any other VAT number in that case.
+
     The need for :mod:`suds` could (should) be removed in a future version of this package.
     """
 
