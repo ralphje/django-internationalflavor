@@ -24,11 +24,6 @@ class VATNumberValidator(object):
     :param bool eu_only: By default, all countries are allowed. However, if you are an EU company, you are likely to
         only want to accept EU VAT numbers.
 
-    .. warning::
-
-       The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
-       feel there's an error.
-
     :param bool vies_check: By default, this validator will only validate the syntax of the VAT number. If you need to
         validate using the EU VAT Information Exchange System (VIES) checker (see
         http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. Any VAT number in the EU VAT Area will
@@ -48,9 +43,10 @@ class VATNumberValidator(object):
        If regulations require you to validate against the VIES service, you probably also want to set ``eu_only``. You
        probably can't accept any other VAT number in that case.
 
-    If you enable VIES
+    .. warning::
 
-    The need for :mod:`suds` could (should) be removed in a future version of this package.
+       The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
+       feel there's an error.
     """
 
     country_failure = _('This VAT number does not match the requirements for %(country)s.')
