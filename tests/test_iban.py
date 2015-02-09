@@ -42,7 +42,7 @@ class IBANTestCase(TestCase):
     }
     invalid = {
         'GB82WEST1234569876543': ['This IBAN does not match the requirements for GB.'],
-        'CA34CIBC123425345': ['CA is not a valid country code for IBAN.'],
+        'CA34CIBC123425345': ['CA IBANs are not allowed in this field.'],
         'GB29ÉWBK60161331926819': ['This IBAN does not start with a country code and checksum, or contains invalid '
                                    'characters.'],
         '123456': ['This IBAN does not start with a country code and checksum, or contains invalid characters.',
@@ -55,7 +55,7 @@ class IBANTestCase(TestCase):
         'MU17BOMM0101101030300200000MUR12345': ['This IBAN does not match the requirements for MU.',
                                                 'Ensure this value has at most 34 characters (it has 35).'],
         # only valid for nordea
-        'EG1100006001880800100014553': ['EG is not a valid country code for IBAN.'],
+        'EG1100006001880800100014553': ['EG IBANs are not allowed in this field.'],
     }
 
     def test_validator(self):

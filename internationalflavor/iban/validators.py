@@ -13,11 +13,15 @@ class IBANValidator(object):
     the first two characters indicate a country code, the third and fourth indicate a checksum and the rest of the IBAN
     are localized characters (the so-called BBAN).
 
+    :param countries: If set, the list of source countries will be limited to the provided list. Otherwise, all
+        available IBANs are included (with the exception of Nordea IBANs if ``accept_nordea_extensions`` is not set).
+
+    :param exclude: You can use this parameter to exclude items from the list of countries.
+
     :param bool sepa_only: By default, all countries are allowed. If you want to reduce the list of countries to the
         list of SEPA countries (i.e. Single European Payments Area), for instance if you are an European company wanting
-        to perform direct debits, you can set this to True.
-
-    :param countries: If set, the list of countries will be limited to the provided list.
+        to perform direct debits, you can set this to True. This is equivalent to setting the exclude list to all
+        countries without SEPA.
 
     :param bool accept_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the
         SWIFT organization, but Nordea has  specified a few additional IBAN formats. By setting this parameter to True,
@@ -29,16 +33,14 @@ class IBANValidator(object):
        numbers.
     """
 
-    def __init__(self, sepa_only=False, countries=None, accept_nordea_extensions=False):
+    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_nordea_extensions=False):
         self.regexes = IBAN_REGEXES.copy()
         if accept_nordea_extensions:
             self.regexes.update(NORDEA_IBAN_REGEXES)
 
-        self.included_countries = []
-        if sepa_only:
-            self.included_countries += SEPA_COUNTRIES
-        if countries is not None:
-            self.included_countries += countries
+        countries = self.regexes.keys() if countries is None else countries
+        exclude = [] if exclude is None else exclude
+        self.countries = [c for c in countries if c not in exclude and (not sepa_only or c in SEPA_COUNTRIES)]
 
     def __call__(self, value):
         if value is None:
@@ -53,7 +55,7 @@ class IBANValidator(object):
         country = value[0:2]
         rest = value[2:]
 
-        if self.included_countries and country not in self.included_countries:
+        if country not in self.countries:
             raise ValidationError(_('%(country)s IBANs are not allowed in this field.') % {'country': country})
 
         try:

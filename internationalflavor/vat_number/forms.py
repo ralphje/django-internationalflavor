@@ -8,10 +8,10 @@ class VATNumberFormField(forms.CharField):
     validator.
     """
 
-    def __init__(self, eu_only=False, include_countries=None, vies_check=False, *args, **kwargs):
+    def __init__(self, countries=None, exclude=None, eu_only=False, vies_check=False, *args, **kwargs):
         kwargs.setdefault('min_length', VAT_MIN_LENGTH)
         kwargs.setdefault('max_length', VAT_MAX_LENGTH)
-        self.default_validators = [VATNumberValidator(eu_only=eu_only, include_countries=include_countries,
+        self.default_validators = [VATNumberValidator(countries=countries, exclude=exclude, eu_only=eu_only,
                                                       vies_check=vies_check)]
         super(VATNumberFormField, self).__init__(*args, **kwargs)
 

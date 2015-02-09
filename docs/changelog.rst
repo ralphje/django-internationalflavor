@@ -4,8 +4,10 @@ Changelog
 
 This file contains the changelog for the project.
 
-Current development
-===================
+Future release
+==============
+* ``vat_number`` and ``iban``: Some consistency issues resolved; changed argument order and ``include_countries`` is now
+  simply ``countries``.
 * ``vat_number``: Do not imply ``eu_only`` when using ``vies_check``.
 
 0.1.2 (2014-12-18)

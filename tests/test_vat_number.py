@@ -21,7 +21,7 @@ class VATNumberTestCase(TestCase):
         'NL820646661B01': ['This VAT number does not match the requirements for NL.'],
         'BE0203201341': ['This VAT number does not match the requirements for BE.'],
         'DE11410337': ['This VAT number does not match the requirements for DE.'],
-        'US123414132': ['This VAT number is not for a known country.'],
+        'US123414132': ['US VAT numbers are not allowed in this field.'],
         '123456': ['This VAT number does not start with a country code, or contains invalid characters.'],
         'IE0É12345A': ['This VAT number does not start with a country code, or contains invalid characters.'],
     }
@@ -64,11 +64,11 @@ class VATNumberTestCase(TestCase):
     }
 
     def test_include_countries_form_field(self):
-        self.assertFieldOutput(VATNumberFormField, field_kwargs={'include_countries': self.include_countries},
+        self.assertFieldOutput(VATNumberFormField, field_kwargs={'countries': self.include_countries},
                                valid=self.include_countries_valid, invalid=self.include_countries_invalid)
 
     def test_include_countries_model_field(self):
-        model_field = VATNumberField(include_countries=self.include_countries)
+        model_field = VATNumberField(countries=self.include_countries)
         for input, output in self.include_countries_valid.items():
             self.assertEqual(model_field.clean(input, None), output)
 

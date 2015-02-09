@@ -24,23 +24,25 @@ class VATNumberField(models.CharField):
 
     description = _('A number used for VAT registration')
 
-    def __init__(self, eu_only=False, include_countries=None, vies_check=False, *args, **kwargs):
+    def __init__(self, countries=None, exclude=None, eu_only=False, vies_check=False, *args, **kwargs):
+        self.countries = countries
+        self.exclude = exclude
         self.eu_only = eu_only
-        self.include_countries = include_countries
         self.vies_check = vies_check
 
         kwargs.setdefault('max_length', VAT_MAX_LENGTH)
         super(VATNumberField, self).__init__(*args, **kwargs)
-        self.validators.append(VATNumberValidator(eu_only=eu_only,  # pylint: disable=E1101
-                                                  include_countries=include_countries,
-                                                  vies_check=vies_check))
+        self.validators.append(VATNumberValidator(countries=countries, exclude=exclude,  # pylint: disable=E1101
+                                                  eu_only=eu_only, vies_check=vies_check))
 
     def deconstruct(self):
         name, path, args, kwargs = super(VATNumberField, self).deconstruct()
+        if self.countries:
+            kwargs['countries'] = self.countries
+        if self.exclude:
+            kwargs['exclude'] = self.exclude
         if self.eu_only:
             kwargs['eu_only'] = self.eu_only
-        if self.include_countries:
-            kwargs['include_countries'] = self.include_countries
         if self.vies_check:
             kwargs['vies_check'] = self.vies_check
         if 'max_length' in kwargs and kwargs["max_length"] == VAT_MAX_LENGTH:
