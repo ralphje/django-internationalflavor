@@ -11,12 +11,15 @@ except ImportError:
     COMMON_TIMEZONES = [x for x in TIMEZONE_NAMES if not x.startswith("Etc")]
 
 
-def get_timezones_cities(timezones=COMMON_TIMEZONES, exclude=()):
+def get_timezones_cities(timezones=None, exclude=None):
     """Returns a list of choices with (timezone code, exemplar city)-pairs, grouped by their territory.
 
     Only timezones present in the timezones argument, and not present in the excluded argument, are returned.
     """
     # We require sorting for the groupby
+    timezones = COMMON_TIMEZONES if timezones is None else timezones
+    exclude = exclude if exclude else []
+
     values = sorted(TIMEZONE_NAMES.items(), key=lambda item: orig_str(item[1][0]))
     result = []
     for territory, zones in itertools.groupby(values, lambda item: item[1][0]):

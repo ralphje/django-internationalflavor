@@ -26,12 +26,12 @@ class TimezoneField(models.CharField):
 
     description = _('A timezone')
 
-    def __init__(self, timezones=None, exclude=(), use_tzinfo=True, *args, **kwargs):
+    def __init__(self, timezones=None, exclude=None, use_tzinfo=True, *args, **kwargs):
         if timezones is None:
             timezones = COMMON_TIMEZONES
 
         self.timezones = timezones
-        self.exclude = exclude
+        self.exclude = exclude if exclude else []
         self.use_tzinfo = use_tzinfo
 
         kwargs.setdefault('max_length', 30)

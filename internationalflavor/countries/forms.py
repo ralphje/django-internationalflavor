@@ -11,7 +11,7 @@ class CountryFormField(forms.TypedChoiceField):
 
     widget = SortedSelect
 
-    def __init__(self, countries=UN_RECOGNIZED_COUNTRIES, exclude=(), *args, **kwargs):
+    def __init__(self, countries=None, exclude=None, *args, **kwargs):
         # Maintain the empty choice if available
         if 'choices' not in kwargs or not kwargs['choices']:
             kwargs['choices'] = get_countries_lazy(countries, exclude)

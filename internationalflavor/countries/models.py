@@ -12,9 +12,9 @@ class CountryField(models.CharField):
 
     description = _('A country')
 
-    def __init__(self, countries=UN_RECOGNIZED_COUNTRIES, exclude=(), *args, **kwargs):
-        self.countries = countries
-        self.exclude = exclude
+    def __init__(self, countries=None, exclude=None, *args, **kwargs):
+        self.countries = UN_RECOGNIZED_COUNTRIES if countries is None else countries
+        self.exclude = exclude if exclude else []
 
         kwargs.setdefault('max_length', 2)
         kwargs['choices'] = get_countries_lazy(countries, exclude)

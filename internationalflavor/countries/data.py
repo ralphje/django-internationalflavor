@@ -149,7 +149,7 @@ UN_RECOGNIZED_COUNTRIES = UN_MEMBER_STATES + UN_OBSERVER_STATES + UN_NON_SELF_GO
 """Combined list of all UN_* data constants."""
 
 
-def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
+def get_countries(countries=None, exclude=None):
     """Returns a list of (country code, country name)-pairs.
 
     Only countries present in the countries argument, and not present in the excluded argument, are returned. If you
@@ -164,6 +164,8 @@ def get_countries(countries=UN_RECOGNIZED_COUNTRIES, exclude=()):
     By default, only lists all countries recognized by the UN as being a member state, observer state,
     non-self-governing territory or disputed state.
     """
+    countries = UN_RECOGNIZED_COUNTRIES if countries is None else countries
+    exclude = exclude if exclude else []
 
     return [(k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude]
 
