@@ -4,13 +4,17 @@ Changelog
 
 This file contains the changelog for the project.
 
+Current development
+===================
+* ``vat_number``: Do not imply ``eu_only`` when using ``vies_check``.
+
 0.1.2 (2014-12-18)
 ==================
 * Important packaging fixes
 
 0.1.1 (2014-12-08)
 ==================
-* Added support for IBANs from Kosovo and Timor-Leste, and Nordea extensions from Republic of Congo, Egypt and Gabon.
+* ``iban``: Added support for IBANs from Kosovo and Timor-Leste, and Nordea extensions from Republic of Congo, Egypt and Gabon.
 
 0.1 (2014-12-01)
 ================

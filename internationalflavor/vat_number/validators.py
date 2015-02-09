@@ -21,7 +21,8 @@ class VATNumberValidator(object):
 
     :param bool vies_check: By default, this validator will only validate the syntax of the VAT number. If you need to
         validate using the EU VAT Information Exchange System (VIES) checker (see
-        http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. This option implies ``eu_only`` and
+        http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. Any VAT number in the EU VAT Area will
+        then receive additional validation from the VIES checker, other VAT numbers will be unaffected. This option
         requires the :mod:`suds` module to be installed. (You could use the ``suds-jurko`` fork for Py3k compatibility)
 
     .. note::
@@ -42,8 +43,6 @@ class VATNumberValidator(object):
 
         self.vies_check = vies_check
         if self.vies_check:
-            eu_only = True
-
             try:
                 import suds
             except ImportError:
@@ -94,7 +93,7 @@ class VATNumberValidator(object):
                 raise ValidationError(country_failure)
 
         # Check with WSDL services for valid VAT number
-        if self.vies_check:
+        if self.vies_check and country in EU_VAT_AREA:
             import suds
             import suds.client
             import suds.transport
