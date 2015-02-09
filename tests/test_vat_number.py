@@ -86,7 +86,21 @@ class VATNumberTestCase(TestCase):
             validator('DE999999999')
             # Check if the validation succeeded due to a SUDS error.
             # You should be wary of skipped tests because of this, but the service may also be unavailable at the time.
-            if validator._suds_exception is not None:
-                print("WSDL test skipped due to connection failure")
-                self.skipTest("WSDL client failed")
+            if validator._wsdl_exception is not None:
+                print("Suds WSDL test skipped due to connection failure")
+                self.skipTest("Suds WSDL client failed")
+        self.assertEqual(context_manager.exception.messages, ['This VAT number does not exist.'])
+
+    def test_vies_check_validator_native(self):
+        validator = VATNumberValidator(vies_check=True)
+        validator._check_vies = validator._check_vies_native
+
+        validator('DE114103379')
+        with self.assertRaises(ValidationError) as context_manager:
+            validator('DE999999999')
+            # Check if the validation succeeded due to a SUDS error.
+            # You should be wary of skipped tests because of this, but the service may also be unavailable at the time.
+            if validator._wsdl_exception is not None:
+                print("Native WSDL test skipped due to connection failure")
+                self.skipTest("Native WSDL client failed")
         self.assertEqual(context_manager.exception.messages, ['This VAT number does not exist.'])

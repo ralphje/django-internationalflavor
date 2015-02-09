@@ -1,5 +1,5 @@
 from django import forms
-from .data import COMMON_TIMEZONES, get_timezones_cities_lazy
+from .data import get_timezones_cities_lazy
 from internationalflavor.forms import SortedSelect
 
 

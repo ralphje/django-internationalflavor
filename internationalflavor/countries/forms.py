@@ -1,5 +1,5 @@
 from django import forms
-from .data import UN_RECOGNIZED_COUNTRIES, get_countries_lazy
+from .data import get_countries_lazy
 from internationalflavor.forms import SortedSelect
 
 

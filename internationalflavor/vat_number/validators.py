@@ -2,12 +2,14 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 import re
-from django.core.exceptions import ImproperlyConfigured, ValidationError
+from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
+from django.utils.six.moves.urllib import request
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 
 
 VIES_CHECK_WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl"
+VIES_CHECK_URL = "http://ec.europa.eu/taxation_customs/vies/services/checkVatService"
 
 
 class VATNumberValidator(object):
@@ -22,11 +24,20 @@ class VATNumberValidator(object):
     :param bool eu_only: By default, all countries are allowed. However, if you are an EU company, you are likely to
         only want to accept EU VAT numbers.
 
+    .. warning::
+
+       The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
+       feel there's an error.
+
     :param bool vies_check: By default, this validator will only validate the syntax of the VAT number. If you need to
         validate using the EU VAT Information Exchange System (VIES) checker (see
         http://ec.europa.eu/taxation_customs/vies/), you can set this boolean. Any VAT number in the EU VAT Area will
-        then receive additional validation from the VIES checker, other VAT numbers will be unaffected. This option
-        requires the :mod:`suds` module to be installed. (You could use the ``suds-jurko`` fork for Py3k compatibility)
+        then receive additional validation from the VIES checker, other VAT numbers will be unaffected.
+
+    The VIES check may use two different methods to obtain the result. If the :mod:`suds` module is installed, the VIES
+    check uses this module to reach the VIES WSDL services (you could use the ``suds-jurko`` fork for Py3k
+    compatibility). If this module is not available, a bare-bones native method is used instead. Both methods should
+    give similar results, although using :mod:`suds` should be more reliable.
 
     .. note::
 
@@ -37,10 +48,7 @@ class VATNumberValidator(object):
        If regulations require you to validate against the VIES service, you probably also want to set ``eu_only``. You
        probably can't accept any other VAT number in that case.
 
-    .. warning::
-
-       The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
-       feel there's an error.
+    If you enable VIES
 
     The need for :mod:`suds` could (should) be removed in a future version of this package.
     """
@@ -49,15 +57,16 @@ class VATNumberValidator(object):
 
     def __init__(self, countries=None, exclude=None, eu_only=False, vies_check=False):
         self.regexes = VAT_NUMBER_REGEXES
-        self._suds_exception = None
+        self._wsdl_exception = None
 
         self.vies_check = vies_check
         if self.vies_check:
             try:
                 import suds
             except ImportError:
-                raise ImproperlyConfigured("The VAT VIES check requires the suds module to be installed.")
+                self._check_vies = self._check_vies_native
             else:
+                self._check_vies = self._check_vies_suds
                 del suds  # this suppresses some flake warnings
 
         countries = self.regexes.keys() if countries is None else countries
@@ -106,18 +115,43 @@ class VATNumberValidator(object):
             if (97 - (int(rest[0:8]) % 97)) != int(rest[8:10]):
                 raise ValidationError(self.country_failure % {'country': country})
 
-    def _check_vies(self, country, rest):
+    def _check_vies_native(self, country, rest):
+        envelope = """<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope
+            xmlns:ns0="urn:ec.europa.eu:taxud:vies:services:checkVat:types"
+            xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/>
+            <ns1:Body><ns0:checkVat><ns0:countryCode>%s</ns0:countryCode>
+            <ns0:vatNumber>%s</ns0:vatNumber></ns0:checkVat></ns1:Body>
+            </SOAP-ENV:Envelope>
+        """
+        try:
+            data = envelope % (country, rest)
+            req = request.Request(VIES_CHECK_URL, data)
+            response = request.urlopen(req)
+            result = response.read()
+
+            if '<valid>false</valid>' in result:
+                raise ValidationError(_('This VAT number does not exist.'))
+
+        except IOError as e:
+            self._wsdl_exception = e
+
+    def _check_vies_suds(self, country, rest):
         """Method to validate against the VIES WSDL services."""
 
         import suds
         import suds.client
         import suds.transport
+
         try:
             c = suds.client.Client(VIES_CHECK_WSDL, timeout=3)
             res = c.service.checkVat(country, rest)
             valid = res.valid is not False
         except (suds.WebFault, suds.transport.TransportError) as e:
-            self._suds_exception = e
+            self._wsdl_exception = e
         else:
             if not valid:
                 raise ValidationError(_('This VAT number does not exist.'))
+
+    _check_vies = _check_vies_suds
