@@ -4,6 +4,10 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.2.1 (2015-02-09)
+==================
+* Fixes a Python 3 bug discovered when releasing 0.2.0
+
 0.2.0 (2015-02-09)
 ==================
 * ``vat_number`` and ``iban``: Some consistency issues resolved; changed argument order and ``include_countries`` is now

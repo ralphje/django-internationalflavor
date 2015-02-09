@@ -123,11 +123,11 @@ class VATNumberValidator(object):
         """
         try:
             data = envelope % (country, rest)
-            req = request.Request(VIES_CHECK_URL, data)
+            req = request.Request(VIES_CHECK_URL, data.encode())
             response = request.urlopen(req)
             result = response.read()
 
-            if '<valid>false</valid>' in result:
+            if b'<valid>false</valid>' in result:
                 raise ValidationError(_('This VAT number does not exist.'))
 
         except IOError as e:
