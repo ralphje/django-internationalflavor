@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -867,7 +867,7 @@ msgstr "Grèce"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:134
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Îles Géorgie du Sud et Sandwich du Sud"
+msgstr "Géorgie du Sud et îles Sandwich du Sud"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:135 timezone/_cldr_data.py:699
@@ -1127,7 +1127,7 @@ msgstr "Monténégro"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:186
 msgid "St. Martin"
-msgstr "Saint-Martin (partie française)"
+msgstr "Saint-Martin"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:187
@@ -1327,7 +1327,7 @@ msgstr "Saint-Pierre-et-Miquelon"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:226
 msgid "Pitcairn Islands"
-msgstr "Pitcairn"
+msgstr "Îles Pitcairn"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:227 timezone/_cldr_data.py:477
@@ -4153,7 +4153,7 @@ msgstr "heure du Kirghizistan"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:987
 msgid "Lanka Time"
-msgstr "heure de Lanka"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:988
@@ -4168,7 +4168,7 @@ msgstr "heure de Lord Howe"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:990
 msgid "Macau Time"
-msgstr "heure de Macao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:991
@@ -4531,3 +4531,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

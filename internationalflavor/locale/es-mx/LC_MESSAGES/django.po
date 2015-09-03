@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -229,7 +229,7 @@ msgstr "Américas"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:21
 msgid "Northern America"
-msgstr "América Septentrional"
+msgstr "Norteamérica"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:22
@@ -386,7 +386,7 @@ msgstr "Latinoamérica"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
 msgid "Ascension Island"
-msgstr "Isla Ascensión"
+msgstr "Isla de la Ascensión"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:40 timezone/_cldr_data.py:828
@@ -606,7 +606,7 @@ msgstr "República Centroafricana"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:82
 msgid "Congo - Brazzaville"
-msgstr "Congo Brazzaville"
+msgstr "República del Congo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:83
@@ -866,7 +866,7 @@ msgstr "Grecia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:134
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Islas Georgias del Sur y Sandwich del Sur"
+msgstr "Islas Georgia del Sur y Sandwich del Sur"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:135 timezone/_cldr_data.py:699
@@ -881,7 +881,7 @@ msgstr "Guam"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:137
 msgid "Guinea-Bissau"
-msgstr "Guinea-Bissau"
+msgstr "Guinea-Bisáu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:138 timezone/_cldr_data.py:622
@@ -1356,7 +1356,7 @@ msgstr "Paraguay"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:232 timezone/_cldr_data.py:768
 msgid "Qatar"
-msgstr "Qatar"
+msgstr "Catar"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:233
@@ -1591,7 +1591,7 @@ msgstr "Uganda"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:279
 msgid "U.S. Outlying Islands"
-msgstr "Islas UltramarinasMenores de Estados Unidos"
+msgstr "Islas Ultramarinas Menores de Estados Unidos"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:280
@@ -4530,3 +4530,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

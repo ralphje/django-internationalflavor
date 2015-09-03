@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -442,7 +442,7 @@ msgstr "Angola"
 #: timezone/_cldr_data.py:838 timezone/_cldr_data.py:854
 #: timezone/_cldr_data.py:886 timezone/_cldr_data.py:887
 msgid "Antarctica"
-msgstr "L’Antártida"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:50
@@ -1823,7 +1823,7 @@ msgstr "Port of Spain"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:476
 msgid "Mexico City"
-msgstr "Ciudá de Méxicu"
+msgstr "Mexico City"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:479
@@ -3723,12 +3723,12 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:901
 msgid "Central Africa Time"
-msgstr "Hora d’África central"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:902
 msgid "East Africa Time"
-msgstr "Hora d’África oriental"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:903
@@ -3738,12 +3738,12 @@ msgstr "Hora de Sudáfrica"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:904
 msgid "West Africa Time"
-msgstr "Hora d’África occidental"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:905
 msgid "Alaska Time"
-msgstr "Hora d’Alaska"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:906
@@ -3963,12 +3963,12 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:949
 msgid "Central European Time"
-msgstr "Hora d’Europa Central"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:950
 msgid "Eastern European Time"
-msgstr "Hora d’Europa del Este"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:951
@@ -3978,7 +3978,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:952
 msgid "Western European Time"
-msgstr "Hora d’Europa Occidental"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:953
@@ -4103,7 +4103,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:977
 msgid "Irkutsk Time"
-msgstr "Hora d’Irkutsk"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:978
@@ -4288,7 +4288,7 @@ msgstr "Hora de Novosibirsk"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1014
 msgid "Omsk Time"
-msgstr "Hora d’Omsk"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1015
@@ -4358,7 +4358,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1028
 msgid "Sakhalin Time"
-msgstr "Hora de Saxalín"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1029
@@ -4373,7 +4373,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1031
 msgid "Seychelles Time"
-msgstr "Hora de Les Seixeles"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1032
@@ -4468,7 +4468,7 @@ msgstr "Hora de Vladivostok"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1050
 msgid "Volgograd Time"
-msgstr "Hora de Volgográu"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1051
@@ -4531,3 +4531,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

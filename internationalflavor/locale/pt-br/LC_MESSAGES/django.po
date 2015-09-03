@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -866,7 +866,7 @@ msgstr "Grécia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:134
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Geórgia do Sul e Ilhas Sandwich do Sul"
+msgstr "Ilhas Geórgia do Sul e Sandwich do Sul"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:135 timezone/_cldr_data.py:699
@@ -881,7 +881,7 @@ msgstr "Guam"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:137
 msgid "Guinea-Bissau"
-msgstr "Guiné Bissau"
+msgstr "Guiné-Bissau"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:138 timezone/_cldr_data.py:622
@@ -1041,7 +1041,7 @@ msgstr "Kuwait"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:169
 msgid "Cayman Islands"
-msgstr "Ilhas Caiman"
+msgstr "Ilhas Cayman"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:170
@@ -1591,7 +1591,7 @@ msgstr "Uganda"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:279
 msgid "U.S. Outlying Islands"
-msgstr "Ilhas Distantes dos EUA"
+msgstr "Ilhas Menores Distantes dos EUA"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:280
@@ -4530,3 +4530,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

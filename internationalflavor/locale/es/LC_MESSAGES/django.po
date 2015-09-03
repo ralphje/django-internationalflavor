@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -672,7 +672,7 @@ msgstr "Curazao"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:95
 msgid "Christmas Island"
-msgstr "Isla Christmas"
+msgstr "Isla de Navidad (Christmas)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:96
@@ -957,7 +957,7 @@ msgstr "Territorio Británico del Océano Índico"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:152
 msgid "Iraq"
-msgstr "Iraq"
+msgstr "Irak"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:153
@@ -1272,7 +1272,7 @@ msgstr "Nauru"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:215 timezone/_cldr_data.py:742
 msgid "Niue"
-msgstr "Isla Niue"
+msgstr "Niue"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:216
@@ -3483,7 +3483,7 @@ msgstr "Marigot"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:848
 msgid "Pitcairn"
-msgstr "Islas Pitcairn"
+msgstr "Pitcairn"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:849
@@ -3623,7 +3623,7 @@ msgstr "Gaborone"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:878
 msgid "Tunis"
-msgstr "Túnez capital"
+msgstr "Túnez"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:879
@@ -4193,7 +4193,7 @@ msgstr "hora de Maldivas"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:995
 msgid "Marquesas Time"
-msgstr "hora de las islas Marquesas"
+msgstr "hora de Marquesas"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:996
@@ -4268,7 +4268,7 @@ msgstr "hora de Niue"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1010
 msgid "Norfolk Island Time"
-msgstr "hora de las islas Norfolk"
+msgstr "hora de la isla Norfolk"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1011
@@ -4531,3 +4531,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

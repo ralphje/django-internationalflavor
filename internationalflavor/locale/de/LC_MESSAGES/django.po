@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -472,7 +472,7 @@ msgstr "Aruba"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:55
 msgid "Åland Islands"
-msgstr "Åland-Inseln"
+msgstr "Ålandinseln"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:56
@@ -547,7 +547,7 @@ msgstr "Bolivien"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:70
 msgid "Caribbean Netherlands"
-msgstr "Karibische Niederlande"
+msgstr "Bonaire, Sint Eustatius und Saba"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:71
@@ -1027,12 +1027,12 @@ msgstr "St. Kitts und Nevis"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:166
 msgid "North Korea"
-msgstr "Demokratische Volksrepublik Korea"
+msgstr "Nordkorea"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:167
 msgid "South Korea"
-msgstr "Republik Korea"
+msgstr "Südkorea"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:168 timezone/_cldr_data.py:465
@@ -1382,7 +1382,7 @@ msgstr "Serbien"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:237
 msgid "Russia"
-msgstr "Russische Föderation"
+msgstr "Russland"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:238
@@ -4531,6 +4531,10 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"
 
 #~ msgid "South-Eastern Asia"
 #~ msgstr "Südostasien"

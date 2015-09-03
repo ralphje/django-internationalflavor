@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -386,7 +386,7 @@ msgstr "Latinoamérica"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
 msgid "Ascension Island"
-msgstr "Isla Ascensión"
+msgstr "Isla de la Ascensión"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:40 timezone/_cldr_data.py:828
@@ -481,7 +481,7 @@ msgstr "Azerbaiyán"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:57
 msgid "Bosnia & Herzegovina"
-msgstr "Bosnia y Herzegovina"
+msgstr "Bosnia-Herzegovina"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:58 timezone/_cldr_data.py:660
@@ -671,7 +671,7 @@ msgstr "Curazao"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:95
 msgid "Christmas Island"
-msgstr "Isla Christmas"
+msgstr "Isla de Navidad (Christmas)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:96
@@ -2637,7 +2637,7 @@ msgstr "Damasco"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:657
 msgid "Center, North Dakota"
-msgstr "Centro, Dakota del Norte"
+msgstr "Center, Dakota del Norte"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:658
@@ -3702,7 +3702,7 @@ msgstr "Lima"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:894
 msgid "Unknown City"
-msgstr "Desconocida"
+msgstr "Ciudad desconocida"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:895
@@ -4530,3 +4530,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"

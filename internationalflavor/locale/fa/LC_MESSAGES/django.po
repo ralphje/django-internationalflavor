@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -452,7 +452,7 @@ msgstr "آرژانتین"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:51
 msgid "American Samoa"
-msgstr "ساموآی آمریکا"
+msgstr "ساموآی امریکا"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:52
@@ -472,7 +472,7 @@ msgstr "آروبا"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:55
 msgid "Åland Islands"
-msgstr "جزایر اُلند"
+msgstr "جزایر آلاند"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:56
@@ -547,7 +547,7 @@ msgstr "بولیوی"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:70
 msgid "Caribbean Netherlands"
-msgstr "جزایر کارائیب هلند"
+msgstr "بونیر"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:71
@@ -592,7 +592,7 @@ msgstr "کانادا"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:79
 msgid "Cocos (Keeling) Islands"
-msgstr "جزایر کوکوس (کیلینگ)"
+msgstr "جزایر کوکوس"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:80
@@ -867,7 +867,7 @@ msgstr "یونان"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:134
 msgid "South Georgia & South Sandwich Islands"
-msgstr "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+msgstr "جورجیای جنوبی و جزایر ساندویچ جنوبی"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:135 timezone/_cldr_data.py:699
@@ -897,7 +897,7 @@ msgstr "هنگ‌کنگ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:140
 msgid "Heard & McDonald Islands"
-msgstr "جزایر هرد و مک‌دونالد"
+msgstr "جزیرهٔ هرد و جزایر مک‌دونالد"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:141
@@ -1017,7 +1017,7 @@ msgstr "کیریباتی"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:164
 msgid "Comoros"
-msgstr "کومور"
+msgstr "کومورو"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:165
@@ -1237,7 +1237,7 @@ msgstr "نیجر"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:208
 msgid "Norfolk Island"
-msgstr "جزیره نورفک"
+msgstr "جزیرهٔ نورفولک"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:209
@@ -1277,7 +1277,7 @@ msgstr "نیوئه"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:216
 msgid "New Zealand"
-msgstr "زلاند نو"
+msgstr "نیوزیلند"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:217
@@ -1447,7 +1447,7 @@ msgstr "سیرالئون"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:250 timezone/_cldr_data.py:869
 msgid "San Marino"
-msgstr "سن مارینو"
+msgstr "سان‌مارینو"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:251
@@ -1472,7 +1472,7 @@ msgstr "سودان جنوبی"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:255
 msgid "São Tomé & Príncipe"
-msgstr "سائوتومه و پرینسیپ"
+msgstr "پرینسیپ و سائوتومه"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:256 timezone/_cldr_data.py:687
@@ -4531,3 +4531,7 @@ msgstr ""
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Bougainville"
+msgstr "Bougainville"
