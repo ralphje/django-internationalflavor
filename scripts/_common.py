@@ -18,7 +18,7 @@ TIMEZONE_TERRITORY_KEYS = {
 
 def update(d, u):
     """Method to update a dict recursively, from https://stackoverflow.com/questions/3232943/"""
-    for k, v in u.iteritems():
+    for k, v in u.items():
         if isinstance(v, collections.Mapping):
             r = update(d.get(k, {}), v)
             d[k] = r
@@ -57,9 +57,11 @@ def get_tz_info(timezones):
 
 def get_language(lc):
     if lc == 'zh-cn':
-        cldr_lc = 'zh-Hans-CN'
+        cldr_lc = 'zh-Hans'
     elif lc == 'zh-tw':
-        cldr_lc = 'zh-Hant-TW'
+        cldr_lc = 'zh-Hant'
+    elif lc == 'pt-br':
+        cldr_lc = 'pt'
     else:
         cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn").replace("HANS", "Hans").replace("HANT", "Hant")
     return cldr_lc

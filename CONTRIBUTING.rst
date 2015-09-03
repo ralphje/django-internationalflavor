@@ -48,9 +48,9 @@ You can list all available environments with ``tox -l``.
 Common Locale Data Repository
 =============================
 We use the CLDR for several pieces of international data. The following command can be ran to update the repository
-data with the latest CLDR (download the full JSON zip)::
+data with the latest CLDR (requires bower as it uses this to pull the data off GitHub)::
 
-    invoke pull_cldr cldr.zip
+    invoke pull_cldr
 
 This will generate (or update) two types of files: all ``_cldr_data.py`` files, with dicts containing translatable
 strings, and ``cldr.po`` files, that contain the translations of all CLDR strings.

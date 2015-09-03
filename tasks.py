@@ -56,8 +56,11 @@ def push_translations():
 
 
 @task(post=[make_translations])
-def pull_cldr(path):
-    run('python scripts/datafromcldr.py {0}'.format(path))
+def pull_cldr():
+    if not os.path.exists("_cldr"):
+        run('mkdir _cldr')
+    run('cd _cldr; bower install cldr-localenames-full cldr-dates-full cldr-core; cd ..')
+    run('python scripts/datafromcldr.py _cldr/bower_components')
 
 
 @task
