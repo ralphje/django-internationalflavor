@@ -24,16 +24,14 @@ BIC
 Comparison with other packages
 ==============================
 :mod:`localflavor`
-   This module also supports a ``IBANField``, but does not validate against regular expressions, rather
-   validating the length of the IBAN for each country code. The validation provided by :mod:`internationalflavor` is more
-   extensive by using regular expressions. Additionally, we provide a :class:`BICField` for SWIFT BIC validation.
-
-   If you are already using :mod:`localflavor` and do not need any of the other fields provided by
-   :mod:`internationalflavor`, you may be better off choosing :mod:`localflavor`.
+    Both an ``IBANField`` and a ``BICField`` are provided by this module. Although :mod:`internationalflavor` and
+    :mod:`localflavor` have different approaches to validation, if you are already using :mod:`localflavor` and do
+    not need any of the other fields provided by :mod:`internationalflavor`, you may be better off choosing
+    :mod:`localflavor` (and vice versa).
 
 :mod:`django-iban`
-   The validation in this module is equal to the `localflavor` validation. The author of this package is seeking to
-   retire his package, so it may be best to not use this package in new projects.
+    The validation in this module is equal to the `localflavor` validation. The author of this package is seeking to
+    retire his package, so it may be best to not use this package in new projects.
 
 .. seealso::
    `IBAN Registry <http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf>`_

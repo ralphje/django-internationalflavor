@@ -40,9 +40,10 @@ IBAN_REGEXES = {
     'IS': r'^\d{24}$',  # IS2!n4!n2!n6!n10!n
     'IT': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # IT2!n1!a5!n5!n12!c
     'JO': r'^\d{2}[A-Z]{4}\d{4}[0-9A-Z]{18}$',  # JO2!a2!n4!a4!n18!c
-    'KW': r'^\d{2}[A-Z]{4}22!$',  # KW2!n4!a22!
+    'KW': r'^\d{2}[A-Z]{4}[0-9A-Z]{22}$',  # KW2!n4!a22!c
     'KZ': r'^\d{5}[0-9A-Z]{13}$',  # KZ2!n3!n13!c
     'LB': r'^\d{6}[0-9A-Z]{20}$',  # LB2!n4!n20!c
+    'LC': r'^\d{2}[A-Z]{4}\d{24}',  # LC2!n4!a24n
     'LI': r'^\d{7}[0-9A-Z]{12}$',  # LI2!n5!n12!c
     'LT': r'^\d{18}$',  # LT2!n5!n11!n
     'LU': r'^\d{5}[0-9A-Z]{13}$',  # LU2!n3!n13!c
@@ -68,15 +69,16 @@ IBAN_REGEXES = {
     'SI': r'^\d{17}$',  # SI2!n5!n8!n2!n
     'SK': r'^\d{22}$',  # SK2!n4!n6!n10!n
     'SM': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # SM2!n1!a5!n5!n12!c
+    'ST': r'^\d{23}$',  # ST2!n8!n11!n2!n
     'TL': r'^\d{21}$',  # TL2!n3!n14!n2!n
     'TN': r'^\d{22}$',  # TN592!n3!n13!n2!n
-    'TR': r'^\d{7}[0-9A-Z]{17}$',  # TR2!n5!n1!c16!c
+    'TR': r'^\d{8}[0-9A-Z]{16}$',  # TR2!n5!n1!n16!c
     'VG': r'^\d{2}[A-Z]{4}\d{16}$',  # VG2!n4!a16!n
     'XK': r'^\d{18}$',  # XK2!n4!n10!n2!n
 }
 """Contains all country specific regexes for IBAN numbers.
 Source: http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
-Accurate to version 53 (December 2014)
+Accurate to version 60 (September 2015)
 """
 
 NORDEA_IBAN_REGEXES = {
@@ -109,7 +111,9 @@ SEPA_COUNTRIES = ['AT', 'BE', 'BG', 'CH', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES',
                   'FI', 'FR', 'GB', 'GI', 'GR', 'HR', 'HU', 'IE', 'IS', 'IT',
                   'LI', 'LT', 'LU', 'LV', 'MC', 'MT', 'NL', 'NO', 'PL', 'PT',
                   'RO', 'SE', 'SI', 'SK', 'SM']
-"""List of all sepa country codes."""
+"""List of all sepa country codes.
+http://www.europeanpaymentscouncil.eu/index.cfm/knowledge-bank/epc-documents/epc-list-of-sepa-scheme-countries/
+"""
 
 IBAN_MIN_LENGTH = 16  # Belgium seems to have the shortest
 IBAN_MAX_LENGTH = 34
