@@ -58,7 +58,7 @@ class VATNumberValidator(object):
         self.vies_check = vies_check
         if self.vies_check:
             try:
-                import suds
+                import suds  # NOQA
             except ImportError:
                 self._check_vies = self._check_vies_native
             else:
