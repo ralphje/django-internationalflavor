@@ -3,8 +3,8 @@ django-internationalflavor
 .. image:: https://img.shields.io/travis/ralphje/django-internationalflavor.svg
    :target: https://travis-ci.org/ralphje/django-internationalflavor?branch=master
 
-.. image:: https://coveralls.io/repos/ralphje/django-internationalflavor/badge.png?branch=master
-   :target: https://coveralls.io/r/ralphje/django-internationalflavor?branch=master
+.. image:: http://codecov.io/github/ralphje/django-internationalflavor/coverage.svg?branch=master
+   :target: http://codecov.io/github/ralphje/django-internationalflavor?branch=master
 
 .. image:: https://landscape.io/github/ralphje/django-internationalflavor/master/landscape.svg
    :target: https://landscape.io/github/ralphje/django-internationalflavor/master

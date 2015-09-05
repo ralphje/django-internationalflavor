@@ -3,7 +3,7 @@ language: python
 install:
   - mkdir -p $PIP_WHEEL_DIR
   - pip wheel -r tests/requirements.txt codecov
-  - pip install tox coveralls
+  - pip install tox codecov
 script:
   - tox
 env:
@@ -32,7 +32,7 @@ env:
   global:
     - PIP_WHEEL_DIR=$HOME/.wheels
     - PIP_FIND_LINKS=file://$PIP_WHEEL_DIR
-after_success: coveralls
+after_success: codecov
 cache:
   directories:
     - $HOME/.wheels
