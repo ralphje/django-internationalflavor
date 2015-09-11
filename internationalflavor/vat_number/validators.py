@@ -11,6 +11,11 @@ from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 VIES_CHECK_WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl"
 VIES_CHECK_URL = "http://ec.europa.eu/taxation_customs/vies/services/checkVatService"
 
+def _posint(x):
+    value = int(x)
+    if value < 0:
+        raise ValueError('not a positive integer')
+    return value
 
 class VATNumberValidator(object):
     """Validator for checking whether a given VAT number is valid. A VAT number starts with two characters representing
@@ -110,6 +115,9 @@ class VATNumberValidator(object):
         elif country == 'BE':  # validate with Modulus97 test
             if (97 - (int(rest[0:8]) % 97)) != int(rest[8:10]):
                 raise ValidationError(self.country_failure % {'country': country})
+        elif country == 'RU':  # validate with russian tests
+            if not self._check_vat_ru(rest):
+                raise ValidationError(self.country_failure % {'country': country})
 
     def _check_vies_native(self, country, rest):
         envelope = """<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope
@@ -151,3 +159,41 @@ class VATNumberValidator(object):
                 raise ValidationError(_('This VAT number does not exist.'))
 
     _check_vies = _check_vies_suds
+
+    def _check_vat_ru(self, vat):
+        '''
+        Check Russia VAT number.
+        Proudly stolen from vatnumber package :) Thanks to authors
+        see: https://github.com/eostman/vatnumber/blob/master/vatnumber/__init__.py#L389
+        '''
+        if len(vat) != 10 and len(vat) != 12:
+            return False
+        try:
+            _posint(vat)
+        except ValueError:
+            return False
+    
+        if len(vat) == 10:
+            check_sum = 2 * int(vat[0]) + 4 * int(vat[1]) + 10 * int(vat[2]) + \
+                3 * int(vat[3]) + 5 * int(vat[4]) + 9 * int(vat[5]) + \
+                4 * int(vat[6]) + 6 * int(vat[7]) + 8 * int(vat[8])
+            check = check_sum % 11
+            if check % 10 != int(vat[9]):
+                return False
+        else:
+            check_sum1 = 7 * int(vat[0]) + 2 * int(vat[1]) + 4 * int(vat[2]) + \
+                10 * int(vat[3]) + 3 * int(vat[4]) + 5 * int(vat[5]) + \
+                9 * int(vat[6]) + 4 * int(vat[7]) + 6 * int(vat[8]) + \
+                8 * int(vat[9])
+            check = check_sum1 % 11
+    
+            if check != int(vat[10]):
+                return False
+            check_sum2 = 3 * int(vat[0]) + 7 * int(vat[1]) + 2 * int(vat[2]) + \
+                4 * int(vat[3]) + 10 * int(vat[4]) + 3 * int(vat[5]) + \
+                5 * int(vat[6]) + 9 * int(vat[7]) + 4 * int(vat[8]) + \
+                6 * int(vat[9]) + 8 * int(vat[10])
+            check = check_sum2 % 11
+            if check != int(vat[11]):
+                return False
+        return True
