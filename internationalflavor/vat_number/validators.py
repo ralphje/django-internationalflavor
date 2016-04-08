@@ -2,6 +2,7 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 import re
+import socket
 
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
@@ -145,7 +146,7 @@ class VATNumberValidator(object):
             c = suds.client.Client(VIES_CHECK_WSDL, timeout=3)
             res = c.service.checkVat(country, rest)
             valid = res.valid is not False
-        except (suds.WebFault, suds.transport.TransportError, OSError) as e:
+        except (suds.WebFault, suds.transport.TransportError, socket.timeout) as e:
             self._wsdl_exception = e
         else:
             if not valid:
