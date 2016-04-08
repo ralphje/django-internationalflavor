@@ -42,7 +42,7 @@ VAT_NUMBER_REGEXES = {
     'RU': r'^(\d{10}|\d{12})$',
     'SM': r'^\d{5}$',
     'RS': r'^\d{9}$',
-    'CH': r'^\d{9}$',
+    'CH': r'^\d{9}|E\d{9}(TVA|MWST|IVA)?$',
     'TR': r'^\d{10}$',
     'AR': r'^\d{11}$',
     # BO
