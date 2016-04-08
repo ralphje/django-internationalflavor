@@ -3,9 +3,7 @@ language: python
 install:
   - mkdir -p $PIP_WHEEL_DIR
   - pip wheel -r tests/requirements.txt codecov
-  # virtualenv>=14.0.0 has dropped Python 3.2 support
-  - pip install "virtualenv<14.0.0" codecov tox
-  #- pip install tox codecov
+  - pip install tox codecov
 script:
   - tox
 env:
@@ -23,10 +21,6 @@ matrix:
       env: TOXENV=py27-1.9
     - python: 2.7
       env: TOXENV=py27-master
-    - python: 3.2
-      env: TOXENV=py32-1.7
-    - python: 3.2
-      env: TOXENV=py32-1.8
     - python: 3.3
       env: TOXENV=py33-1.7
     - python: 3.3
