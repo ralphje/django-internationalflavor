@@ -1,104 +1,110 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Ralph Broenink, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-10 18:36+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2014-08-10 21:24+0200\n"
+"PO-Revision-Date: 2016-04-08 19:44+0000\n"
+"Last-Translator: Ralph Broenink\n"
+"Language-Team: German (http://www.transifex.com/ralphje/django-internationalflavor/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: countries/models.py:13
 msgid "A country"
-msgstr ""
+msgstr "Ein Land"
 
 #: iban/models.py:26
 msgid "An International Bank Account Number"
-msgstr ""
+msgstr "Eine internationale Kontonummer (IBAN)"
 
 #: iban/models.py:70
 msgid "An International Bank Code"
-msgstr ""
+msgstr "Eine internationale Bankleitzahl (BIC)"
 
 #: iban/validators.py:57
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
-msgstr ""
+msgstr "IBANs aus %(country)s sind in diesem Feld nicht zugelassen."
 
 #: iban/validators.py:76
 msgid "This IBAN does not have a valid checksum."
-msgstr ""
+msgstr "Diese IBAN hat eine ungültige Prüfsumme."
 
 #: iban/validators.py:82
 msgid "This Bank Identifier Code (BIC) is invalid."
-msgstr ""
+msgstr "Diese internationale Bankleitzahl (BIC) ist ungültig."
 
 #: vat_number/models.py:25
 msgid "A number used for VAT registration"
-msgstr ""
+msgstr "Eine Nummer, welche zur Umsatzsteuer-Anmeldung genutzt wird"
 
 #: vat_number/validators.py:73
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr ""
+msgstr "USt-ID-Nummern aus %(country)s sind in diesem Feld nicht zugelassen."
 
 #: vat_number/validators.py:75
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
+"Diese USt-ID-Nummer erfüllt nicht die Voraussetzungen für %(country)s."
 
 #: vat_number/validators.py:81
 msgid "This VAT number is not for a known country."
-msgstr ""
+msgstr "Das Land dieser USt-ID-Nummer ist nicht unterstützt."
 
 #: vat_number/validators.py:109
 msgid "This VAT number does not exist."
-msgstr ""
+msgstr "Diese USt-ID-Nummer existiert nicht."
 
 #: iban/validators.py:49
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
 msgstr ""
+"Diese IBAN beginnt nicht mit Ländercode und Prüfsumme, oder enthält "
+"ungültige Zeichen"
 
 #: iban/validators.py:61
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
-msgstr ""
+msgstr "Diese IBAN erfüllt nicht die Anforderungen für %(country)s."
 
 #: iban/validators.py:63
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
-msgstr ""
+msgstr "%(country)s ist kein gültiger Ländercode für eine IBAN."
 
 #: iban/validators.py:85
 #, python-format
 msgid "%(country)s is not a valid country code."
-msgstr ""
+msgstr "%(country)s ist kein gültiger Ländercode."
 
 #: timezone/models.py:27
 msgid "A timezone"
-msgstr ""
+msgstr "Eine Zeitzone"
 
 #: timezone/models.py:72
 #, python-format
 msgid "Timezone %s is invalid"
-msgstr ""
+msgstr "Die Zeitzone %s ist ungültig"
 
 #: vat_number/validators.py:66
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
+"Diese USt-ID-Nummer beginnt nicht mit einem Ländercode oder enthält "
+"ungültige Zeichen"
 
 #~ msgid "This IBAN does not start with a country code and checksum."
 #~ msgstr ""
