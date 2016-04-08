@@ -146,7 +146,7 @@ class VATNumberValidator(object):
             c = suds.client.Client(VIES_CHECK_WSDL, timeout=3)
             res = c.service.checkVat(country, rest)
             valid = res.valid is not False
-        except (suds.WebFault, suds.transport.TransportError, socket.timeout, OSError) as e:
+        except (suds.WebFault, suds.transport.TransportError, socket.timeout, OSError, IOError) as e:
             self._wsdl_exception = e
         else:
             if not valid:
