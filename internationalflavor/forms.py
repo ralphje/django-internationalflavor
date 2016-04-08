@@ -46,11 +46,19 @@ def _option_label_getter(item):
 class SortedSelect(forms.Select):
     """A Select widget that sorts its contents by value upon rendering."""
 
-    def render_options(self, choices, selected_choices):
+    def render_options(self, *args):
+        try:
+            selected_choices, = args
+        except ValueError:  # Signature contained `choices` prior to Django 1.10
+            choices, selected_choices = args
+            choices = chain(self.choices, choices)
+        else:
+            choices = self.choices
+
         # Normalize to strings.
         selected_choices = set(force_text(v) for v in selected_choices)
         output = []
-        for option_value, option_label in sorted(chain(self.choices, choices), key=_option_label_getter):
+        for option_value, option_label in sorted(choices, key=_option_label_getter):
             if isinstance(option_label, (list, tuple)):
                 output.append(format_html('<optgroup label="{0}">', force_text(option_value)))
                 for option in sorted(option_label, key=_option_label_getter):

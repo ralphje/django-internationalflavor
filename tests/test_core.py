@@ -7,15 +7,15 @@ from internationalflavor.forms import SortedSelect, _option_label_getter
 
 class SortedSelectTest(SimpleTestCase):
     def test_simple_sorted_select(self):
-        f = SortedSelect()
+        f = SortedSelect(choices=[(1, _("Unknown Region")), (2, "Abuh")])
         out = '''<select name="test">
         <option value="2">Abuh</option>
         <option value="1" selected="selected">Unknown Region</option>
         </select>'''
-        self.assertHTMLEqual(out, f.render('test', '1', choices=[(1, _("Unknown Region")), (2, "Abuh")]))
+        self.assertHTMLEqual(out, f.render('test', '1'))
 
     def test_sorted_select_with_optgroups(self):
-        f = SortedSelect()
+        f = SortedSelect(choices=[("B", (("a", _("Unknown Region")), (2, "Abuh"))), ("z", "A"), ("x", "C")])
         out = '''<select name="test">
         <option value="z">A</option>
         <optgroup label="B">
@@ -24,8 +24,7 @@ class SortedSelectTest(SimpleTestCase):
         </optgroup>
         <option value="x">C</option>
         </select>'''
-        self.assertHTMLEqual(out, f.render('test', 'a', choices=[("B", (("a", _("Unknown Region")), (2, "Abuh"))),
-                                                                 ("z", "A"), ("x", "C")]))
+        self.assertHTMLEqual(out, f.render('test', 'a'))
 
     def test_sorting_of_unicode_strings(self):
         import locale
@@ -38,12 +37,12 @@ class SortedSelectTest(SimpleTestCase):
             if locale.strcoll("z", "ą") < 0:
                 self.skipTest("Sortable context does not sort properly (using BSD?)")
 
-            f = SortedSelect()
+            f = SortedSelect(choices=[("0", "a"), ("1", "ą"), ("2", "z")])
             out = '''<select name="test">
             <option value="0" selected="selected">a</option>
             <option value="1">ą</option>
             <option value="2">z</option>
             </select>'''
-            self.assertHTMLEqual(out, f.render('test', '0', choices=[("0", "a"), ("1", "ą"), ("2", "z")]))
+            self.assertHTMLEqual(out, f.render('test', '0'))
         finally:
             locale.setlocale(locale.LC_COLLATE, current_locale)
