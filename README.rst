@@ -12,7 +12,7 @@ django-internationalflavor
 .. image:: https://img.shields.io/pypi/v/django-internationalflavor.svg
    :target: https://pypi.python.org/pypi/django-internationalflavor
 
-.. image:: https://readthedocs.org/projects/django-internationalflavor/badge/?version=latest&style=plastic
+.. image:: https://readthedocs.org/projects/django-internationalflavor/badge/?version=latest&style=flat
    :target: https://readthedocs.org/projects/django-internationalflavor/?badge=latest
 
 ``django-internationalflavor`` is born to complement the ``django-localflavor`` package. While localflavor is
