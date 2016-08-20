@@ -4,6 +4,12 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.3.0 (2016-08-20)
+==================
+* Fixes a Django 1.10 bug (I fixed it before, but it never made it into a release...)
+* Updated CLDR and IBAN data. Note: UA got an official IBAN, so this means the Nordea alternative got dropped
+  (SC also got a IBAN, but it was never in the Nordea set).
+
 0.2.1 (2015-02-09)
 ==================
 * Fixes a Python 3 bug discovered when releasing 0.2.0

@@ -39,50 +39,53 @@ IBAN_REGEXES = {
     'IL': r'^\d{21}$',  # IL2!n3!n3!n13!n
     'IS': r'^\d{24}$',  # IS2!n4!n2!n6!n10!n
     'IT': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # IT2!n1!a5!n5!n12!c
-    'JO': r'^\d{2}[A-Z]{4}\d{4}[0-9A-Z]{18}$',  # JO2!a2!n4!a4!n18!c
+    'JO': r'^\d{2}[A-Z]{4}\d{4}[0-9A-Z]{18}$',  # JO2!n4!a4!n18!c
     'KW': r'^\d{2}[A-Z]{4}[0-9A-Z]{22}$',  # KW2!n4!a22!c
     'KZ': r'^\d{5}[0-9A-Z]{13}$',  # KZ2!n3!n13!c
     'LB': r'^\d{6}[0-9A-Z]{20}$',  # LB2!n4!n20!c
-    'LC': r'^\d{2}[A-Z]{4}\d{24}',  # LC2!n4!a24n
+    'LC': r'^\d{2}[A-Z]{4}[0-9A-Z]{24}',  # LC2!n4!a24!c
     'LI': r'^\d{7}[0-9A-Z]{12}$',  # LI2!n5!n12!c
     'LT': r'^\d{18}$',  # LT2!n5!n11!n
     'LU': r'^\d{5}[0-9A-Z]{13}$',  # LU2!n3!n13!c
     'LV': r'^\d{2}[A-Z]{4}[0-9A-Z]{13}$',  # LV2!n4!a13!c
     'MC': r'^\d{12}[0-9A-Z]{11}\d{2}$',  # MC2!n5!n5!n11!c2!n
-    'MD': r'^\d{2}[0-9A-Z]{20}$',  # MD2!n20!c
+    'MD': r'^\d{2}[0-9A-Z]{20}$',  # MD2!n2!c18!c
     'ME': r'^\d{20}$',  # ME2!n3!n13!n2!n
     'MK': r'^\d{5}[0-9A-Z]{10}\d{2}$',  # MK2!n3!n10!c2!n
-    'MR': r'^\d{25}$',  # MR135!n5!n11!n2!n
+    'MR': r'^\d{25}$',  # MR2!n5!n5!n11!n2!n
     'MT': r'^\d{2}[A-Z]{4}\d{5}[0-9A-Z]{18}$',  # MT2!n4!a5!n18!c
     'MU': r'^\d{2}[A-Z]{4}\d{19}[A-Z]{3}$',  # MU2!n4!a2!n2!n12!n3!n3!a
     'NL': r'^\d{2}[A-Z]{4}\d{10}$',  # NL2!n4!a10!n
     'NO': r'^\d{13}$',  # NO2!n4!n6!n1!n
     'PK': r'^\d{2}[A-Z]{4}[0-9A-Z]{16}$',  # PK2!n4!a16!c
-    'PL': r'^\d{10}[0-9A-Z]{,16}n',  # PL2!n8!n16n
+    'PL': r'^\d{10}[0-9A-Z]{16}$',  # PL2!n8!n16!n
     'PS': r'^\d{2}[A-Z]{4}[0-9A-Z]{21}$',  # PS2!n4!a21!c
     'PT': r'^\d{23}$',  # PT2!n4!n4!n11!n2!n
     'QA': r'^\d{2}[A-Z]{4}[0-9A-Z]{21}$',  # QA2!n4!a21!c
     'RO': r'^\d{2}[A-Z]{4}[0-9A-Z]{16}$',  # RO2!n4!a16!c
     'RS': r'^\d{20}$',  # RS2!n3!n13!n2!n
     'SA': r'^\d{4}[0-9A-Z]{18}$',  # SA2!n2!n18!c
+    'SC': r'^\d{2}[A-Z]{4}\d{20}[A-Z]{3}$',  # SC2!n4a!2n!2n!16n!3a!
     'SE': r'^\d{22}$',  # SE2!n3!n16!n1!n
     'SI': r'^\d{17}$',  # SI2!n5!n8!n2!n
     'SK': r'^\d{22}$',  # SK2!n4!n6!n10!n
     'SM': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # SM2!n1!a5!n5!n12!c
     'ST': r'^\d{23}$',  # ST2!n8!n11!n2!n
     'TL': r'^\d{21}$',  # TL2!n3!n14!n2!n
-    'TN': r'^\d{22}$',  # TN592!n3!n13!n2!n
+    'TN': r'^\d{22}$',  # TN2!n2!n3!n13!n2!n
     'TR': r'^\d{8}[0-9A-Z]{16}$',  # TR2!n5!n1!n16!c
+    'UA': r'^\d{8}[0-9A-Z]{19}$',  # UA2!n6!n19!c
     'VG': r'^\d{2}[A-Z]{4}\d{16}$',  # VG2!n4!a16!n
     'XK': r'^\d{18}$',  # XK2!n4!n10!n2!n
 }
 """Contains all country specific regexes for IBAN numbers.
-Source: http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf
-Accurate to version 60 (September 2015)
+Source: https://www.swift.com/sites/default/files/resources/swift_standards_ibanregistry.pdf
+Accurate to version 66 (May 2016)
 """
 
+
 NORDEA_IBAN_REGEXES = {
-    'AO': r'^\d{19}$',  # AOkk nnnn nnnn nnnn nnnn nnnn n
+    'AO': r'^\d{23}$',  # AOkk nnnn nnnn nnnn nnnn nnnn n
     'BF': r'^\d{25}$',   # BFkk nnnn nnnn nnnn nnnn nnnn nnn
     'BI': r'^\d{14}$',  # BIkk nnnn nnnn nnnn
     'BJ': r'^\d{2}[A-Z]\d{23}$',  # BJkk annn nnnn nnnn nnnn nnnn nnnn
@@ -98,7 +101,6 @@ NORDEA_IBAN_REGEXES = {
     'ML': r'^\d{2}[A-Z]\d{23}$',  # MLkk annn nnnn nnnn nnnn nnnn nnnn
     'MZ': r'^\d{23}$',  # MZkk nnnn nnnn nnnn nnnn nnnn n
     'SN': r'^\d{2}[A-Z]\d{23}$',  # SNkk annn nnnn nnnn nnnn nnnn nnnn
-    'UA': r'^\d{2}[A-Z0-9]{6}\d{19}$',  # UAkk bbbb bbcc cccc cccc cccc cccc c
 }
 """Nordea has some additional IBAN formats defined, which are not recognized by the SWIFT union.
 https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+countries/908462.html

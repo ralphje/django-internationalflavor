@@ -44,7 +44,6 @@ COUNTRY_NAMES = {
     "AI": _("Anguilla"),
     "AL": _("Albania"),
     "AM": _("Armenia"),
-    "AN": _("Netherlands Antilles"),
     "AO": _("Angola"),
     "AQ": _("Antarctica"),
     "AR": _("Argentina"),
