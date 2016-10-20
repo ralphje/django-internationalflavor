@@ -16,6 +16,8 @@ class VATNumberTestCase(TestCase):
         'DE114103379': 'DE114103379',
 
         'BE 0203.201.340': 'BE0203201340',
+
+        'HU99999999': 'HU99999999'
     }
     invalid = {
         'NL820646661B01': ['This VAT number does not match the requirements for NL.'],
