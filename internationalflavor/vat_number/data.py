@@ -70,7 +70,7 @@ CA: http://www.cra-arc.gc.ca/tx/bsnss/tpcs/bn-ne/wrks-eng.html
 others: https://en.wikipedia.org/wiki/VAT_identification_number
 """
 
-EU_VAT_AREA = ['AT', 'BE', 'BG', 'CV', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
+EU_VAT_AREA = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
                'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'RO', 'SE', 'SI', 'SK']
 
 

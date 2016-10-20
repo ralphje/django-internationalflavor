@@ -42,6 +42,10 @@ class VATNumberTestCase(TestCase):
         for iban, message in self.invalid.items():
             self.assertRaisesMessage(ValidationError, message[0], validator, iban)
 
+    def test_validator_eu_only(self):
+        validator = VATNumberValidator(eu_only=True)
+        validator('CY12345678A')
+
     def test_form_field(self):
         self.assertFieldOutput(VATNumberFormField, valid=self.valid, invalid=self.invalid)
 
