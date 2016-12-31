@@ -130,7 +130,7 @@ class Command(BaseCommand):
 
                 f.write(b"METAZONE_MAPPING = {\n")
                 # We build a map of timezones to metazones
-                for region_path in timezones:
+                for region_path in sorted(timezones):
                     # Get the metazone info
                     mzone = None
                     try:
@@ -150,7 +150,7 @@ class Command(BaseCommand):
                 f.write(b"}\n")
                 f.write(b"TIMEZONE_NAMES = {\n")
                 # We now loop over all timezone names
-                for region_path, i in timezones.items():
+                for region_path, i in sorted(timezones.items()):
                     region_name, city = i
                     # Get the translated region name
                     if region_name in TIMEZONE_TERRITORY_KEYS:

@@ -22,24 +22,24 @@ msgstr ""
 msgid "A country"
 msgstr "Een land"
 
-#: iban/models.py:26
+#: iban/models.py:28
 msgid "An International Bank Account Number"
 msgstr "Een Internationaal Bank Account Nummer"
 
-#: iban/models.py:72
+#: iban/models.py:74
 msgid "An International Bank Code"
 msgstr "Een Internationale Bank Code"
 
-#: iban/validators.py:59
+#: iban/validators.py:70
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
 msgstr "%(country)s IBANS zijn niet toegestaand in dit veld."
 
-#: iban/validators.py:78
+#: iban/validators.py:89
 msgid "This IBAN does not have a valid checksum."
 msgstr "Dit IBAN heeft geen geldig controlegetal."
 
-#: iban/validators.py:84
+#: iban/validators.py:100
 msgid "This Bank Identifier Code (BIC) is invalid."
 msgstr "Deze Bank Identificatie Code (BIC) is ongeldig."
 
@@ -47,25 +47,25 @@ msgstr "Deze Bank Identificatie Code (BIC) is ongeldig."
 msgid "A number used for VAT registration"
 msgstr "Een nummer gebruikt voor btw-registratie."
 
-#: vat_number/validators.py:86
+#: vat_number/validators.py:111
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr "%(country)s btw-nummers zijn niet toegestaan in dit veld."
 
-#: vat_number/validators.py:54
+#: vat_number/validators.py:79
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr "Dit btw-nummer voldoet niet aan de vereisten voor %(country)s."
 
-#: vat_number/validators.py:92
+#: vat_number/validators.py:117
 msgid "This VAT number is not for a known country."
 msgstr "Dit btw-nummer is niet voor een bekend land."
 
-#: vat_number/validators.py:133 vat_number/validators.py:153
+#: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr "Dit btw-nummer bestaat niet."
 
-#: iban/validators.py:51
+#: iban/validators.py:62
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
@@ -73,17 +73,17 @@ msgstr ""
 "Dit IBAN begint niet met een landcode en controlegetal of bevat ongeldige "
 "karakters."
 
-#: iban/validators.py:63
+#: iban/validators.py:74
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
 msgstr "Dit IBAN voldoet niet aan de vereisten voor %(country)s."
 
-#: iban/validators.py:65
+#: iban/validators.py:76
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
 msgstr "%(country)s is geen geldige landcode voor IBAN."
 
-#: iban/validators.py:87
+#: iban/validators.py:103
 #, python-format
 msgid "%(country)s is not a valid country code."
 msgstr "%(country)s is een ongeldige landcode."
@@ -97,7 +97,7 @@ msgstr "Een tijdzone"
 msgid "Timezone %s is invalid"
 msgstr "Tijdzone %s is ongeldig."
 
-#: vat_number/validators.py:80
+#: vat_number/validators.py:105
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."

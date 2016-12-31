@@ -8,6 +8,8 @@ This file contains the changelog for the project.
 ==================
 * Fix Django 1.11 bug in the SortedSelect widget. This affects the sorting of optgroups for all versions, they are now
   always sorted above other choices.
+* Updated CLDR data from v29 to v30.0.3
+* ``vat_number``: Additional cleanup for CH VAT numbers and validation for RU VAT numbers
 
 0.3.0 (2016-08-20)
 ==================

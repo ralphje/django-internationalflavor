@@ -20,24 +20,24 @@ msgstr ""
 msgid "A country"
 msgstr ""
 
-#: iban/models.py:26
+#: iban/models.py:28
 msgid "An International Bank Account Number"
 msgstr ""
 
-#: iban/models.py:72
+#: iban/models.py:74
 msgid "An International Bank Code"
 msgstr ""
 
-#: iban/validators.py:59
+#: iban/validators.py:70
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
 msgstr ""
 
-#: iban/validators.py:78
+#: iban/validators.py:89
 msgid "This IBAN does not have a valid checksum."
 msgstr ""
 
-#: iban/validators.py:84
+#: iban/validators.py:100
 msgid "This Bank Identifier Code (BIC) is invalid."
 msgstr ""
 
@@ -45,41 +45,41 @@ msgstr ""
 msgid "A number used for VAT registration"
 msgstr ""
 
-#: vat_number/validators.py:86
+#: vat_number/validators.py:111
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr ""
 
-#: vat_number/validators.py:54
+#: vat_number/validators.py:79
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 
-#: vat_number/validators.py:92
+#: vat_number/validators.py:117
 msgid "This VAT number is not for a known country."
 msgstr ""
 
-#: vat_number/validators.py:133 vat_number/validators.py:153
+#: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
 
-#: iban/validators.py:51
+#: iban/validators.py:62
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
 msgstr ""
 
-#: iban/validators.py:63
+#: iban/validators.py:74
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
 msgstr ""
 
-#: iban/validators.py:65
+#: iban/validators.py:76
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
 msgstr ""
 
-#: iban/validators.py:87
+#: iban/validators.py:103
 #, python-format
 msgid "%(country)s is not a valid country code."
 msgstr ""
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Timezone %s is invalid"
 msgstr ""
 
-#: vat_number/validators.py:80
+#: vat_number/validators.py:105
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
