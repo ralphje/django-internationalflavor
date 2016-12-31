@@ -8,7 +8,7 @@ from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from django.utils.six.moves.urllib import request
 
-from internationalflavor.validators import UpperCaseValueCleaner
+from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 
 
@@ -127,15 +127,18 @@ class VATNumberValidator(object):
         """Place for country specific validations."""
 
         if country == 'NL':  # validate against modified elfproef
-            total = 0
-            for i in range(8):
-                total += int(rest[i]) * (9 - i)
-            total -= int(rest[8])  # '1' factor is -1 in dutch test
-            if total % 11 != 0:
+            if _get_check_digit(rest, [9, 8, 7, 6, 5, 4, 3, 2, -1]) != 0:
                 raise ValidationError(self.country_failure % {'country': country})
 
         elif country == 'BE':  # validate with Modulus97 test
             if (97 - (int(rest[0:8]) % 97)) != int(rest[8:10]):
+                raise ValidationError(self.country_failure % {'country': country})
+
+        elif country == 'RU':
+            if len(rest) == 10 and _get_check_digit(rest, [2, 4, 10, 3, 5, 9, 4, 6, 8]) % 10 != int(rest[9]):
+                raise ValidationError(self.country_failure % {'country': country})
+            elif len(rest) == 12 and (_get_check_digit(rest, [7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[10]) or
+                                      _get_check_digit(rest, [3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[11])):
                 raise ValidationError(self.country_failure % {'country': country})
 
     def _check_vies_native(self, country, rest):

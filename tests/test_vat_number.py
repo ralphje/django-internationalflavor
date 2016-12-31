@@ -24,6 +24,9 @@ class VATNumberTestCase(TestCase):
         'CH-123.456.789 MWST': 'CH123456789',
         'CHE-123.456.789 MWST': 'CH123456789',
         'CHE-123.456.789 IVA': 'CH123456789',
+
+        'RU5505035011': 'RU5505035011',
+        'RU550501929014': 'RU550501929014',
     }
     invalid = {
         'NL820646661B01': ['This VAT number does not match the requirements for NL.'],
@@ -32,6 +35,8 @@ class VATNumberTestCase(TestCase):
         'US123414132': ['US VAT numbers are not allowed in this field.'],
         '123456': ['This VAT number does not start with a country code, or contains invalid characters.'],
         'IE0É12345A': ['This VAT number does not start with a country code, or contains invalid characters.'],
+        'RU5505035012': ['This VAT number does not match the requirements for RU.'],
+        'RU550501929015': ['This VAT number does not match the requirements for RU.'],
     }
 
     def test_validator(self):
