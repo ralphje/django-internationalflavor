@@ -34,19 +34,37 @@ class _compare_by_strcoll(object):
         raise TypeError('hash not implemented')
 
 
-def _option_label_getter(item):
-    result = force_text(item[0] if isinstance(item[1], (list, tuple)) else item[1])
+def _compare_unicode(value):
     # In PY2, strxfrm does not support unicode encoded values, so we have to get creative.
-    if six.PY3:
-        return locale.strxfrm(result)
+    if not six.PY2:
+        return locale.strxfrm(force_text(value))
     else:
-        return _compare_by_strcoll(result)
+        return _compare_by_strcoll(force_text(value))
+
+
+def _option_label_getter(item):
+    # Sort optgroups above other items by putting them in a tuple
+    if isinstance(item[1], (list, tuple)):
+        return 0, _compare_unicode(item[0])
+    else:
+        return 1, _compare_unicode(item[1])
 
 
 class SortedSelect(forms.Select):
     """A Select widget that sorts its contents by value upon rendering."""
 
+    def get_context(self, name, value, attrs=None):
+        """Overrides the rendering of options starting Django 1.11"""
+        context = super(forms.Select, self).get_context(name, value, attrs)
+        # we sort options in optgroups by their unicode comparison
+        # we sort optgroups by sorting None below their unicode comparison (using a tuple for that)
+        context['widget']['optgroups'] = sorted([(a, sorted(choices, key=lambda o: _compare_unicode(o['label'])), c)
+                                                 for a, choices, c in context['widget']['optgroups']],
+                                                key=lambda og: (1, "") if og[0] is None else (0, _compare_unicode(og[0])))
+        return context
+
     def render_options(self, *args):
+        """Overrides the rendering of options in Django 1.10 and prior versions"""
         try:
             selected_choices, = args
         except ValueError:  # Signature contained `choices` prior to Django 1.10

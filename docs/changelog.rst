@@ -4,6 +4,11 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.3.1 (unreleased)
+==================
+* Fix Django 1.11 bug in the SortedSelect widget. This affects the sorting of optgroups for all versions, they are now
+  always sorted above other choices.
+
 0.3.0 (2016-08-20)
 ==================
 * Fixes a Django 1.10 bug (I fixed it before, but it never made it into a release...)
