@@ -1,7 +1,6 @@
 from django import forms
 from .data import IBAN_MIN_LENGTH, IBAN_MAX_LENGTH
-from internationalflavor.iban.validators import BICValidator
-from .validators import IBANValidator
+from internationalflavor.iban.validators import BICValidator, BICCleaner, IBANCleaner, IBANValidator
 
 
 class IBANFormField(forms.CharField):
@@ -21,7 +20,7 @@ class IBANFormField(forms.CharField):
     def to_python(self, value):
         value = super(IBANFormField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '')
+            return IBANCleaner()(value)
         return value
 
     def prepare_value(self, value):
@@ -29,8 +28,7 @@ class IBANFormField(forms.CharField):
         value = super(IBANFormField, self).prepare_value(value)
         if value is None:
             return value
-        value = value.upper().replace(' ', '').replace('-', '')
-        return ' '.join(value[i:i + 4] for i in range(0, len(value), 4))
+        return IBANCleaner().display_value(value)
 
 
 class BICFormField(forms.CharField):
@@ -43,11 +41,11 @@ class BICFormField(forms.CharField):
     def to_python(self, value):
         value = super(BICFormField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '')
+            return BICCleaner()(value)
         return value
 
     def prepare_value(self, value):
         value = super(BICFormField, self).prepare_value(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '')
+            return BICCleaner().display_value(value)
         return value

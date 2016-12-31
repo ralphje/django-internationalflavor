@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 from .forms import VATNumberFormField
 from .data import VAT_MAX_LENGTH
-from .validators import VATNumberValidator
+from .validators import VATNumberValidator, VATNumberCleaner
 
 
 class VATNumberField(models.CharField):
@@ -52,7 +52,7 @@ class VATNumberField(models.CharField):
     def to_python(self, value):
         value = super(VATNumberField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '').replace('.', '')
+            return VATNumberCleaner()(value)
         return value
 
     def formfield(self, **kwargs):

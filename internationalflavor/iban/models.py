@@ -1,5 +1,7 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
+
+from internationalflavor.iban.validators import BICCleaner, IBANCleaner
 from .forms import IBANFormField
 from .data import IBAN_MAX_LENGTH
 from internationalflavor.iban.forms import BICFormField
@@ -53,7 +55,7 @@ class IBANField(models.CharField):
     def to_python(self, value):
         value = super(IBANField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '')
+            return IBANCleaner()(value)
         return value
 
     def formfield(self, **kwargs):
@@ -85,7 +87,7 @@ class BICField(models.CharField):
     def to_python(self, value):
         value = super(BICField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '')
+            return BICCleaner()(value)
         return value
 
     def formfield(self, **kwargs):

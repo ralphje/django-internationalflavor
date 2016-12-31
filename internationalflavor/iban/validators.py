@@ -4,8 +4,19 @@ from __future__ import unicode_literals
 import re
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
+
+from internationalflavor.validators import UpperCaseValueCleaner
 from .data import IBAN_REGEXES, NORDEA_IBAN_REGEXES, SEPA_COUNTRIES
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
+
+
+class IBANCleaner(UpperCaseValueCleaner):
+    """Cleaner for IBAN"""
+
+    def display_value(self, value):
+        """The display format for IBAN has a space every 4 characters."""
+        value = super(IBANCleaner, self).display_value(value)
+        return ' '.join(value[i:i + 4] for i in range(0, len(value), 4))
 
 
 class IBANValidator(object):
@@ -76,6 +87,11 @@ class IBANValidator(object):
 
         if expected_checksum != value[2:4]:
             raise ValidationError(_('This IBAN does not have a valid checksum.'))
+
+
+class BICCleaner(UpperCaseValueCleaner):
+    """Cleaner for BIC"""
+    pass
 
 
 class BICValidator(object):

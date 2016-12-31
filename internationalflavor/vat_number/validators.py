@@ -7,11 +7,36 @@ import socket
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from django.utils.six.moves.urllib import request
+
+from internationalflavor.validators import UpperCaseValueCleaner
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 
 
 VIES_CHECK_WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl"
 VIES_CHECK_URL = "http://ec.europa.eu/taxation_customs/vies/services/checkVatService"
+
+
+class VATNumberCleaner(UpperCaseValueCleaner):
+    """Cleaner for VAT numbers"""
+
+    def __call__(self, value):
+        if value is not None:
+            value = super(VATNumberCleaner, self).__call__(value)
+            if value.startswith("CH"):
+                if value.startswith("CHE"):
+                    value = "CH" + value[3:]
+                if value.endswith("MWST"):
+                    value = value[:-4]
+                elif value.endswith("TVA") or value.endswith("IVA"):
+                    value = value[:-3]
+            return value
+        return value
+
+    def display_value(self, value):
+        value = super(VATNumberCleaner, self).display_value(value)
+        if value.startswith("CH"):
+            value = "CHE" + value[2:]
+        return value
 
 
 class VATNumberValidator(object):

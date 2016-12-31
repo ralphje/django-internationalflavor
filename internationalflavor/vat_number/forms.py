@@ -1,6 +1,6 @@
 from django import forms
 from .data import VAT_MAX_LENGTH, VAT_MIN_LENGTH
-from .validators import VATNumberValidator
+from .validators import VATNumberValidator, VATNumberCleaner
 
 
 class VATNumberFormField(forms.CharField):
@@ -18,5 +18,11 @@ class VATNumberFormField(forms.CharField):
     def to_python(self, value):
         value = super(VATNumberFormField, self).to_python(value)
         if value is not None:
-            return value.upper().replace(' ', '').replace('-', '').replace('.', '')
+            return VATNumberCleaner()(value)
+        return value
+
+    def prepare_value(self, value):
+        value = super(VATNumberFormField, self).prepare_value(value)
+        if value is not None:
+            return VATNumberCleaner().display_value(value)
         return value

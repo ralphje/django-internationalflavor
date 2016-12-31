@@ -20,6 +20,10 @@ class VATNumberTestCase(TestCase):
         'HU99999999': 'HU99999999',
         'IE1234567XX': 'IE1234567XX',
         'IE1X23456X': 'IE1X23456X',
+
+        'CH-123.456.789 MWST': 'CH123456789',
+        'CHE-123.456.789 MWST': 'CH123456789',
+        'CHE-123.456.789 IVA': 'CH123456789',
     }
     invalid = {
         'NL820646661B01': ['This VAT number does not match the requirements for NL.'],
@@ -50,6 +54,12 @@ class VATNumberTestCase(TestCase):
 
     def test_form_field(self):
         self.assertFieldOutput(VATNumberFormField, valid=self.valid, invalid=self.invalid)
+
+    def test_form_field_formatting(self):
+        form_field = VATNumberFormField()
+        self.assertEqual(form_field.prepare_value('DE 114 103 379'), 'DE114103379')
+        self.assertEqual(form_field.prepare_value('CHE-123.456.789 IVA'), 'CHE123456789')
+        self.assertIsNone(form_field.prepare_value(None))
 
     def test_model_field(self):
         model_field = VATNumberField()

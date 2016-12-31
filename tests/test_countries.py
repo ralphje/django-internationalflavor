@@ -29,9 +29,7 @@ class CountriesFormTestCase(SimpleTestCase):
 
             self.assertHTMLEqual(field.widget.render('countries', 'NL'), out)
 
-
-class CountriesModelTestCase(SimpleTestCase):
-    def test_deconstruct_default(self):
+    def test_model_field_deconstruct_default(self):
         # test_instance must be created with the non-default options.
         test_inst = CountryField()
         name, path, args, kwargs = test_inst.deconstruct()
@@ -39,7 +37,7 @@ class CountriesModelTestCase(SimpleTestCase):
         for attr in ('countries', 'exclude', 'choices'):
             self.assertEqual(getattr(test_inst, attr), getattr(new_inst, attr))
 
-    def test_deconstruct_different(self):
+    def test_model_field_deconstruct_different(self):
         # test_instance must be created with the non-default options.
         test_inst = CountryField(countries=['NL', 'BE'], exclude=['BE'])
         name, path, args, kwargs = test_inst.deconstruct()
