@@ -117,9 +117,11 @@ class Command(BaseCommand):
             # ------------------------------
             self.stdout.write("Parsing timezone information")
 
-            timezones = get_tz_info(data['main']['en']['dates']['timeZoneNames']['zone'])
+            tz_locale_data = data['main']['en']['dates']['timeZoneNames']
+            timezones = get_tz_info(tz_locale_data['zone'])
             metazones = data['main']['en']['dates']['timeZoneNames']['metazone']
             metazone_info = data['supplemental']['metaZones']['metazoneInfo']['timezone']
+            metazone_minfo = data['supplemental']['metaZones']['metazones']
 
             with open(os.path.join(MODULE_PATH, "timezone", "_cldr_data.py"), 'wb') as f:
                 f.write(b"# coding=utf-8\n")
@@ -128,7 +130,7 @@ class Command(BaseCommand):
                 f.write(b"from __future__ import unicode_literals\n")
                 f.write(b"from django.utils.translation import ugettext_lazy as _\n\n")
 
-                f.write(b"METAZONE_MAPPING = {\n")
+                f.write(b"METAZONE_MAPPING_FROM_TZ = {\n")
                 # We build a map of timezones to metazones
                 for region_path in sorted(timezones):
                     # Get the metazone info
@@ -148,6 +150,14 @@ class Command(BaseCommand):
                         f.write(b'    "' + region_path.encode('utf8') + b'": "' + mzone.encode('utf8') + b'",\n')
 
                 f.write(b"}\n")
+
+                f.write(b"METAZONE_MAPPING_TO_TZ = {\n")
+                for minfo in metazone_minfo:
+                    mapzone = minfo['mapZone']
+                    f.write(b'    ("' + mapzone['_other'].encode('utf8') + b'", "' + mapzone['_territory'].encode('utf8') +
+                            b'"): "' + mapzone['_type'].encode('utf8') + b'",\n')
+                f.write(b"}\n")
+
                 f.write(b"TIMEZONE_NAMES = {\n")
                 # We now loop over all timezone names
                 for region_path, i in sorted(timezones.items()):
@@ -194,6 +204,21 @@ class Command(BaseCommand):
                         except KeyError:
                             translate(lc, name, '')
                 f.write(b"}\n")
+
+                f.write(b'TZ_REGION_FORMAT = _("' + tz_locale_data['regionFormat'].replace("{0}", "%s").encode('utf8') + b'")\n')
+                f.write(b'TZ_HOUR_FORMAT = _("' + tz_locale_data['hourFormat'].encode('utf8') + b'")\n')
+                f.write(b'TZ_GMT_FORMAT = _("' + tz_locale_data['gmtFormat'].replace("{0}", "%s").encode('utf8') + b'")\n')
+                for lc in LANGUAGES:
+                    try:
+                        ldata = data['main'][get_language(lc)]['dates']['timeZoneNames']
+                    except KeyError:
+                        translate(lc, tz_locale_data['regionFormat'].replace("{0}", "%s"), '')
+                        translate(lc, tz_locale_data['hourFormat'], '')
+                        translate(lc, tz_locale_data['gmtFormat'].replace("{0}", "%s"), '')
+                    else:
+                        translate(lc, tz_locale_data['regionFormat'].replace("{0}", "%s"), ldata['regionFormat'].replace("{0}", "%s"))
+                        translate(lc, tz_locale_data['hourFormat'], ldata['hourFormat'])
+                        translate(lc, tz_locale_data['gmtFormat'].replace("{0}", "%s"), ldata['gmtFormat'].replace("{0}", "%s"))
 
         except OSError as e:
             raise CommandError("Error while reading CLDR files: %s" % e)

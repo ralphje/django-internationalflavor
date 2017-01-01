@@ -34,7 +34,7 @@ class _compare_by_strcoll(object):
         raise TypeError('hash not implemented')
 
 
-def _compare_unicode(value):
+def _compare_locale_str(value):
     # In PY2, strxfrm does not support unicode encoded values, so we have to get creative.
     if not six.PY2:
         return locale.strxfrm(force_text(value))
@@ -42,12 +42,16 @@ def _compare_unicode(value):
         return _compare_by_strcoll(force_text(value))
 
 
+def _compare_str(value):
+    return _compare_locale_str(value)
+
+
 def _option_label_getter(item):
     # Sort optgroups above other items by putting them in a tuple
     if isinstance(item[1], (list, tuple)):
-        return 0, _compare_unicode(item[0])
+        return 0, _compare_str(item[0])
     else:
-        return 1, _compare_unicode(item[1])
+        return 1, _compare_str(item[1])
 
 
 class SortedSelect(forms.Select):
@@ -58,9 +62,9 @@ class SortedSelect(forms.Select):
         context = super(forms.Select, self).get_context(name, value, attrs)
         # we sort options in optgroups by their unicode comparison
         # we sort optgroups by sorting None below their unicode comparison (using a tuple for that)
-        context['widget']['optgroups'] = sorted([(a, sorted(choices, key=lambda o: _compare_unicode(o['label'])), c)
+        context['widget']['optgroups'] = sorted([(a, sorted(choices, key=lambda o: _compare_str(o['label'])), c)
                                                  for a, choices, c in context['widget']['optgroups']],
-                                                key=lambda og: (1, "") if og[0] is None else (0, _compare_unicode(og[0])))
+                                                key=lambda og: (1, "") if og[0] is None else (0, _compare_str(og[0])))
         return context
 
     def render_options(self, *args):

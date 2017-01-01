@@ -84,11 +84,11 @@ msgstr ""
 msgid "%(country)s is not a valid country code."
 msgstr ""
 
-#: timezone/models.py:27
+#: timezone/models.py:28
 msgid "A timezone"
 msgstr ""
 
-#: timezone/models.py:72
+#: timezone/models.py:73
 #, python-format
 msgid "Timezone %s is invalid"
 msgstr ""
@@ -97,6 +97,21 @@ msgstr ""
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
+msgstr ""
+
+#: timezone/models.py:145
+#, python-format
+msgid "Metazone %s is invalid"
+msgstr ""
+
+#: timezone/data.py:77
+#, python-format
+msgid "%(tz)s (%(cities)s)"
+msgstr ""
+
+#: timezone/data.py:108
+#, python-format
+msgid "%(offset)s %(tz)s (%(cities)s)"
 msgstr ""
 
 #~ msgid "Netherlands Antilles"

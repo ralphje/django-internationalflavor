@@ -88,11 +88,11 @@ msgstr "%(country)s is geen geldige landcode voor IBAN."
 msgid "%(country)s is not a valid country code."
 msgstr "%(country)s is een ongeldige landcode."
 
-#: timezone/models.py:27
+#: timezone/models.py:28
 msgid "A timezone"
 msgstr "Een tijdzone"
 
-#: timezone/models.py:72
+#: timezone/models.py:73
 #, python-format
 msgid "Timezone %s is invalid"
 msgstr "Tijdzone %s is ongeldig."
@@ -103,6 +103,16 @@ msgid ""
 "characters."
 msgstr ""
 "Dit btw-nummer begint niet met een landcode of bevat ongeldige karakters."
+
+#: timezone/data.py:77
+#, python-format
+msgid "%(tz)s (%(cities)s)"
+msgstr ""
+
+#: timezone/data.py:108
+#, python-format
+msgid "%(offset)s %(tz)s (%(cities)s)"
+msgstr ""
 
 #~ msgid "Netherlands Antilles"
 #~ msgstr ""
