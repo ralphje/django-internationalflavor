@@ -1,6 +1,31 @@
 from .data import NL_VOORVOEGSELS
 
 
+def _split_name_generic(name, long_first=False, **kwargs):
+    # If long_first is set, we prefer a longer first name
+    if long_first:
+        parts = name.rsplit(None, 1)
+    else:
+        parts = name.split(None, 1)
+    if len(parts) == 1:
+        return "", parts[0]
+    else:
+        return parts
+
+
+def _split_name_nl(name, **kwargs):
+    vvg_matches = [(" %s " % x.lower()) for x in NL_VOORVOEGSELS if (" %s " % x.lower()) in name.lower()]
+    if vvg_matches:
+        vvg_match = sorted(vvg_matches, key=lambda x: (len(x), -name.lower().index(x)))[-1]
+        vvg_match_idx = name.lower().index(vvg_match)
+        return (name[:vvg_match_idx],
+                name[vvg_match_idx + 1:vvg_match_idx + len(vvg_match) - 1],
+                name[vvg_match_idx + len(vvg_match):])
+    else:
+        result = _split_name_generic(name, **kwargs)
+        return result[0], "", result[1]
+
+
 def split_name(name, scheme=None, **kwargs):
     """Splits a name in several parts. Useful for when you are working with applications that store names in separate
     parts, and with applications that don't.
@@ -32,23 +57,9 @@ def split_name(name, scheme=None, **kwargs):
     """
 
     if scheme == "NL":
-        vvg_matches = [(" %s " % x.lower()) for x in NL_VOORVOEGSELS if (" %s " % x.lower()) in name.lower()]
-        if vvg_matches:
-            vvg_match = sorted(vvg_matches, key=lambda x: (len(x), -name.lower().index(x)))[-1]
-            vvg_match_idx = name.lower().index(vvg_match)
-            return (name[:vvg_match_idx],
-                    name[vvg_match_idx + 1:vvg_match_idx + len(vvg_match) - 1],
-                    name[vvg_match_idx + len(vvg_match):])
+        return _split_name_nl(name, **kwargs)
 
-    # If long_first is set, we prefer a longer first name
-    if 'long_first' in kwargs and kwargs['long_first']:
-        parts = name.rsplit(None, 1)
-    else:
-        parts = name.split(None, 1)
-    if len(parts) == 1:
-        return "", parts[0]
-    else:
-        return parts
+    return _split_name_generic(name, **kwargs)
 
 
 def join_name(*parts, scheme=None):
