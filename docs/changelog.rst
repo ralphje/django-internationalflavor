@@ -4,12 +4,15 @@ Changelog
 
 This file contains the changelog for the project.
 
-0.3.1 (unreleased)
+0.3.1 (2017-01-28)
 ==================
 * Fix Django 1.11 bug in the SortedSelect widget. This affects the sorting of optgroups for all versions, they are now
   always sorted above other choices.
 * Updated CLDR data from v29 to v30.0.3
+* ``timezone``: Add Metazone fields, but it is not sorted yet properly :).
 * ``vat_number``: Additional cleanup for CH VAT numbers and validation for RU VAT numbers
+* ``names``: Add two utilties for joining and splitting (parts of) names. It is best-effort, and not intended to be more
+  than that.
 
 0.3.0 (2016-08-20)
 ==================
