@@ -10,7 +10,7 @@ def _split_name_generic(name, long_first=False, **kwargs):
     if len(parts) == 1:
         return "", parts[0]
     else:
-        return parts
+        return tuple(parts)
 
 
 def _split_name_nl(name, **kwargs):

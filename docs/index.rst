@@ -20,6 +20,7 @@ Available data types
 
    countries
    iban
+   names
    timezone
    vat_number
    changelog
