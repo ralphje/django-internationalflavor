@@ -71,7 +71,7 @@ others: https://en.wikipedia.org/wiki/VAT_identification_number
 """
 
 EU_VAT_AREA = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
-               'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'RO', 'SE', 'SI', 'SK']
+               'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK']
 
 
 VAT_MIN_LENGTH = 4   # Romania seems to have the shortest
