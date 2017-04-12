@@ -12,8 +12,7 @@ env:
     - PIP_FIND_LINKS=file://$PIP_WHEEL_DIR
 matrix:
   include:
-    - python: 3.6
-      env: TOXENV=docs
+    - env: TOXENV=docs
     - python: 2.7
       env: TOXENV=py27-1.8
     - python: 2.7

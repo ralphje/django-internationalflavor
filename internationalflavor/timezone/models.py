@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import datetime
 from django.core.exceptions import ValidationError
 from django.db import models
-from django.utils.timezone import UTC
+from django.utils.timezone import utc
 from django.utils.translation import ugettext_lazy as _
 
 from internationalflavor.timezone.data import COMMON_TIMEZONES, CURRENT_METAZONES, \
@@ -64,7 +64,7 @@ class TimezoneField(models.CharField):
         elif isinstance(value, datetime.tzinfo):
             return value
         elif value in ('UTC', 'GMT'):
-            return UTC()
+            return utc
         elif pytz is not None:
             try:
                 return pytz.timezone(value)
@@ -135,7 +135,7 @@ class MetazoneField(models.CharField):
         elif isinstance(value, datetime.tzinfo):
             return value
         elif value in ('UTC', 'GMT'):  # GMT is also a metazone
-            return UTC()
+            return utc
         elif pytz is not None:
             # Find a metazone with this name and return a city for this metazone
             try:
