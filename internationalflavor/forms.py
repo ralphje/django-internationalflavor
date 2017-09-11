@@ -62,9 +62,12 @@ class SortedSelect(forms.Select):
         context = super(forms.Select, self).get_context(name, value, attrs)
         # we sort options in optgroups by their unicode comparison
         # we sort optgroups by sorting None below their unicode comparison (using a tuple for that)
+        # because optgroup None may occur more than once, we sort these by the label of the first item in the optgroup
         context['widget']['optgroups'] = sorted([(a, sorted(choices, key=lambda o: _compare_str(o['label'])), c)
                                                  for a, choices, c in context['widget']['optgroups']],
-                                                key=lambda og: (1, "") if og[0] is None else (0, _compare_str(og[0])))
+                                                key=lambda og: (1, _compare_str(og[1][0]['label']))
+                                                               if og[0] is None else
+                                                               (0, _compare_str(og[0])))
         return context
 
     def render_options(self, *args):
