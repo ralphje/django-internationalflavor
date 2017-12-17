@@ -40,6 +40,8 @@ def _get_tz_info(region_path, rest):
     if 'exemplarCity' in rest:
         city = rest['exemplarCity']
         return [(region_path, city)]
+    elif 'short' in rest:
+        return [(region_path, region_path[-1])]
     else:
         result = []
         for path, region in sorted(rest.items()):

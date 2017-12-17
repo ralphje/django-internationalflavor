@@ -19,26 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:9 timezone/_cldr_data.py:993
-#: timezone/_cldr_data.py:1072 timezone/_cldr_data.py:1073
-#: timezone/_cldr_data.py:1074 timezone/_cldr_data.py:1075
-#: timezone/_cldr_data.py:1076 timezone/_cldr_data.py:1077
-#: timezone/_cldr_data.py:1078 timezone/_cldr_data.py:1079
+#: countries/_cldr_data.py:9 timezone/_cldr_data.py:975
+#: timezone/_cldr_data.py:1058 timezone/_cldr_data.py:1059
+#: timezone/_cldr_data.py:1060 timezone/_cldr_data.py:1061
+#: timezone/_cldr_data.py:1062 timezone/_cldr_data.py:1063
+#: timezone/_cldr_data.py:1064 timezone/_cldr_data.py:1065
+#: timezone/_cldr_data.py:1066 timezone/_cldr_data.py:1067
 #: timezone/_cldr_data.py:1080 timezone/_cldr_data.py:1081
-#: timezone/_cldr_data.py:1094 timezone/_cldr_data.py:1095
-#: timezone/_cldr_data.py:1096 timezone/_cldr_data.py:1097
-#: timezone/_cldr_data.py:1098 timezone/_cldr_data.py:1099
-#: timezone/_cldr_data.py:1100 timezone/_cldr_data.py:1101
-#: timezone/_cldr_data.py:1102 timezone/_cldr_data.py:1103
-#: timezone/_cldr_data.py:1104 timezone/_cldr_data.py:1105
-#: timezone/_cldr_data.py:1106 timezone/_cldr_data.py:1107
-#: timezone/_cldr_data.py:1108 timezone/_cldr_data.py:1109
-#: timezone/_cldr_data.py:1110 timezone/_cldr_data.py:1111
-#: timezone/_cldr_data.py:1112 timezone/_cldr_data.py:1113
-#: timezone/_cldr_data.py:1114 timezone/_cldr_data.py:1115
-#: timezone/_cldr_data.py:1116 timezone/_cldr_data.py:1117
-#: timezone/_cldr_data.py:1118 timezone/_cldr_data.py:1119
-#: timezone/_cldr_data.py:1120 timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1142 timezone/_cldr_data.py:1143
+#: timezone/_cldr_data.py:1144 timezone/_cldr_data.py:1145
+#: timezone/_cldr_data.py:1146 timezone/_cldr_data.py:1147
+#: timezone/_cldr_data.py:1148 timezone/_cldr_data.py:1149
+#: timezone/_cldr_data.py:1150 timezone/_cldr_data.py:1151
+#: timezone/_cldr_data.py:1152 timezone/_cldr_data.py:1153
+#: timezone/_cldr_data.py:1154 timezone/_cldr_data.py:1155
+#: timezone/_cldr_data.py:1156 timezone/_cldr_data.py:1157
+#: timezone/_cldr_data.py:1158 timezone/_cldr_data.py:1159
+#: timezone/_cldr_data.py:1160 timezone/_cldr_data.py:1161
+#: timezone/_cldr_data.py:1162 timezone/_cldr_data.py:1163
+#: timezone/_cldr_data.py:1164 timezone/_cldr_data.py:1165
+#: timezone/_cldr_data.py:1166 timezone/_cldr_data.py:1167
+#: timezone/_cldr_data.py:1168 timezone/_cldr_data.py:1169
+#: timezone/_cldr_data.py:1170 timezone/_cldr_data.py:1171
+#: timezone/_cldr_data.py:1172 timezone/_cldr_data.py:1173
+#: timezone/_cldr_data.py:1174 timezone/_cldr_data.py:1175
+#: timezone/_cldr_data.py:1176 timezone/_cldr_data.py:1177
 #: timezone/_cldr_data.py:1178 timezone/_cldr_data.py:1179
 #: timezone/_cldr_data.py:1180 timezone/_cldr_data.py:1181
 #: timezone/_cldr_data.py:1182 timezone/_cldr_data.py:1183
@@ -46,55 +51,37 @@ msgstr ""
 #: timezone/_cldr_data.py:1186 timezone/_cldr_data.py:1187
 #: timezone/_cldr_data.py:1188 timezone/_cldr_data.py:1189
 #: timezone/_cldr_data.py:1190 timezone/_cldr_data.py:1191
-#: timezone/_cldr_data.py:1192 timezone/_cldr_data.py:1193
-#: timezone/_cldr_data.py:1194 timezone/_cldr_data.py:1195
-#: timezone/_cldr_data.py:1196 timezone/_cldr_data.py:1197
-#: timezone/_cldr_data.py:1198 timezone/_cldr_data.py:1199
-#: timezone/_cldr_data.py:1200 timezone/_cldr_data.py:1201
-#: timezone/_cldr_data.py:1202 timezone/_cldr_data.py:1203
-#: timezone/_cldr_data.py:1204 timezone/_cldr_data.py:1205
-#: timezone/_cldr_data.py:1206 timezone/_cldr_data.py:1207
-#: timezone/_cldr_data.py:1208 timezone/_cldr_data.py:1209
-#: timezone/_cldr_data.py:1210 timezone/_cldr_data.py:1211
-#: timezone/_cldr_data.py:1212 timezone/_cldr_data.py:1213
-#: timezone/_cldr_data.py:1214 timezone/_cldr_data.py:1215
-#: timezone/_cldr_data.py:1216 timezone/_cldr_data.py:1217
-#: timezone/_cldr_data.py:1218 timezone/_cldr_data.py:1219
-#: timezone/_cldr_data.py:1220 timezone/_cldr_data.py:1221
-#: timezone/_cldr_data.py:1222 timezone/_cldr_data.py:1223
-#: timezone/_cldr_data.py:1224 timezone/_cldr_data.py:1225
-#: timezone/_cldr_data.py:1226 timezone/_cldr_data.py:1227
 msgid "World"
 msgstr "ពិភពលោក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:10 timezone/_cldr_data.py:784
-#: timezone/_cldr_data.py:785 timezone/_cldr_data.py:786
-#: timezone/_cldr_data.py:787 timezone/_cldr_data.py:788
-#: timezone/_cldr_data.py:789 timezone/_cldr_data.py:790
-#: timezone/_cldr_data.py:791 timezone/_cldr_data.py:792
-#: timezone/_cldr_data.py:793 timezone/_cldr_data.py:794
-#: timezone/_cldr_data.py:795 timezone/_cldr_data.py:796
-#: timezone/_cldr_data.py:797 timezone/_cldr_data.py:798
-#: timezone/_cldr_data.py:799 timezone/_cldr_data.py:800
-#: timezone/_cldr_data.py:801 timezone/_cldr_data.py:802
-#: timezone/_cldr_data.py:803 timezone/_cldr_data.py:804
-#: timezone/_cldr_data.py:805 timezone/_cldr_data.py:806
-#: timezone/_cldr_data.py:807 timezone/_cldr_data.py:808
-#: timezone/_cldr_data.py:809 timezone/_cldr_data.py:810
-#: timezone/_cldr_data.py:811 timezone/_cldr_data.py:812
-#: timezone/_cldr_data.py:813 timezone/_cldr_data.py:814
-#: timezone/_cldr_data.py:815 timezone/_cldr_data.py:816
-#: timezone/_cldr_data.py:817 timezone/_cldr_data.py:818
-#: timezone/_cldr_data.py:819 timezone/_cldr_data.py:820
-#: timezone/_cldr_data.py:821 timezone/_cldr_data.py:822
-#: timezone/_cldr_data.py:823 timezone/_cldr_data.py:824
-#: timezone/_cldr_data.py:825 timezone/_cldr_data.py:826
-#: timezone/_cldr_data.py:827 timezone/_cldr_data.py:828
-#: timezone/_cldr_data.py:829 timezone/_cldr_data.py:830
-#: timezone/_cldr_data.py:831 timezone/_cldr_data.py:832
-#: timezone/_cldr_data.py:833 timezone/_cldr_data.py:834
-#: timezone/_cldr_data.py:835
+#: countries/_cldr_data.py:10 timezone/_cldr_data.py:765
+#: timezone/_cldr_data.py:766 timezone/_cldr_data.py:767
+#: timezone/_cldr_data.py:768 timezone/_cldr_data.py:769
+#: timezone/_cldr_data.py:770 timezone/_cldr_data.py:771
+#: timezone/_cldr_data.py:772 timezone/_cldr_data.py:773
+#: timezone/_cldr_data.py:774 timezone/_cldr_data.py:775
+#: timezone/_cldr_data.py:776 timezone/_cldr_data.py:777
+#: timezone/_cldr_data.py:778 timezone/_cldr_data.py:779
+#: timezone/_cldr_data.py:780 timezone/_cldr_data.py:781
+#: timezone/_cldr_data.py:782 timezone/_cldr_data.py:783
+#: timezone/_cldr_data.py:784 timezone/_cldr_data.py:785
+#: timezone/_cldr_data.py:786 timezone/_cldr_data.py:787
+#: timezone/_cldr_data.py:788 timezone/_cldr_data.py:789
+#: timezone/_cldr_data.py:790 timezone/_cldr_data.py:791
+#: timezone/_cldr_data.py:792 timezone/_cldr_data.py:793
+#: timezone/_cldr_data.py:794 timezone/_cldr_data.py:795
+#: timezone/_cldr_data.py:796 timezone/_cldr_data.py:797
+#: timezone/_cldr_data.py:798 timezone/_cldr_data.py:799
+#: timezone/_cldr_data.py:800 timezone/_cldr_data.py:801
+#: timezone/_cldr_data.py:802 timezone/_cldr_data.py:803
+#: timezone/_cldr_data.py:804 timezone/_cldr_data.py:805
+#: timezone/_cldr_data.py:806 timezone/_cldr_data.py:807
+#: timezone/_cldr_data.py:808 timezone/_cldr_data.py:809
+#: timezone/_cldr_data.py:810 timezone/_cldr_data.py:811
+#: timezone/_cldr_data.py:812 timezone/_cldr_data.py:813
+#: timezone/_cldr_data.py:814 timezone/_cldr_data.py:815
+#: timezone/_cldr_data.py:816
 msgid "Africa"
 msgstr "អាហ្វ្រិក"
 
@@ -109,13 +96,13 @@ msgid "South America"
 msgstr "អាមេរិក​ខាង​ត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:13 timezone/_cldr_data.py:1082
-#: timezone/_cldr_data.py:1083 timezone/_cldr_data.py:1084
-#: timezone/_cldr_data.py:1085 timezone/_cldr_data.py:1086
-#: timezone/_cldr_data.py:1087 timezone/_cldr_data.py:1088
-#: timezone/_cldr_data.py:1089 timezone/_cldr_data.py:1090
-#: timezone/_cldr_data.py:1091 timezone/_cldr_data.py:1092
-#: timezone/_cldr_data.py:1093
+#: countries/_cldr_data.py:13 timezone/_cldr_data.py:1068
+#: timezone/_cldr_data.py:1069 timezone/_cldr_data.py:1070
+#: timezone/_cldr_data.py:1071 timezone/_cldr_data.py:1072
+#: timezone/_cldr_data.py:1073 timezone/_cldr_data.py:1074
+#: timezone/_cldr_data.py:1075 timezone/_cldr_data.py:1076
+#: timezone/_cldr_data.py:1077 timezone/_cldr_data.py:1078
+#: timezone/_cldr_data.py:1079
 msgid "Oceania"
 msgstr "អូសេអានី"
 
@@ -150,80 +137,80 @@ msgid "Southern Africa"
 msgstr "អាហ្វ្រិកភាគខាងត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:20 timezone/_cldr_data.py:836
-#: timezone/_cldr_data.py:837 timezone/_cldr_data.py:838
-#: timezone/_cldr_data.py:839 timezone/_cldr_data.py:840
-#: timezone/_cldr_data.py:841 timezone/_cldr_data.py:842
-#: timezone/_cldr_data.py:843 timezone/_cldr_data.py:844
-#: timezone/_cldr_data.py:845 timezone/_cldr_data.py:846
-#: timezone/_cldr_data.py:847 timezone/_cldr_data.py:848
-#: timezone/_cldr_data.py:849 timezone/_cldr_data.py:850
-#: timezone/_cldr_data.py:851 timezone/_cldr_data.py:852
-#: timezone/_cldr_data.py:853 timezone/_cldr_data.py:854
-#: timezone/_cldr_data.py:855 timezone/_cldr_data.py:856
-#: timezone/_cldr_data.py:857 timezone/_cldr_data.py:858
-#: timezone/_cldr_data.py:859 timezone/_cldr_data.py:860
-#: timezone/_cldr_data.py:861 timezone/_cldr_data.py:862
-#: timezone/_cldr_data.py:863 timezone/_cldr_data.py:864
-#: timezone/_cldr_data.py:865 timezone/_cldr_data.py:866
-#: timezone/_cldr_data.py:867 timezone/_cldr_data.py:868
-#: timezone/_cldr_data.py:869 timezone/_cldr_data.py:870
-#: timezone/_cldr_data.py:871 timezone/_cldr_data.py:872
-#: timezone/_cldr_data.py:873 timezone/_cldr_data.py:874
-#: timezone/_cldr_data.py:875 timezone/_cldr_data.py:876
-#: timezone/_cldr_data.py:877 timezone/_cldr_data.py:878
-#: timezone/_cldr_data.py:879 timezone/_cldr_data.py:880
-#: timezone/_cldr_data.py:881 timezone/_cldr_data.py:882
-#: timezone/_cldr_data.py:883 timezone/_cldr_data.py:884
-#: timezone/_cldr_data.py:885 timezone/_cldr_data.py:886
-#: timezone/_cldr_data.py:887 timezone/_cldr_data.py:888
-#: timezone/_cldr_data.py:889 timezone/_cldr_data.py:890
-#: timezone/_cldr_data.py:891 timezone/_cldr_data.py:892
-#: timezone/_cldr_data.py:893 timezone/_cldr_data.py:894
-#: timezone/_cldr_data.py:895 timezone/_cldr_data.py:896
-#: timezone/_cldr_data.py:897 timezone/_cldr_data.py:898
-#: timezone/_cldr_data.py:899 timezone/_cldr_data.py:900
-#: timezone/_cldr_data.py:901 timezone/_cldr_data.py:902
-#: timezone/_cldr_data.py:903 timezone/_cldr_data.py:904
-#: timezone/_cldr_data.py:905 timezone/_cldr_data.py:906
-#: timezone/_cldr_data.py:907 timezone/_cldr_data.py:908
-#: timezone/_cldr_data.py:909 timezone/_cldr_data.py:910
-#: timezone/_cldr_data.py:911 timezone/_cldr_data.py:912
-#: timezone/_cldr_data.py:913 timezone/_cldr_data.py:914
-#: timezone/_cldr_data.py:915 timezone/_cldr_data.py:916
-#: timezone/_cldr_data.py:917 timezone/_cldr_data.py:918
-#: timezone/_cldr_data.py:919 timezone/_cldr_data.py:920
-#: timezone/_cldr_data.py:921 timezone/_cldr_data.py:922
-#: timezone/_cldr_data.py:923 timezone/_cldr_data.py:924
-#: timezone/_cldr_data.py:925 timezone/_cldr_data.py:926
-#: timezone/_cldr_data.py:927 timezone/_cldr_data.py:928
-#: timezone/_cldr_data.py:929 timezone/_cldr_data.py:930
-#: timezone/_cldr_data.py:931 timezone/_cldr_data.py:932
-#: timezone/_cldr_data.py:933 timezone/_cldr_data.py:934
-#: timezone/_cldr_data.py:935 timezone/_cldr_data.py:936
-#: timezone/_cldr_data.py:937 timezone/_cldr_data.py:938
-#: timezone/_cldr_data.py:939 timezone/_cldr_data.py:940
-#: timezone/_cldr_data.py:941 timezone/_cldr_data.py:942
-#: timezone/_cldr_data.py:943 timezone/_cldr_data.py:944
-#: timezone/_cldr_data.py:945 timezone/_cldr_data.py:946
-#: timezone/_cldr_data.py:947 timezone/_cldr_data.py:948
-#: timezone/_cldr_data.py:949 timezone/_cldr_data.py:950
-#: timezone/_cldr_data.py:951 timezone/_cldr_data.py:952
-#: timezone/_cldr_data.py:953 timezone/_cldr_data.py:954
-#: timezone/_cldr_data.py:955 timezone/_cldr_data.py:956
-#: timezone/_cldr_data.py:957 timezone/_cldr_data.py:958
-#: timezone/_cldr_data.py:959 timezone/_cldr_data.py:960
-#: timezone/_cldr_data.py:961 timezone/_cldr_data.py:962
-#: timezone/_cldr_data.py:963 timezone/_cldr_data.py:964
-#: timezone/_cldr_data.py:965 timezone/_cldr_data.py:966
-#: timezone/_cldr_data.py:967 timezone/_cldr_data.py:968
-#: timezone/_cldr_data.py:969 timezone/_cldr_data.py:970
-#: timezone/_cldr_data.py:971 timezone/_cldr_data.py:972
-#: timezone/_cldr_data.py:973 timezone/_cldr_data.py:974
-#: timezone/_cldr_data.py:975 timezone/_cldr_data.py:976
-#: timezone/_cldr_data.py:977 timezone/_cldr_data.py:978
-#: timezone/_cldr_data.py:979 timezone/_cldr_data.py:980
-#: timezone/_cldr_data.py:981
+#: countries/_cldr_data.py:20 timezone/_cldr_data.py:817
+#: timezone/_cldr_data.py:818 timezone/_cldr_data.py:819
+#: timezone/_cldr_data.py:820 timezone/_cldr_data.py:821
+#: timezone/_cldr_data.py:822 timezone/_cldr_data.py:823
+#: timezone/_cldr_data.py:824 timezone/_cldr_data.py:825
+#: timezone/_cldr_data.py:826 timezone/_cldr_data.py:827
+#: timezone/_cldr_data.py:828 timezone/_cldr_data.py:829
+#: timezone/_cldr_data.py:830 timezone/_cldr_data.py:831
+#: timezone/_cldr_data.py:832 timezone/_cldr_data.py:833
+#: timezone/_cldr_data.py:834 timezone/_cldr_data.py:835
+#: timezone/_cldr_data.py:836 timezone/_cldr_data.py:837
+#: timezone/_cldr_data.py:838 timezone/_cldr_data.py:839
+#: timezone/_cldr_data.py:840 timezone/_cldr_data.py:841
+#: timezone/_cldr_data.py:842 timezone/_cldr_data.py:843
+#: timezone/_cldr_data.py:844 timezone/_cldr_data.py:845
+#: timezone/_cldr_data.py:846 timezone/_cldr_data.py:847
+#: timezone/_cldr_data.py:848 timezone/_cldr_data.py:849
+#: timezone/_cldr_data.py:850 timezone/_cldr_data.py:851
+#: timezone/_cldr_data.py:852 timezone/_cldr_data.py:853
+#: timezone/_cldr_data.py:854 timezone/_cldr_data.py:855
+#: timezone/_cldr_data.py:856 timezone/_cldr_data.py:857
+#: timezone/_cldr_data.py:858 timezone/_cldr_data.py:859
+#: timezone/_cldr_data.py:860 timezone/_cldr_data.py:861
+#: timezone/_cldr_data.py:862 timezone/_cldr_data.py:863
+#: timezone/_cldr_data.py:864 timezone/_cldr_data.py:865
+#: timezone/_cldr_data.py:866 timezone/_cldr_data.py:867
+#: timezone/_cldr_data.py:868 timezone/_cldr_data.py:869
+#: timezone/_cldr_data.py:870 timezone/_cldr_data.py:871
+#: timezone/_cldr_data.py:872 timezone/_cldr_data.py:873
+#: timezone/_cldr_data.py:874 timezone/_cldr_data.py:875
+#: timezone/_cldr_data.py:876 timezone/_cldr_data.py:877
+#: timezone/_cldr_data.py:878 timezone/_cldr_data.py:879
+#: timezone/_cldr_data.py:880 timezone/_cldr_data.py:881
+#: timezone/_cldr_data.py:882 timezone/_cldr_data.py:883
+#: timezone/_cldr_data.py:884 timezone/_cldr_data.py:885
+#: timezone/_cldr_data.py:886 timezone/_cldr_data.py:887
+#: timezone/_cldr_data.py:888 timezone/_cldr_data.py:889
+#: timezone/_cldr_data.py:890 timezone/_cldr_data.py:891
+#: timezone/_cldr_data.py:892 timezone/_cldr_data.py:893
+#: timezone/_cldr_data.py:894 timezone/_cldr_data.py:895
+#: timezone/_cldr_data.py:896 timezone/_cldr_data.py:897
+#: timezone/_cldr_data.py:898 timezone/_cldr_data.py:899
+#: timezone/_cldr_data.py:900 timezone/_cldr_data.py:901
+#: timezone/_cldr_data.py:902 timezone/_cldr_data.py:903
+#: timezone/_cldr_data.py:904 timezone/_cldr_data.py:905
+#: timezone/_cldr_data.py:906 timezone/_cldr_data.py:907
+#: timezone/_cldr_data.py:908 timezone/_cldr_data.py:909
+#: timezone/_cldr_data.py:910 timezone/_cldr_data.py:911
+#: timezone/_cldr_data.py:912 timezone/_cldr_data.py:913
+#: timezone/_cldr_data.py:914 timezone/_cldr_data.py:915
+#: timezone/_cldr_data.py:916 timezone/_cldr_data.py:917
+#: timezone/_cldr_data.py:918 timezone/_cldr_data.py:919
+#: timezone/_cldr_data.py:920 timezone/_cldr_data.py:921
+#: timezone/_cldr_data.py:922 timezone/_cldr_data.py:923
+#: timezone/_cldr_data.py:924 timezone/_cldr_data.py:925
+#: timezone/_cldr_data.py:926 timezone/_cldr_data.py:927
+#: timezone/_cldr_data.py:928 timezone/_cldr_data.py:929
+#: timezone/_cldr_data.py:930 timezone/_cldr_data.py:931
+#: timezone/_cldr_data.py:932 timezone/_cldr_data.py:933
+#: timezone/_cldr_data.py:934 timezone/_cldr_data.py:935
+#: timezone/_cldr_data.py:936 timezone/_cldr_data.py:937
+#: timezone/_cldr_data.py:938 timezone/_cldr_data.py:939
+#: timezone/_cldr_data.py:940 timezone/_cldr_data.py:941
+#: timezone/_cldr_data.py:942 timezone/_cldr_data.py:943
+#: timezone/_cldr_data.py:944 timezone/_cldr_data.py:945
+#: timezone/_cldr_data.py:946 timezone/_cldr_data.py:947
+#: timezone/_cldr_data.py:948 timezone/_cldr_data.py:949
+#: timezone/_cldr_data.py:950 timezone/_cldr_data.py:951
+#: timezone/_cldr_data.py:952 timezone/_cldr_data.py:953
+#: timezone/_cldr_data.py:954 timezone/_cldr_data.py:955
+#: timezone/_cldr_data.py:956 timezone/_cldr_data.py:957
+#: timezone/_cldr_data.py:958 timezone/_cldr_data.py:959
+#: timezone/_cldr_data.py:960 timezone/_cldr_data.py:961
+#: timezone/_cldr_data.py:962 timezone/_cldr_data.py:963
 msgid "Americas"
 msgstr "អាមេរិក"
 
@@ -278,7 +265,16 @@ msgid "Polynesia"
 msgstr "ប៉ូលីណេស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:31 timezone/_cldr_data.py:994
+#: countries/_cldr_data.py:31 timezone/_cldr_data.py:976
+#: timezone/_cldr_data.py:977 timezone/_cldr_data.py:978
+#: timezone/_cldr_data.py:979 timezone/_cldr_data.py:980
+#: timezone/_cldr_data.py:981 timezone/_cldr_data.py:982
+#: timezone/_cldr_data.py:983 timezone/_cldr_data.py:984
+#: timezone/_cldr_data.py:985 timezone/_cldr_data.py:986
+#: timezone/_cldr_data.py:987 timezone/_cldr_data.py:988
+#: timezone/_cldr_data.py:989 timezone/_cldr_data.py:990
+#: timezone/_cldr_data.py:991 timezone/_cldr_data.py:992
+#: timezone/_cldr_data.py:993 timezone/_cldr_data.py:994
 #: timezone/_cldr_data.py:995 timezone/_cldr_data.py:996
 #: timezone/_cldr_data.py:997 timezone/_cldr_data.py:998
 #: timezone/_cldr_data.py:999 timezone/_cldr_data.py:1000
@@ -310,14 +306,7 @@ msgstr "ប៉ូលីណេស៊ី"
 #: timezone/_cldr_data.py:1051 timezone/_cldr_data.py:1052
 #: timezone/_cldr_data.py:1053 timezone/_cldr_data.py:1054
 #: timezone/_cldr_data.py:1055 timezone/_cldr_data.py:1056
-#: timezone/_cldr_data.py:1057 timezone/_cldr_data.py:1058
-#: timezone/_cldr_data.py:1059 timezone/_cldr_data.py:1060
-#: timezone/_cldr_data.py:1061 timezone/_cldr_data.py:1062
-#: timezone/_cldr_data.py:1063 timezone/_cldr_data.py:1064
-#: timezone/_cldr_data.py:1065 timezone/_cldr_data.py:1066
-#: timezone/_cldr_data.py:1067 timezone/_cldr_data.py:1068
-#: timezone/_cldr_data.py:1069 timezone/_cldr_data.py:1070
-#: timezone/_cldr_data.py:1071
+#: timezone/_cldr_data.py:1057
 msgid "Asia"
 msgstr "អាស៊ី"
 
@@ -332,7 +321,27 @@ msgid "Western Asia"
 msgstr "អាស៊ី​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:34 timezone/_cldr_data.py:1122
+#: countries/_cldr_data.py:34 timezone/_cldr_data.py:1082
+#: timezone/_cldr_data.py:1083 timezone/_cldr_data.py:1084
+#: timezone/_cldr_data.py:1085 timezone/_cldr_data.py:1086
+#: timezone/_cldr_data.py:1087 timezone/_cldr_data.py:1088
+#: timezone/_cldr_data.py:1089 timezone/_cldr_data.py:1090
+#: timezone/_cldr_data.py:1091 timezone/_cldr_data.py:1092
+#: timezone/_cldr_data.py:1093 timezone/_cldr_data.py:1094
+#: timezone/_cldr_data.py:1095 timezone/_cldr_data.py:1096
+#: timezone/_cldr_data.py:1097 timezone/_cldr_data.py:1098
+#: timezone/_cldr_data.py:1099 timezone/_cldr_data.py:1100
+#: timezone/_cldr_data.py:1101 timezone/_cldr_data.py:1102
+#: timezone/_cldr_data.py:1103 timezone/_cldr_data.py:1104
+#: timezone/_cldr_data.py:1105 timezone/_cldr_data.py:1106
+#: timezone/_cldr_data.py:1107 timezone/_cldr_data.py:1108
+#: timezone/_cldr_data.py:1109 timezone/_cldr_data.py:1110
+#: timezone/_cldr_data.py:1111 timezone/_cldr_data.py:1112
+#: timezone/_cldr_data.py:1113 timezone/_cldr_data.py:1114
+#: timezone/_cldr_data.py:1115 timezone/_cldr_data.py:1116
+#: timezone/_cldr_data.py:1117 timezone/_cldr_data.py:1118
+#: timezone/_cldr_data.py:1119 timezone/_cldr_data.py:1120
+#: timezone/_cldr_data.py:1121 timezone/_cldr_data.py:1122
 #: timezone/_cldr_data.py:1123 timezone/_cldr_data.py:1124
 #: timezone/_cldr_data.py:1125 timezone/_cldr_data.py:1126
 #: timezone/_cldr_data.py:1127 timezone/_cldr_data.py:1128
@@ -342,25 +351,7 @@ msgstr "អាស៊ី​ខាង​លិច"
 #: timezone/_cldr_data.py:1135 timezone/_cldr_data.py:1136
 #: timezone/_cldr_data.py:1137 timezone/_cldr_data.py:1138
 #: timezone/_cldr_data.py:1139 timezone/_cldr_data.py:1140
-#: timezone/_cldr_data.py:1141 timezone/_cldr_data.py:1142
-#: timezone/_cldr_data.py:1143 timezone/_cldr_data.py:1144
-#: timezone/_cldr_data.py:1145 timezone/_cldr_data.py:1146
-#: timezone/_cldr_data.py:1147 timezone/_cldr_data.py:1148
-#: timezone/_cldr_data.py:1149 timezone/_cldr_data.py:1150
-#: timezone/_cldr_data.py:1151 timezone/_cldr_data.py:1152
-#: timezone/_cldr_data.py:1153 timezone/_cldr_data.py:1154
-#: timezone/_cldr_data.py:1155 timezone/_cldr_data.py:1156
-#: timezone/_cldr_data.py:1157 timezone/_cldr_data.py:1158
-#: timezone/_cldr_data.py:1159 timezone/_cldr_data.py:1160
-#: timezone/_cldr_data.py:1161 timezone/_cldr_data.py:1162
-#: timezone/_cldr_data.py:1163 timezone/_cldr_data.py:1164
-#: timezone/_cldr_data.py:1165 timezone/_cldr_data.py:1166
-#: timezone/_cldr_data.py:1167 timezone/_cldr_data.py:1168
-#: timezone/_cldr_data.py:1169 timezone/_cldr_data.py:1170
-#: timezone/_cldr_data.py:1171 timezone/_cldr_data.py:1172
-#: timezone/_cldr_data.py:1173 timezone/_cldr_data.py:1174
-#: timezone/_cldr_data.py:1175 timezone/_cldr_data.py:1176
-#: timezone/_cldr_data.py:1177
+#: timezone/_cldr_data.py:1141
 msgid "Europe"
 msgstr "អឺរ៉ុប"
 
@@ -381,1306 +372,1324 @@ msgstr "អឺរ៉ុប​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:38
+#| msgid "Southern Africa"
+msgid "Sub-Saharan Africa"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:39
 msgid "Latin America"
 msgstr "អាមេរិក​ឡាទីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:39
+#: countries/_cldr_data.py:40
 msgid "Ascension Island"
 msgstr "កោះ​អាសេនសិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:40 timezone/_cldr_data.py:1123
+#: countries/_cldr_data.py:41 timezone/_cldr_data.py:1083
 msgid "Andorra"
 msgstr "អង់ដូរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:41
+#: countries/_cldr_data.py:42
 msgid "United Arab Emirates"
-msgstr "អារ៉ាប់រួម"
+msgstr "អេមីរ៉ាត​អារ៉ាប់​រួម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:42
+#: countries/_cldr_data.py:43
 msgid "Afghanistan"
 msgstr "អាហ្វហ្គានីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:43
+#: countries/_cldr_data.py:44
 msgid "Antigua & Barbuda"
-msgstr "អង់ទីគ័រ និង​បាបុយដា"
+msgstr "អង់ទីហ្គា និង បាប៊ុយដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:44 timezone/_cldr_data.py:838
+#: countries/_cldr_data.py:45 timezone/_cldr_data.py:819
 msgid "Anguilla"
-msgstr "អង់កូឡា"
+msgstr "អង់ហ្គីឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:45
+#: countries/_cldr_data.py:46
 msgid "Albania"
 msgstr "អាល់បានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:46
+#: countries/_cldr_data.py:47
 msgid "Armenia"
-msgstr "អារមេនី"
+msgstr "អាមេនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:47
+#: countries/_cldr_data.py:48
 msgid "Angola"
 msgstr "អង់ហ្គោឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:48 timezone/_cldr_data.py:982
-#: timezone/_cldr_data.py:983 timezone/_cldr_data.py:984
-#: timezone/_cldr_data.py:985 timezone/_cldr_data.py:986
-#: timezone/_cldr_data.py:987 timezone/_cldr_data.py:988
-#: timezone/_cldr_data.py:989 timezone/_cldr_data.py:990
-#: timezone/_cldr_data.py:991 timezone/_cldr_data.py:992
+#: countries/_cldr_data.py:49 timezone/_cldr_data.py:964
+#: timezone/_cldr_data.py:965 timezone/_cldr_data.py:966
+#: timezone/_cldr_data.py:967 timezone/_cldr_data.py:968
+#: timezone/_cldr_data.py:969 timezone/_cldr_data.py:970
+#: timezone/_cldr_data.py:971 timezone/_cldr_data.py:972
+#: timezone/_cldr_data.py:973 timezone/_cldr_data.py:974
 msgid "Antarctica"
 msgstr "អង់តាក់ទិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:49
+#: countries/_cldr_data.py:50
 msgid "Argentina"
 msgstr "អាហ្សង់ទីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:50
+#: countries/_cldr_data.py:51
 msgid "American Samoa"
-msgstr "សាម៉ូអាអាមេរិក"
+msgstr "សាម័រ អាមេរិកាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:51
+#: countries/_cldr_data.py:52
 msgid "Austria"
 msgstr "អូទ្រីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:52
+#: countries/_cldr_data.py:53
 msgid "Australia"
 msgstr "អូស្ត្រាលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:53 timezone/_cldr_data.py:848
+#: countries/_cldr_data.py:54 timezone/_cldr_data.py:829
 msgid "Aruba"
 msgstr "អារូបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:54
-msgid "Åland Islands"
-msgstr "កោះ​អាឡាំង"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:55
-msgid "Azerbaijan"
-msgstr "អាហ៊្សែរបែហ្សង់"
+msgid "Åland Islands"
+msgstr "កោះ​អាឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:56
+msgid "Azerbaijan"
+msgstr "អាស៊ែបៃហ្សង់"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:57
 msgid "Bosnia & Herzegovina"
 msgstr "បូស្នី និងហឺហ្សីហ្គូវីណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:57 timezone/_cldr_data.py:852
+#: countries/_cldr_data.py:58 timezone/_cldr_data.py:833
 msgid "Barbados"
-msgstr "បារបាដូស"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:58
-msgid "Bangladesh"
-msgstr "បង់ក្លាដេស្ហ"
+msgstr "បាបាដុស"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:59
-msgid "Belgium"
-msgstr "បែលហ្ស៉ិក"
+msgid "Bangladesh"
+msgstr "បង់ក្លាដែស"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:60
-msgid "Burkina Faso"
-msgstr "ប៊ូរគីណាហ្វាសូ"
+msgid "Belgium"
+msgstr "បែលហ្ស៊ិក"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:61
+msgid "Burkina Faso"
+msgstr "បួគីណាហ្វាសូ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:62
 msgid "Bulgaria"
 msgstr "ប៊ុលហ្គារី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:62 timezone/_cldr_data.py:1002
+#: countries/_cldr_data.py:63 timezone/_cldr_data.py:985
 msgid "Bahrain"
 msgstr "បារ៉ែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:63
+#: countries/_cldr_data.py:64
 msgid "Burundi"
 msgstr "ប៊ូរុនឌី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:64
+#: countries/_cldr_data.py:65
 msgid "Benin"
 msgstr "បេណាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:65 timezone/_cldr_data.py:964
+#: countries/_cldr_data.py:66 timezone/_cldr_data.py:946
 msgid "St. Barthélemy"
-msgstr "សង់ បាតេឡេម៉ី"
+msgstr "សាំង​បាថេឡេមី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:66 timezone/_cldr_data.py:1073
+#: countries/_cldr_data.py:67 timezone/_cldr_data.py:1059
 msgid "Bermuda"
 msgstr "ប៊ឺមុយដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:67 timezone/_cldr_data.py:1007
+#: countries/_cldr_data.py:68 timezone/_cldr_data.py:991
 msgid "Brunei"
-msgstr "ប្រ៊ុយណេ"
+msgstr "ព្រុយណេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:68
+#: countries/_cldr_data.py:69
 msgid "Bolivia"
 msgstr "បូលីវី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:69
+#: countries/_cldr_data.py:70
 msgid "Caribbean Netherlands"
-msgstr "ហុល្លង់ ការ៉ាប៊ីន"
+msgstr "ហូឡង់ ការ៉ាប៊ីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:70
+#: countries/_cldr_data.py:71
 msgid "Brazil"
 msgstr "ប្រេស៊ីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:71
+#: countries/_cldr_data.py:72
 msgid "Bahamas"
 msgstr "បាហាម៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:72
+#: countries/_cldr_data.py:73
 msgid "Bhutan"
-msgstr "ប៊ូតាន"
+msgstr "ប៊ូតង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:73
+#: countries/_cldr_data.py:74
 msgid "Bouvet Island"
 msgstr "កោះ​ប៊ូវ៉េត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:74
+#: countries/_cldr_data.py:75
 msgid "Botswana"
 msgstr "បុតស្វាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:75
+#: countries/_cldr_data.py:76
 msgid "Belarus"
-msgstr "បេឡារុស្ស"
+msgstr "បេឡារុស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:76 timezone/_cldr_data.py:854
+#: countries/_cldr_data.py:77 timezone/_cldr_data.py:835
 msgid "Belize"
-msgstr "បេលីហ្ស"
+msgstr "បេលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:77
+#: countries/_cldr_data.py:78
 msgid "Canada"
 msgstr "កាណាដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:78
+#: countries/_cldr_data.py:79
 msgid "Cocos (Keeling) Islands"
-msgstr "កោះ​កូកូស"
+msgstr "កោះ​កូកូស (គីលីង)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:79
+#: countries/_cldr_data.py:80
 msgid "Congo - Kinshasa"
 msgstr "កុងហ្គោ- គីនស្ហាសា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:80
+#: countries/_cldr_data.py:81
 msgid "Central African Republic"
 msgstr "សាធារណរដ្ឋអាហ្វ្រិកកណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:81
+#: countries/_cldr_data.py:82
 msgid "Congo - Brazzaville"
 msgstr "កុងហ្គោ - ប្រាហ្សាវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:82
+#: countries/_cldr_data.py:83
 msgid "Switzerland"
 msgstr "ស្វីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:83
+#: countries/_cldr_data.py:84
 msgid "Côte d’Ivoire"
-msgstr "កូដឌីវ័រ"
+msgstr "កូតឌីវ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:84
+#: countries/_cldr_data.py:85
 msgid "Cook Islands"
 msgstr "កោះ​ខូក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:85
+#: countries/_cldr_data.py:86
 msgid "Chile"
 msgstr "ស៊ីលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:86
+#: countries/_cldr_data.py:87
 msgid "Cameroon"
 msgstr "កាមេរូន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:87
+#: countries/_cldr_data.py:88
 msgid "China"
 msgstr "ចិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:88
+#: countries/_cldr_data.py:89
 msgid "Colombia"
 msgstr "កូឡុំប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:89
+#: countries/_cldr_data.py:90
 msgid "Clipperton Island"
 msgstr "កោះ​ឃ្លីភឺតុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:90 timezone/_cldr_data.py:871
+#: countries/_cldr_data.py:91 timezone/_cldr_data.py:852
 msgid "Costa Rica"
 msgstr "កូស្តារីកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:91
+#: countries/_cldr_data.py:92
 msgid "Cuba"
 msgstr "គុយបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:92 timezone/_cldr_data.py:1075
+#: countries/_cldr_data.py:93 timezone/_cldr_data.py:1061
 msgid "Cape Verde"
-msgstr "កាបវែរ"
+msgstr "កាប់វែរ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:93 timezone/_cldr_data.py:874
+#: countries/_cldr_data.py:94 timezone/_cldr_data.py:855
 msgid "Curaçao"
 msgstr "កូរ៉ាកៅ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:94
+#: countries/_cldr_data.py:95
 msgid "Christmas Island"
 msgstr "កោះ​គ្រីស្មាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:95
-msgid "Cyprus"
-msgstr "ស៊ីពរ៍"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:96
-msgid "Czech Republic"
-msgstr "សាធារណរដ្ឋឆេក"
+msgid "Cyprus"
+msgstr "ស៊ីប"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:97
+msgid "Czechia"
+msgstr "ឆែគា"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:98
 msgid "Germany"
 msgstr "អាល្លឺម៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:98
+#: countries/_cldr_data.py:99
 msgid "Diego Garcia"
 msgstr "ឌៀហ្គោហ្គាស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:99 timezone/_cldr_data.py:802
+#: countries/_cldr_data.py:100 timezone/_cldr_data.py:783
 msgid "Djibouti"
-msgstr "ហ្ស៊ីបូទី"
+msgstr "ជីប៊ូទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:100
+#: countries/_cldr_data.py:101
 msgid "Denmark"
 msgstr "ដាណឺម៉ាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:101 timezone/_cldr_data.py:880
+#: countries/_cldr_data.py:102 timezone/_cldr_data.py:861
 msgid "Dominica"
-msgstr "ដូមីនីកា"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:102
-msgid "Dominican Republic"
-msgstr "សាធារណរដ្ឋដូមីនីកែន"
+msgstr "ដូមីនីក"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:103
+msgid "Dominican Republic"
+msgstr "សាធារណរដ្ឋ​ដូមីនីក"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:104
 msgid "Algeria"
 msgstr "អាល់ហ្សេរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:104
+#: countries/_cldr_data.py:105
 msgid "Ceuta & Melilla"
 msgstr "ជឺតា និង​ម៉េលីឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:105
+#: countries/_cldr_data.py:106
 msgid "Ecuador"
-msgstr "អេក្វាឌ័រ"
+msgstr "អេក្វាទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:106
+#: countries/_cldr_data.py:107
 msgid "Estonia"
 msgstr "អេស្តូនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:107
+#: countries/_cldr_data.py:108
 msgid "Egypt"
 msgstr "អេហ្ស៊ីប"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:108
+#: countries/_cldr_data.py:109
 msgid "Western Sahara"
 msgstr "សាហារ៉ាខាងលិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:109
+#: countries/_cldr_data.py:110
 msgid "Eritrea"
-msgstr "អេរីទ្រា"
+msgstr "អេរីត្រេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:110
+#: countries/_cldr_data.py:111
 msgid "Spain"
 msgstr "អេស្ប៉ាញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:111
+#: countries/_cldr_data.py:112
 msgid "Ethiopia"
 msgstr "អេត្យូពី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:112
+#: countries/_cldr_data.py:113
 msgid "European Union"
 msgstr "សហភាព​អឺរ៉ុប"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:113
+#: countries/_cldr_data.py:114
+#| msgid "Europe"
+msgid "Eurozone"
+msgstr "តំបន់ចាយលុយអឺរ៉ូ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:115
 msgid "Finland"
 msgstr "ហ្វាំងឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:114 timezone/_cldr_data.py:1197
+#: countries/_cldr_data.py:116 timezone/_cldr_data.py:1161
 msgid "Fiji"
 msgstr "ហ្វីជី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:115
+#: countries/_cldr_data.py:117
 msgid "Falkland Islands"
 msgstr "កោះ​ហ្វក់ឡែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:116
+#: countries/_cldr_data.py:118
 msgid "Micronesia"
-msgstr "មីក្រូនេស៊ី"
+msgstr "មីក្រូណេស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:117
+#: countries/_cldr_data.py:119
 msgid "Faroe Islands"
 msgstr "កោះ​ហ្វារ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:118
+#: countries/_cldr_data.py:120
 msgid "France"
 msgstr "បារាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:119
+#: countries/_cldr_data.py:121
 msgid "Gabon"
 msgstr "ហ្គាបុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:120
+#: countries/_cldr_data.py:122
 msgid "United Kingdom"
 msgstr "ចក្រភព​អង់គ្លេស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:121 timezone/_cldr_data.py:890
+#: countries/_cldr_data.py:123 timezone/_cldr_data.py:871
 msgid "Grenada"
-msgstr "ហ្គ្រីណាដា"
+msgstr "ហ្គ្រើណាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:122
+#: countries/_cldr_data.py:124
 msgid "Georgia"
-msgstr "ហ្សកហ្ស៉ី"
+msgstr "ហ្សកហ្ស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:123
+#: countries/_cldr_data.py:125
 msgid "French Guiana"
-msgstr "ហ្គៀណាបារាំង"
+msgstr "ហ្គីអាណា បារាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:124 timezone/_cldr_data.py:1136
+#: countries/_cldr_data.py:126 timezone/_cldr_data.py:1097
 msgid "Guernsey"
 msgstr "ហ្គេនស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:125
+#: countries/_cldr_data.py:127
 msgid "Ghana"
 msgstr "ហ្គាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:126 timezone/_cldr_data.py:1135
+#: countries/_cldr_data.py:128 timezone/_cldr_data.py:1096
 msgid "Gibraltar"
-msgstr "ហ្គីប្រាលតា"
+msgstr "ហ្ស៊ីប្រាល់តា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:127
+#: countries/_cldr_data.py:129
 msgid "Greenland"
 msgstr "ហ្គ្រោអង់ឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:128
+#: countries/_cldr_data.py:130
 msgid "Gambia"
-msgstr "ហ្គាំប៊ី"
+msgstr "ហ្គំប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:129
+#: countries/_cldr_data.py:131
 msgid "Guinea"
 msgstr "ហ្គីណេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:130 timezone/_cldr_data.py:891
+#: countries/_cldr_data.py:132 timezone/_cldr_data.py:872
 msgid "Guadeloupe"
 msgstr "ហ្គោដឺឡុប"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:131
+#: countries/_cldr_data.py:133
 msgid "Equatorial Guinea"
 msgstr "ហ្គីណេអេក្វាទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:132
+#: countries/_cldr_data.py:134
 msgid "Greece"
-msgstr "ក្រិច"
+msgstr "ក្រិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:133
+#: countries/_cldr_data.py:135
 msgid "South Georgia & South Sandwich Islands"
-msgstr "កោះ​ហ្សកហ្ស៊ី​ខាង​ត្បូង និង​សាន់វិច​ខាង​ត្បូង"
+msgstr "កោះ​ហ្សកហ្ស៊ី​ខាងត្បូង និង សង់វិច​ខាងត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:134 timezone/_cldr_data.py:892
+#: countries/_cldr_data.py:136 timezone/_cldr_data.py:873
 msgid "Guatemala"
-msgstr "ហ្គាតេម៉ាឡា"
+msgstr "ក្វាតេម៉ាឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:135 timezone/_cldr_data.py:1202
+#: countries/_cldr_data.py:137 timezone/_cldr_data.py:1166
 msgid "Guam"
 msgstr "ហ្គាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:136
+#: countries/_cldr_data.py:138
 msgid "Guinea-Bissau"
-msgstr "ហ្គីណេប៊ីសូ"
+msgstr "ហ្គីណេប៊ីស្សូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:137 timezone/_cldr_data.py:894
+#: countries/_cldr_data.py:139 timezone/_cldr_data.py:875
 msgid "Guyana"
-msgstr "ហ្គីយ៉ាណា"
+msgstr "ហ្គីយ៉ាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:138 timezone/_cldr_data.py:1019
+#: countries/_cldr_data.py:140 timezone/_cldr_data.py:1004
 msgid "Hong Kong"
-msgstr "ហុងកុង"
+msgstr "ហុងកុង តំបន់រដ្ឋបាលពិសេសចិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:139
+#: countries/_cldr_data.py:141
 msgid "Heard & McDonald Islands"
 msgstr "កោះ​ហឺដ និង​ម៉ាក់ដូណាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:140
-msgid "Honduras"
-msgstr "ហុងឌួរ៉ាស់"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:141
-msgid "Croatia"
-msgstr "ក្រូអាត"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:142
+msgid "Honduras"
+msgstr "ហុងឌូរ៉ាស"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:143
+msgid "Croatia"
+msgstr "ក្រូអាស៊ី"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:144
 msgid "Haiti"
 msgstr "ហៃទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:143
+#: countries/_cldr_data.py:145
 msgid "Hungary"
 msgstr "ហុងគ្រី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:144
+#: countries/_cldr_data.py:146
 msgid "Canary Islands"
 msgstr "កោះ​កាណារី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:145
+#: countries/_cldr_data.py:147
 msgid "Indonesia"
 msgstr "ឥណ្ឌូណេស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:146
+#: countries/_cldr_data.py:148
 msgid "Ireland"
 msgstr "អៀរឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:147
+#: countries/_cldr_data.py:149
 msgid "Israel"
 msgstr "អ៊ីស្រាអែល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:148 timezone/_cldr_data.py:1138
+#: countries/_cldr_data.py:150 timezone/_cldr_data.py:1099
 msgid "Isle of Man"
 msgstr "អែលអុហ្វមែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:149
+#: countries/_cldr_data.py:151
 msgid "India"
 msgstr "ឥណ្ឌា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:150
+#: countries/_cldr_data.py:152
 msgid "British Indian Ocean Territory"
-msgstr "ដែន​មហា​សមុទ្រ​ឥណ្ឌា ចក្រភព​អង់គ្លេស"
+msgstr "ដែនដី​អង់គ្លេស​នៅ​មហា​សមុទ្រ​ឥណ្ឌា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:151
+#: countries/_cldr_data.py:153
 msgid "Iraq"
 msgstr "អ៊ីរ៉ាក់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:152
+#: countries/_cldr_data.py:154
 msgid "Iran"
 msgstr "អ៊ីរ៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:153
+#: countries/_cldr_data.py:155
 msgid "Iceland"
 msgstr "អ៊ីស្លង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:154
+#: countries/_cldr_data.py:156
 msgid "Italy"
 msgstr "អ៊ីតាលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:155 timezone/_cldr_data.py:1140
+#: countries/_cldr_data.py:157 timezone/_cldr_data.py:1101
 msgid "Jersey"
 msgstr "ជឺស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:156 timezone/_cldr_data.py:908
+#: countries/_cldr_data.py:158 timezone/_cldr_data.py:889
 msgid "Jamaica"
-msgstr "ចាម៉ៃកា"
+msgstr "ហ្សាម៉ាអ៊ីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:157
+#: countries/_cldr_data.py:159
 msgid "Jordan"
 msgstr "ហ៊្សកដានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:158
+#: countries/_cldr_data.py:160
 msgid "Japan"
 msgstr "ជប៉ុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:159
+#: countries/_cldr_data.py:161
 msgid "Kenya"
 msgstr "កេនយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:160
+#: countries/_cldr_data.py:162
 msgid "Kyrgyzstan"
-msgstr "គៀរហ្គីស្តង់"
+msgstr "កៀហ្ស៊ីស៊ីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:161
+#: countries/_cldr_data.py:163
 msgid "Cambodia"
 msgstr "កម្ពុជា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:162
-msgid "Kiribati"
-msgstr "គិរិបាទី"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:163
-msgid "Comoros"
-msgstr "កុំម៉ូរ៉ូស"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:164
-msgid "St. Kitts & Nevis"
-msgstr "សង់ឃីត និង​ណេវីស"
+msgid "Kiribati"
+msgstr "គិរីបាទី"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:165
+msgid "Comoros"
+msgstr "កូម័រ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:166
+msgid "St. Kitts & Nevis"
+msgstr "សាំង​គីត និង ណេវីស"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:167
 msgid "North Korea"
 msgstr "កូរ៉េ​ខាង​ជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:166
+#: countries/_cldr_data.py:168
 msgid "South Korea"
 msgstr "កូរ៉េ​ខាង​ត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:167 timezone/_cldr_data.py:1033
+#: countries/_cldr_data.py:169 timezone/_cldr_data.py:1018
 msgid "Kuwait"
-msgstr "គុយវ៉ែត"
+msgstr "កូវ៉ែត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:168
+#: countries/_cldr_data.py:170
 msgid "Cayman Islands"
 msgstr "កោះ​កៃម៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:169
+#: countries/_cldr_data.py:171
 msgid "Kazakhstan"
-msgstr "កាហ្សាក់ស្តង់់"
+msgstr "កាហ្សាក់ស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:170
+#: countries/_cldr_data.py:172
 msgid "Laos"
 msgstr "ឡាវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:171
+#: countries/_cldr_data.py:173
 msgid "Lebanon"
 msgstr "លីបង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:172 timezone/_cldr_data.py:967
+#: countries/_cldr_data.py:174 timezone/_cldr_data.py:949
 msgid "St. Lucia"
-msgstr "សង់​លូសៀ"
+msgstr "សាំងលូស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:173
+#: countries/_cldr_data.py:175
 msgid "Liechtenstein"
-msgstr "លិចទេនស្តែន"
+msgstr "លិចតិនស្ដាញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:174
+#: countries/_cldr_data.py:176
 msgid "Sri Lanka"
 msgstr "ស្រីលង្កា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:175
+#: countries/_cldr_data.py:177
 msgid "Liberia"
 msgstr "លីបេរីយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:176
+#: countries/_cldr_data.py:178
 msgid "Lesotho"
-msgstr "លើសូតូ"
+msgstr "ឡេសូតូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:177
+#: countries/_cldr_data.py:179
 msgid "Lithuania"
 msgstr "លីទុយអានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:178 timezone/_cldr_data.py:1146
+#: countries/_cldr_data.py:180 timezone/_cldr_data.py:1108
 msgid "Luxembourg"
-msgstr "លុចហ្សំបួរ"
+msgstr "លុចសំបួ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:179
+#: countries/_cldr_data.py:181
 msgid "Latvia"
-msgstr "ឡាតវីយ៉ា"
+msgstr "ឡេតូនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:180
+#: countries/_cldr_data.py:182
 msgid "Libya"
 msgstr "លីប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:181
+#: countries/_cldr_data.py:183
 msgid "Morocco"
 msgstr "ម៉ារ៉ុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:182 timezone/_cldr_data.py:1151
+#: countries/_cldr_data.py:184 timezone/_cldr_data.py:1113
 msgid "Monaco"
 msgstr "ម៉ូណាកូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:183
+#: countries/_cldr_data.py:185
 msgid "Moldova"
-msgstr "សាធារណរដ្ឋម៉ុលដាវី"
+msgstr "ម៉ុលដាវី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:184
+#: countries/_cldr_data.py:186
 msgid "Montenegro"
 msgstr "ម៉ុងតេណេហ្គ្រោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:185
-msgid "St. Martin"
-msgstr "សង់​ម៉ាទីន"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:186
-msgid "Madagascar"
-msgstr "ម៉ាដាហ្កាស្ការ"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:187
+msgid "St. Martin"
+msgstr "សាំង​ម៉ាទីន"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:188
+msgid "Madagascar"
+msgstr "ម៉ាដាហ្គាស្កា"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:189
 msgid "Marshall Islands"
 msgstr "កោះ​ម៉ាស់សល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:188
+#: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "ម៉ាសេដូនា"
+msgstr "ម៉ាសេដ្វាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:189
+#: countries/_cldr_data.py:191
 msgid "Mali"
 msgstr "ម៉ាលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:190
+#: countries/_cldr_data.py:192
 msgid "Myanmar (Burma)"
 msgstr "មីយ៉ាន់ម៉ា (ភូមា)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:191
+#: countries/_cldr_data.py:193
 msgid "Mongolia"
 msgstr "ម៉ុងហ្គោលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:192 timezone/_cldr_data.py:1034
+#: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
 msgstr "ម៉ាកាវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:193
+#: countries/_cldr_data.py:195
 msgid "Northern Mariana Islands"
 msgstr "កោះ​ម៉ារីណា​ខាង​ជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:194 timezone/_cldr_data.py:922
+#: countries/_cldr_data.py:196 timezone/_cldr_data.py:903
 msgid "Martinique"
 msgstr "ម៉ាទីនីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:195
+#: countries/_cldr_data.py:197
 msgid "Mauritania"
 msgstr "ម៉ូរីតានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:196 timezone/_cldr_data.py:934
+#: countries/_cldr_data.py:198 timezone/_cldr_data.py:915
 msgid "Montserrat"
-msgstr "ម៉ុង​សេរ៉ង់"
+msgstr "ម៉ុងស៊ែរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:197 timezone/_cldr_data.py:1148
+#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1110
 msgid "Malta"
-msgstr "ម៉ាល់តា"
+msgstr "ម៉ាល់ត៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:198 timezone/_cldr_data.py:1186
+#: countries/_cldr_data.py:200 timezone/_cldr_data.py:1150
 msgid "Mauritius"
-msgstr "ម៉ូរីទុស"
+msgstr "ម៉ូរីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1185
+#: countries/_cldr_data.py:201 timezone/_cldr_data.py:1149
 msgid "Maldives"
 msgstr "ម៉ាល់ឌីវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:200
+#: countries/_cldr_data.py:202
 msgid "Malawi"
 msgstr "ម៉ាឡាវី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:201
+#: countries/_cldr_data.py:203
 msgid "Mexico"
-msgstr "ម៉ិចសិក"
+msgstr "ម៉ិកស៊ិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:202
+#: countries/_cldr_data.py:204
 msgid "Malaysia"
 msgstr "ម៉ាឡេស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:203
+#: countries/_cldr_data.py:205
 msgid "Mozambique"
-msgstr "ម៉ូហ្សាំប៊ិក"
+msgstr "ម៉ូសំប៊ិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:204
+#: countries/_cldr_data.py:206
 msgid "Namibia"
 msgstr "ណាមីប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:205
-msgid "New Caledonia"
-msgstr "ញូកាឡេដូនៀ"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:206
-msgid "Niger"
-msgstr "នីហ្សេរ"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:207
+msgid "New Caledonia"
+msgstr "នូវែល​កាឡេដូនី"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:208
+msgid "Niger"
+msgstr "នីហ្សេ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:209
 msgid "Norfolk Island"
 msgstr "កោះ​ណ័រហ្វក់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:208
+#: countries/_cldr_data.py:210
 msgid "Nigeria"
 msgstr "នីហ្សេរីយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:209
-msgid "Nicaragua"
-msgstr "នីការ៉ាហ្គ័រ"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:210
-msgid "Netherlands"
-msgstr "ហុល្លង់"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:211
+msgid "Nicaragua"
+msgstr "នីការ៉ាហ្គា"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:212
+msgid "Netherlands"
+msgstr "ហូឡង់"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:213
 msgid "Norway"
 msgstr "ន័រវែស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:212
+#: countries/_cldr_data.py:214
 msgid "Nepal"
 msgstr "នេប៉ាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:213 timezone/_cldr_data.py:1211
+#: countries/_cldr_data.py:215 timezone/_cldr_data.py:1175
 msgid "Nauru"
 msgstr "ណូរូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:214 timezone/_cldr_data.py:1212
+#: countries/_cldr_data.py:216 timezone/_cldr_data.py:1176
 msgid "Niue"
 msgstr "ណៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:215
+#: countries/_cldr_data.py:217
 msgid "New Zealand"
-msgstr "នូវែលហ្សេឡង់"
+msgstr "នូវែល​សេឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:216
+#: countries/_cldr_data.py:218
 msgid "Oman"
 msgstr "អូម៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:217 timezone/_cldr_data.py:944
+#: countries/_cldr_data.py:219 timezone/_cldr_data.py:925
 msgid "Panama"
 msgstr "ប៉ាណាម៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:218
+#: countries/_cldr_data.py:220
 msgid "Peru"
 msgstr "ប៉េរូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:219
+#: countries/_cldr_data.py:221
 msgid "French Polynesia"
 msgstr "ប៉ូលី​ណេស៊ី​បារាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:220
+#: countries/_cldr_data.py:222
 msgid "Papua New Guinea"
-msgstr "ប៉ាពួញ៉ូហ្គីណេ"
+msgstr "ប៉ាពូអាស៊ី​នូវែលហ្គីណេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:221
+#: countries/_cldr_data.py:223
 msgid "Philippines"
 msgstr "ហ្វីលីពីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:222
+#: countries/_cldr_data.py:224
 msgid "Pakistan"
 msgstr "ប៉ាគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:223
+#: countries/_cldr_data.py:225
 msgid "Poland"
 msgstr "ប៉ូឡូញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:224
+#: countries/_cldr_data.py:226
 msgid "St. Pierre & Miquelon"
 msgstr "សង់ព្យែរ និង​មីគីឡុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:225
+#: countries/_cldr_data.py:227
 msgid "Pitcairn Islands"
-msgstr "កោះ​ភីតខារិន"
+msgstr "កោះ​ភីតកាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:226 timezone/_cldr_data.py:951
+#: countries/_cldr_data.py:228 timezone/_cldr_data.py:932
 msgid "Puerto Rico"
 msgstr "ព័រតូរីកូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:227
+#: countries/_cldr_data.py:229
 msgid "Palestine"
 msgstr "ប៉ាលេស្ទីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:228
+#: countries/_cldr_data.py:230
 msgid "Portugal"
-msgstr "ព័រទុយហ្កាល់"
+msgstr "ព័រទុយហ្គាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:229 timezone/_cldr_data.py:1216
+#: countries/_cldr_data.py:231 timezone/_cldr_data.py:1180
 msgid "Palau"
 msgstr "ផៅឡូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:230
+#: countries/_cldr_data.py:232
 msgid "Paraguay"
 msgstr "ប៉ារ៉ាហ្គាយ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:231 timezone/_cldr_data.py:1047
+#: countries/_cldr_data.py:233 timezone/_cldr_data.py:1032
 msgid "Qatar"
 msgstr "កាតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:232
+#: countries/_cldr_data.py:234
 msgid "Outlying Oceania"
 msgstr "តំបន់ជាយអូសេអានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:233 timezone/_cldr_data.py:1188
+#: countries/_cldr_data.py:235 timezone/_cldr_data.py:1152
 msgid "Réunion"
-msgstr "រ៉េអ៊ុយ៉ុង"
+msgstr "រេអុយញ៉ុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:234
+#: countries/_cldr_data.py:236
 msgid "Romania"
 msgstr "រូម៉ានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:235
+#: countries/_cldr_data.py:237
 msgid "Serbia"
-msgstr "ស៊ែប"
+msgstr "សែប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:236
+#: countries/_cldr_data.py:238
 msgid "Russia"
 msgstr "រុស្ស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:237
+#: countries/_cldr_data.py:239
 msgid "Rwanda"
 msgstr "រវ៉ាន់ដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:238
-msgid "Saudi Arabia"
-msgstr "អារ៉ាប៊ីសាអ៊ូឌីត"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:239
-msgid "Solomon Islands"
-msgstr "កោះ​ស៊ូឡូម៉ុង"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:240
-msgid "Seychelles"
-msgstr "សីសែល"
+msgid "Saudi Arabia"
+msgstr "អារ៉ាប៊ីសាអូឌីត"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:241
+msgid "Solomon Islands"
+msgstr "កោះ​សូឡូម៉ុង"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:242
+msgid "Seychelles"
+msgstr "សីស្ហែល"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:243
 msgid "Sudan"
 msgstr "ស៊ូដង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:242
+#: countries/_cldr_data.py:244
 msgid "Sweden"
-msgstr "ស៊ុយអែដ"
+msgstr "ស៊ុយអែត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:243 timezone/_cldr_data.py:1056
+#: countries/_cldr_data.py:245 timezone/_cldr_data.py:1041
 msgid "Singapore"
 msgstr "សិង្ហបុរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:244 timezone/_cldr_data.py:1080
+#: countries/_cldr_data.py:246 timezone/_cldr_data.py:1066
 msgid "St. Helena"
 msgstr "សង់​ហេឡេណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:245
+#: countries/_cldr_data.py:247
 msgid "Slovenia"
 msgstr "ស្លូវេនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:246
+#: countries/_cldr_data.py:248
 msgid "Svalbard & Jan Mayen"
-msgstr "ស្វាប៊ឺត និង​ហ្យង់ម៉ាយេន"
+msgstr "ស្វាលបាដ និង ហ្សង់ម៉ាយេន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:247
+#: countries/_cldr_data.py:249
 msgid "Slovakia"
 msgstr "ស្លូវ៉ាគី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:248
+#: countries/_cldr_data.py:250
 msgid "Sierra Leone"
-msgstr "សេរ៉ាឡេអូន"
+msgstr "សៀរ៉ាឡេអូន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:249 timezone/_cldr_data.py:1160
+#: countries/_cldr_data.py:251 timezone/_cldr_data.py:1122
 msgid "San Marino"
 msgstr "សាន​ម៉ារីណូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:250
+#: countries/_cldr_data.py:252
 msgid "Senegal"
-msgstr "សេនេហ្កាល់"
+msgstr "សេណេហ្គាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:251
+#: countries/_cldr_data.py:253
 msgid "Somalia"
 msgstr "សូម៉ាលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:252
+#: countries/_cldr_data.py:254
 msgid "Suriname"
 msgstr "សូរីណាម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:253
+#: countries/_cldr_data.py:255
 msgid "South Sudan"
 msgstr "ស៊ូដង់​ខាង​ត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:254
+#: countries/_cldr_data.py:256
 msgid "São Tomé & Príncipe"
-msgstr "សៅ​តូមេ និង​ព្រីនស៊ីប៉េ"
+msgstr "សៅតូម៉េ និង ប្រាំងស៊ីប"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:255 timezone/_cldr_data.py:883
+#: countries/_cldr_data.py:257 timezone/_cldr_data.py:864
 msgid "El Salvador"
 msgstr "អែលសាល់វ៉ាឌ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:256
+#: countries/_cldr_data.py:258
 msgid "Sint Maarten"
 msgstr "សីង​ម៉ាធីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:257
+#: countries/_cldr_data.py:259
 msgid "Syria"
 msgstr "ស៊ីរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:258
+#: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "ស្វាហ្ស៊ីឡង់"
+msgstr "ស្វាស៊ីឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:259
+#: countries/_cldr_data.py:261
 msgid "Tristan da Cunha"
 msgstr "ទ្រីស្តង់​ដា​ចូនហា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:260
+#: countries/_cldr_data.py:262
 msgid "Turks & Caicos Islands"
-msgstr "កោះ​កៃកូស និងទូក"
+msgstr "កោះ​ទួគ និង កៃកូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:261
+#: countries/_cldr_data.py:263
 msgid "Chad"
 msgstr "ឆាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:262
+#: countries/_cldr_data.py:264
 msgid "French Southern Territories"
-msgstr "ដែន​បារាំង​ខាង​ត្បូង"
+msgstr "ដែនដី​បារាំង​នៅ​ភាគខាងត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:263
+#: countries/_cldr_data.py:265
 msgid "Togo"
 msgstr "តូហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:264
+#: countries/_cldr_data.py:266
 msgid "Thailand"
 msgstr "ថៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:265
+#: countries/_cldr_data.py:267
 msgid "Tajikistan"
-msgstr "តាជីគីស្តង់"
+msgstr "តាហ្ស៊ីគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:266
+#: countries/_cldr_data.py:268
 msgid "Tokelau"
 msgstr "តូខេឡៅ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:267
-msgid "Timor-Leste"
-msgstr "ទីម័រ"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:268
-msgid "Turkmenistan"
-msgstr "ទួគមេនីស្តង់"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:269
-msgid "Tunisia"
-msgstr "ទុយនេស៊ី"
+msgid "Timor-Leste"
+msgstr "ទីម័រលីស"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:270
+msgid "Turkmenistan"
+msgstr "តួកម៉េនីស្ថាន"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:271
+msgid "Tunisia"
+msgstr "ទុយនីស៊ី"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:272
 msgid "Tonga"
 msgstr "តុងហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:271
+#: countries/_cldr_data.py:273
 msgid "Turkey"
-msgstr "ទួរគី"
+msgstr "តួកគី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:272
+#: countries/_cldr_data.py:274
 msgid "Trinidad & Tobago"
 msgstr "ទ្រីនីដាត និង​តូបាហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:273
+#: countries/_cldr_data.py:275
 msgid "Tuvalu"
 msgstr "ទូវ៉ាលូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:274
+#: countries/_cldr_data.py:276
 msgid "Taiwan"
 msgstr "តៃវ៉ាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:275
+#: countries/_cldr_data.py:277
 msgid "Tanzania"
-msgstr "តង់ហ្សានី"
+msgstr "តង់សានី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:276
+#: countries/_cldr_data.py:278
 msgid "Ukraine"
 msgstr "អ៊ុយក្រែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:277
+#: countries/_cldr_data.py:279
 msgid "Uganda"
-msgstr "អ៊ូហ្កង់ដា"
+msgstr "អ៊ូហ្គង់ដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:278
+#: countries/_cldr_data.py:280
 msgid "U.S. Outlying Islands"
 msgstr "កោះ​អៅឡាយីង​អាមេរិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:279
+#: countries/_cldr_data.py:281
+#| msgid "United States"
+msgid "United Nations"
+msgstr "អង្គការសហប្រជាជាតិ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:282
 msgid "United States"
 msgstr "សហរដ្ឋអាមេរិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:280
-msgid "Uruguay"
-msgstr "អ៊ុយរ៉ាហ្គាយ"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:281
-msgid "Uzbekistan"
-msgstr "អ៊ូហ្សបេគីស្តង់"
-
-#. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:282
-msgid "Vatican City"
-msgstr "ទីក្រុងវ៉ាទីកង់"
-
-#. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:283
-msgid "St. Vincent & Grenadines"
-msgstr "សាំង​វីនសេន និង​ឌឹ​ហ្គ្រីណាឌីនីស"
+msgid "Uruguay"
+msgstr "អ៊ុយរូហ្គាយ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:284
-msgid "Venezuela"
-msgstr "វេនេហ្ស៊ុយឡា"
+msgid "Uzbekistan"
+msgstr "អ៊ូសបេគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:285
+msgid "Vatican City"
+msgstr "បុរី​វ៉ាទីកង់"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:286
+msgid "St. Vincent & Grenadines"
+msgstr "សាំង​វ៉ាំងសង់ និង ហ្គ្រេណាឌីន"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:287
+msgid "Venezuela"
+msgstr "វ៉េណេស៊ុយអេឡា"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:288
 msgid "British Virgin Islands"
 msgstr "កោះ​វឺជិន​ចក្រភព​អង់គ្លេស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:286
+#: countries/_cldr_data.py:289
 msgid "U.S. Virgin Islands"
 msgstr "កោះ​វឺជីន​អាមេរិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:287
+#: countries/_cldr_data.py:290
 msgid "Vietnam"
 msgstr "វៀតណាម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:288
+#: countries/_cldr_data.py:291
 msgid "Vanuatu"
-msgstr "វ៉ានូអាទូ"
+msgstr "វ៉ានូទូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:289
+#: countries/_cldr_data.py:292
 msgid "Wallis & Futuna"
 msgstr "វ៉ាលីស និង​ហ្វូទូណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:290
+#: countries/_cldr_data.py:293
 msgid "Samoa"
-msgstr "សា​ម៉ូអា"
+msgstr "សាម័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:291
+#: countries/_cldr_data.py:294
 msgid "Kosovo"
 msgstr "កូសូវ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:292
+#: countries/_cldr_data.py:295
 msgid "Yemen"
-msgstr "យេមែន"
+msgstr "យេម៉ែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:293 timezone/_cldr_data.py:1187
+#: countries/_cldr_data.py:296 timezone/_cldr_data.py:1151
 msgid "Mayotte"
 msgstr "ម៉ាយុត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:294
+#: countries/_cldr_data.py:297
 msgid "South Africa"
 msgstr "អាហ្វ្រិកខាងត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:295
+#: countries/_cldr_data.py:298
 msgid "Zambia"
-msgstr "ហ្សាំប៊ី"
+msgstr "សំប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:296
+#: countries/_cldr_data.py:299
 msgid "Zimbabwe"
-msgstr "ហ្ស៊ីមបាវ៉េ"
+msgstr "ស៊ីមបាវ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:297
+#: countries/_cldr_data.py:300
 msgid "Unknown Region"
 msgstr "តំបន់មិនស្គាល់"
 
@@ -1731,2800 +1740,2730 @@ msgid "%(country)s is not a valid country code."
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:784
+#: timezone/_cldr_data.py:765
 msgid "Abidjan"
 msgstr "អាប៊ីដ្យាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:785
+#: timezone/_cldr_data.py:766
 msgid "Accra"
 msgstr "អាក្រា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:786
+#: timezone/_cldr_data.py:767
 msgid "Addis Ababa"
 msgstr "អាឌីសអាបេបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:787
+#: timezone/_cldr_data.py:768
 msgid "Algiers"
 msgstr "អាល់ហ្សេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:788
+#: timezone/_cldr_data.py:769
 msgid "Asmara"
 msgstr "អាស្មារ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:789
+#: timezone/_cldr_data.py:770
 msgid "Bamako"
 msgstr "បាម៉ាកូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:790
+#: timezone/_cldr_data.py:771
 msgid "Bangui"
 msgstr "បង់ហ្គី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:791
+#: timezone/_cldr_data.py:772
 msgid "Banjul"
 msgstr "បង់ហ្ស៊ុល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:792
+#: timezone/_cldr_data.py:773
 msgid "Bissau"
 msgstr "ប៊ីស្សូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:793
+#: timezone/_cldr_data.py:774
 msgid "Blantyre"
 msgstr "ប្លាំងទីរ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:794
+#: timezone/_cldr_data.py:775
 msgid "Brazzaville"
 msgstr "ប្រាស្ហាវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:795
+#: timezone/_cldr_data.py:776
 msgid "Bujumbura"
 msgstr "ប៊ូយ៉ាំប៊ូរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:796
+#: timezone/_cldr_data.py:777
 msgid "Cairo"
 msgstr "គែរ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:797
+#: timezone/_cldr_data.py:778
 msgid "Casablanca"
 msgstr "កាសាប្លាំងកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:798
+#: timezone/_cldr_data.py:779
 msgid "Ceuta"
 msgstr "ឈៀតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:799
+#: timezone/_cldr_data.py:780
 msgid "Conakry"
 msgstr "កូណាគ្រី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:800
+#: timezone/_cldr_data.py:781
 msgid "Dakar"
 msgstr "ដាកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:801
+#: timezone/_cldr_data.py:782
 msgid "Dar es Salaam"
 msgstr "ដាអ៊ីសាឡាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:803
+#: timezone/_cldr_data.py:784
 msgid "Douala"
 msgstr "ឌូអ៊ូឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:804
+#: timezone/_cldr_data.py:785
 msgid "El Aaiun"
 msgstr "អែល​អ៊ុយញៀន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:805
+#: timezone/_cldr_data.py:786
 msgid "Freetown"
 msgstr "ហ្វ្រីថោន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:806
+#: timezone/_cldr_data.py:787
 msgid "Gaborone"
 msgstr "ហ្គាបូរ៉ូន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:807
+#: timezone/_cldr_data.py:788
 msgid "Harare"
 msgstr "ហារ៉ារ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:808
+#: timezone/_cldr_data.py:789
 msgid "Johannesburg"
 msgstr "ជូហានណេប៊ឺហ្គ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:809
+#: timezone/_cldr_data.py:790
 msgid "Juba"
 msgstr "ជូបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:810
+#: timezone/_cldr_data.py:791
 msgid "Kampala"
 msgstr "កំប៉ាឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:811
+#: timezone/_cldr_data.py:792
 msgid "Khartoum"
 msgstr "ខាទុំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:812
+#: timezone/_cldr_data.py:793
 msgid "Kigali"
 msgstr "គីហ្គាលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:813
+#: timezone/_cldr_data.py:794
 msgid "Kinshasa"
 msgstr "គីនស្ហាសា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:814
+#: timezone/_cldr_data.py:795
 msgid "Lagos"
 msgstr "ឡាហ្គូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:815
+#: timezone/_cldr_data.py:796
 msgid "Libreville"
 msgstr "លីប្រីវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:816
+#: timezone/_cldr_data.py:797
 msgid "Lome"
 msgstr "ឡូម៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:817
+#: timezone/_cldr_data.py:798
 msgid "Luanda"
 msgstr "លូអង់ដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:818
+#: timezone/_cldr_data.py:799
 msgid "Lubumbashi"
 msgstr "លូប៊ុមបាស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:819
+#: timezone/_cldr_data.py:800
 msgid "Lusaka"
 msgstr "លូសាកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:820
+#: timezone/_cldr_data.py:801
 msgid "Malabo"
 msgstr "ម៉ាឡាបូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:821
+#: timezone/_cldr_data.py:802
 msgid "Maputo"
 msgstr "ម៉ាពុយតូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:822
+#: timezone/_cldr_data.py:803
 msgid "Maseru"
 msgstr "ម៉ាសេរុយ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:823
+#: timezone/_cldr_data.py:804
 msgid "Mbabane"
 msgstr "បាបាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:824
+#: timezone/_cldr_data.py:805
 msgid "Mogadishu"
 msgstr "ម៉ូហ្គាឌីស្យូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:825
+#: timezone/_cldr_data.py:806
 msgid "Monrovia"
 msgstr "ម៉ុងរ៉ូវីយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:826
+#: timezone/_cldr_data.py:807
 msgid "Nairobi"
 msgstr "ណៃរ៉ូប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:827
+#: timezone/_cldr_data.py:808
 msgid "Ndjamena"
 msgstr "ដ្យាមេណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:828
+#: timezone/_cldr_data.py:809
 msgid "Niamey"
 msgstr "នីញ៉ាម៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:829
+#: timezone/_cldr_data.py:810
 msgid "Nouakchott"
 msgstr "ណួកសុត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:830
+#: timezone/_cldr_data.py:811
 msgid "Ouagadougou"
 msgstr "អៅហ្គាឌូហ្គូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:831
+#: timezone/_cldr_data.py:812
 msgid "Porto-Novo"
 msgstr "ព័រតូណូវ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:832
+#: timezone/_cldr_data.py:813
 msgid "São Tomé"
-msgstr "សៅតុំ"
+msgstr "សៅតូម៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:833
+#: timezone/_cldr_data.py:814
 msgid "Tripoli"
 msgstr "ទ្រីប៉ូលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:834
+#: timezone/_cldr_data.py:815
 msgid "Tunis"
 msgstr "ទុយនីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:835
+#: timezone/_cldr_data.py:816
 msgid "Windhoek"
 msgstr "វីនដុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:836
+#: timezone/_cldr_data.py:817
 msgid "Adak"
 msgstr "អាដាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:837
+#: timezone/_cldr_data.py:818
 msgid "Anchorage"
 msgstr "អង់ចូរ៉ាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:839
+#: timezone/_cldr_data.py:820
 msgid "Antigua"
 msgstr "អង់ទីហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:840
+#: timezone/_cldr_data.py:821
 msgid "Araguaina"
 msgstr "អារ៉ាហ្គុយណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:841
+#: timezone/_cldr_data.py:822
 msgid "La Rioja"
-msgstr "ឡារ៉យ៉ា"
+msgstr "ឡារីយ៉ូហា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:842
+#: timezone/_cldr_data.py:823
 msgid "Rio Gallegos"
-msgstr "រ៉យហ្គាឡេហ្គូស"
+msgstr "រីយ៉ូហ្គាឡេហ្គូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:843
+#: timezone/_cldr_data.py:824
 msgid "Salta"
 msgstr "សាល់តា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:844
+#: timezone/_cldr_data.py:825
 msgid "San Juan"
 msgstr "សាំងហ្សង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:845
+#: timezone/_cldr_data.py:826
 msgid "San Luis"
-msgstr "សានលូអ៊ីស"
+msgstr "សាន់លូអ៊ីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:846
+#: timezone/_cldr_data.py:827
 msgid "Tucuman"
 msgstr "ទូគូម៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:847
+#: timezone/_cldr_data.py:828
 msgid "Ushuaia"
 msgstr "អ៊ុយសូអៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:849
+#: timezone/_cldr_data.py:830
 msgid "Asunción"
 msgstr "អាសង់ស្យុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:850
+#: timezone/_cldr_data.py:831
 msgid "Bahia"
 msgstr "បាហៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:851
+#: timezone/_cldr_data.py:832
 msgid "Bahia Banderas"
 msgstr "បាហៀបង់ដេរ៉ាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:853
+#: timezone/_cldr_data.py:834
 msgid "Belem"
 msgstr "បេឡឹម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:855
+#: timezone/_cldr_data.py:836
 msgid "Blanc-Sablon"
 msgstr "ប្លង់​សាប់ឡុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:856
+#: timezone/_cldr_data.py:837
 msgid "Boa Vista"
 msgstr "បៅ​វីស្តា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:857
+#: timezone/_cldr_data.py:838
 msgid "Bogota"
 msgstr "បូហ្គោតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:858
+#: timezone/_cldr_data.py:839
 msgid "Boise"
-msgstr "ប៊ូអ៊ីសេ"
+msgstr "ប៊ូស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:859
+#: timezone/_cldr_data.py:840
 msgid "Buenos Aires"
 msgstr "ប៊ុយណូស៊ែ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:860
+#: timezone/_cldr_data.py:841
 msgid "Cambridge Bay"
 msgstr "ខេមប្រីដបេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:861
+#: timezone/_cldr_data.py:842
 msgid "Campo Grande"
-msgstr "ខេមបូហ្គ្រានឌី"
+msgstr "ខេមប៉ូហ្គ្រង់​"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:862
+#: timezone/_cldr_data.py:843
 msgid "Cancun"
 msgstr "ខានខុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:863
+#: timezone/_cldr_data.py:844
 msgid "Caracas"
 msgstr "ការ៉ាកាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:864
+#: timezone/_cldr_data.py:845
 msgid "Catamarca"
 msgstr "កាតាម៉ាកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:865
+#: timezone/_cldr_data.py:846
 msgid "Cayenne"
-msgstr "ហ្គៃយ៉ាណេ"
+msgstr "កាយ៉េន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:866
+#: timezone/_cldr_data.py:847
 msgid "Cayman"
 msgstr "កៃមែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:867
+#: timezone/_cldr_data.py:848
 msgid "Chicago"
-msgstr "ស៊ីកាកូ"
+msgstr "ស៊ីកាហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:868
+#: timezone/_cldr_data.py:849
 msgid "Chihuahua"
 msgstr "ជីហួហួ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:869
+#: timezone/_cldr_data.py:850
 msgid "Atikokan"
 msgstr "អាទីកូកាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:870
+#: timezone/_cldr_data.py:851
 msgid "Cordoba"
 msgstr "កូដូបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:872
+#: timezone/_cldr_data.py:853
 msgid "Creston"
 msgstr "ក្រេស្តុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:873
+#: timezone/_cldr_data.py:854
 msgid "Cuiaba"
 msgstr "គុយអាបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:875
+#: timezone/_cldr_data.py:856
 msgid "Danmarkshavn"
-msgstr "ដែនម៉ាក់ស្ហាវិន"
+msgstr "ដានម៉ាកស្ហាវិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:876
+#: timezone/_cldr_data.py:857
 msgid "Dawson"
 msgstr "ដាវសុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:877
+#: timezone/_cldr_data.py:858
 msgid "Dawson Creek"
 msgstr "ដាវសុន​ក្រិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:878
+#: timezone/_cldr_data.py:859
 msgid "Denver"
 msgstr "ដែនវើ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:879
+#: timezone/_cldr_data.py:860
 msgid "Detroit"
 msgstr "ដេត្រូអ៊ីត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:881
+#: timezone/_cldr_data.py:862
 msgid "Edmonton"
 msgstr "អែតម៉ុងតុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:882
+#: timezone/_cldr_data.py:863
 msgid "Eirunepe"
 msgstr "អ៊ីរ៉ុយណេភី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:884
+#: timezone/_cldr_data.py:865
 msgid "Fort Nelson"
-msgstr "Fort Nelson"
+msgstr "ហ្វតណេលសាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:885
+#: timezone/_cldr_data.py:866
 msgid "Fortaleza"
 msgstr "ហ្វ័រតាឡេហ្សារ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:886
+#: timezone/_cldr_data.py:867
 msgid "Glace Bay"
 msgstr "ក្លាស​បេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:887
+#: timezone/_cldr_data.py:868
 msgid "Nuuk"
-msgstr "ហ្កូដតាអាប"
+msgstr "នូក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:888
+#: timezone/_cldr_data.py:869
 msgid "Goose Bay"
 msgstr "កូសេបេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:889
+#: timezone/_cldr_data.py:870
 msgid "Grand Turk"
 msgstr "ហ្គ្រេន​ទូក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:893
+#: timezone/_cldr_data.py:874
 msgid "Guayaquil"
-msgstr "ហ្គុយ៉ាហ្គីល"
+msgstr "ហ្គុយ៉ាគីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:895
+#: timezone/_cldr_data.py:876
 msgid "Halifax"
 msgstr "ហាលីហ្វាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:896
+#: timezone/_cldr_data.py:877
 msgid "Havana"
 msgstr "ឡាហាវ៉ាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:897
+#: timezone/_cldr_data.py:878
 msgid "Hermosillo"
 msgstr "ហ៊ែម៉ូស៊ីឡូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:898
+#: timezone/_cldr_data.py:879
 msgid "Knox, Indiana"
-msgstr "ណុក ឥណ្ឌា"
+msgstr "ណុក ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:899
+#: timezone/_cldr_data.py:880
 msgid "Marengo, Indiana"
-msgstr "ម៉ារេនកូ ឥណ្ឌា"
+msgstr "ម៉ារេនកូ ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:900
+#: timezone/_cldr_data.py:881
 msgid "Petersburg, Indiana"
-msgstr "ភីធើ​ប៊ឹក ឥណ្ឌា"
+msgstr "ភីធើ​ប៊ឹក ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:901
+#: timezone/_cldr_data.py:882
 msgid "Tell City, Indiana"
-msgstr "ថែល​ស៊ីធី ឥណ្ឌា"
+msgstr "ទីក្រុងថែល ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:902
+#: timezone/_cldr_data.py:883
 msgid "Vevay, Indiana"
-msgstr "វេវ៉ៃ ឥណ្ឌា"
+msgstr "វេវ៉ៃ ឥណ្ឌាយ៉ាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:903
+#: timezone/_cldr_data.py:884
 msgid "Vincennes, Indiana"
-msgstr "វិនសេណេស ឥណ្ឌា"
+msgstr "វិនសេណេស ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:904
+#: timezone/_cldr_data.py:885
 msgid "Winamac, Indiana"
-msgstr "វីណាម៉ាក់ ឥណ្ឌា"
+msgstr "វីណាម៉ាក់ ឥណ្ឌាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:905
+#: timezone/_cldr_data.py:886
 msgid "Indianapolis"
 msgstr "ឥណ្ឌាណាប៉ូលីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:906
+#: timezone/_cldr_data.py:887
 msgid "Inuvik"
 msgstr "អ៊ីនូវីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:907
+#: timezone/_cldr_data.py:888
 msgid "Iqaluit"
 msgstr "អ៊ីកាឡូអ៊ីត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:909
+#: timezone/_cldr_data.py:890
 msgid "Jujuy"
 msgstr "សូសុយ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:910
+#: timezone/_cldr_data.py:891
 msgid "Juneau"
 msgstr "ហ្យូនៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:911
+#: timezone/_cldr_data.py:892
 msgid "Monticello, Kentucky"
 msgstr "ម៉ងទីសេឡូ កេនទូគី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:912
+#: timezone/_cldr_data.py:893
 msgid "Kralendijk"
 msgstr "ក្រាលែនឌីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:913
+#: timezone/_cldr_data.py:894
 msgid "La Paz"
 msgstr "ឡាប៉ាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:914
+#: timezone/_cldr_data.py:895
 msgid "Lima"
 msgstr "លីម៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:915
+#: timezone/_cldr_data.py:896
 msgid "Los Angeles"
 msgstr "ឡូអង់ហ្គិឡេស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:916
+#: timezone/_cldr_data.py:897
 msgid "Louisville"
 msgstr "លូអ៊ីវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:917
+#: timezone/_cldr_data.py:898
 msgid "Lower Prince’s Quarter"
 msgstr "ឡូវើ​ព្រីន​ហ្គ័រទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:918
+#: timezone/_cldr_data.py:899
 msgid "Maceio"
 msgstr "ម៉ាកសេអូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:919
+#: timezone/_cldr_data.py:900
 msgid "Managua"
 msgstr "ម៉ាណាហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:920
+#: timezone/_cldr_data.py:901
 msgid "Manaus"
 msgstr "ម៉ាណាអ៊ូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:921
+#: timezone/_cldr_data.py:902
 msgid "Marigot"
 msgstr "ម៉ារីហ្គុត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:923
+#: timezone/_cldr_data.py:904
 msgid "Matamoros"
 msgstr "ម៉ាតាម៉ូរ៉ូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:924
+#: timezone/_cldr_data.py:905
 msgid "Mazatlan"
 msgstr "ម៉ាហ្សាតឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:925
+#: timezone/_cldr_data.py:906
 msgid "Mendoza"
 msgstr "ម៉ែនឌូហ្សា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:926
+#: timezone/_cldr_data.py:907
 msgid "Menominee"
 msgstr "ម៉េណូមីនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:927
+#: timezone/_cldr_data.py:908
 msgid "Merida"
 msgstr "ម៉េរីដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:928
+#: timezone/_cldr_data.py:909
 msgid "Metlakatla"
-msgstr "មេត្លា ឃែតឡា"
+msgstr "មេត្លា កាត្លា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:929
+#: timezone/_cldr_data.py:910
 msgid "Mexico City"
-msgstr "ម៉ិកស៊ីកូ​ស៊ីធី"
+msgstr "ទីក្រុងម៉ិចស៊ីកូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:930
+#: timezone/_cldr_data.py:911
 msgid "Miquelon"
 msgstr "មីហ្គីឡុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:931
+#: timezone/_cldr_data.py:912
 msgid "Moncton"
 msgstr "ម៉ុងតុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:932
+#: timezone/_cldr_data.py:913
 msgid "Monterrey"
 msgstr "ម៉ុនតេរ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:933
+#: timezone/_cldr_data.py:914
 msgid "Montevideo"
 msgstr "ម៉ុងតេវីដេអូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:935
+#: timezone/_cldr_data.py:916
 msgid "Nassau"
 msgstr "ណាស្សូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:936
+#: timezone/_cldr_data.py:917
 msgid "New York"
-msgstr "ញូយ៉ក"
+msgstr "ញូវយ៉ក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:937
+#: timezone/_cldr_data.py:918
 msgid "Nipigon"
 msgstr "នីពីកុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:938
+#: timezone/_cldr_data.py:919
 msgid "Nome"
 msgstr "ណូម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:939
+#: timezone/_cldr_data.py:920
 msgid "Noronha"
-msgstr "ណូរ៉ុនហា"
+msgstr "ណូរ៉ុនញ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:940
+#: timezone/_cldr_data.py:921
 msgid "Beulah, North Dakota"
-msgstr "ប៊ឺឡា ដាកូតា​ខាង​ត្បូង"
+msgstr "ប៊ឺឡា ដាកូតា​ខាងជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:941
+#: timezone/_cldr_data.py:922
 msgid "Center, North Dakota"
-msgstr "សីនធឺ ដាកូតា​ខាង​ជើង"
+msgstr "សិនធឺ ដាកូតា​ខាង​ជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:942
+#: timezone/_cldr_data.py:923
 msgid "New Salem, North Dakota"
-msgstr "ញូ​សាឡឹម ដាកូតា​ខាង​ជើង"
+msgstr "ញូវ​សាឡឹម ដាកូតា​ខាង​ជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:943
+#: timezone/_cldr_data.py:924
 msgid "Ojinaga"
 msgstr "អូជីណាហ្កា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:945
+#: timezone/_cldr_data.py:926
 msgid "Pangnirtung"
 msgstr "ប៉ាងនីទុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:946
+#: timezone/_cldr_data.py:927
 msgid "Paramaribo"
 msgstr "ប៉ារ៉ាម៉ារីបូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:947
+#: timezone/_cldr_data.py:928
 msgid "Phoenix"
 msgstr "ផូនីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:948
+#: timezone/_cldr_data.py:929
 msgid "Port-au-Prince"
-msgstr "ព័រអូប៉្រប៉ាំង"
+msgstr "ព័រអូប្រ៉ាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:949
+#: timezone/_cldr_data.py:930
 msgid "Port of Spain"
 msgstr "ព័រអេស្ប៉ាញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:950
+#: timezone/_cldr_data.py:931
 msgid "Porto Velho"
 msgstr "ព័រតូ​វិលហូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:952
+#: timezone/_cldr_data.py:933
+msgid "Punta Arenas"
+msgstr "Punta Arenas"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:934
 msgid "Rainy River"
 msgstr "រ៉េនីរីវើ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:953
+#: timezone/_cldr_data.py:935
 msgid "Rankin Inlet"
 msgstr "រ៉ាន់ឃីន​អ៊ីនឡិត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:954
+#: timezone/_cldr_data.py:936
 msgid "Recife"
 msgstr "រ៉េស៊ីហ្វី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:955
+#: timezone/_cldr_data.py:937
 msgid "Regina"
-msgstr "រ៉េកីណា"
+msgstr "រ៉េហ្គីណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:956
+#: timezone/_cldr_data.py:938
 msgid "Resolute"
 msgstr "រ៉េ​ស៊ូឡូត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:957
+#: timezone/_cldr_data.py:939
 msgid "Rio Branco"
-msgstr "រ៉ៃអូប្រានកូ"
+msgstr "រីយ៉ូប្រានកូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:958
+#: timezone/_cldr_data.py:940
 msgid "Santarem"
 msgstr "សាន់តារឹម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:959
+#: timezone/_cldr_data.py:941
 msgid "Santiago"
-msgstr "សាន់ត្យាហ្គោ"
+msgstr "សាន់ទីអេហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:960
+#: timezone/_cldr_data.py:942
 msgid "Santo Domingo"
 msgstr "សាន់ដូម៉ាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:961
+#: timezone/_cldr_data.py:943
 msgid "Sao Paulo"
 msgstr "សៅ​ប៉ូឡូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:962
+#: timezone/_cldr_data.py:944
 msgid "Ittoqqortoormiit"
-msgstr "ស្ករ៉េប៊ីសាន់"
+msgstr "អ៊ីតូគ័រតូមីត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:963
+#: timezone/_cldr_data.py:945
 msgid "Sitka"
 msgstr "ស៊ីតកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:965
+#: timezone/_cldr_data.py:947
 msgid "St. John’s"
 msgstr "សាំង​ចន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:966
+#: timezone/_cldr_data.py:948
 msgid "St. Kitts"
 msgstr "សាំង​ឃីត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:968
+#: timezone/_cldr_data.py:950
 msgid "St. Thomas"
 msgstr "សាំង​តូម៉ាស់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:969
+#: timezone/_cldr_data.py:951
 msgid "St. Vincent"
 msgstr "សាំង​វីនសេន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:970
+#: timezone/_cldr_data.py:952
 msgid "Swift Current"
 msgstr "ស្វីត​ខឺរិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:971
+#: timezone/_cldr_data.py:953
 msgid "Tegucigalpa"
 msgstr "តេហ្គូស៊ីហ្គាល់ប៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:972
+#: timezone/_cldr_data.py:954
 msgid "Thule"
 msgstr "ធុឡេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:973
+#: timezone/_cldr_data.py:955
 msgid "Thunder Bay"
 msgstr "សាន់ដឺ​បេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:974
+#: timezone/_cldr_data.py:956
 msgid "Tijuana"
 msgstr "ទីយ្យូអាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:975
+#: timezone/_cldr_data.py:957
 msgid "Toronto"
 msgstr "តូរ៉ុនតូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:976
+#: timezone/_cldr_data.py:958
 msgid "Tortola"
 msgstr "តូតូឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:977
+#: timezone/_cldr_data.py:959
 msgid "Vancouver"
 msgstr "វ៉ាន់កូវើ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:978
+#: timezone/_cldr_data.py:960
 msgid "Whitehorse"
-msgstr "វាយហស"
+msgstr "វ៉ាយហស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:979
+#: timezone/_cldr_data.py:961
 msgid "Winnipeg"
 msgstr "វីនីភិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:980
+#: timezone/_cldr_data.py:962
 msgid "Yakutat"
 msgstr "យ៉ាគូតាត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:981
+#: timezone/_cldr_data.py:963
 msgid "Yellowknife"
 msgstr "យេឡូណៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:982
+#: timezone/_cldr_data.py:964
 msgid "Casey"
 msgstr "កាសី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:983
+#: timezone/_cldr_data.py:965
 msgid "Davis"
 msgstr "ដាវីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:984
+#: timezone/_cldr_data.py:966
 msgid "Dumont d’Urville"
 msgstr "ឌុយម៉ុងដឺអ៊ុយវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:985
+#: timezone/_cldr_data.py:967
 msgid "Macquarie"
 msgstr "ម៉ាកខ្វារី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:986
+#: timezone/_cldr_data.py:968
 msgid "Mawson"
 msgstr "ម៉ៅសាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:987
+#: timezone/_cldr_data.py:969
 msgid "McMurdo"
 msgstr "ម៉ាក់មុយដូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:988
+#: timezone/_cldr_data.py:970
 msgid "Palmer"
 msgstr "ផាល់ម័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:989
+#: timezone/_cldr_data.py:971
 msgid "Rothera"
 msgstr "រ៉ូធីរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:990
+#: timezone/_cldr_data.py:972
 msgid "Syowa"
 msgstr "ស៊ីយ៉ូវ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:991
+#: timezone/_cldr_data.py:973
 msgid "Troll"
 msgstr "ត្រូល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:992
+#: timezone/_cldr_data.py:974
 msgid "Vostok"
 msgstr "វ៉ូស្តុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:993
+#: timezone/_cldr_data.py:975
 msgid "Longyearbyen"
 msgstr "ឡុង​យ៉ា​ប៊ីយេន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:994
+#: timezone/_cldr_data.py:976
 msgid "Aden"
 msgstr "អាដែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:995
+#: timezone/_cldr_data.py:977
 msgid "Almaty"
 msgstr "អាល់ម៉ាទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:996
+#: timezone/_cldr_data.py:978
 msgid "Amman"
 msgstr "អាម៉ាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:997
+#: timezone/_cldr_data.py:979
 msgid "Anadyr"
 msgstr "អាណាឌី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:998
+#: timezone/_cldr_data.py:980
 msgid "Aqtau"
 msgstr "អាកទូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:999
+#: timezone/_cldr_data.py:981
 msgid "Aqtobe"
 msgstr "អាកទូប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1000
+#: timezone/_cldr_data.py:982
 msgid "Ashgabat"
 msgstr "អាសហ្គាបាត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1001
+#: timezone/_cldr_data.py:983
+msgid "Atyrau"
+msgstr "Atyrau"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:984
 msgid "Baghdad"
 msgstr "បាកដាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1003
+#: timezone/_cldr_data.py:986
 msgid "Baku"
 msgstr "បាគូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1004
+#: timezone/_cldr_data.py:987
 msgid "Bangkok"
 msgstr "បាងកក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1005
+#: timezone/_cldr_data.py:988
+msgid "Barnaul"
+msgstr "បានូល"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:989
 msgid "Beirut"
 msgstr "បេរូត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1006
+#: timezone/_cldr_data.py:990
 msgid "Bishkek"
 msgstr "ប៊ីស្កេក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1008
+#: timezone/_cldr_data.py:992
 msgid "Kolkata"
 msgstr "កុលកាតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1009
+#: timezone/_cldr_data.py:993
 msgid "Chita"
 msgstr "ឈីតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1010
+#: timezone/_cldr_data.py:994
 msgid "Choibalsan"
 msgstr "ឈូបាល់សាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1011
+#: timezone/_cldr_data.py:995
 msgid "Colombo"
 msgstr "កូឡុំបូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1012
+#: timezone/_cldr_data.py:996
 msgid "Damascus"
 msgstr "ដាម៉ាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1013
+#: timezone/_cldr_data.py:997
 msgid "Dhaka"
 msgstr "ដាក្កា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1014
+#: timezone/_cldr_data.py:998
 msgid "Dili"
 msgstr "ដេលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1015
+#: timezone/_cldr_data.py:999
 msgid "Dubai"
 msgstr "ឌុយបៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1016
+#: timezone/_cldr_data.py:1000
 msgid "Dushanbe"
 msgstr "ឌូស្ហាន់បេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1017
+#: timezone/_cldr_data.py:1001
+msgid "Famagusta"
+msgstr "Famagusta"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1002
 msgid "Gaza"
 msgstr "កាសា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1018
+#: timezone/_cldr_data.py:1003
 msgid "Hebron"
-msgstr "ហេវ័ន"
+msgstr "ហេបរុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1020
+#: timezone/_cldr_data.py:1005
 msgid "Hovd"
 msgstr "ហូវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1021
+#: timezone/_cldr_data.py:1006
 msgid "Irkutsk"
-msgstr "អ៊ីឃឺត"
+msgstr "អៀរគុតស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1022
+#: timezone/_cldr_data.py:1007
 msgid "Jakarta"
 msgstr "ហ្សាការតា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1023
+#: timezone/_cldr_data.py:1008
 msgid "Jayapura"
 msgstr "ចាយ៉ាភូរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1024
+#: timezone/_cldr_data.py:1009
 msgid "Jerusalem"
 msgstr "ហ្ស៊េរុយសាឡិម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1025
+#: timezone/_cldr_data.py:1010
 msgid "Kabul"
 msgstr "កាប៊ុល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1026
+#: timezone/_cldr_data.py:1011
 msgid "Kamchatka"
 msgstr "កាំឆាតកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1027
+#: timezone/_cldr_data.py:1012
 msgid "Karachi"
 msgstr "ការ៉ាជី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1028
+#: timezone/_cldr_data.py:1013
 msgid "Kathmandu"
 msgstr "កាត់ម៉ាន់ឌូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1029
+#: timezone/_cldr_data.py:1014
 msgid "Khandyga"
 msgstr "ខាន់ឌីហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1030
+#: timezone/_cldr_data.py:1015
 msgid "Krasnoyarsk"
 msgstr "ក្រាសនុយ៉ាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1031
+#: timezone/_cldr_data.py:1016
 msgid "Kuala Lumpur"
 msgstr "កូឡាឡាំពួរ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1032
+#: timezone/_cldr_data.py:1017
 msgid "Kuching"
 msgstr "ឃឺតចីង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1035
+#: timezone/_cldr_data.py:1020
 msgid "Magadan"
 msgstr "ម៉ាហ្គាដាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1036
+#: timezone/_cldr_data.py:1021
 msgid "Makassar"
 msgstr "ម៉ាកាសសារ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1037
+#: timezone/_cldr_data.py:1022
 msgid "Manila"
 msgstr "ម៉ានីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1038
+#: timezone/_cldr_data.py:1023
 msgid "Muscat"
 msgstr "ម៉ាស្កាត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1039
+#: timezone/_cldr_data.py:1024
 msgid "Nicosia"
 msgstr "នីកូស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1040
+#: timezone/_cldr_data.py:1025
 msgid "Novokuznetsk"
-msgstr "ណូវ៉ូឃូសណេត"
+msgstr "ណូវ៉ូឃូសណេតស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1041
+#: timezone/_cldr_data.py:1026
 msgid "Novosibirsk"
 msgstr "ណូវ៉ូស៊ីប៊ឺក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1042
+#: timezone/_cldr_data.py:1027
 msgid "Omsk"
-msgstr "អ៊ូម"
+msgstr "អូមស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1043
+#: timezone/_cldr_data.py:1028
 msgid "Oral"
 msgstr "អូរ៉ាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1044
+#: timezone/_cldr_data.py:1029
 msgid "Phnom Penh"
 msgstr "ភ្នំពេញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1045
+#: timezone/_cldr_data.py:1030
 msgid "Pontianak"
 msgstr "ប៉ុនទីអាណាក់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1046
+#: timezone/_cldr_data.py:1031
 msgid "Pyongyang"
 msgstr "ព្យុងយ៉ាង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1048
+#: timezone/_cldr_data.py:1033
 msgid "Qyzylorda"
-msgstr "កីស៊ីឡូដា"
+msgstr "គីហ្ស៊ីឡូដា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1049
-msgid "Rangoon"
+#: timezone/_cldr_data.py:1034
+#| msgid "Rangoon"
+msgid "Yangon"
 msgstr "រ៉ង់ហ្គូន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1050
+#: timezone/_cldr_data.py:1035
 msgid "Riyadh"
 msgstr "រីយ៉ាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1051
+#: timezone/_cldr_data.py:1036
 msgid "Ho Chi Minh City"
 msgstr "ហូជីមីញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1052
+#: timezone/_cldr_data.py:1037
 msgid "Sakhalin"
 msgstr "សាខាលីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1053
+#: timezone/_cldr_data.py:1038
 msgid "Samarkand"
 msgstr "សាម៉ាកាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1054
+#: timezone/_cldr_data.py:1039
 msgid "Seoul"
 msgstr "សេអ៊ូល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1055
+#: timezone/_cldr_data.py:1040
 msgid "Shanghai"
 msgstr "សៀងហៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1057
+#: timezone/_cldr_data.py:1042
 msgid "Srednekolymsk"
 msgstr "ស្រីតនីកូលីម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1058
+#: timezone/_cldr_data.py:1043
 msgid "Taipei"
 msgstr "តៃប៉ិ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1059
+#: timezone/_cldr_data.py:1044
 msgid "Tashkent"
 msgstr "តាស្កិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1060
+#: timezone/_cldr_data.py:1045
 msgid "Tbilisi"
 msgstr "ប៊ីលីស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1061
+#: timezone/_cldr_data.py:1046
 msgid "Tehran"
-msgstr "តេអេរ៉ង់"
+msgstr "តេហេរ៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1062
+#: timezone/_cldr_data.py:1047
 msgid "Thimphu"
 msgstr "ធីមភូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1063
+#: timezone/_cldr_data.py:1048
 msgid "Tokyo"
 msgstr "តូក្យូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1064
+#: timezone/_cldr_data.py:1049
+msgid "Tomsk"
+msgstr "ថមស្កិ៍"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1050
 msgid "Ulaanbaatar"
 msgstr "អ៊ូឡង់បាទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1065
+#: timezone/_cldr_data.py:1051
 msgid "Urumqi"
 msgstr "អ៊ូរាំហ្គី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1066
+#: timezone/_cldr_data.py:1052
 msgid "Ust-Nera"
-msgstr "អ៊ូសណេរ៉ា"
+msgstr "អូស្តណេរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1067
+#: timezone/_cldr_data.py:1053
 msgid "Vientiane"
 msgstr "វៀងចន្ទន៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1068
+#: timezone/_cldr_data.py:1054
 msgid "Vladivostok"
-msgstr "វ័រលាដីវ៉ូស្តុក"
+msgstr "វ៉្លាដីវ៉ូស្តុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1069
+#: timezone/_cldr_data.py:1055
 msgid "Yakutsk"
-msgstr "យ៉ាកូត"
+msgstr "យ៉ាគុតស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1070
+#: timezone/_cldr_data.py:1056
 msgid "Yekaterinburg"
 msgstr "យ៉េកាធឺរិនប៊ើក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1071
+#: timezone/_cldr_data.py:1057
 msgid "Yerevan"
 msgstr "យ៉េរ៉េវ៉ាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1072
+#: timezone/_cldr_data.py:1058
 msgid "Azores"
 msgstr "អាសូរ៉េស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1074
+#: timezone/_cldr_data.py:1060
 msgid "Canary"
 msgstr "កាណារី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1076
+#: timezone/_cldr_data.py:1062
 msgid "Faroe"
 msgstr "ហ្វារ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1077
+#: timezone/_cldr_data.py:1063
 msgid "Madeira"
 msgstr "ម៉ាដៀរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1078
+#: timezone/_cldr_data.py:1064
 msgid "Reykjavik"
-msgstr "រីក្យាវីក"
+msgstr "រ៉ៃក្យាវិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1079
+#: timezone/_cldr_data.py:1065
 msgid "South Georgia"
 msgstr "ហ្សកហ្ស៊ី​ខាង​ត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1081
+#: timezone/_cldr_data.py:1067
 msgid "Stanley"
 msgstr "ស្តង់លី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1082
+#: timezone/_cldr_data.py:1068
 msgid "Adelaide"
-msgstr "អាឌីឡៃ"
+msgstr "អាដេឡែត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1083
+#: timezone/_cldr_data.py:1069
 msgid "Brisbane"
 msgstr "ប្រីសប៊ែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1084
+#: timezone/_cldr_data.py:1070
 msgid "Broken Hill"
 msgstr "ប្រូកខិនហីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1085
+#: timezone/_cldr_data.py:1071
 msgid "Currie"
 msgstr "ខូរៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1086
+#: timezone/_cldr_data.py:1072
 msgid "Darwin"
 msgstr "ដាវីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1087
+#: timezone/_cldr_data.py:1073
 msgid "Eucla"
 msgstr "អ៊ុយក្លា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1088
+#: timezone/_cldr_data.py:1074
 msgid "Hobart"
 msgstr "ហូបាត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1089
+#: timezone/_cldr_data.py:1075
 msgid "Lindeman"
 msgstr "លីនឌីម៉ែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1090
+#: timezone/_cldr_data.py:1076
 msgid "Lord Howe"
 msgstr "ឡតហូវ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1091
+#: timezone/_cldr_data.py:1077
 msgid "Melbourne"
 msgstr "ម៉េលប៊ន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1092
+#: timezone/_cldr_data.py:1078
 msgid "Perth"
 msgstr "ភឺធ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1093
+#: timezone/_cldr_data.py:1079
 msgid "Sydney"
 msgstr "ស៊ីដនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1094
-msgid "GMT"
-msgstr "GMT"
+#: timezone/_cldr_data.py:1080
+msgid "UTC"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1095
-msgid "GMT-1"
-msgstr "GMT-1"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1096
-msgid "GMT-10"
-msgstr "GMT-10"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1097
-msgid "GMT-11"
-msgstr "GMT-11"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1098
-msgid "GMT-12"
-msgstr "GMT-12"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1099
-msgid "GMT-13"
-msgstr "GMT-13"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1100
-msgid "GMT-14"
-msgstr "GMT-14"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1101
-msgid "GMT-2"
-msgstr "GMT-2"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1102
-msgid "GMT-3"
-msgstr "GMT-3"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1103
-msgid "GMT-4"
-msgstr "GMT-4"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1104
-msgid "GMT-5"
-msgstr "GMT-5"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1105
-msgid "GMT-6"
-msgstr "GMT-6"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1106
-msgid "GMT-7"
-msgstr "GMT-7"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1107
-msgid "GMT-8"
-msgstr "GMT-8"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1108
-msgid "GMT-9"
-msgstr "GMT-9"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1109
-msgid "GMT+1"
-msgstr "GMT+1"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1110
-msgid "GMT+10"
-msgstr "GMT+10"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1111
-msgid "GMT+11"
-msgstr "GMT+11"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1112
-msgid "GMT+12"
-msgstr "GMT+12"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1113
-msgid "GMT+2"
-msgstr "GMT+2"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1114
-msgid "GMT+3"
-msgstr "GMT+3"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1115
-msgid "GMT+4"
-msgstr "GMT+4"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1116
-msgid "GMT+5"
-msgstr "GMT+5"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1117
-msgid "GMT+6"
-msgstr "GMT+6"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1118
-msgid "GMT+7"
-msgstr "GMT+7"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1119
-msgid "GMT+8"
-msgstr "GMT+8"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1120
-msgid "GMT+9"
-msgstr "GMT+9"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1081
 msgid "Unknown City"
 msgstr "ទីក្រុង​មិនស្គាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1122
+#: timezone/_cldr_data.py:1082
 msgid "Amsterdam"
 msgstr "អាំស្ទែដាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1124
+#: timezone/_cldr_data.py:1084
+#| msgid "Australia"
+msgid "Astrakhan"
+msgstr "អាស្ត្រាខាន់"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1085
 msgid "Athens"
 msgstr "អាថែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1125
+#: timezone/_cldr_data.py:1086
 msgid "Belgrade"
 msgstr "បែលក្រាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1126
+#: timezone/_cldr_data.py:1087
 msgid "Berlin"
 msgstr "បែរឡាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1127
+#: timezone/_cldr_data.py:1088
 msgid "Bratislava"
-msgstr "ប្រាទីសឡាវ៉ា"
+msgstr "ប្រាទីស្លាវ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1128
+#: timezone/_cldr_data.py:1089
 msgid "Brussels"
 msgstr "ព្រុចសែល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1129
+#: timezone/_cldr_data.py:1090
 msgid "Bucharest"
 msgstr "ប៊ុយការ៉េស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1130
+#: timezone/_cldr_data.py:1091
 msgid "Budapest"
 msgstr "ប៊ុយដាប៉ែស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1131
+#: timezone/_cldr_data.py:1092
 msgid "Busingen"
 msgstr "ប៊ូស៊ីងហ្គែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1132
+#: timezone/_cldr_data.py:1093
 msgid "Chisinau"
 msgstr "ជីស៊ីណូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1133
+#: timezone/_cldr_data.py:1094
 msgid "Copenhagen"
 msgstr "កូប៉ិនហាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1134
+#: timezone/_cldr_data.py:1095
 msgid "Dublin"
 msgstr "ឌុយប្លាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1137
+#: timezone/_cldr_data.py:1098
 msgid "Helsinki"
 msgstr "ហែលស៊ិងគី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1139
+#: timezone/_cldr_data.py:1100
 msgid "Istanbul"
 msgstr "អ៊ីស្តង់ប៊ុល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1141
+#: timezone/_cldr_data.py:1102
 msgid "Kaliningrad"
 msgstr "កាលីនីងហ្រ្គាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1142
+#: timezone/_cldr_data.py:1103
 msgid "Kiev"
 msgstr "កៀវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1143
+#: timezone/_cldr_data.py:1104
+msgid "Kirov"
+msgstr "គីរ៉ូវ"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1105
 msgid "Lisbon"
 msgstr "លីសបោន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1144
+#: timezone/_cldr_data.py:1106
 msgid "Ljubljana"
 msgstr "ជូបហ្សាណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1145
+#: timezone/_cldr_data.py:1107
 msgid "London"
 msgstr "ឡុងដ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1147
+#: timezone/_cldr_data.py:1109
 msgid "Madrid"
 msgstr "ម៉ាឌ្រីដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1149
+#: timezone/_cldr_data.py:1111
 msgid "Mariehamn"
 msgstr "ម៉ារៀហាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1150
+#: timezone/_cldr_data.py:1112
 msgid "Minsk"
 msgstr "មីនស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1152
+#: timezone/_cldr_data.py:1114
 msgid "Moscow"
 msgstr "មូស្គូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1153
+#: timezone/_cldr_data.py:1115
 msgid "Oslo"
 msgstr "អូស្លូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1154
+#: timezone/_cldr_data.py:1116
 msgid "Paris"
 msgstr "ប៉ារីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1155
+#: timezone/_cldr_data.py:1117
 msgid "Podgorica"
 msgstr "ប៉ូដហ្គោរីកា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1156
+#: timezone/_cldr_data.py:1118
 msgid "Prague"
 msgstr "ប្រាក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1157
+#: timezone/_cldr_data.py:1119
 msgid "Riga"
 msgstr "រីហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1158
+#: timezone/_cldr_data.py:1120
 msgid "Rome"
 msgstr "រ៉ូម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1159
+#: timezone/_cldr_data.py:1121
 msgid "Samara"
 msgstr "សាម៉ារ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1161
+#: timezone/_cldr_data.py:1123
 msgid "Sarajevo"
 msgstr "សារ៉ាយ៉េវ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1162
+#: timezone/_cldr_data.py:1124
+#| msgid "Sarajevo"
+msgid "Saratov"
+msgstr "Saratov"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1125
 msgid "Simferopol"
 msgstr "ស៊ីមហ្វើរ៉ុប៉ូល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1163
+#: timezone/_cldr_data.py:1126
 msgid "Skopje"
 msgstr "ស្កុបជេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1164
+#: timezone/_cldr_data.py:1127
 msgid "Sofia"
 msgstr "សូហ៊្វីយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1165
+#: timezone/_cldr_data.py:1128
 msgid "Stockholm"
 msgstr "ស្តុកខុល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1166
+#: timezone/_cldr_data.py:1129
 msgid "Tallinn"
 msgstr "តាលិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1167
+#: timezone/_cldr_data.py:1130
 msgid "Tirane"
 msgstr "ទីរ៉ាណេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1168
+#: timezone/_cldr_data.py:1131
+msgid "Ulyanovsk"
+msgstr "អុលយ៉ាណូវស្កិ៍"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1132
 msgid "Uzhhorod"
 msgstr "អ៊ុយហ្គោរ៉ូដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1169
+#: timezone/_cldr_data.py:1133
 msgid "Vaduz"
 msgstr "វ៉ាឌូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1170
+#: timezone/_cldr_data.py:1134
 msgid "Vatican"
-msgstr "បុរីវ៉ាទីកង់"
+msgstr "វ៉ាទីកង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1171
+#: timezone/_cldr_data.py:1135
 msgid "Vienna"
 msgstr "វីយែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1172
+#: timezone/_cldr_data.py:1136
 msgid "Vilnius"
 msgstr "វីលនីញូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1173
+#: timezone/_cldr_data.py:1137
 msgid "Volgograd"
 msgstr "វ៉ុលហ្គោហ្គ្រាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1174
+#: timezone/_cldr_data.py:1138
 msgid "Warsaw"
 msgstr "វ៉ាសូវី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1175
+#: timezone/_cldr_data.py:1139
 msgid "Zagreb"
 msgstr "សាគ្រែប"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1176
+#: timezone/_cldr_data.py:1140
 msgid "Zaporozhye"
 msgstr "ហ្សាប៉ូរ៉ូហ្ស៊ីយ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1177
+#: timezone/_cldr_data.py:1141
 msgid "Zurich"
-msgstr "សូរីច"
+msgstr "ហ៊្សូរីច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1178
+#: timezone/_cldr_data.py:1142
 msgid "Antananarivo"
 msgstr "អង់តាណាណារីវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1179
+#: timezone/_cldr_data.py:1143
 msgid "Chagos"
 msgstr "កាហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1180
+#: timezone/_cldr_data.py:1144
 msgid "Christmas"
 msgstr "គ្រីស្មាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1181
+#: timezone/_cldr_data.py:1145
 msgid "Cocos"
 msgstr "កូកូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1182
+#: timezone/_cldr_data.py:1146
 msgid "Comoro"
 msgstr "កូម័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1183
+#: timezone/_cldr_data.py:1147
 msgid "Kerguelen"
 msgstr "ឃឺហ្គុយឡែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1184
+#: timezone/_cldr_data.py:1148
 msgid "Mahe"
 msgstr "ម៉ាហេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1189
+#: timezone/_cldr_data.py:1153
 msgid "Apia"
 msgstr "អាពី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1190
+#: timezone/_cldr_data.py:1154
 msgid "Auckland"
-msgstr "អកលែន"
+msgstr "អកឡែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1191
+#: timezone/_cldr_data.py:1155
 msgid "Bougainville"
 msgstr "បូហ្គែនវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1192
+#: timezone/_cldr_data.py:1156
 msgid "Chatham"
 msgstr "ចាថាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1193
+#: timezone/_cldr_data.py:1157
 msgid "Easter"
 msgstr "អ៊ីស្ទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1194
+#: timezone/_cldr_data.py:1158
 msgid "Efate"
 msgstr "អ៊ីហ្វាតេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1195
+#: timezone/_cldr_data.py:1159
 msgid "Enderbury"
 msgstr "អ៊ីនដឺប៊ូរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1196
+#: timezone/_cldr_data.py:1160
 msgid "Fakaofo"
 msgstr "ហ្វាកៅហ្វូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1198
+#: timezone/_cldr_data.py:1162
 msgid "Funafuti"
-msgstr "ហ្វូណាហ្វូទី"
+msgstr "ហ៊្វូណាហ៊្វូទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1199
+#: timezone/_cldr_data.py:1163
 msgid "Galapagos"
 msgstr "ហ្គាឡាប៉ាហ្គោស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1200
+#: timezone/_cldr_data.py:1164
 msgid "Gambier"
 msgstr "ហ្គាំបៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1201
+#: timezone/_cldr_data.py:1165
 msgid "Guadalcanal"
 msgstr "ហ្គាដាល់ខាណាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1203
+#: timezone/_cldr_data.py:1167
 msgid "Honolulu"
 msgstr "ហូណូលូលូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1204
+#: timezone/_cldr_data.py:1168
 msgid "Johnston"
 msgstr "ចនស្តុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1205
+#: timezone/_cldr_data.py:1169
 msgid "Kiritimati"
-msgstr "គីរីទីម៉ាទី"
+msgstr "គិរីទីម៉ាទិ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1206
+#: timezone/_cldr_data.py:1170
 msgid "Kosrae"
-msgstr "កូស្រាអ៊ី"
+msgstr "កូស្រែ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1207
+#: timezone/_cldr_data.py:1171
 msgid "Kwajalein"
 msgstr "ក្វាហ្សាលៀន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1208
+#: timezone/_cldr_data.py:1172
 msgid "Majuro"
 msgstr "ម៉ាហ្សូរ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1209
+#: timezone/_cldr_data.py:1173
 msgid "Marquesas"
 msgstr "ម៉ាហ្គីសាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1210
+#: timezone/_cldr_data.py:1174
 msgid "Midway"
 msgstr "មីតវ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1213
+#: timezone/_cldr_data.py:1177
 msgid "Norfolk"
 msgstr "ណ័រហ្វុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1214
+#: timezone/_cldr_data.py:1178
 msgid "Noumea"
 msgstr "ណូមៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1215
+#: timezone/_cldr_data.py:1179
 msgid "Pago Pago"
 msgstr "ប៉ាហ្គោ ប៉ាហ្គោ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1217
+#: timezone/_cldr_data.py:1181
 msgid "Pitcairn"
 msgstr "ភីតខៃរ៉ិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1218
+#: timezone/_cldr_data.py:1182
 msgid "Pohnpei"
 msgstr "ផុនប៉ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1219
+#: timezone/_cldr_data.py:1183
 msgid "Port Moresby"
 msgstr "ព័រម៉ូរេសប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1220
+#: timezone/_cldr_data.py:1184
 msgid "Rarotonga"
 msgstr "រ៉ារ៉ូតុងហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1221
+#: timezone/_cldr_data.py:1185
 msgid "Saipan"
 msgstr "សៃប៉ាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1222
+#: timezone/_cldr_data.py:1186
 msgid "Tahiti"
 msgstr "តាហីទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1223
+#: timezone/_cldr_data.py:1187
 msgid "Tarawa"
 msgstr "តារ៉ាវ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1224
+#: timezone/_cldr_data.py:1188
 msgid "Tongatapu"
 msgstr "តុងហ្គាតាពូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1225
+#: timezone/_cldr_data.py:1189
 msgid "Chuuk"
 msgstr "ឈូអុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1226
+#: timezone/_cldr_data.py:1190
 msgid "Wake"
 msgstr "វ៉ាគី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1227
+#: timezone/_cldr_data.py:1191
 msgid "Wallis"
 msgstr "វ៉ាលីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1230
+#: timezone/_cldr_data.py:1194
 msgid "Acre Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1231
+#: timezone/_cldr_data.py:1195
 msgid "Afghanistan Time"
 msgstr "ម៉ោង​នៅ​អាហ្វហ្គានីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1232
+#: timezone/_cldr_data.py:1196
 msgid "Central Africa Time"
 msgstr "ម៉ោង​នៅ​អាហ្វ្រិក​កណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1233
+#: timezone/_cldr_data.py:1197
 msgid "East Africa Time"
 msgstr "ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1234
+#: timezone/_cldr_data.py:1198
 msgid "South Africa Standard Time"
 msgstr "ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​ត្បូង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1235
+#: timezone/_cldr_data.py:1199
 msgid "West Africa Time"
 msgstr "ម៉ោង​នៅ​អាហ្វ្រិក​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1236
+#: timezone/_cldr_data.py:1200
 msgid "Alaska Time"
 msgstr "ម៉ោង​នៅ​អាឡាស្កា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1237
+#: timezone/_cldr_data.py:1201
 msgid "Almaty Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1238
+#: timezone/_cldr_data.py:1202
 msgid "Amazon Time"
-msgstr "ម៉ោង​នៅ​អាម៉ាសូន"
+msgstr "ម៉ោង​នៅ​អាម៉ាហ្សូន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1239
+#: timezone/_cldr_data.py:1203
 msgid "Central Time"
-msgstr "ម៉ោង​ភាគ​កណ្ដាល​នៅ​អាមេរិក​ខាង​ជើង"
+msgstr "ម៉ោង​​នៅ​ទ្វីបអាមេរិក​ខាង​ជើងភាគកណ្តាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1240
+#: timezone/_cldr_data.py:1204
 msgid "Eastern Time"
-msgstr "ម៉ោង​ភាគ​ខាង​កើត​នៅ​អាមេរិក​ខាង​ជើង"
+msgstr "ម៉ោងនៅទ្វីបអាមរិកខាងជើងភាគខាងកើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1241
+#: timezone/_cldr_data.py:1205
 msgid "Mountain Time"
-msgstr "ម៉ោង​នៅ​តំបន់​ភ្នំ​អាមេរិក​ភាគ​ខាង​ជើង"
+msgstr "ម៉ោង​នៅតំបន់ភ្នំនៃទ្វីប​អាមេរិក​​​ខាង​ជើង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1242
+#: timezone/_cldr_data.py:1206
 msgid "Pacific Time"
-msgstr "ម៉ោង​ភាគ​ខាង​លិច​នៅ​អាមរិក​ខាង​ជើង"
+msgstr "ម៉ោង​​នៅទ្វីប​អាមរិក​ខាង​ជើងភាគខាងលិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1243
+#: timezone/_cldr_data.py:1207
 msgid "Anadyr Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1244
+#: timezone/_cldr_data.py:1208
 msgid "Apia Time"
 msgstr "ម៉ោង​នៅ​អាប្យា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1245
+#: timezone/_cldr_data.py:1209
 msgid "Aqtau Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1246
+#: timezone/_cldr_data.py:1210
 msgid "Aqtobe Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1247
+#: timezone/_cldr_data.py:1211
 msgid "Arabian Time"
 msgstr "ម៉ោង​នៅ​អារ៉ាប់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1248
+#: timezone/_cldr_data.py:1212
 msgid "Argentina Time"
-msgstr "ម៉ោង​នៅ​អាសង់ទីន"
+msgstr "ម៉ោង​នៅ​អាហ្សង់ទីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1249
+#: timezone/_cldr_data.py:1213
 msgid "Western Argentina Time"
-msgstr "ម៉ោង​នៅ​អាសង់​ទីន​​ខាង​លិច"
+msgstr "ម៉ោង​នៅ​អាហ្សង់ទីនភាគខាងលិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1250
+#: timezone/_cldr_data.py:1214
 msgid "Armenia Time"
 msgstr "ម៉ោង​នៅ​អាមេនី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1251
+#: timezone/_cldr_data.py:1215
 msgid "Atlantic Time"
 msgstr "ម៉ោង​នៅ​អាត្លង់ទិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1252
+#: timezone/_cldr_data.py:1216
 msgid "Central Australia Time"
 msgstr "ម៉ោង​នៅអូស្ត្រាលី​កណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1253
+#: timezone/_cldr_data.py:1217
 msgid "Australian Central Western Time"
 msgstr "ម៉ោង​នៅ​​​ភាគ​ខាង​លិច​នៅ​អូស្ត្រាលី​កណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1254
+#: timezone/_cldr_data.py:1218
 msgid "Eastern Australia Time"
 msgstr "ម៉ោង​នៅ​អូស្ត្រាលី​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1255
+#: timezone/_cldr_data.py:1219
 msgid "Western Australia Time"
 msgstr "ម៉ោង​​​នៅ​អូស្ត្រាលី​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1256
+#: timezone/_cldr_data.py:1220
 msgid "Azerbaijan Time"
 msgstr "ម៉ោង​នៅ​អាស៊ែបៃហ្សង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1257
+#: timezone/_cldr_data.py:1221
 msgid "Azores Time"
 msgstr "ម៉ោង​នៅ​អេហ្សស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1258
+#: timezone/_cldr_data.py:1222
 msgid "Bangladesh Time"
 msgstr "ម៉ោង​នៅ​បង់ក្លាដែស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1259
+#: timezone/_cldr_data.py:1223
 msgid "Bhutan Time"
-msgstr "ម៉ោងនៅប៊ូតាន"
+msgstr "ម៉ោងនៅប៊ូតង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1260
+#: timezone/_cldr_data.py:1224
 msgid "Bolivia Time"
 msgstr "ម៉ោង​នៅ​បូលីវី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1261
+#: timezone/_cldr_data.py:1225
 msgid "Brasilia Time"
 msgstr "ម៉ោង​នៅ​ប្រាស៊ីលីយ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1262
+#: timezone/_cldr_data.py:1226
 msgid "Brunei Darussalam Time"
-msgstr "ម៉ោងនៅប្រ៊ុយណេដារូសាឡឹម"
+msgstr "ម៉ោងនៅព្រុយណេដារូសាឡឹម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1263
+#: timezone/_cldr_data.py:1227
 msgid "Cape Verde Time"
 msgstr "ម៉ោង​នៅ​កាប់វែរ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1264
+#: timezone/_cldr_data.py:1228
 msgid "Casey Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1265
+#: timezone/_cldr_data.py:1229
 msgid "Chamorro Standard Time"
-msgstr "ម៉ោង​នៅ​ចាំម៉ូរ៉ូ"
+msgstr "ម៉ោង​ស្តង់ដារនៅ​ចាំម៉ូរ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1266
+#: timezone/_cldr_data.py:1230
 msgid "Chatham Time"
 msgstr "ម៉ោង​នៅ​ចាថាំ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1267
+#: timezone/_cldr_data.py:1231
 msgid "Chile Time"
-msgstr "ម៉ោងនៅឈីលី"
+msgstr "ម៉ោងនៅស៊ីលី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1268
+#: timezone/_cldr_data.py:1232
 msgid "China Time"
 msgstr "ម៉ោង​នៅ​ចិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1269
+#: timezone/_cldr_data.py:1233
 msgid "Choibalsan Time"
 msgstr "ម៉ោង​នៅ​ឆូបាល់សាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1270
+#: timezone/_cldr_data.py:1234
 msgid "Christmas Island Time"
 msgstr "ម៉ោង​នៅ​កោះ​គ្រីស្មាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1271
+#: timezone/_cldr_data.py:1235
 msgid "Cocos Islands Time"
-msgstr "ម៉ោង​នៅ​កោះ​កូកូស"
+msgstr "ម៉ោង​នៅ​ប្រជុំកោះ​កូកូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1272
+#: timezone/_cldr_data.py:1236
 msgid "Colombia Time"
 msgstr "ម៉ោង​នៅ​កូឡុំប៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1273
+#: timezone/_cldr_data.py:1237
 msgid "Cook Islands Time"
-msgstr "ម៉ោង​នៅ​កោះ​ខូក"
+msgstr "ម៉ោង​នៅប្រជុំ​កោះ​ខូក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1274
+#: timezone/_cldr_data.py:1238
 msgid "Cuba Time"
 msgstr "ម៉ោង​នៅ​គុយបា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1275
+#: timezone/_cldr_data.py:1239
 msgid "Davis Time"
 msgstr "ម៉ោង​នៅ​ដាវីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1276
+#: timezone/_cldr_data.py:1240
 msgid "Dumont-d’Urville Time"
 msgstr "ម៉ោង​នៅ​ឌុយម៉ុងដឺអ៊ុយវីល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1277
+#: timezone/_cldr_data.py:1241
 msgid "East Timor Time"
 msgstr "ម៉ោង​នៅ​​ទីម័រ​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1278
+#: timezone/_cldr_data.py:1242
 msgid "Easter Island Time"
-msgstr "ម៉ោង​នៅ​កោះ​​ខាង​កើត"
+msgstr "ម៉ោងនៅកោះអ៊ីស្ទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1279
+#: timezone/_cldr_data.py:1243
 msgid "Ecuador Time"
 msgstr "ម៉ោង​នៅ​អេក្វាទ័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1280
+#: timezone/_cldr_data.py:1244
 msgid "Central European Time"
 msgstr "ម៉ោង​នៅ​អឺរ៉ុប​កណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1281
+#: timezone/_cldr_data.py:1245
 msgid "Eastern European Time"
 msgstr "ម៉ោង​នៅ​អឺរ៉ុប​​ខាង​កើត​"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1282
+#: timezone/_cldr_data.py:1246
 msgid "Further-eastern European Time"
-msgstr "ម៉ោង​នៅ​ចុងភាគ​ខាង​កើត​អឺរ៉ុប​"
+msgstr "ម៉ោង​នៅ​ចុងបូព៌ានៃទ្វីប​អឺរ៉ុប​"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1283
+#: timezone/_cldr_data.py:1247
 msgid "Western European Time"
 msgstr "ម៉ោង​នៅ​អឺរ៉ុប​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1284
+#: timezone/_cldr_data.py:1248
 msgid "Falkland Islands Time"
-msgstr "ម៉ោង​នៅ​កោះ​ហ្វក់ឡែន"
+msgstr "ម៉ោង​នៅ​ប្រជុំកោះ​ហ្វក់ឡែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1285
+#: timezone/_cldr_data.py:1249
 msgid "Fiji Time"
 msgstr "ម៉ោង​នៅ​ហ្វីជី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1286
+#: timezone/_cldr_data.py:1250
 msgid "French Guiana Time"
-msgstr "ម៉ោង​នៅ​ឃ្វីយ៉ាន​បារាំង"
+msgstr "ម៉ោង​នៅ​ហ្គីយ៉ាន​បារាំង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1287
+#: timezone/_cldr_data.py:1251
 msgid "French Southern & Antarctic Time"
-msgstr "ម៉ោង​នៅ​អែតាឃីត និង​បារាំង​ខាង​ត្បូង"
+msgstr "ម៉ោងនៅបារាំងខាងត្បូង និងនៅអង់តាំងទិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1288
+#: timezone/_cldr_data.py:1252
 msgid "Greenwich Mean Time"
 msgstr "ម៉ោងនៅគ្រីនវិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1289
+#: timezone/_cldr_data.py:1253
 msgid "Galapagos Time"
 msgstr "ម៉ោង​នៅ​កាឡាប៉ាកូស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1290
+#: timezone/_cldr_data.py:1254
 msgid "Gambier Time"
 msgstr "ម៉ោង​នៅ​កាំបៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1291
+#: timezone/_cldr_data.py:1255
 msgid "Georgia Time"
 msgstr "ម៉ោង​នៅ​ហ្សកហ្ស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1292
+#: timezone/_cldr_data.py:1256
 msgid "Gilbert Islands Time"
 msgstr "ម៉ោង​នៅ​កោះ​កីប៊ឺត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1293
+#: timezone/_cldr_data.py:1257
 msgid "East Greenland Time"
 msgstr "ម៉ោង​​នៅ​ហ្គ្រីនលែន​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1294
+#: timezone/_cldr_data.py:1258
 msgid "West Greenland Time"
 msgstr "ម៉ោងនៅហ្គ្រីនលែនខាងលិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1295
+#: timezone/_cldr_data.py:1259
 msgid "Guam Standard Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1296
+#: timezone/_cldr_data.py:1260
 msgid "Gulf Standard Time"
 msgstr "ម៉ោង​ស្តង់ដា​នៅ​កាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1297
+#: timezone/_cldr_data.py:1261
 msgid "Guyana Time"
-msgstr "ម៉ោង​នៅ​ឃ្វីយ៉ាន"
+msgstr "ម៉ោង​នៅ​ហ្គីយ៉ាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1298
+#: timezone/_cldr_data.py:1262
 msgid "Hawaii-Aleutian Time"
 msgstr "ម៉ោង​​នៅ​ហាវៃ-អាល់ដ្យូសិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1299
+#: timezone/_cldr_data.py:1263
 msgid "Hong Kong Time"
 msgstr "ម៉ោង​នៅ​ហុងកុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1300
+#: timezone/_cldr_data.py:1264
 msgid "Hovd Time"
 msgstr "ម៉ោង​នៅ​ហូវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1301
+#: timezone/_cldr_data.py:1265
 msgid "India Standard Time"
-msgstr "ម៉ោង​នៅ​ឥណ្ឌា"
+msgstr "ម៉ោង​ស្តង់ដារនៅ​ឥណ្ឌា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1302
+#: timezone/_cldr_data.py:1266
 msgid "Indian Ocean Time"
 msgstr "ម៉ោង​នៅ​មហាសមុទ្រ​ឥណ្ឌា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1303
+#: timezone/_cldr_data.py:1267
 msgid "Indochina Time"
 msgstr "ម៉ោង​នៅ​ឥណ្ឌូចិន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1304
+#: timezone/_cldr_data.py:1268
 msgid "Central Indonesia Time"
 msgstr "ម៉ោង​នៅ​ឥណ្ឌូណេស៊ី​​​កណ្ដាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1305
+#: timezone/_cldr_data.py:1269
 msgid "Eastern Indonesia Time"
 msgstr "ម៉ោង​នៅ​ឥណ្ឌូណេស៊ី​​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1306
+#: timezone/_cldr_data.py:1270
 msgid "Western Indonesia Time"
 msgstr "ម៉ោង​នៅ​ឥណ្ឌូណេស៊ី​​ខាង​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1307
+#: timezone/_cldr_data.py:1271
 msgid "Iran Time"
 msgstr "ម៉ោង​នៅ​អ៊ីរ៉ង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1308
+#: timezone/_cldr_data.py:1272
 msgid "Irkutsk Time"
-msgstr "ម៉ោង​នៅ​អ៊ីគុត"
+msgstr "ម៉ោងនៅអៀរគុតស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1309
+#: timezone/_cldr_data.py:1273
 msgid "Israel Time"
 msgstr "ម៉ោង​នៅ​អ៊ីស្រាអែល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1310
+#: timezone/_cldr_data.py:1274
 msgid "Japan Time"
 msgstr "ម៉ោង​នៅ​ជប៉ុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1311
+#: timezone/_cldr_data.py:1275
 msgid "Petropavlovsk-Kamchatski Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1312
+#: timezone/_cldr_data.py:1276
 msgid "East Kazakhstan Time"
 msgstr "ម៉ោង​កាហ្សាក់ស្ថាន​​ខាង​កើត"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1313
+#: timezone/_cldr_data.py:1277
 msgid "West Kazakhstan Time"
 msgstr "ម៉ោង​នៅ​កាហ្សាក់ស្ថាន​ខាង​​​លិច"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1314
+#: timezone/_cldr_data.py:1278
 msgid "Korean Time"
 msgstr "ម៉ោង​នៅ​កូរ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1315
+#: timezone/_cldr_data.py:1279
 msgid "Kosrae Time"
 msgstr "ម៉ោង​នៅ​កូស្រៃ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1316
+#: timezone/_cldr_data.py:1280
 msgid "Krasnoyarsk Time"
 msgstr "ម៉ោង​នៅ​ក្រាណូយ៉ាស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1317
-msgid "Kyrgystan Time"
-msgstr "ម៉ោងនៅគៀរហ្គីស្តង់"
+#: timezone/_cldr_data.py:1281
+#| msgid "Kyrgystan Time"
+msgid "Kyrgyzstan Time"
+msgstr "ម៉ោងនៅកៀហ្ស៊ីស៊ីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1318
+#: timezone/_cldr_data.py:1282
 msgid "Lanka Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1319
+#: timezone/_cldr_data.py:1283
 msgid "Line Islands Time"
 msgstr "ម៉ោង​នៅ​កោះ​ឡាញ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1320
+#: timezone/_cldr_data.py:1284
 msgid "Lord Howe Time"
 msgstr "ម៉ោង​នៅ​ឡតហៅ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1321
+#: timezone/_cldr_data.py:1285
 msgid "Macau Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1322
+#: timezone/_cldr_data.py:1286
 msgid "Macquarie Island Time"
 msgstr "ម៉ោង​នៅ​កោះ​ម៉ាកគែរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1323
+#: timezone/_cldr_data.py:1287
 msgid "Magadan Time"
 msgstr "ម៉ោង​នៅ​ម៉ាហ្កាដាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1324
+#: timezone/_cldr_data.py:1288
 msgid "Malaysia Time"
 msgstr "ម៉ោង​នៅ​ម៉ាឡេស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1325
+#: timezone/_cldr_data.py:1289
 msgid "Maldives Time"
 msgstr "ម៉ោង​នៅ​ម៉ាល់ឌីវ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1326
+#: timezone/_cldr_data.py:1290
 msgid "Marquesas Time"
 msgstr "ម៉ោង​នៅ​កោះ​ម៉ាគឺសាស់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1327
+#: timezone/_cldr_data.py:1291
 msgid "Marshall Islands Time"
 msgstr "ម៉ោង​នៅ​ម៉ាសាល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1328
+#: timezone/_cldr_data.py:1292
 msgid "Mauritius Time"
 msgstr "ម៉ោង​នៅ​ម៉ូរីស"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1329
+#: timezone/_cldr_data.py:1293
 msgid "Mawson Time"
 msgstr "ម៉ោង​នៅ​ម៉ៅ​សាន់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1330
+#: timezone/_cldr_data.py:1294
 msgid "Northwest Mexico Time"
 msgstr "ម៉ោង​នៅ​ម៉ិកស៊ិកភាគពាយព្យ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1331
+#: timezone/_cldr_data.py:1295
 msgid "Mexican Pacific Time"
-msgstr "ម៉ោង​នៅ​ប៉ាសីុហ្វិក​ម៉ិកស៊ិក"
+msgstr "ម៉ោង​នៅ​ប៉ាស៊ីហ្វិក​ម៉ិកស៊ិក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1332
-msgid "Ulan Bator Time"
+#: timezone/_cldr_data.py:1296
+#| msgid "Ulaanbaatar"
+msgid "Ulaanbaatar Time"
 msgstr "ម៉ោង​នៅ​អ៊ូឡាន​បាទូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1333
+#: timezone/_cldr_data.py:1297
 msgid "Moscow Time"
 msgstr "ម៉ោង​នៅ​មូស្គូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1334
+#: timezone/_cldr_data.py:1298
 msgid "Myanmar Time"
-msgstr "ម៉ោង​នៅ​ភូមា"
+msgstr "ម៉ោង​នៅ​មីយ៉ាន់ម៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1335
+#: timezone/_cldr_data.py:1299
 msgid "Nauru Time"
 msgstr "ម៉ោង​នៅ​ណូរូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1336
+#: timezone/_cldr_data.py:1300
 msgid "Nepal Time"
 msgstr "ម៉ោងនៅនេប៉ាល់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1337
+#: timezone/_cldr_data.py:1301
 msgid "New Caledonia Time"
-msgstr "ម៉ោង​នៅ​កាឡេដូនៀ"
+msgstr "ម៉ោង​នៅណូវ៉ែលកាឡេដូនៀ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1338
+#: timezone/_cldr_data.py:1302
 msgid "New Zealand Time"
 msgstr "ម៉ោង​នៅ​នូវែលសេឡង់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1339
+#: timezone/_cldr_data.py:1303
 msgid "Newfoundland Time"
-msgstr "ម៉ោង​​នៅ​ញូហ្វោនឡែន"
+msgstr "ម៉ោង​​នៅញូវហ្វោនឡែន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1340
+#: timezone/_cldr_data.py:1304
 msgid "Niue Time"
-msgstr "ម៉ោងនៅ​ដ្យូអៀ"
+msgstr "ម៉ោងនៅ​នីវ៉េ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1341
+#: timezone/_cldr_data.py:1305
 msgid "Norfolk Island Time"
 msgstr "ម៉ោង​នៅ​កោះ​ន័រហ្វក់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1342
+#: timezone/_cldr_data.py:1306
 msgid "Fernando de Noronha Time"
-msgstr "ម៉ោង​នៅ​ហ្វឺណាន់ដូ​ដឺណូរ៉ុនហា"
+msgstr "ម៉ោង​នៅហ្វ៊ែណាន់ដូ​ដឺណូរ៉ូញ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1343
+#: timezone/_cldr_data.py:1307
 msgid "North Mariana Islands Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1344
+#: timezone/_cldr_data.py:1308
 msgid "Novosibirsk Time"
 msgstr "ម៉ោង​នៅ​ណូវ៉ូស៊ីប៊ីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1345
+#: timezone/_cldr_data.py:1309
 msgid "Omsk Time"
 msgstr "ម៉ោង​នៅ​អូម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1346
+#: timezone/_cldr_data.py:1310
 msgid "Pakistan Time"
 msgstr "ម៉ោង​នៅ​ប៉ាគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1347
+#: timezone/_cldr_data.py:1311
 msgid "Palau Time"
 msgstr "ម៉ោង​នៅ​ផាឡៅ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1348
+#: timezone/_cldr_data.py:1312
 msgid "Papua New Guinea Time"
-msgstr "ម៉ោង​នៅ​ប៉ាបៅញូកីនៀ"
+msgstr "ម៉ោង​នៅប៉ាពូអាស៊ី នូវែលហ្គីណេ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1349
+#: timezone/_cldr_data.py:1313
 msgid "Paraguay Time"
 msgstr "ម៉ោង​នៅ​ប៉ារ៉ាហ្គាយ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1350
+#: timezone/_cldr_data.py:1314
 msgid "Peru Time"
 msgstr "ម៉ោង​នៅ​ប៉េរូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1351
+#: timezone/_cldr_data.py:1315
 msgid "Philippine Time"
 msgstr "ម៉ោង​នៅ​ហ្វីលីពីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1352
+#: timezone/_cldr_data.py:1316
 msgid "Phoenix Islands Time"
 msgstr "ម៉ោង​នៅ​កោះ​ផូនីក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1353
+#: timezone/_cldr_data.py:1317
 msgid "St. Pierre & Miquelon Time"
 msgstr "ម៉ោង​​​នៅសង់​ព្យែរ និង​មីគុយឡុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1354
+#: timezone/_cldr_data.py:1318
 msgid "Pitcairn Time"
 msgstr "ម៉ោង​នៅ​ភីឃឺន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1355
+#: timezone/_cldr_data.py:1319
 msgid "Ponape Time"
 msgstr "ម៉ោង​នៅ​ប៉ូណាប់"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1356
+#: timezone/_cldr_data.py:1320
 msgid "Pyongyang Time"
-msgstr ""
+msgstr "ម៉ោងនៅព្យុងយ៉ាង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1357
+#: timezone/_cldr_data.py:1321
 msgid "Qyzylorda Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1358
+#: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
 msgstr "ម៉ោងនៅរេអ៊ុយ៉ុង"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1359
+#: timezone/_cldr_data.py:1323
 msgid "Rothera Time"
 msgstr "ម៉ោង​នៅ​រ៉ូធឺរ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1360
+#: timezone/_cldr_data.py:1324
 msgid "Sakhalin Time"
 msgstr "ម៉ោង​នៅ​សាក់ខាលីន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1361
+#: timezone/_cldr_data.py:1325
 msgid "Samara Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1362
+#: timezone/_cldr_data.py:1326
 msgid "Samoa Time"
-msgstr "ម៉ោង​នៅ​សាម៉ៅ"
+msgstr "ម៉ោង​នៅ​សាម័រ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1363
+#: timezone/_cldr_data.py:1327
 msgid "Seychelles Time"
 msgstr "ម៉ោង​នៅ​សីស្ហែល"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1364
+#: timezone/_cldr_data.py:1328
 msgid "Singapore Standard Time"
 msgstr "ម៉ោង​នៅ​សិង្ហបូរី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1365
+#: timezone/_cldr_data.py:1329
 msgid "Solomon Islands Time"
 msgstr "ម៉ោង​នៅ​កោះ​សូឡូម៉ុន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1366
+#: timezone/_cldr_data.py:1330
 msgid "South Georgia Time"
 msgstr "ម៉ោង​នៅ​កោះ​ហ្សកហ្ស៊ី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1367
+#: timezone/_cldr_data.py:1331
 msgid "Suriname Time"
 msgstr "ម៉ោង​នៅ​សូរីណាម"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1368
+#: timezone/_cldr_data.py:1332
 msgid "Syowa Time"
 msgstr "ម៉ោង​នៅ​ស៊ីអូវ៉ា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1369
+#: timezone/_cldr_data.py:1333
 msgid "Tahiti Time"
 msgstr "ម៉ោង​នៅ​តាហិទី"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1370
+#: timezone/_cldr_data.py:1334
 msgid "Taipei Time"
 msgstr "ម៉ោង​នៅ​តៃប៉ិ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1371
+#: timezone/_cldr_data.py:1335
 msgid "Tajikistan Time"
-msgstr "ម៉ោងនៅតាជីគីស្តង់"
+msgstr "ម៉ោងនៅតាជីគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1372
+#: timezone/_cldr_data.py:1336
 msgid "Tokelau Time"
 msgstr "ម៉ោង​នៅ​តូខេឡៅ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1373
+#: timezone/_cldr_data.py:1337
 msgid "Tonga Time"
-msgstr "ម៉ោង​នៅ​តុងកា"
+msgstr "ម៉ោង​នៅ​តុងហ្គា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1374
+#: timezone/_cldr_data.py:1338
 msgid "Chuuk Time"
 msgstr "ម៉ោង​នៅ​ចូអុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1375
+#: timezone/_cldr_data.py:1339
 msgid "Turkmenistan Time"
 msgstr "ម៉ោង​នៅ​តួកម៉េនីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1376
+#: timezone/_cldr_data.py:1340
 msgid "Tuvalu Time"
-msgstr "ម៉ោង​នៅ​ទុយវ៉ាឡុ"
+msgstr "ម៉ោង​នៅ​ទុយវ៉ាលូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1377
+#: timezone/_cldr_data.py:1341
 msgid "Uruguay Time"
 msgstr "ម៉ោង​នៅ​អ៊ុយរូហ្គាយ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1378
+#: timezone/_cldr_data.py:1342
 msgid "Uzbekistan Time"
 msgstr "ម៉ោង​នៅ​អ៊ូសបេគីស្ថាន"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1379
+#: timezone/_cldr_data.py:1343
 msgid "Vanuatu Time"
 msgstr "ម៉ោង​នៅ​វ៉ានូទូ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1380
+#: timezone/_cldr_data.py:1344
 msgid "Venezuela Time"
 msgstr "ម៉ោង​នៅ​វ៉េណេស៊ុយអេឡា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1381
+#: timezone/_cldr_data.py:1345
 msgid "Vladivostok Time"
-msgstr "ម៉ោង​នៅ​វ៉្លាឌីវ៉ូស្តក"
+msgstr "ម៉ោង​នៅ​វ៉្លាឌីវ៉ូស្តុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1382
+#: timezone/_cldr_data.py:1346
 msgid "Volgograd Time"
-msgstr "ម៉ោង​នៅ​វ៉ូហ្កាក្រាត"
+msgstr "ម៉ោង​នៅ​វ៉ូហ្កោក្រាដ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1383
+#: timezone/_cldr_data.py:1347
 msgid "Vostok Time"
 msgstr "ម៉ោង​នៅ​វ័រស្តុក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1384
+#: timezone/_cldr_data.py:1348
 msgid "Wake Island Time"
 msgstr "ម៉ោង​នៅ​កោះវេក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1385
+#: timezone/_cldr_data.py:1349
 msgid "Wallis & Futuna Time"
-msgstr "ម៉ោង​នៅ​វ៉ាលីស និង​ផូទូណា"
+msgstr "ម៉ោង​នៅ​វ៉ាលីស និងហ្វ៊ុទូណា"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1386
+#: timezone/_cldr_data.py:1350
 msgid "Yakutsk Time"
-msgstr "ម៉ោង​នៅ​យ៉ាគុត"
+msgstr "ម៉ោង​នៅ​យ៉ាគុតស្កិ៍"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1387
+#: timezone/_cldr_data.py:1351
 msgid "Yekaterinburg Time"
 msgstr "ម៉ោង​នៅ​អ៊ិខាធឺរីនប៊័ក"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1389
+#: timezone/_cldr_data.py:1353
 #, python-format
 msgid "%s Time"
 msgstr "ម៉ោង​នៅ​ %s"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1390
+#: timezone/_cldr_data.py:1354
 msgid "+HH:mm;-HH:mm"
 msgstr "+HH:mm;-HH:mm"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1391
+#: timezone/_cldr_data.py:1355
 #, python-format
 msgid "GMT%s"
 msgstr "ម៉ោង​សកល %s"
 
-#: timezone/data.py:77
+#: timezone/data.py:116
 #, python-format
-msgid "%(tz)s (%(cities)s)"
+msgid "%(tzname)s"
 msgstr ""
 
-#: timezone/data.py:108
+#: timezone/data.py:118
 #, python-format
-msgid "%(offset)s %(tz)s (%(cities)s)"
+msgid "%(tzname)s (%(cities)s)"
+msgstr ""
+
+#: timezone/data.py:120
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s"
+msgstr ""
+
+#: timezone/data.py:122
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
 
 #: timezone/models.py:28
@@ -4574,6 +4513,93 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#~ msgid "Czech Republic"
+#~ msgstr "សាធារណរដ្ឋឆេក"
+
+#~ msgid "GMT"
+#~ msgstr "GMT"
+
+#~ msgid "GMT-1"
+#~ msgstr "GMT-1"
+
+#~ msgid "GMT-10"
+#~ msgstr "GMT-10"
+
+#~ msgid "GMT-11"
+#~ msgstr "GMT-11"
+
+#~ msgid "GMT-12"
+#~ msgstr "GMT-12"
+
+#~ msgid "GMT-13"
+#~ msgstr "GMT-13"
+
+#~ msgid "GMT-14"
+#~ msgstr "GMT-14"
+
+#~ msgid "GMT-2"
+#~ msgstr "GMT-2"
+
+#~ msgid "GMT-3"
+#~ msgstr "GMT-3"
+
+#~ msgid "GMT-4"
+#~ msgstr "GMT-4"
+
+#~ msgid "GMT-5"
+#~ msgstr "GMT-5"
+
+#~ msgid "GMT-6"
+#~ msgstr "GMT-6"
+
+#~ msgid "GMT-7"
+#~ msgstr "GMT-7"
+
+#~ msgid "GMT-8"
+#~ msgstr "GMT-8"
+
+#~ msgid "GMT-9"
+#~ msgstr "GMT-9"
+
+#~ msgid "GMT+1"
+#~ msgstr "GMT+1"
+
+#~ msgid "GMT+10"
+#~ msgstr "GMT+10"
+
+#~ msgid "GMT+11"
+#~ msgstr "GMT+11"
+
+#~ msgid "GMT+12"
+#~ msgstr "GMT+12"
+
+#~ msgid "GMT+2"
+#~ msgstr "GMT+2"
+
+#~ msgid "GMT+3"
+#~ msgstr "GMT+3"
+
+#~ msgid "GMT+4"
+#~ msgstr "GMT+4"
+
+#~ msgid "GMT+5"
+#~ msgstr "GMT+5"
+
+#~ msgid "GMT+6"
+#~ msgstr "GMT+6"
+
+#~ msgid "GMT+7"
+#~ msgstr "GMT+7"
+
+#~ msgid "GMT+8"
+#~ msgstr "GMT+8"
+
+#~ msgid "GMT+9"
+#~ msgstr "GMT+9"
+
+#~ msgid "Ulan Bator Time"
+#~ msgstr "ម៉ោង​នៅ​អ៊ូឡាន​បាទូ"
 
 #~ msgid "%(location)s Time"
 #~ msgstr "ម៉ោង​នៅ​ %(location)s"

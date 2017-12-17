@@ -109,15 +109,31 @@ msgstr ""
 msgid "Metazone %s is invalid"
 msgstr ""
 
-#: timezone/data.py:77
+#: timezone/data.py:116
 #, python-format
-msgid "%(tz)s (%(cities)s)"
+msgid "%(tzname)s"
 msgstr ""
 
-#: timezone/data.py:108
+#: timezone/data.py:118
 #, python-format
-msgid "%(offset)s %(tz)s (%(cities)s)"
+msgid "%(tzname)s (%(cities)s)"
 msgstr ""
+
+#: timezone/data.py:120
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s"
+msgstr ""
+
+#: timezone/data.py:122
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
+msgstr ""
+
+#~ msgid "%(tz)s (%(cities)s)"
+#~ msgstr ""
+
+#~ msgid "%(offset)s %(tz)s (%(cities)s)"
+#~ msgstr ""
 
 #~ msgid "Netherlands Antilles"
 #~ msgstr ""
