@@ -11,13 +11,13 @@ from internationalflavor.timezone.forms import TimezoneFormField, MetazoneFormFi
 
 class TimezoneTestCase(SimpleTestCase):
     def test_form_field(self):
-        field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/GMT'])
+        field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/UTC'])
         self.assertEqual(set([force_text(f[0]) for f in field.choices]), set(['Europe', 'Americas', 'World']))
         self.assertEqual(set([force_text(g[0]) for f in field.choices for g in f[1]]),
-                         set(['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/GMT']))
+                         set(['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/UTC']))
 
     def test_form_field_render(self):
-        field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/GMT', 'Indian/Christmas'])
+        field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/UTC', 'Indian/Christmas'])
         out = '''<select name="zones">
             <optgroup label="Americas">
             <option value="America/New_York">New York</option>
@@ -28,7 +28,7 @@ class TimezoneTestCase(SimpleTestCase):
             </optgroup>
             <optgroup label="World">
             <option value="Indian/Christmas">Christmas</option>
-            <option value="Etc/GMT">GMT</option>
+            <option value="Etc/UTC">UTC</option>
             </optgroup>
             </select>'''
         self.assertHTMLEqual(out, field.widget.render('zones', 'Europe/Berlin'))
@@ -43,7 +43,7 @@ class TimezoneTestCase(SimpleTestCase):
                 <option value="Europe/Berlin" selected="selected">Berlin</option>
                 </optgroup>
                 <optgroup label="Welt">
-                <option value="Etc/GMT">GMT</option>
+                <option value="Etc/UTC">UTC</option>
                 <option value="Indian/Christmas">Weihnachtsinsel</option>
                 </optgroup>
                 </select>'''
