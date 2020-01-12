@@ -34,7 +34,7 @@ class _compare_by_strcoll(object):
 
 
 def _compare_locale_str(value):
-	return locale.strxfrm(force_text(value))
+    return locale.strxfrm(force_text(value))
 
 
 def _compare_str(value):
