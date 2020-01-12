@@ -1,7 +1,6 @@
 from itertools import chain
 import locale
 from django import forms
-from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.html import format_html
 
@@ -35,11 +34,7 @@ class _compare_by_strcoll(object):
 
 
 def _compare_locale_str(value):
-    # In PY2, strxfrm does not support unicode encoded values, so we have to get creative.
-    if not six.PY2:
-        return locale.strxfrm(force_text(value))
-    else:
-        return _compare_by_strcoll(force_text(value))
+	return locale.strxfrm(force_text(value))
 
 
 def _compare_str(value):
