@@ -4,6 +4,14 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.4.0 (unreleased)
+==================
+* Updates Django support, removing 1.x support
+* Updates Python support, removing 2.x support
+* Updated CLDR data to v37
+* Updated IBAN data, renaming Nordea extensions to experimental countries (based off SWIFT list)
+* Updated VAT data, fixing the validation for Dutch VAT numbers
+
 0.3.1 (2017-01-28)
 ==================
 * Fix Django 1.11 bug in the SortedSelect widget. This affects the sorting of optgroups for all versions, they are now

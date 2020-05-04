@@ -15,14 +15,16 @@ IBAN_REGEXES = {
     'BG': r'^\d{2}[A-Z]{4}\d{6}[0-9A-Z]{8}$',  # BG2!n4!a4!n2!n8!c
     'BH': r'^\d{2}[A-Z]{4}[0-9A-Z]{14}$',  # BH2!n4!a14!c
     'BR': r'^\d{25}[A-Z][0-9A-Z]$',  # BR2!n8!n5!n10!n1!a1!c
+    'BY': r'^\d{2}[0-9A-Z]{4}\d{4}[0-9A-Z]{16}$',  # BY2!n4!c4!n16!c
     'CH': r'^\d{7}[0-9A-Z]{12}$',  # CH2!n5!n12!c
-    'CR': r'r\d{19}$',  # CR2!n3!n14!n
+    'CR': r'^\d{20}$',  # CR2!n4!n14!n
     'CY': r'^\d{10}[0-9A-Z]{16}$',  # CY2!n3!n5!n16!c
     'CZ': r'^\d{22}$',  # CZ2!n4!n6!n10!n
     'DE': r'^\d{20}$',  # DE2!n8!n10!n
     'DK': r'^\d{16}$',  # DK2!n4!n9!n1!n
     'DO': r'^\d{2}[0-9A-Z]{4}\d{20}$',  # DO2!n4!c20!n
     'EE': r'^\d{18}$',  # EE2!n2!n2!n11!n1!n
+    'EG': r'^\d{27}$',  # EG2!n4!n4!n17!n
     'ES': r'^\d{22}$',  # ES2!n4!n4!n1!n1!n10!n
     'FI': r'^\d{16}$',  # FI2!n6!n7!n1!n
     'FO': r'^\d{16}$',  # FO2!n4!n9!n1!n
@@ -37,6 +39,7 @@ IBAN_REGEXES = {
     'HU': r'^\d{26}$',  # HU2!n3!n4!n1!n15!n1!n
     'IE': r'^\d{2}[A-Z]{4}\d{14}$',  # IE2!n4!a6!n8!n
     'IL': r'^\d{21}$',  # IL2!n3!n3!n13!n
+    'IQ': r'^\d{2}[A-Z]{4}\d{15}$',  # IQ2!n4!a3!n12!n
     'IS': r'^\d{24}$',  # IS2!n4!n2!n6!n10!n
     'IT': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # IT2!n1!a5!n5!n12!c
     'JO': r'^\d{2}[A-Z]{4}\d{4}[0-9A-Z]{18}$',  # JO2!n4!a4!n18!c
@@ -70,49 +73,58 @@ IBAN_REGEXES = {
     'SI': r'^\d{17}$',  # SI2!n5!n8!n2!n
     'SK': r'^\d{22}$',  # SK2!n4!n6!n10!n
     'SM': r'^\d{2}[A-Z]\d{10}[0-9A-Z]{12}$',  # SM2!n1!a5!n5!n12!c
-    'ST': r'^\d{23}$',  # ST2!n8!n11!n2!n
+    'ST': r'^\d{23}$',  # ST2!n4!n4!n11!n2!n
+    'SV': r'^\d{2}[A-Z]{4}\d{20}$',  # SV2!n4!a20!n
     'TL': r'^\d{21}$',  # TL2!n3!n14!n2!n
     'TN': r'^\d{22}$',  # TN2!n2!n3!n13!n2!n
     'TR': r'^\d{8}[0-9A-Z]{16}$',  # TR2!n5!n1!n16!c
     'UA': r'^\d{8}[0-9A-Z]{19}$',  # UA2!n6!n19!c
+    'VA': r'^\d{20}$',  # VA2!n3!n15!n
     'VG': r'^\d{2}[A-Z]{4}\d{16}$',  # VG2!n4!a16!n
     'XK': r'^\d{18}$',  # XK2!n4!n10!n2!n
 }
 """Contains all country specific regexes for IBAN numbers.
-Source: https://www.swift.com/sites/default/files/resources/swift_standards_ibanregistry.pdf
-Accurate to version 66 (May 2016)
+Source: https://www.swift.com/resource/iban-registry-pdf
+Accurate to version 86 (January 2020)
 """
 
 
-NORDEA_IBAN_REGEXES = {
-    'AO': r'^\d{23}$',  # AOkk nnnn nnnn nnnn nnnn nnnn n
-    'BF': r'^\d{25}$',   # BFkk nnnn nnnn nnnn nnnn nnnn nnn
-    'BI': r'^\d{14}$',  # BIkk nnnn nnnn nnnn
-    'BJ': r'^\d{2}[A-Z]\d{23}$',  # BJkk annn nnnn nnnn nnnn nnnn nnnn
-    'CG': r'^\d{25}$',  # CGkk nnnn nnnn nnnn nnnn nnnn nnn
-    'CI': r'^\d{2}[A-Z]\d{23}$',  # CIkk annn nnnn nnnn nnnn nnnn nnnn
-    'CM': r'^\d{25}$',  # CMkk nnnn nnnn nnnn nnnn nnnn nnn
-    'CV': r'^\d{23}$',  # CVkk nnnn nnnn nnnn nnnn nnnn n
-    'DZ': r'^\d{18}$',  # DZkk nnnn nnnn nnnn nnnn nnnn
-    'EG': r'^\d{25}$',  # EGkk nnnn nnnn nnnn nnnn nnnn nnn
-    'GA': r'^\d{25}$',  # GAkk nnnn nnnn nnnn nnnn nnnn nnn
-    'IR': r'^\d{24}$',  # IRkk nnnn nnnn nnnn nnnn nnnn nn
-    'MG': r'^\d{25}$',  # MGkk nnnn nnnn nnnn nnnn nnnn nnn
-    'ML': r'^\d{2}[A-Z]\d{23}$',  # MLkk annn nnnn nnnn nnnn nnnn nnnn
-    'MZ': r'^\d{23}$',  # MZkk nnnn nnnn nnnn nnnn nnnn n
-    'SN': r'^\d{2}[A-Z]\d{23}$',  # SNkk annn nnnn nnnn nnnn nnnn nnnn
+EXPERIMENTAL_IBAN_REGEXES = {
+    'AO': r'^[A-Z0-9]{23}$',
+    'BF': r'^[A-Z0-9]{26}$',
+    'BI': r'^[A-Z0-9]{14}$',
+    'BJ': r'^[A-Z0-9]{26}$',
+    'CF': r'^[A-Z0-9]{25}$',
+    'CG': r'^[A-Z0-9]{25}$',
+    'CI': r'^[A-Z0-9]{26}$',
+    'CM': r'^[A-Z0-9]{25}$',
+    'CV': r'^[A-Z0-9]{23}$',
+    'DJ': r'^[A-Z0-9]{25}$',
+    'DZ': r'^[A-Z0-9]{24}$',
+    'GA': r'^[A-Z0-9]{25}$',
+    'GQ': r'^[A-Z0-9]{25}$',
+    'GW': r'^[A-Z0-9]{23}$',
+    'HN': r'^[A-Z0-9]{26}$',
+    'IR': r'^[A-Z0-9]{24}$',
+    'KM': r'^[A-Z0-9]{25}$',
+    'MA': r'^[A-Z0-9]{26}$',
+    'MG': r'^[A-Z0-9]{25}$',
+    'ML': r'^[A-Z0-9]{26}$',
+    'MZ': r'^[A-Z0-9]{23}$',
+    'NE': r'^[A-Z0-9]{26}$',
+    'NI': r'^[A-Z0-9]{30}$',
+    'SN': r'^[A-Z0-9]{26}$',
+    'TD': r'^[A-Z0-9]{25}$',
+    'TG': r'^[A-Z0-9]{26}$',
 }
-"""Nordea has some additional IBAN formats defined, which are not recognized by the SWIFT union.
-https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+countries/908462.html
+"""There are various experimental countries defined by SWIFT as found on https://www.iban.com/structure,
+these do not specify their exact structure, only the length.
 """
 
-# FI includes AX for SEPA
-# FR includes GF* GP* MQ* RE* PF TF YT* NC BL MF PM* WF (* incl for SEPA)
-# PT includes Azores and Madeira for SEPA
-SEPA_COUNTRIES = ['AT', 'BE', 'BG', 'CH', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES',
-                  'FI', 'FR', 'GB', 'GI', 'GR', 'HR', 'HU', 'IE', 'IS', 'IT',
-                  'LI', 'LT', 'LU', 'LV', 'MC', 'MT', 'NL', 'NO', 'PL', 'PT',
-                  'RO', 'SE', 'SI', 'SK', 'SM']
+SEPA_COUNTRIES = ['AD', 'AT', 'BE', 'BG', 'CH', 'CY', 'CZ', 'DE', 'DK', 'EE',
+                  'ES', 'FI', 'FR', 'GB', 'GI', 'GR', 'HR', 'HU', 'IE', 'IS',
+                  'IT', 'LI', 'LT', 'LU', 'LV', 'MC', 'MT', 'NL', 'NO', 'PL',
+                  'PT', 'RO', 'SE', 'SI', 'SK', 'SM', 'VA']
 """List of all sepa country codes.
 http://www.europeanpaymentscouncil.eu/index.cfm/knowledge-bank/epc-documents/epc-list-of-sepa-scheme-countries/
 """

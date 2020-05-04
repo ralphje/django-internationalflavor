@@ -28,15 +28,23 @@ VAT_NUMBER_REGEXES = {
     'SE': r'^\d{12}$',
     'SI': r'^\d{8}$',
     'SK': r'^\d{10}$',
+    'EU': r'^\d{9}$',
 
     # Others
     # if no source listed below, these regexes are based on Wikipedia
     # patches (with sources) for these are welcome
     'AL': r'^[JK]\d{8}[A-Z]$',
+    'MK': r'^\d{13}$',
     'AU': r'^\d{9}$',
     'BY': r'^\d{9}$',
     'CA': r'^\d{9}R[TPCMRDENGZ]\d{4}$',
+    'IS': r'^\d{5,6}$',
     'IN': r'^\d{11}[CV]$',
+    'ID': r'^\d{15}$',
+    'IL': r'^\d{9}$',
+    'KZ': r'^\d{12}$',
+    'NZ': r'^\d{9}$',
+    'NG': r'^\d{12}$',
     'NO': r'^\d{9}$',
     'PH': r'^\d{12}$',
     'RU': r'^(\d{10}|\d{12})$',
@@ -44,22 +52,27 @@ VAT_NUMBER_REGEXES = {
     'RS': r'^\d{9}$',
     'CH': r'^\d{9}$',
     'TR': r'^\d{10}$',
+    'UA': r'^\d{12}$',
+    'UZ': r'^\d{9}$',
+
     'AR': r'^\d{11}$',
-    # BO
+    'BO': r'^\d{7}$',
     'BR': r'^\d{14}$',
     'CL': r'^\d{9}$',
     'CO': r'^\d{10}$',
     'CR': r'^\d{9,12}$',
     'EC': r'^\d{13}$',
-    # SV
+    'SV': r'^\d{14}$',
     'GT': r'^\d{8}$',
     # HN
     'MX': r'^[A-Z0-9]{3,4}\d{6}[A-Z0-9]{3}$',
-    # NI, PA, PY
+    'NI': r'^\d{13}[A-Z]$',
+    # PA
+    'PY': r'^\d{7,9}$',
     'PE': r'^\d{11}$',
-    # DO, UY
+    'DO': r'^(\d{9}|\d{11})$',
+    'UY': r'^\d{12}$',
     'VE': r'^[EGJV]\d{9}$',
-
 }
 """List of all VAT number regexes to be used for validating European VAT numbers. Regexes do not include any
 formatting characters.
@@ -72,7 +85,6 @@ others: https://en.wikipedia.org/wiki/VAT_identification_number
 
 EU_VAT_AREA = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
                'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK']
-
 
 VAT_MIN_LENGTH = 4   # Romania seems to have the shortest
 VAT_MAX_LENGTH = 16  # BR seems to be the longest

@@ -8,7 +8,7 @@ import urllib.request
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 
-from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit
+from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit, _get_mod97_value
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 
 
@@ -29,6 +29,8 @@ class VATNumberCleaner(UpperCaseValueCleaner):
                     value = value[:-4]
                 elif value.endswith("TVA") or value.endswith("IVA"):
                     value = value[:-3]
+            if value.startswith("GR"):
+                value = "EL" + value[2:]
             return value
         return value
 
@@ -70,6 +72,11 @@ class VATNumberValidator(object):
        If regulations require you to validate against the VIES service, you probably also want to set ``eu_only``. You
        probably can't accept any other VAT number in that case.
 
+    .. note::
+
+       All valid VAT Numbers are ISO 3166-1 country-2 codes followed by the number, except for Greece, where EL is used.
+       You can specify GR and EL as both valid country codes, but only EL-prefixed values are accepted.
+
     .. warning::
 
        The validation of non-EU VAT numbers may be incomplete or wrong in some cases. Please issue a pull request if you
@@ -94,7 +101,10 @@ class VATNumberValidator(object):
 
         countries = self.regexes.keys() if countries is None else countries
         exclude = [] if exclude is None else exclude
-        self.countries = [c for c in countries if c not in exclude and (not eu_only or c in EU_VAT_AREA)]
+        # The only exception to the general rule seems to be Greece, that uses EL instead of GR country codes in VAT
+        # numbers
+        self.countries = ["EL" if c == "GR" else c for c in countries
+                          if c not in exclude and (not eu_only or c in EU_VAT_AREA or c == "GR")]
 
     def __call__(self, value):
         """Validates whether a VAT number validates for a EU country."""
@@ -107,6 +117,7 @@ class VATNumberValidator(object):
 
         country, rest = value[0:2], value[2:]
 
+        # Greek VAT numbers start with EL instead of GR
         if country not in self.countries:
             raise ValidationError(_('%(country)s VAT numbers are not allowed in this field.') % {'country': country})
 
@@ -127,7 +138,9 @@ class VATNumberValidator(object):
         """Place for country specific validations."""
 
         if country == 'NL':  # validate against modified elfproef
-            if _get_check_digit(rest, [9, 8, 7, 6, 5, 4, 3, 2, -1]) != 0:
+            # there are two types of validation: one called the eleven test, another with the Modulus 97 test
+            if _get_check_digit(rest, [9, 8, 7, 6, 5, 4, 3, 2, -1]) != 0 and \
+                    _get_mod97_value(country + rest, characters={'+': 36, '*': 37}) != 1:
                 raise ValidationError(self.country_failure % {'country': country})
 
         elif country == 'BE':  # validate with Modulus97 test

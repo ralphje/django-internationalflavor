@@ -92,7 +92,7 @@ UN_MEMBER_STATES = ('AD', 'AE', 'AF', 'AG', 'AL', 'AM', 'AO', 'AR', 'AT', 'AU', 
                     'TT', 'TV', 'TZ', 'UA', 'UG', 'US', 'UY', 'UZ', 'VC', 'VE', 'VN', 'VU', 'WS', 'YE', 'ZA', 'ZM',
                     'ZW')
 """List of UN Member States
-Source: http://www.un.org/en/members/index.shtml
+Source: https://www.un.org/en/member-states/index.html
 """
 
 UN_OBSERVER_STATES = ('PS', 'VA')
@@ -123,7 +123,7 @@ UN_NON_SELF_GOVERNING_STATES = ('EH', 'AI', 'BM', 'VG', 'KY', 'FK', 'MS', 'SH', 
                                 'NC', 'PN', 'TK')
 """List of the (rather arbitrary) UN non-self-governing states
 
-Source: http://www.un.org/en/decolonization/nonselfgovterritories.shtml
+Source: https://www.un.org/dppa/decolonization/en/nsgt
 """
 
 IOC_RECOGNIZED_COUNTRIES = ('AF', 'AL', 'DZ', 'AS', 'AD', 'AO', 'AG', 'AR', 'AM', 'AW', 'AU', 'AT', 'AZ', 'BS', 'BH',

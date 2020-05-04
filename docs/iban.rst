@@ -34,9 +34,9 @@ Comparison with other packages
     retire his package, so it may be best to not use this package in new projects.
 
 .. seealso::
-   `IBAN Registry <http://www.swift.com/dsp/resources/documents/IBAN_Registry.pdf>`_
+   `IBAN Registry <https://www.swift.com/resource/iban-registry-pdf>`_
       The official IBAN format registry of SWIFT.
-   `Nordea IBAN countries <https://www.nordea.com/Our+services/Cash+Management/Products+and+services/IBAN+countries/908462.html>`_
-      Additional IBAN formats as recognized by Nordea.
+   `IBAN Structure <https://www.iban.com/structure>`_
+      Additional IBAN formats listed as experimental
    `Wikipedia: International Bank Account Number <https://en.wikipedia.org/wiki/International_Bank_Account_Number>`_
       More information on IBAN

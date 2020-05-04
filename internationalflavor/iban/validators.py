@@ -5,8 +5,8 @@ import re
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 
-from internationalflavor.validators import UpperCaseValueCleaner
-from .data import IBAN_REGEXES, NORDEA_IBAN_REGEXES, SEPA_COUNTRIES
+from internationalflavor.validators import UpperCaseValueCleaner, _get_mod97_value
+from .data import IBAN_REGEXES, EXPERIMENTAL_IBAN_REGEXES, SEPA_COUNTRIES
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
 
 
@@ -44,10 +44,10 @@ class IBANValidator(object):
        numbers.
     """
 
-    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_nordea_extensions=False):
+    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_experimental=False):
         self.regexes = IBAN_REGEXES.copy()
-        if accept_nordea_extensions:
-            self.regexes.update(NORDEA_IBAN_REGEXES)
+        if accept_experimental:
+            self.regexes.update(EXPERIMENTAL_IBAN_REGEXES)
 
         countries = self.regexes.keys() if countries is None else countries
         exclude = [] if exclude is None else exclude
@@ -77,13 +77,7 @@ class IBANValidator(object):
 
         # Check checksum
         bban = rest[2:]
-        digits = ""
-        for character in bban + country + '00':
-            if character.isdigit():
-                digits += character
-            else:
-                digits += str(ord(character) - ord('A') + 10)
-        expected_checksum = str(98 - (int(digits) % 97)).zfill(2)
+        expected_checksum = str(98 - _get_mod97_value(bban + country + '00')).zfill(2)
 
         if expected_checksum != value[2:4]:
             raise ValidationError(_('This IBAN does not have a valid checksum.'))

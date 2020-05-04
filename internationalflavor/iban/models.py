@@ -27,16 +27,16 @@ class IBANField(models.CharField):
 
     description = _('An International Bank Account Number')
 
-    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_nordea_extensions=False, *args, **kwargs):
+    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_experimental=False, *args, **kwargs):
         self.countries = countries
         self.exclude = exclude
         self.sepa_only = sepa_only
-        self.accept_nordea_extensions = accept_nordea_extensions
+        self.accept_experimental = accept_experimental
 
         kwargs.setdefault('max_length', IBAN_MAX_LENGTH)
         super(IBANField, self).__init__(*args, **kwargs)
         self.validators.append(IBANValidator(countries=countries, exclude=exclude,  # pylint: disable=E1101
-                                             accept_nordea_extensions=accept_nordea_extensions, sepa_only=sepa_only))
+                                             accept_experimental=accept_experimental, sepa_only=sepa_only))
 
     def deconstruct(self):
         name, path, args, kwargs = super(IBANField, self).deconstruct()
@@ -46,8 +46,8 @@ class IBANField(models.CharField):
             kwargs['exclude'] = self.exclude
         if self.sepa_only:
             kwargs['sepa_only'] = self.sepa_only
-        if self.accept_nordea_extensions:
-            kwargs['accept_nordea_extensions'] = self.accept_nordea_extensions
+        if self.accept_experimental:
+            kwargs['accept_experimental'] = self.accept_experimental
         if 'max_length' in kwargs and kwargs["max_length"] == IBAN_MAX_LENGTH:
             del kwargs["max_length"]
         return name, path, args, kwargs

@@ -10,11 +10,11 @@ class IBANFormField(forms.CharField):
     This field represents the data in 4-character blocks, but stores it internally without any formatting.
     """
 
-    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_nordea_extensions=False, *args, **kwargs):
+    def __init__(self, countries=None, exclude=None, sepa_only=False, accept_experimental=False, *args, **kwargs):
         kwargs.setdefault('min_length', IBAN_MIN_LENGTH)
         kwargs.setdefault('max_length', IBAN_MAX_LENGTH)
         self.default_validators = [IBANValidator(countries=countries, exclude=exclude, sepa_only=sepa_only,
-                                                 accept_nordea_extensions=accept_nordea_extensions)]
+                                                 accept_experimental=accept_experimental)]
         super(IBANFormField, self).__init__(*args, **kwargs)
 
     def to_python(self, value):

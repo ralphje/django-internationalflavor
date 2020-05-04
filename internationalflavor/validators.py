@@ -26,3 +26,22 @@ def _get_check_digit(to_check, factors, mod=11):
     Also known as the elfproef
     """
     return sum(int(to_check[i]) * factors[i] for i in range(len(factors))) % mod
+
+
+def _get_mod97_value(to_check, characters=None, mod=97):
+    """Method that calculates a check digit based on the formula used for the mod97
+    check digit method. This method replaces all non-numeric values in the string with
+    two digits (i.e. A=10, B=11, etc) and then calculates a modulus of this value.
+    """
+    digits = ""
+    for character in to_check:
+        if characters and character in characters:
+            digits += characters
+        elif character.isdigit():
+            digits += character
+        elif character.isalpha() and character.isupper():
+            digits += str(ord(character) - ord('A') + 10)
+        else:
+            raise ValueError("not a valid character: %s" % character)
+
+    return int(digits) % mod

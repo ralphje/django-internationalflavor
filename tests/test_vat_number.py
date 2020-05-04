@@ -11,6 +11,7 @@ class VATNumberTestCase(TestCase):
     valid = {
         'NL820646660B01': 'NL820646660B01',
         'NL82064-6660.B01': 'NL820646660B01',
+        'NL123456789B13': 'NL123456789B13',
 
         'DE 114 103 379': 'DE114103379',
         'DE114103379': 'DE114103379',
@@ -20,6 +21,8 @@ class VATNumberTestCase(TestCase):
         'HU99999999': 'HU99999999',
         'IE1234567XX': 'IE1234567XX',
         'IE1X23456X': 'IE1X23456X',
+
+        'GR123456789': 'EL123456789',
 
         'CH-123.456.789 MWST': 'CH123456789',
         'CHE-123.456.789 MWST': 'CH123456789',
@@ -56,6 +59,19 @@ class VATNumberTestCase(TestCase):
     def test_validator_eu_only(self):
         validator = VATNumberValidator(eu_only=True)
         validator('CY12345678A')
+
+    def test_validator_greece(self):
+        validator = VATNumberValidator(eu_only=True)
+        self.assertRaises(ValidationError, validator, 'GR123456789')
+        validator('EL123456789')
+
+        validator = VATNumberValidator(countries=['GR'])
+        self.assertRaises(ValidationError, validator, 'GR123456789')
+        validator('EL123456789')
+
+        validator = VATNumberValidator(countries=['EL'])
+        self.assertRaises(ValidationError, validator, 'GR123456789')
+        validator('EL123456789')
 
     def test_form_field(self):
         self.assertFieldOutput(VATNumberFormField, valid=self.valid, invalid=self.invalid)

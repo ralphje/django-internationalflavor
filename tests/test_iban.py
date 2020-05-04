@@ -6,6 +6,116 @@ from internationalflavor.iban import IBANValidator, IBANFormField, IBANField, BI
 
 
 class IBANTestCase(TestCase):
+    # Note: use https://www.swift.com/resource/iban-registry-txt
+    swift_iban_examples = [
+        "AD1200012030200359100100",
+        "AE070331234567890123456",
+        "AL47212110090000000235698741",
+        "AT611904300234573201",
+        "AZ21NABZ00000000137010001944",
+        "BA391290079401028494",
+        "BE68539007547034",
+        "BG80BNBG96611020345678",
+        "BH67BMAG00001299123456",
+        "BR1800360305000010009795493C1",
+        "BY13NBRB3600900000002Z00AB00",
+        "CH9300762011623852957",
+        "CR05015202001026284066",
+        "CY17002001280000001200527600",
+        "CZ6508000000192000145399",
+        "DE89370400440532013000",
+        "DK5000400440116243",
+        "DO28BAGR00000001212453611324",
+        "EE382200221020145685",
+        "EG380019000500000000263180002",
+        "ES9121000418450200051332",
+        "FI2112345600000785",
+        "FO6264600001631634",
+        "FR1420041010050500013M02606",
+        "GB29NWBK60161331926819",
+        "GE29NB0000000101904917",
+        "GI75NWBK000000007099453",
+        "GL8964710001000206",
+        "GR1601101250000000012300695",
+        "GT82TRAJ01020000001210029690",
+        "HR1210010051863000160",
+        "HU42117730161111101800000000",
+        "IE29AIBK93115212345678",
+        "IL620108000000099999999",
+        "IQ98NBIQ850123456789012",
+        "IS140159260076545510730339",
+        "IT60X0542811101000000123456",
+        "JO94CBJO0010000000000131000302",
+        "KW81CBKU0000000000001234560101",
+        "KZ86125KZT5004100100",
+        "LB62099900000001001901229114",
+        "LC55HEMM000100010012001200023015",
+        "LI21088100002324013AA",
+        "LT121000011101001000",
+        "LU280019400644750000",
+        "LV80BANK0000435195001",
+        "MC5811222000010123456789030",
+        "MD24AG000225100013104168",
+        "ME25505000012345678951",
+        "MK07250120000058984",
+        "MR1300020001010000123456753",
+        "MT84MALT011000012345MTLCAST001S",
+        "MU17BOMM0101101030300200000MUR",
+        "NL91ABNA0417164300",
+        "NO9386011117947",
+        "PK36SCBL0000001123456702",
+        "PL61109010140000071219812874",
+        "PS92PALS000000000400123456702",
+        "PT50000201231234567890154",
+        "QA58DOHB00001234567890ABCDEFG",
+        "RO49AAAA1B31007593840000",
+        "RS35260005601001611379",
+        "SA0380000000608010167519",
+        "SC18SSCB11010000000000001497USD",
+        "SE4550000000058398257466",
+        "SI56263300012039086",
+        "SK3112000000198742637541",
+        "SM86U0322509800000000270100",
+        # "ST68000200010192194210112",  # this one has an invalid checksum
+        "SV62CENR00000000000000700025",
+        "TL380080012345678910157",
+        "TN5910006035183598478831",
+        "TR330006100519786457841326",
+        "UA213223130000026007233566001",
+        "VA59001123000012345678",
+        "VG96VPVG0000012345678901",
+        "XK051212012345678906",
+    ]
+
+    swift_experimental_examples = [
+        "AO06004400006729503010102",
+        "BF42BF0840101300463574000390",
+        "BI43201011067444",
+        "BJ66BJ0610100100144390000769",
+        "CF4220001000010120069700160",
+        "CG3930011000101013451300019",
+        "CI93CI0080111301134291200589",
+        "CM2110002000300277976315008",
+        "CV64000500000020108215144",
+        "DJ2110002010010409943020008",
+        "DZ580002100001113000000570",
+        "GA2140021010032001890020126",
+        "GQ7050002001003715228190196",
+        "GW04GW1430010181800637601",
+        "HN54PISA00000000000000123124",
+        "IR710570029971601460641001",
+        "KM4600005000010010904400137",
+        "MA64011519000001205000534921",
+        "MG4600005030071289421016045",
+        "ML13ML0160120102600100668497",
+        "MZ59000301080016367102371",
+        "NE58NE0380100100130305000268",
+        "NI92BAMC000000000000000003123123",
+        "SN08SN0100152000048500003035",
+        "TD8960002000010271091600153",
+        "TG53TG0090604310346500400070",
+    ]
+
     valid = {
         'GB82WeST12345698765432': 'GB82WEST12345698765432',
         'GB82 WEST 1234 5698 7654 32': 'GB82WEST12345698765432',
@@ -65,9 +175,23 @@ class IBANTestCase(TestCase):
 
         'MU17BOMM0101101030300200000MUR12345': ['This IBAN does not match the requirements for MU.',
                                                 'Ensure this value has at most 34 characters (it has 35).'],
-        # only valid for nordea
-        'EG1100006001880800100014553': ['EG IBANs are not allowed in this field.'],
+        # only valid for experimental
+        'NI92BAMC000000000000000003123123': ['NI IBANs are not allowed in this field.'],
     }
+
+    def test_iban_examples_from_swift(self):
+        validator = IBANValidator()
+
+        for iban in self.swift_iban_examples:
+            with self.subTest(iban):
+                validator(iban)
+
+    def test_experimental_iban_examples_from_swift(self):
+        validator = IBANValidator(accept_experimental=True)
+
+        for iban in self.swift_experimental_examples:
+            with self.subTest(iban):
+                validator(iban)
 
     def test_validator(self):
         validator = IBANValidator()
@@ -110,10 +234,6 @@ class IBANTestCase(TestCase):
             else:
                 # The error messages for models are in a different order.
                 self.assertEqual(context_manager.exception.messages, errors[::-1])
-
-    def test_use_nordea_extensions(self):
-        validator = IBANValidator(accept_nordea_extensions=True)
-        validator('EG1100006001880800100014553')
 
     include_countries = ('NL', 'BE', 'LU')
     include_countries_valid = {
