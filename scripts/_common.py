@@ -58,11 +58,7 @@ def get_tz_info(timezones):
 
 
 def get_language(lc):
-    if lc == 'zh-cn':
-        cldr_lc = 'zh-Hans'
-    elif lc == 'zh-tw':
-        cldr_lc = 'zh-Hant'
-    elif lc == 'pt-br':
+    if lc == 'pt-br':
         cldr_lc = 'pt'
     else:
         cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn").replace("HANS", "Hans").replace("HANT", "Hant")

@@ -11,6 +11,7 @@ This file contains the changelog for the project.
 * Updated CLDR data to v37
 * Updated IBAN data, renaming Nordea extensions to experimental countries (based off SWIFT list)
 * Updated VAT data, fixing the validation for Dutch VAT numbers
+* Added a language field
 
 0.3.1 (2017-01-28)
 ==================
