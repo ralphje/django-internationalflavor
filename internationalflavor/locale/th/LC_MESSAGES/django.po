@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "ยุโรปตะวันตก"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "แอฟริกาใต้สะฮารา"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -559,7 +559,7 @@ msgstr "ภูฏาน"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:74
 msgid "Bouvet Island"
-msgstr "เกาะบูเวต"
+msgstr "เกาะบูเว"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:75
@@ -1140,7 +1140,7 @@ msgstr "หมู่เกาะมาร์แชลล์"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "มาซิโดเนีย"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "มองโกเลีย"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "มาเก๊า"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "ซีเรีย"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "สวาซิแลนด์"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1636,7 +1636,7 @@ msgstr "หมู่เกาะบริติชเวอร์จิน"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:289
 msgid "U.S. Virgin Islands"
-msgstr "หมู่เกาะยูเอสเวอร์จิน"
+msgstr "หมู่เกาะเวอร์จินของสหรัฐอเมริกา"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:290
@@ -2752,7 +2752,7 @@ msgstr "กรุงเทพ"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:988
 msgid "Barnaul"
-msgstr "บราโมล"
+msgstr "บาร์เนาว์"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:989
@@ -3173,7 +3173,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1081
 msgid "Unknown City"
-msgstr "เมืองที่ไม่รู้จัก"
+msgstr "ไม่ทราบชื่อเมือง"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1082
@@ -4096,7 +4096,7 @@ msgstr "เวลาลอร์ดโฮว์"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "เวลามาเก๊า"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4282,7 +4282,7 @@ msgstr "เวลาคืยซิลออร์ดา"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "เวลาเรอูนียง"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "มาซิโดเนียเหนือ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "มาเก๊า"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "เอสวาตีนี"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "สำเนียงไม่จริง"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Bidi ไม่จริง"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "คอสตาเนย์"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "เวลามาเก๊า"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "เวลาเรอูนียง"
 
 #~ msgid "Czech Republic"
 #~ msgstr "สาธารณรัฐเช็ก"

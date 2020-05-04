@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "מערב אירופה"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "אפריקה שמדרום לסהרה"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -800,7 +800,7 @@ msgstr "גבון"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:122
 msgid "United Kingdom"
-msgstr "הממלכה המאוחדת"
+msgstr "בריטניה"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:123 timezone/_cldr_data.py:871
@@ -1140,7 +1140,7 @@ msgstr "איי מרשל"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "מקדוניה"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "מונגוליה"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "מקאו"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1235,7 +1235,7 @@ msgstr "ניז׳ר"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:209
 msgid "Norfolk Island"
-msgstr "איי נורפוק"
+msgstr "האי נורפוק"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:210
@@ -1490,7 +1490,7 @@ msgstr "סוריה"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "סווזילנד"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -2677,7 +2677,7 @@ msgstr "רות׳רה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:972
 msgid "Syowa"
-msgstr "סיוואה"
+msgstr "סייווה"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:973
@@ -3033,7 +3033,7 @@ msgstr "טומסק"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1050
 msgid "Ulaanbaatar"
-msgstr "אולאאנבטאר"
+msgstr "אולאן באטור"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1051
@@ -3048,7 +3048,7 @@ msgstr "אוסט-נרה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1053
 msgid "Vientiane"
-msgstr "האנוי"
+msgstr "ויינטיאן"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1054
@@ -3675,7 +3675,7 @@ msgstr "שעון אלסקה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1201
 msgid "Almaty Time"
-msgstr ""
+msgstr "שעון אלמטי"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1202
@@ -3715,12 +3715,12 @@ msgstr "שעון אפיה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1209
 msgid "Aqtau Time"
-msgstr ""
+msgstr "שעון אקטאו"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1210
 msgid "Aqtobe Time"
-msgstr ""
+msgstr "שעון אקטובה"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1211
@@ -3770,7 +3770,7 @@ msgstr "שעון מערב אוסטרליה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1220
 msgid "Azerbaijan Time"
-msgstr "שעון אזרבייג׳אן"
+msgstr "שעון אזרבייג׳ן"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1221
@@ -3965,7 +3965,7 @@ msgstr "שעון מערב גרינלנד"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1259
 msgid "Guam Standard Time"
-msgstr ""
+msgstr "שעון גואם"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1260
@@ -4096,7 +4096,7 @@ msgstr "שעון אי הלורד האו"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "שעון מקאו"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4152,7 +4152,7 @@ msgstr "שעון מערב מקסיקו"
 #: timezone/_cldr_data.py:1296
 #| msgid "Ulaanbaatar"
 msgid "Ulaanbaatar Time"
-msgstr "שעון אולן בטור"
+msgstr "שעון אולאן באטור"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1297
@@ -4207,7 +4207,7 @@ msgstr "שעון פרננדו די נורוניה"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1307
 msgid "North Mariana Islands Time"
-msgstr ""
+msgstr "שעון איי מריאנה הצפוניים"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1308
@@ -4277,12 +4277,12 @@ msgstr "שעון פיונגיאנג"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1321
 msgid "Qyzylorda Time"
-msgstr ""
+msgstr "שעון קיזילורדה"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "שעון ראוניון"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "מקדוניה הצפונית"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "מקאו"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "אסוואטיני"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "מבטאים חלקיים"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "דו-כיווני חלקי"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "קוסטנאי"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "שעון מקאו"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "שעון ראוניון"
 
 #~ msgid "Czech Republic"
 #~ msgstr "צ׳כיה"

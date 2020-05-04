@@ -44,7 +44,7 @@ msgstr "Центральна Африка"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Southern Africa"
-msgstr "Південна Африка"
+msgstr "Південноафриканський регіон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Americas"
@@ -52,7 +52,7 @@ msgstr "Америка"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Northern America"
-msgstr "Північна Америка (регіон)"
+msgstr "Північноамериканський регіон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Caribbean"
@@ -120,7 +120,7 @@ msgstr "Західна Європа"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Африка на південь від Сахари"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Latin America"
@@ -188,7 +188,7 @@ msgstr "Аруба"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Åland Islands"
-msgstr "Аландські острови"
+msgstr "Аландські Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Azerbaijan"
@@ -236,7 +236,7 @@ msgstr "Сен-Бартельмі"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Bermuda"
-msgstr "Бермудські острови"
+msgstr "Бермудські Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Brunei"
@@ -284,7 +284,7 @@ msgstr "Канада"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cocos (Keeling) Islands"
-msgstr "Кокосові (Кілінгові) острови"
+msgstr "Кокосові (Кілінґ) Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Congo - Kinshasa"
@@ -304,7 +304,7 @@ msgstr "Швейцарія"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Côte d’Ivoire"
-msgstr "Кот-д’Івуар"
+msgstr "Кот-дʼІвуар"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cook Islands"
@@ -436,7 +436,7 @@ msgstr "Фіджі"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Falkland Islands"
-msgstr "Фолклендські острови"
+msgstr "Фолклендські Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Micronesia"
@@ -508,7 +508,7 @@ msgstr "Греція"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Південна Джорджія та Південні Сандвічеві острови"
+msgstr "Південна Джорджія та Південні Сандвічеві Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guatemala"
@@ -532,7 +532,7 @@ msgstr "Гонконг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Heard & McDonald Islands"
-msgstr "острів Герд і острови Макдоналд"
+msgstr "Острови Герд і Макдоналд"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Honduras"
@@ -552,7 +552,7 @@ msgstr "Угорщина"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Canary Islands"
-msgstr "Канарські острови"
+msgstr "Канарські Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Indonesia"
@@ -628,7 +628,7 @@ msgstr "Кірібаті"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Comoros"
-msgstr "Коморські острови"
+msgstr "Комори"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Kitts & Nevis"
@@ -648,7 +648,7 @@ msgstr "Кувейт"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cayman Islands"
-msgstr "Кайманові острови"
+msgstr "Кайманові Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kazakhstan"
@@ -727,8 +727,8 @@ msgid "Marshall Islands"
 msgstr "Маршаллові Острови"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macedonia"
-msgstr "Македонія"
+msgid "North Macedonia"
+msgstr "Північна Македонія"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mali"
@@ -743,7 +743,7 @@ msgid "Mongolia"
 msgstr "Монголія"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau"
+msgid "Macao"
 msgstr "Макао"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -960,7 +960,7 @@ msgstr "Словенія"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Svalbard & Jan Mayen"
-msgstr "Шпіцберґен і Ян-Майен"
+msgstr "Шпіцберген та Ян-Маєн"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Slovakia"
@@ -1007,8 +1007,8 @@ msgid "Syria"
 msgstr "Сирія"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Swaziland"
-msgstr "Свазіленд"
+msgid "Eswatini"
+msgstr "Есватіні"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tristan da Cunha"
@@ -1143,6 +1143,14 @@ msgid "Samoa"
 msgstr "Самоа"
 
 #. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Псевдоакценти"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Псевдобіді"
+
+#. auto-generated from CLDR -- see docs before updating
 msgid "Kosovo"
 msgstr "Косово"
 
@@ -1188,7 +1196,7 @@ msgstr "Алжир"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Asmara"
-msgstr "Асмара"
+msgstr "Асмера"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Bamako"
@@ -1208,7 +1216,7 @@ msgstr "Бісау"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Blantyre"
-msgstr "Блантир"
+msgstr "Блантайр"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Brazzaville"
@@ -1436,7 +1444,7 @@ msgstr "Белен"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Blanc-Sablon"
-msgstr "Бланк-Саблон"
+msgstr "Блан-Саблон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Boa Vista"
@@ -1480,7 +1488,7 @@ msgstr "Каєнна"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cayman"
-msgstr "Кайманові острови"
+msgstr "Кайманові Острови"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Chicago"
@@ -2139,6 +2147,10 @@ msgid "Pyongyang"
 msgstr "Пхеньян"
 
 #. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Костанай"
+
+#. auto-generated from CLDR -- see docs before updating
 msgid "Qyzylorda"
 msgstr "Кизилорда"
 
@@ -2676,7 +2688,7 @@ msgstr "Тонґатапу"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Chuuk"
-msgstr "Трук"
+msgstr "Чуук"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Wake"
@@ -2912,7 +2924,7 @@ msgstr "за часом на Фіджі"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Guiana Time"
-msgstr "за часом Французької Гвіани"
+msgstr "за часом Французької Ґвіани"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Southern & Antarctic Time"
@@ -3051,7 +3063,7 @@ msgid "Lord Howe Time"
 msgstr "за часом на острові Лорд-Хау"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau Time"
+msgid "Macao Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3199,7 +3211,7 @@ msgid "Qyzylorda Time"
 msgstr "час: Кизилорда"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Reunion Time"
+msgid "Réunion Time"
 msgstr "за часом на острові Реюньйон"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3228,7 +3240,7 @@ msgstr "за часом у Сінґапурі"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Solomon Islands Time"
-msgstr "за часом на Соломонових островах"
+msgstr "за часом на Соломонових Островах"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia Time"

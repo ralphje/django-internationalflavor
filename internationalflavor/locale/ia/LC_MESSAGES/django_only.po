@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: countries/models.py:13
@@ -127,6 +127,31 @@ msgstr ""
 #: timezone/data.py:122
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:190
+msgid "Macedonia"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
+msgid "Macau"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:260
+msgid "Swaziland"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1285
+msgid "Macau Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1322
+msgid "Reunion Time"
 msgstr ""
 
 #~ msgid "%(tz)s (%(cities)s)"

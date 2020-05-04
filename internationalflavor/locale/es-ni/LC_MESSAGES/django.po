@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:9 timezone/_cldr_data.py:975
@@ -256,7 +256,7 @@ msgstr "Melanesia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:29
 msgid "Micronesian Region"
-msgstr "región de Micronesia"
+msgstr "Región de Micronesia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:30
@@ -373,7 +373,7 @@ msgstr "Europa del Oeste"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "África subsahariana"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1139,7 +1139,7 @@ msgstr "Islas Marshall"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Macedonia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1159,7 +1159,7 @@ msgstr "Mongolia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1489,7 +1489,7 @@ msgstr "Siria"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Suazilandia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1635,7 +1635,7 @@ msgstr "Islas Vírgenes Británicas"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:289
 msgid "U.S. Virgin Islands"
-msgstr "Islas Vírgenes de los Estados Unidos"
+msgstr "Islas Vírgenes de EE. UU."
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:290
@@ -1746,7 +1746,7 @@ msgstr "Abiyán"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:766
 msgid "Accra"
-msgstr "Accra"
+msgstr "Acra"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:767
@@ -2416,7 +2416,7 @@ msgstr "Montevideo"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:916
 msgid "Nassau"
-msgstr "Nassau"
+msgstr "Nasáu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:917
@@ -2806,7 +2806,7 @@ msgstr "Dubái"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1000
 msgid "Dushanbe"
-msgstr "Duchanbé"
+msgstr "Dusambé"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1001
@@ -3694,7 +3694,7 @@ msgstr "hora oriental"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1205
 msgid "Mountain Time"
-msgstr "hora de las Montañas"
+msgstr "hora de la montaña"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1206
@@ -3844,7 +3844,7 @@ msgstr "hora de la Isla de Navidad"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1235
 msgid "Cocos Islands Time"
-msgstr "hora de las Islas Cocos"
+msgstr "hora de Islas Cocos"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1236
@@ -4095,7 +4095,7 @@ msgstr "hora de Lord Howe"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Hora de Macao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4125,7 +4125,7 @@ msgstr "hora de Marquesas"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1291
 msgid "Marshall Islands Time"
-msgstr "hora de las Islas Marshall"
+msgstr "hora de Islas Marshall"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1292
@@ -4281,7 +4281,7 @@ msgstr "Hora de Qyzylorda"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "hora de Reunión"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4316,7 +4316,7 @@ msgstr "hora de Singapur"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1329
 msgid "Solomon Islands Time"
-msgstr "hora de las Islas Salomón"
+msgstr "hora de Islas Salomón"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1330
@@ -4411,7 +4411,7 @@ msgstr "hora de Vostok"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1348
 msgid "Wake Island Time"
-msgstr "hora de la isla Wake"
+msgstr "hora de Isla Wake"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1349
@@ -4512,6 +4512,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Macedonia del Norte"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Esuatini"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Pseudoacentos"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Pseudobidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanái"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Hora de Macao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "hora de Reunión"
 
 #~ msgid "Czech Republic"
 #~ msgstr "República Checa"

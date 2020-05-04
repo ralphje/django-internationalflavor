@@ -12,45 +12,45 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:9 timezone/_cldr_data.py:975
-#: timezone/_cldr_data.py:1058 timezone/_cldr_data.py:1059
-#: timezone/_cldr_data.py:1060 timezone/_cldr_data.py:1061
-#: timezone/_cldr_data.py:1062 timezone/_cldr_data.py:1063
-#: timezone/_cldr_data.py:1064 timezone/_cldr_data.py:1065
-#: timezone/_cldr_data.py:1066 timezone/_cldr_data.py:1067
-#: timezone/_cldr_data.py:1080 timezone/_cldr_data.py:1081
-#: timezone/_cldr_data.py:1142 timezone/_cldr_data.py:1143
-#: timezone/_cldr_data.py:1144 timezone/_cldr_data.py:1145
-#: timezone/_cldr_data.py:1146 timezone/_cldr_data.py:1147
-#: timezone/_cldr_data.py:1148 timezone/_cldr_data.py:1149
-#: timezone/_cldr_data.py:1150 timezone/_cldr_data.py:1151
-#: timezone/_cldr_data.py:1152 timezone/_cldr_data.py:1153
-#: timezone/_cldr_data.py:1154 timezone/_cldr_data.py:1155
-#: timezone/_cldr_data.py:1156 timezone/_cldr_data.py:1157
-#: timezone/_cldr_data.py:1158 timezone/_cldr_data.py:1159
-#: timezone/_cldr_data.py:1160 timezone/_cldr_data.py:1161
-#: timezone/_cldr_data.py:1162 timezone/_cldr_data.py:1163
-#: timezone/_cldr_data.py:1164 timezone/_cldr_data.py:1165
-#: timezone/_cldr_data.py:1166 timezone/_cldr_data.py:1167
-#: timezone/_cldr_data.py:1168 timezone/_cldr_data.py:1169
-#: timezone/_cldr_data.py:1170 timezone/_cldr_data.py:1171
-#: timezone/_cldr_data.py:1172 timezone/_cldr_data.py:1173
-#: timezone/_cldr_data.py:1174 timezone/_cldr_data.py:1175
-#: timezone/_cldr_data.py:1176 timezone/_cldr_data.py:1177
-#: timezone/_cldr_data.py:1178 timezone/_cldr_data.py:1179
-#: timezone/_cldr_data.py:1180 timezone/_cldr_data.py:1181
-#: timezone/_cldr_data.py:1182 timezone/_cldr_data.py:1183
-#: timezone/_cldr_data.py:1184 timezone/_cldr_data.py:1185
-#: timezone/_cldr_data.py:1186 timezone/_cldr_data.py:1187
-#: timezone/_cldr_data.py:1188 timezone/_cldr_data.py:1189
-#: timezone/_cldr_data.py:1190 timezone/_cldr_data.py:1191
+#: timezone/_cldr_data.py:1059 timezone/_cldr_data.py:1060
+#: timezone/_cldr_data.py:1061 timezone/_cldr_data.py:1062
+#: timezone/_cldr_data.py:1063 timezone/_cldr_data.py:1064
+#: timezone/_cldr_data.py:1065 timezone/_cldr_data.py:1066
+#: timezone/_cldr_data.py:1067 timezone/_cldr_data.py:1068
+#: timezone/_cldr_data.py:1081 timezone/_cldr_data.py:1082
+#: timezone/_cldr_data.py:1143 timezone/_cldr_data.py:1144
+#: timezone/_cldr_data.py:1145 timezone/_cldr_data.py:1146
+#: timezone/_cldr_data.py:1147 timezone/_cldr_data.py:1148
+#: timezone/_cldr_data.py:1149 timezone/_cldr_data.py:1150
+#: timezone/_cldr_data.py:1151 timezone/_cldr_data.py:1152
+#: timezone/_cldr_data.py:1153 timezone/_cldr_data.py:1154
+#: timezone/_cldr_data.py:1155 timezone/_cldr_data.py:1156
+#: timezone/_cldr_data.py:1157 timezone/_cldr_data.py:1158
+#: timezone/_cldr_data.py:1159 timezone/_cldr_data.py:1160
+#: timezone/_cldr_data.py:1161 timezone/_cldr_data.py:1162
+#: timezone/_cldr_data.py:1163 timezone/_cldr_data.py:1164
+#: timezone/_cldr_data.py:1165 timezone/_cldr_data.py:1166
+#: timezone/_cldr_data.py:1167 timezone/_cldr_data.py:1168
+#: timezone/_cldr_data.py:1169 timezone/_cldr_data.py:1170
+#: timezone/_cldr_data.py:1171 timezone/_cldr_data.py:1172
+#: timezone/_cldr_data.py:1173 timezone/_cldr_data.py:1174
+#: timezone/_cldr_data.py:1175 timezone/_cldr_data.py:1176
+#: timezone/_cldr_data.py:1177 timezone/_cldr_data.py:1178
+#: timezone/_cldr_data.py:1179 timezone/_cldr_data.py:1180
+#: timezone/_cldr_data.py:1181 timezone/_cldr_data.py:1182
+#: timezone/_cldr_data.py:1183 timezone/_cldr_data.py:1184
+#: timezone/_cldr_data.py:1185 timezone/_cldr_data.py:1186
+#: timezone/_cldr_data.py:1187 timezone/_cldr_data.py:1188
+#: timezone/_cldr_data.py:1189 timezone/_cldr_data.py:1190
+#: timezone/_cldr_data.py:1191 timezone/_cldr_data.py:1192
 msgid "World"
 msgstr "მსოფლიო"
 
@@ -96,13 +96,13 @@ msgid "South America"
 msgstr "სამხრეთ ამერიკა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:13 timezone/_cldr_data.py:1068
-#: timezone/_cldr_data.py:1069 timezone/_cldr_data.py:1070
-#: timezone/_cldr_data.py:1071 timezone/_cldr_data.py:1072
-#: timezone/_cldr_data.py:1073 timezone/_cldr_data.py:1074
-#: timezone/_cldr_data.py:1075 timezone/_cldr_data.py:1076
-#: timezone/_cldr_data.py:1077 timezone/_cldr_data.py:1078
-#: timezone/_cldr_data.py:1079
+#: countries/_cldr_data.py:13 timezone/_cldr_data.py:1069
+#: timezone/_cldr_data.py:1070 timezone/_cldr_data.py:1071
+#: timezone/_cldr_data.py:1072 timezone/_cldr_data.py:1073
+#: timezone/_cldr_data.py:1074 timezone/_cldr_data.py:1075
+#: timezone/_cldr_data.py:1076 timezone/_cldr_data.py:1077
+#: timezone/_cldr_data.py:1078 timezone/_cldr_data.py:1079
+#: timezone/_cldr_data.py:1080
 msgid "Oceania"
 msgstr "ოკეანეთი"
 
@@ -306,7 +306,7 @@ msgstr "პოლინეზია"
 #: timezone/_cldr_data.py:1051 timezone/_cldr_data.py:1052
 #: timezone/_cldr_data.py:1053 timezone/_cldr_data.py:1054
 #: timezone/_cldr_data.py:1055 timezone/_cldr_data.py:1056
-#: timezone/_cldr_data.py:1057
+#: timezone/_cldr_data.py:1057 timezone/_cldr_data.py:1058
 msgid "Asia"
 msgstr "აზია"
 
@@ -321,37 +321,37 @@ msgid "Western Asia"
 msgstr "დასავლეთ აზია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:34 timezone/_cldr_data.py:1082
-#: timezone/_cldr_data.py:1083 timezone/_cldr_data.py:1084
-#: timezone/_cldr_data.py:1085 timezone/_cldr_data.py:1086
-#: timezone/_cldr_data.py:1087 timezone/_cldr_data.py:1088
-#: timezone/_cldr_data.py:1089 timezone/_cldr_data.py:1090
-#: timezone/_cldr_data.py:1091 timezone/_cldr_data.py:1092
-#: timezone/_cldr_data.py:1093 timezone/_cldr_data.py:1094
-#: timezone/_cldr_data.py:1095 timezone/_cldr_data.py:1096
-#: timezone/_cldr_data.py:1097 timezone/_cldr_data.py:1098
-#: timezone/_cldr_data.py:1099 timezone/_cldr_data.py:1100
-#: timezone/_cldr_data.py:1101 timezone/_cldr_data.py:1102
-#: timezone/_cldr_data.py:1103 timezone/_cldr_data.py:1104
-#: timezone/_cldr_data.py:1105 timezone/_cldr_data.py:1106
-#: timezone/_cldr_data.py:1107 timezone/_cldr_data.py:1108
-#: timezone/_cldr_data.py:1109 timezone/_cldr_data.py:1110
-#: timezone/_cldr_data.py:1111 timezone/_cldr_data.py:1112
-#: timezone/_cldr_data.py:1113 timezone/_cldr_data.py:1114
-#: timezone/_cldr_data.py:1115 timezone/_cldr_data.py:1116
-#: timezone/_cldr_data.py:1117 timezone/_cldr_data.py:1118
-#: timezone/_cldr_data.py:1119 timezone/_cldr_data.py:1120
-#: timezone/_cldr_data.py:1121 timezone/_cldr_data.py:1122
-#: timezone/_cldr_data.py:1123 timezone/_cldr_data.py:1124
-#: timezone/_cldr_data.py:1125 timezone/_cldr_data.py:1126
-#: timezone/_cldr_data.py:1127 timezone/_cldr_data.py:1128
-#: timezone/_cldr_data.py:1129 timezone/_cldr_data.py:1130
-#: timezone/_cldr_data.py:1131 timezone/_cldr_data.py:1132
-#: timezone/_cldr_data.py:1133 timezone/_cldr_data.py:1134
-#: timezone/_cldr_data.py:1135 timezone/_cldr_data.py:1136
-#: timezone/_cldr_data.py:1137 timezone/_cldr_data.py:1138
-#: timezone/_cldr_data.py:1139 timezone/_cldr_data.py:1140
-#: timezone/_cldr_data.py:1141
+#: countries/_cldr_data.py:34 timezone/_cldr_data.py:1083
+#: timezone/_cldr_data.py:1084 timezone/_cldr_data.py:1085
+#: timezone/_cldr_data.py:1086 timezone/_cldr_data.py:1087
+#: timezone/_cldr_data.py:1088 timezone/_cldr_data.py:1089
+#: timezone/_cldr_data.py:1090 timezone/_cldr_data.py:1091
+#: timezone/_cldr_data.py:1092 timezone/_cldr_data.py:1093
+#: timezone/_cldr_data.py:1094 timezone/_cldr_data.py:1095
+#: timezone/_cldr_data.py:1096 timezone/_cldr_data.py:1097
+#: timezone/_cldr_data.py:1098 timezone/_cldr_data.py:1099
+#: timezone/_cldr_data.py:1100 timezone/_cldr_data.py:1101
+#: timezone/_cldr_data.py:1102 timezone/_cldr_data.py:1103
+#: timezone/_cldr_data.py:1104 timezone/_cldr_data.py:1105
+#: timezone/_cldr_data.py:1106 timezone/_cldr_data.py:1107
+#: timezone/_cldr_data.py:1108 timezone/_cldr_data.py:1109
+#: timezone/_cldr_data.py:1110 timezone/_cldr_data.py:1111
+#: timezone/_cldr_data.py:1112 timezone/_cldr_data.py:1113
+#: timezone/_cldr_data.py:1114 timezone/_cldr_data.py:1115
+#: timezone/_cldr_data.py:1116 timezone/_cldr_data.py:1117
+#: timezone/_cldr_data.py:1118 timezone/_cldr_data.py:1119
+#: timezone/_cldr_data.py:1120 timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1122 timezone/_cldr_data.py:1123
+#: timezone/_cldr_data.py:1124 timezone/_cldr_data.py:1125
+#: timezone/_cldr_data.py:1126 timezone/_cldr_data.py:1127
+#: timezone/_cldr_data.py:1128 timezone/_cldr_data.py:1129
+#: timezone/_cldr_data.py:1130 timezone/_cldr_data.py:1131
+#: timezone/_cldr_data.py:1132 timezone/_cldr_data.py:1133
+#: timezone/_cldr_data.py:1134 timezone/_cldr_data.py:1135
+#: timezone/_cldr_data.py:1136 timezone/_cldr_data.py:1137
+#: timezone/_cldr_data.py:1138 timezone/_cldr_data.py:1139
+#: timezone/_cldr_data.py:1140 timezone/_cldr_data.py:1141
+#: timezone/_cldr_data.py:1142
 msgid "Europe"
 msgstr "ევროპა"
 
@@ -372,9 +372,8 @@ msgstr "დასავლეთ ევროპა"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:38
-#| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "სუბსაჰარული აფრიკა"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -387,7 +386,7 @@ msgid "Ascension Island"
 msgstr "ამაღლების კუნძული"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:41 timezone/_cldr_data.py:1083
+#: countries/_cldr_data.py:41 timezone/_cldr_data.py:1084
 msgid "Andorra"
 msgstr "ანდორა"
 
@@ -409,7 +408,7 @@ msgstr "ანტიგუა და ბარბუდა"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:45 timezone/_cldr_data.py:819
 msgid "Anguilla"
-msgstr "ანგვილა"
+msgstr "ანგილია"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:46
@@ -522,7 +521,7 @@ msgid "St. Barthélemy"
 msgstr "სენ-ბართელმი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:67 timezone/_cldr_data.py:1059
+#: countries/_cldr_data.py:67 timezone/_cldr_data.py:1060
 msgid "Bermuda"
 msgstr "ბერმუდა"
 
@@ -652,7 +651,7 @@ msgid "Cuba"
 msgstr "კუბა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:93 timezone/_cldr_data.py:1061
+#: countries/_cldr_data.py:93 timezone/_cldr_data.py:1062
 msgid "Cape Verde"
 msgstr "კაბო-ვერდე"
 
@@ -758,7 +757,6 @@ msgstr "ევროკავშირი"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:114
-#| msgid "Europe"
 msgid "Eurozone"
 msgstr "ევროზონა"
 
@@ -768,7 +766,7 @@ msgid "Finland"
 msgstr "ფინეთი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:116 timezone/_cldr_data.py:1161
+#: countries/_cldr_data.py:116 timezone/_cldr_data.py:1162
 msgid "Fiji"
 msgstr "ფიჯი"
 
@@ -818,7 +816,7 @@ msgid "French Guiana"
 msgstr "საფრანგეთის გვიანა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:126 timezone/_cldr_data.py:1097
+#: countries/_cldr_data.py:126 timezone/_cldr_data.py:1098
 msgid "Guernsey"
 msgstr "გერნსი"
 
@@ -828,7 +826,7 @@ msgid "Ghana"
 msgstr "განა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:128 timezone/_cldr_data.py:1096
+#: countries/_cldr_data.py:128 timezone/_cldr_data.py:1097
 msgid "Gibraltar"
 msgstr "გიბრალტარი"
 
@@ -873,7 +871,7 @@ msgid "Guatemala"
 msgstr "გვატემალა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:137 timezone/_cldr_data.py:1166
+#: countries/_cldr_data.py:137 timezone/_cldr_data.py:1167
 msgid "Guam"
 msgstr "გუამი"
 
@@ -938,7 +936,7 @@ msgid "Israel"
 msgstr "ისრაელი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:150 timezone/_cldr_data.py:1099
+#: countries/_cldr_data.py:150 timezone/_cldr_data.py:1100
 msgid "Isle of Man"
 msgstr "მენის კუნძული"
 
@@ -973,7 +971,7 @@ msgid "Italy"
 msgstr "იტალია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:157 timezone/_cldr_data.py:1101
+#: countries/_cldr_data.py:157 timezone/_cldr_data.py:1102
 msgid "Jersey"
 msgstr "ჯერსი"
 
@@ -1085,10 +1083,10 @@ msgstr "ლესოთო"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:179
 msgid "Lithuania"
-msgstr "ლიტვა"
+msgstr "ლიეტუვა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:180 timezone/_cldr_data.py:1108
+#: countries/_cldr_data.py:180 timezone/_cldr_data.py:1109
 msgid "Luxembourg"
 msgstr "ლუქსემბურგი"
 
@@ -1108,7 +1106,7 @@ msgid "Morocco"
 msgstr "მაროკო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:184 timezone/_cldr_data.py:1113
+#: countries/_cldr_data.py:184 timezone/_cldr_data.py:1114
 msgid "Monaco"
 msgstr "მონაკო"
 
@@ -1139,8 +1137,9 @@ msgstr "მარშალის კუნძულები"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
-msgid "Macedonia"
-msgstr "მაკედონია"
+#| msgid "Macedonia"
+msgid "North Macedonia"
+msgstr "ჩრდილოეთ მაკედონია"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1159,7 +1158,8 @@ msgstr "მონღოლეთი"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
-msgid "Macau"
+#| msgid "Macau"
+msgid "Macao"
 msgstr "მაკაო"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -1183,17 +1183,17 @@ msgid "Montserrat"
 msgstr "მონსერატი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1110
+#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1111
 msgid "Malta"
 msgstr "მალტა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:200 timezone/_cldr_data.py:1150
+#: countries/_cldr_data.py:200 timezone/_cldr_data.py:1151
 msgid "Mauritius"
 msgstr "მავრიკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:201 timezone/_cldr_data.py:1149
+#: countries/_cldr_data.py:201 timezone/_cldr_data.py:1150
 msgid "Maldives"
 msgstr "მალდივები"
 
@@ -1263,12 +1263,12 @@ msgid "Nepal"
 msgstr "ნეპალი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:215 timezone/_cldr_data.py:1175
+#: countries/_cldr_data.py:215 timezone/_cldr_data.py:1176
 msgid "Nauru"
 msgstr "ნაურუ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:216 timezone/_cldr_data.py:1176
+#: countries/_cldr_data.py:216 timezone/_cldr_data.py:1177
 msgid "Niue"
 msgstr "ნიუე"
 
@@ -1343,7 +1343,7 @@ msgid "Portugal"
 msgstr "პორტუგალია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:231 timezone/_cldr_data.py:1180
+#: countries/_cldr_data.py:231 timezone/_cldr_data.py:1181
 msgid "Palau"
 msgstr "პალაუ"
 
@@ -1363,7 +1363,7 @@ msgid "Outlying Oceania"
 msgstr "შორეული ოკეანეთი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:235 timezone/_cldr_data.py:1152
+#: countries/_cldr_data.py:235 timezone/_cldr_data.py:1153
 msgid "Réunion"
 msgstr "რეუნიონი"
 
@@ -1413,12 +1413,12 @@ msgid "Sweden"
 msgstr "შვედეთი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:245 timezone/_cldr_data.py:1041
+#: countries/_cldr_data.py:245 timezone/_cldr_data.py:1042
 msgid "Singapore"
 msgstr "სინგაპური"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:246 timezone/_cldr_data.py:1066
+#: countries/_cldr_data.py:246 timezone/_cldr_data.py:1067
 msgid "St. Helena"
 msgstr "წმინდა ელენეს კუნძული"
 
@@ -1443,7 +1443,7 @@ msgid "Sierra Leone"
 msgstr "სიერა-ლეონე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:251 timezone/_cldr_data.py:1122
+#: countries/_cldr_data.py:251 timezone/_cldr_data.py:1123
 msgid "San Marino"
 msgstr "სან-მარინო"
 
@@ -1489,7 +1489,7 @@ msgstr "სირია"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
-msgid "Swaziland"
+msgid "Eswatini"
 msgstr "სვაზილენდი"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -1594,7 +1594,6 @@ msgstr "აშშ-ის შორეული კუნძულები"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:281
-#| msgid "United States"
 msgid "United Nations"
 msgstr "გაერო"
 
@@ -1660,36 +1659,46 @@ msgstr "სამოა"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:294
+msgid "Pseudo-Accents"
+msgstr "ფსევდო-აქცენტები"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:295
+msgid "Pseudo-Bidi"
+msgstr "ფსევდო-ორმიმართულებიანი"
+
+#. auto-generated from CLDR -- see docs before updating
+#: countries/_cldr_data.py:296
 msgid "Kosovo"
 msgstr "კოსოვო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:295
+#: countries/_cldr_data.py:297
 msgid "Yemen"
 msgstr "იემენი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:296 timezone/_cldr_data.py:1151
+#: countries/_cldr_data.py:298 timezone/_cldr_data.py:1152
 msgid "Mayotte"
 msgstr "მაიოტა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:297
+#: countries/_cldr_data.py:299
 msgid "South Africa"
 msgstr "სამხრეთ აფრიკის რესპუბლიკა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:298
+#: countries/_cldr_data.py:300
 msgid "Zambia"
 msgstr "ზამბია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:299
+#: countries/_cldr_data.py:301
 msgid "Zimbabwe"
 msgstr "ზიმბაბვე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:300
+#: countries/_cldr_data.py:302
 msgid "Unknown Region"
 msgstr "უცნობი რეგიონი"
 
@@ -2951,1517 +2960,1519 @@ msgstr "ფხენიანი"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1033
+msgid "Kostanay"
+msgstr "კოსტანაი"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1034
 msgid "Qyzylorda"
 msgstr "ყიზილორდა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1034
-#| msgid "Rangoon"
+#: timezone/_cldr_data.py:1035
 msgid "Yangon"
 msgstr "რანგუნი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1035
+#: timezone/_cldr_data.py:1036
 msgid "Riyadh"
 msgstr "ერ-რიადი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1036
+#: timezone/_cldr_data.py:1037
 msgid "Ho Chi Minh City"
 msgstr "ჰოჩიმინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1037
+#: timezone/_cldr_data.py:1038
 msgid "Sakhalin"
 msgstr "სახალინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1038
+#: timezone/_cldr_data.py:1039
 msgid "Samarkand"
 msgstr "სამარყანდი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1039
+#: timezone/_cldr_data.py:1040
 msgid "Seoul"
 msgstr "სეული"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1040
+#: timezone/_cldr_data.py:1041
 msgid "Shanghai"
 msgstr "შანხაი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1042
+#: timezone/_cldr_data.py:1043
 msgid "Srednekolymsk"
 msgstr "სრედნეკოლიმსკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1043
+#: timezone/_cldr_data.py:1044
 msgid "Taipei"
 msgstr "ტაიპეი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1044
+#: timezone/_cldr_data.py:1045
 msgid "Tashkent"
 msgstr "ტაშკენტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1045
+#: timezone/_cldr_data.py:1046
 msgid "Tbilisi"
 msgstr "თბილისი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1046
+#: timezone/_cldr_data.py:1047
 msgid "Tehran"
 msgstr "თეირანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1047
+#: timezone/_cldr_data.py:1048
 msgid "Thimphu"
 msgstr "თხიმფხუ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1048
+#: timezone/_cldr_data.py:1049
 msgid "Tokyo"
 msgstr "ტოკიო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1049
+#: timezone/_cldr_data.py:1050
 msgid "Tomsk"
 msgstr "ტომსკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1050
+#: timezone/_cldr_data.py:1051
 msgid "Ulaanbaatar"
 msgstr "ულანბატარი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1051
+#: timezone/_cldr_data.py:1052
 msgid "Urumqi"
 msgstr "ურუმქი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1052
+#: timezone/_cldr_data.py:1053
 msgid "Ust-Nera"
 msgstr "უსტ-ნერა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1053
+#: timezone/_cldr_data.py:1054
 msgid "Vientiane"
 msgstr "ვიენტიანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1054
+#: timezone/_cldr_data.py:1055
 msgid "Vladivostok"
 msgstr "ვლადივოსტოკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1055
+#: timezone/_cldr_data.py:1056
 msgid "Yakutsk"
 msgstr "იაკუტსკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1056
+#: timezone/_cldr_data.py:1057
 msgid "Yekaterinburg"
 msgstr "ეკატერინბურგი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1057
+#: timezone/_cldr_data.py:1058
 msgid "Yerevan"
 msgstr "ერევანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1058
+#: timezone/_cldr_data.py:1059
 msgid "Azores"
 msgstr "აზორის კუნძულები"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1060
+#: timezone/_cldr_data.py:1061
 msgid "Canary"
 msgstr "კანარი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1062
+#: timezone/_cldr_data.py:1063
 msgid "Faroe"
 msgstr "ფარერის კუნძულები"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1063
+#: timezone/_cldr_data.py:1064
 msgid "Madeira"
 msgstr "მადეირა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1064
+#: timezone/_cldr_data.py:1065
 msgid "Reykjavik"
 msgstr "რეიკიავიკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1065
+#: timezone/_cldr_data.py:1066
 msgid "South Georgia"
 msgstr "სამხრეთ ჯორჯია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1067
+#: timezone/_cldr_data.py:1068
 msgid "Stanley"
 msgstr "სტენლი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1068
+#: timezone/_cldr_data.py:1069
 msgid "Adelaide"
 msgstr "ადელაიდა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1069
+#: timezone/_cldr_data.py:1070
 msgid "Brisbane"
 msgstr "ბრისბეინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1070
+#: timezone/_cldr_data.py:1071
 msgid "Broken Hill"
 msgstr "ბროუკენ ჰილი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1071
+#: timezone/_cldr_data.py:1072
 msgid "Currie"
 msgstr "ქური"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1072
+#: timezone/_cldr_data.py:1073
 msgid "Darwin"
 msgstr "დარვინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1073
+#: timezone/_cldr_data.py:1074
 msgid "Eucla"
 msgstr "ეუკლა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1074
+#: timezone/_cldr_data.py:1075
 msgid "Hobart"
 msgstr "ჰობარტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1075
+#: timezone/_cldr_data.py:1076
 msgid "Lindeman"
 msgstr "ლინდმანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1076
+#: timezone/_cldr_data.py:1077
 msgid "Lord Howe"
 msgstr "ლორდ ჰოუი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1077
+#: timezone/_cldr_data.py:1078
 msgid "Melbourne"
 msgstr "მელბურნი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1078
+#: timezone/_cldr_data.py:1079
 msgid "Perth"
 msgstr "პერთი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1079
+#: timezone/_cldr_data.py:1080
 msgid "Sydney"
 msgstr "სიდნეი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1080
+#: timezone/_cldr_data.py:1081
 msgid "UTC"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1081
+#: timezone/_cldr_data.py:1082
 msgid "Unknown City"
 msgstr "უცნობი ქალაქი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1082
+#: timezone/_cldr_data.py:1083
 msgid "Amsterdam"
 msgstr "ამსტერდამი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1084
-#| msgid "Australia"
+#: timezone/_cldr_data.py:1085
 msgid "Astrakhan"
 msgstr "ასტრახანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1085
+#: timezone/_cldr_data.py:1086
 msgid "Athens"
 msgstr "ათენი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1086
+#: timezone/_cldr_data.py:1087
 msgid "Belgrade"
 msgstr "ბელგრადი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1087
+#: timezone/_cldr_data.py:1088
 msgid "Berlin"
 msgstr "ბერლინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1088
+#: timezone/_cldr_data.py:1089
 msgid "Bratislava"
 msgstr "ბრატისლავა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1089
+#: timezone/_cldr_data.py:1090
 msgid "Brussels"
 msgstr "ბრიუსელი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1090
+#: timezone/_cldr_data.py:1091
 msgid "Bucharest"
 msgstr "ბუხარესტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1091
+#: timezone/_cldr_data.py:1092
 msgid "Budapest"
 msgstr "ბუდაპეშტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1092
+#: timezone/_cldr_data.py:1093
 msgid "Busingen"
 msgstr "ბუსინგენი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1093
+#: timezone/_cldr_data.py:1094
 msgid "Chisinau"
 msgstr "კიშინიოვი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1094
+#: timezone/_cldr_data.py:1095
 msgid "Copenhagen"
 msgstr "კოპენჰაგენი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1095
+#: timezone/_cldr_data.py:1096
 msgid "Dublin"
 msgstr "დუბლინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1098
+#: timezone/_cldr_data.py:1099
 msgid "Helsinki"
 msgstr "ჰელსინკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1100
+#: timezone/_cldr_data.py:1101
 msgid "Istanbul"
 msgstr "სტამბოლი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1102
+#: timezone/_cldr_data.py:1103
 msgid "Kaliningrad"
 msgstr "კალინინგრადი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1103
+#: timezone/_cldr_data.py:1104
 msgid "Kiev"
 msgstr "კიევი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1104
+#: timezone/_cldr_data.py:1105
 msgid "Kirov"
 msgstr "კიროვი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1105
+#: timezone/_cldr_data.py:1106
 msgid "Lisbon"
 msgstr "ლისაბონი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1106
+#: timezone/_cldr_data.py:1107
 msgid "Ljubljana"
 msgstr "ლიუბლიანა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1107
+#: timezone/_cldr_data.py:1108
 msgid "London"
 msgstr "ლონდონი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1109
+#: timezone/_cldr_data.py:1110
 msgid "Madrid"
 msgstr "მადრიდი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1111
+#: timezone/_cldr_data.py:1112
 msgid "Mariehamn"
 msgstr "მარიჰამნი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1112
+#: timezone/_cldr_data.py:1113
 msgid "Minsk"
 msgstr "მინსკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1114
+#: timezone/_cldr_data.py:1115
 msgid "Moscow"
 msgstr "მოსკოვი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1115
+#: timezone/_cldr_data.py:1116
 msgid "Oslo"
 msgstr "ოსლო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1116
+#: timezone/_cldr_data.py:1117
 msgid "Paris"
 msgstr "პარიზი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1117
+#: timezone/_cldr_data.py:1118
 msgid "Podgorica"
 msgstr "პოდგორიცა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1118
+#: timezone/_cldr_data.py:1119
 msgid "Prague"
 msgstr "პრაღა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1119
+#: timezone/_cldr_data.py:1120
 msgid "Riga"
 msgstr "რიგა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1120
+#: timezone/_cldr_data.py:1121
 msgid "Rome"
 msgstr "რომი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1122
 msgid "Samara"
 msgstr "სამარა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1123
+#: timezone/_cldr_data.py:1124
 msgid "Sarajevo"
 msgstr "სარაევო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1124
-#| msgid "Sarajevo"
+#: timezone/_cldr_data.py:1125
 msgid "Saratov"
 msgstr "სარატოვი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1125
+#: timezone/_cldr_data.py:1126
 msgid "Simferopol"
 msgstr "სიმფეროპოლი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1126
+#: timezone/_cldr_data.py:1127
 msgid "Skopje"
 msgstr "სკოპიე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1127
+#: timezone/_cldr_data.py:1128
 msgid "Sofia"
 msgstr "სოფია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1128
+#: timezone/_cldr_data.py:1129
 msgid "Stockholm"
 msgstr "სტოკჰოლმი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1129
+#: timezone/_cldr_data.py:1130
 msgid "Tallinn"
 msgstr "ტალინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1130
+#: timezone/_cldr_data.py:1131
 msgid "Tirane"
 msgstr "ტირანა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1131
+#: timezone/_cldr_data.py:1132
 msgid "Ulyanovsk"
 msgstr "ულიანოვსკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1132
+#: timezone/_cldr_data.py:1133
 msgid "Uzhhorod"
 msgstr "უჟგოროდი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1133
+#: timezone/_cldr_data.py:1134
 msgid "Vaduz"
 msgstr "ვადუზი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1134
+#: timezone/_cldr_data.py:1135
 msgid "Vatican"
 msgstr "ვატიკანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1135
+#: timezone/_cldr_data.py:1136
 msgid "Vienna"
 msgstr "ვენა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1136
+#: timezone/_cldr_data.py:1137
 msgid "Vilnius"
 msgstr "ვილნიუსი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1137
+#: timezone/_cldr_data.py:1138
 msgid "Volgograd"
 msgstr "ვოლგოგრადი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1138
+#: timezone/_cldr_data.py:1139
 msgid "Warsaw"
 msgstr "ვარშავა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1139
+#: timezone/_cldr_data.py:1140
 msgid "Zagreb"
 msgstr "ზაგრები"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1140
+#: timezone/_cldr_data.py:1141
 msgid "Zaporozhye"
 msgstr "ზაპოროჟიე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1141
+#: timezone/_cldr_data.py:1142
 msgid "Zurich"
 msgstr "ციურიხი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1142
+#: timezone/_cldr_data.py:1143
 msgid "Antananarivo"
 msgstr "ანტანანარივუ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1143
+#: timezone/_cldr_data.py:1144
 msgid "Chagos"
 msgstr "ჩაგოსი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1144
+#: timezone/_cldr_data.py:1145
 msgid "Christmas"
 msgstr "შობის კუნძული"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1145
+#: timezone/_cldr_data.py:1146
 msgid "Cocos"
 msgstr "ქოქოსი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1146
+#: timezone/_cldr_data.py:1147
 msgid "Comoro"
 msgstr "კომორო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1147
+#: timezone/_cldr_data.py:1148
 msgid "Kerguelen"
 msgstr "კერგელენი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1148
+#: timezone/_cldr_data.py:1149
 msgid "Mahe"
 msgstr "მაჰე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1153
+#: timezone/_cldr_data.py:1154
 msgid "Apia"
 msgstr "აპია"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1154
+#: timezone/_cldr_data.py:1155
 msgid "Auckland"
 msgstr "ოკლენდი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1155
+#: timezone/_cldr_data.py:1156
 msgid "Bougainville"
 msgstr "ბუგენვილი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1156
+#: timezone/_cldr_data.py:1157
 msgid "Chatham"
 msgstr "ჩათამი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1157
+#: timezone/_cldr_data.py:1158
 msgid "Easter"
 msgstr "ისთერი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1158
+#: timezone/_cldr_data.py:1159
 msgid "Efate"
 msgstr "ეფატე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1159
+#: timezone/_cldr_data.py:1160
 msgid "Enderbury"
 msgstr "ენდერბური"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1160
+#: timezone/_cldr_data.py:1161
 msgid "Fakaofo"
 msgstr "ფაკაოფო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1162
+#: timezone/_cldr_data.py:1163
 msgid "Funafuti"
 msgstr "ფუნაფუტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1163
+#: timezone/_cldr_data.py:1164
 msgid "Galapagos"
 msgstr "გალაპაგოსი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1164
+#: timezone/_cldr_data.py:1165
 msgid "Gambier"
 msgstr "გამბიერი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1165
+#: timezone/_cldr_data.py:1166
 msgid "Guadalcanal"
 msgstr "გვადალკანალი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1167
+#: timezone/_cldr_data.py:1168
 msgid "Honolulu"
 msgstr "ჰონოლულუ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1168
+#: timezone/_cldr_data.py:1169
 msgid "Johnston"
 msgstr "ჯონსტონი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1169
+#: timezone/_cldr_data.py:1170
 msgid "Kiritimati"
 msgstr "კირიტიმატი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1170
+#: timezone/_cldr_data.py:1171
 msgid "Kosrae"
 msgstr "კოსრაე"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1171
+#: timezone/_cldr_data.py:1172
 msgid "Kwajalein"
 msgstr "კვაჯალეინი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1172
+#: timezone/_cldr_data.py:1173
 msgid "Majuro"
 msgstr "მახურო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1173
+#: timezone/_cldr_data.py:1174
 msgid "Marquesas"
 msgstr "მარკეზასი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1174
+#: timezone/_cldr_data.py:1175
 msgid "Midway"
 msgstr "მიდუეი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1177
+#: timezone/_cldr_data.py:1178
 msgid "Norfolk"
 msgstr "ნორფოლკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1178
+#: timezone/_cldr_data.py:1179
 msgid "Noumea"
 msgstr "ნუმეა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1179
+#: timezone/_cldr_data.py:1180
 msgid "Pago Pago"
 msgstr "პაგო-პაგო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1181
+#: timezone/_cldr_data.py:1182
 msgid "Pitcairn"
 msgstr "პიტკერნი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1182
+#: timezone/_cldr_data.py:1183
 msgid "Pohnpei"
 msgstr "პონპეი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1183
+#: timezone/_cldr_data.py:1184
 msgid "Port Moresby"
 msgstr "პორტ მორსბი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1184
+#: timezone/_cldr_data.py:1185
 msgid "Rarotonga"
 msgstr "რაროტონგა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1185
+#: timezone/_cldr_data.py:1186
 msgid "Saipan"
 msgstr "საიპანი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1186
+#: timezone/_cldr_data.py:1187
 msgid "Tahiti"
 msgstr "ტაიტი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1187
+#: timezone/_cldr_data.py:1188
 msgid "Tarawa"
 msgstr "ტარაუა"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1188
+#: timezone/_cldr_data.py:1189
 msgid "Tongatapu"
 msgstr "ტონგატაპუ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1189
+#: timezone/_cldr_data.py:1190
 msgid "Chuuk"
 msgstr "ჩუუკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1190
+#: timezone/_cldr_data.py:1191
 msgid "Wake"
 msgstr "უეიკი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1191
+#: timezone/_cldr_data.py:1192
 msgid "Wallis"
 msgstr "ვალისი"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1194
+#: timezone/_cldr_data.py:1195
 msgid "Acre Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1195
+#: timezone/_cldr_data.py:1196
 msgid "Afghanistan Time"
 msgstr "ავღანეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1196
+#: timezone/_cldr_data.py:1197
 msgid "Central Africa Time"
 msgstr "ცენტრალური აფრიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1197
+#: timezone/_cldr_data.py:1198
 msgid "East Africa Time"
 msgstr "აღმოსავლეთ აფრიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1198
+#: timezone/_cldr_data.py:1199
 msgid "South Africa Standard Time"
 msgstr "სამხრეთ აფრიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1199
+#: timezone/_cldr_data.py:1200
 msgid "West Africa Time"
 msgstr "დასავლეთ აფრიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1200
+#: timezone/_cldr_data.py:1201
 msgid "Alaska Time"
 msgstr "ალასკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1201
+#: timezone/_cldr_data.py:1202
 msgid "Almaty Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1202
+#: timezone/_cldr_data.py:1203
 msgid "Amazon Time"
 msgstr "ამაზონიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1203
+#: timezone/_cldr_data.py:1204
 msgid "Central Time"
 msgstr "ჩრდილოეთ ამერიკის ცენტრალური დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1204
+#: timezone/_cldr_data.py:1205
 msgid "Eastern Time"
 msgstr "ჩრდილოეთ ამერიკის აღმოსავლეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1205
+#: timezone/_cldr_data.py:1206
 msgid "Mountain Time"
 msgstr "ჩრდილოეთ ამერიკის მაუნთინის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1206
+#: timezone/_cldr_data.py:1207
 msgid "Pacific Time"
 msgstr "ჩრდილოეთ ამერიკის წყნარი ოკეანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1207
+#: timezone/_cldr_data.py:1208
 msgid "Anadyr Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1208
+#: timezone/_cldr_data.py:1209
 msgid "Apia Time"
 msgstr "აპიას დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1209
+#: timezone/_cldr_data.py:1210
 msgid "Aqtau Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1210
+#: timezone/_cldr_data.py:1211
 msgid "Aqtobe Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1211
+#: timezone/_cldr_data.py:1212
 msgid "Arabian Time"
 msgstr "არაბეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1212
+#: timezone/_cldr_data.py:1213
 msgid "Argentina Time"
 msgstr "არგენტინის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1213
+#: timezone/_cldr_data.py:1214
 msgid "Western Argentina Time"
 msgstr "დასავლეთ არგენტინის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1214
+#: timezone/_cldr_data.py:1215
 msgid "Armenia Time"
 msgstr "სომხეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1215
+#: timezone/_cldr_data.py:1216
 msgid "Atlantic Time"
 msgstr "ატლანტიკის ოკეანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1216
+#: timezone/_cldr_data.py:1217
 msgid "Central Australia Time"
 msgstr "ცენტრალური ავსტრალიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1217
+#: timezone/_cldr_data.py:1218
 msgid "Australian Central Western Time"
 msgstr "ცენტრალური და დასავლეთ ავსტრალიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1218
+#: timezone/_cldr_data.py:1219
 msgid "Eastern Australia Time"
 msgstr "აღმოსავლეთ ავსტრალიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1219
+#: timezone/_cldr_data.py:1220
 msgid "Western Australia Time"
 msgstr "დასავლეთ ავსტრალიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1220
+#: timezone/_cldr_data.py:1221
 msgid "Azerbaijan Time"
 msgstr "აზერბაიჯანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1221
+#: timezone/_cldr_data.py:1222
 msgid "Azores Time"
 msgstr "აზორის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1222
+#: timezone/_cldr_data.py:1223
 msgid "Bangladesh Time"
 msgstr "ბანგლადეშის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1223
+#: timezone/_cldr_data.py:1224
 msgid "Bhutan Time"
 msgstr "ბუტანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1224
+#: timezone/_cldr_data.py:1225
 msgid "Bolivia Time"
 msgstr "ბოლივიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1225
+#: timezone/_cldr_data.py:1226
 msgid "Brasilia Time"
 msgstr "ბრაზილიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1226
+#: timezone/_cldr_data.py:1227
 msgid "Brunei Darussalam Time"
 msgstr "ბრუნეი-დარუსალამის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1227
+#: timezone/_cldr_data.py:1228
 msgid "Cape Verde Time"
 msgstr "კაბო-ვერდეს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1228
+#: timezone/_cldr_data.py:1229
 msgid "Casey Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1229
+#: timezone/_cldr_data.py:1230
 msgid "Chamorro Standard Time"
 msgstr "ჩამოროს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1230
+#: timezone/_cldr_data.py:1231
 msgid "Chatham Time"
 msgstr "ჩატემის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1231
+#: timezone/_cldr_data.py:1232
 msgid "Chile Time"
 msgstr "ჩილეს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1232
+#: timezone/_cldr_data.py:1233
 msgid "China Time"
 msgstr "ჩინეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1233
+#: timezone/_cldr_data.py:1234
 msgid "Choibalsan Time"
 msgstr "ჩოიბალსანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1234
+#: timezone/_cldr_data.py:1235
 msgid "Christmas Island Time"
 msgstr "შობის კუნძულის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1235
+#: timezone/_cldr_data.py:1236
 msgid "Cocos Islands Time"
 msgstr "ქოქოსის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1236
+#: timezone/_cldr_data.py:1237
 msgid "Colombia Time"
 msgstr "კოლუმბიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1237
+#: timezone/_cldr_data.py:1238
 msgid "Cook Islands Time"
 msgstr "კუკის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1238
+#: timezone/_cldr_data.py:1239
 msgid "Cuba Time"
 msgstr "კუბის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1239
+#: timezone/_cldr_data.py:1240
 msgid "Davis Time"
 msgstr "დევისის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1240
+#: timezone/_cldr_data.py:1241
 msgid "Dumont-d’Urville Time"
 msgstr "დუმონ-დურვილის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1241
+#: timezone/_cldr_data.py:1242
 msgid "East Timor Time"
 msgstr "აღმოსავლეთ ტიმორის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1242
+#: timezone/_cldr_data.py:1243
 msgid "Easter Island Time"
 msgstr "აღდგომის კუნძულის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1243
+#: timezone/_cldr_data.py:1244
 msgid "Ecuador Time"
 msgstr "ეკვადორის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1244
+#: timezone/_cldr_data.py:1245
 msgid "Central European Time"
 msgstr "ცენტრალური ევროპის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1245
+#: timezone/_cldr_data.py:1246
 msgid "Eastern European Time"
 msgstr "აღმოსავლეთ ევროპის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1246
+#: timezone/_cldr_data.py:1247
 msgid "Further-eastern European Time"
 msgstr "შორეული აღმოსავლეთ ევროპის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1247
+#: timezone/_cldr_data.py:1248
 msgid "Western European Time"
 msgstr "დასავლეთ ევროპის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1248
+#: timezone/_cldr_data.py:1249
 msgid "Falkland Islands Time"
 msgstr "ფოლკლენდის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1249
+#: timezone/_cldr_data.py:1250
 msgid "Fiji Time"
 msgstr "ფიჯის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1250
+#: timezone/_cldr_data.py:1251
 msgid "French Guiana Time"
 msgstr "საფრანგეთის გვიანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1251
+#: timezone/_cldr_data.py:1252
 msgid "French Southern & Antarctic Time"
 msgstr "ფრანგული სამხრეთის და ანტარქტიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1252
+#: timezone/_cldr_data.py:1253
 msgid "Greenwich Mean Time"
 msgstr "გრინვიჩის საშუალო დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1253
+#: timezone/_cldr_data.py:1254
 msgid "Galapagos Time"
 msgstr "გალაპაგოსის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1254
+#: timezone/_cldr_data.py:1255
 msgid "Gambier Time"
 msgstr "გამბიერის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1255
+#: timezone/_cldr_data.py:1256
 msgid "Georgia Time"
 msgstr "საქართველოს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1256
+#: timezone/_cldr_data.py:1257
 msgid "Gilbert Islands Time"
 msgstr "გილბერტის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1257
+#: timezone/_cldr_data.py:1258
 msgid "East Greenland Time"
 msgstr "აღმოსავლეთ გრენლანდიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1258
+#: timezone/_cldr_data.py:1259
 msgid "West Greenland Time"
 msgstr "დასავლეთ გრენლანდიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1259
+#: timezone/_cldr_data.py:1260
 msgid "Guam Standard Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1260
+#: timezone/_cldr_data.py:1261
 msgid "Gulf Standard Time"
 msgstr "სპარსეთის ყურის სტანდარტული დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1261
+#: timezone/_cldr_data.py:1262
 msgid "Guyana Time"
 msgstr "გაიანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1262
+#: timezone/_cldr_data.py:1263
 msgid "Hawaii-Aleutian Time"
 msgstr "ჰავაისა და ალეუტის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1263
+#: timezone/_cldr_data.py:1264
 msgid "Hong Kong Time"
 msgstr "ჰონკონგის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1264
+#: timezone/_cldr_data.py:1265
 msgid "Hovd Time"
 msgstr "ჰოვდის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1265
+#: timezone/_cldr_data.py:1266
 msgid "India Standard Time"
 msgstr "ინდოეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1266
+#: timezone/_cldr_data.py:1267
 msgid "Indian Ocean Time"
 msgstr "ინდოეთის ოკეანის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1267
+#: timezone/_cldr_data.py:1268
 msgid "Indochina Time"
 msgstr "ინდოჩინეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1268
+#: timezone/_cldr_data.py:1269
 msgid "Central Indonesia Time"
 msgstr "ცენტრალური ინდონეზიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1269
+#: timezone/_cldr_data.py:1270
 msgid "Eastern Indonesia Time"
 msgstr "აღმოსავლეთ ინდონეზიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1270
+#: timezone/_cldr_data.py:1271
 msgid "Western Indonesia Time"
 msgstr "დასავლეთ ინდონეზიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1271
+#: timezone/_cldr_data.py:1272
 msgid "Iran Time"
 msgstr "ირანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1272
+#: timezone/_cldr_data.py:1273
 msgid "Irkutsk Time"
 msgstr "ირკუტსკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1273
+#: timezone/_cldr_data.py:1274
 msgid "Israel Time"
 msgstr "ისრაელის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1274
+#: timezone/_cldr_data.py:1275
 msgid "Japan Time"
 msgstr "იაპონიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1275
+#: timezone/_cldr_data.py:1276
 msgid "Petropavlovsk-Kamchatski Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1276
+#: timezone/_cldr_data.py:1277
 msgid "East Kazakhstan Time"
 msgstr "აღმოსავლეთ ყაზახეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1277
+#: timezone/_cldr_data.py:1278
 msgid "West Kazakhstan Time"
 msgstr "დასავლეთ ყაზახეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1278
+#: timezone/_cldr_data.py:1279
 msgid "Korean Time"
 msgstr "კორეის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1279
+#: timezone/_cldr_data.py:1280
 msgid "Kosrae Time"
 msgstr "კოსრეს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1280
+#: timezone/_cldr_data.py:1281
 msgid "Krasnoyarsk Time"
 msgstr "კრასნოიარსკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1281
-#| msgid "Kyrgystan Time"
+#: timezone/_cldr_data.py:1282
 msgid "Kyrgyzstan Time"
 msgstr "ყირგიზეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1282
+#: timezone/_cldr_data.py:1283
 msgid "Lanka Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1283
+#: timezone/_cldr_data.py:1284
 msgid "Line Islands Time"
 msgstr "ლაინის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1284
+#: timezone/_cldr_data.py:1285
 msgid "Lord Howe Time"
 msgstr "ლორდ-ჰაუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1285
-msgid "Macau Time"
+#: timezone/_cldr_data.py:1286
+#| msgid "Mawson Time"
+msgid "Macao Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1286
+#: timezone/_cldr_data.py:1287
 msgid "Macquarie Island Time"
 msgstr "მაქკუორის კუნძულის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1287
+#: timezone/_cldr_data.py:1288
 msgid "Magadan Time"
 msgstr "მაგადანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1288
+#: timezone/_cldr_data.py:1289
 msgid "Malaysia Time"
 msgstr "მალაიზიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1289
+#: timezone/_cldr_data.py:1290
 msgid "Maldives Time"
 msgstr "მალდივების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1290
+#: timezone/_cldr_data.py:1291
 msgid "Marquesas Time"
 msgstr "მარკიზის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1291
+#: timezone/_cldr_data.py:1292
 msgid "Marshall Islands Time"
 msgstr "მარშალის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1292
+#: timezone/_cldr_data.py:1293
 msgid "Mauritius Time"
 msgstr "მავრიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1293
+#: timezone/_cldr_data.py:1294
 msgid "Mawson Time"
 msgstr "მოუსონის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1294
+#: timezone/_cldr_data.py:1295
 msgid "Northwest Mexico Time"
 msgstr "ჩრდილო-აღმოსავლეთ მექსიკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1295
+#: timezone/_cldr_data.py:1296
 msgid "Mexican Pacific Time"
 msgstr "მექსიკის წყნარი ოკეანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1296
-#| msgid "Ulaanbaatar"
+#: timezone/_cldr_data.py:1297
 msgid "Ulaanbaatar Time"
 msgstr "ულან-ბატორის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1297
+#: timezone/_cldr_data.py:1298
 msgid "Moscow Time"
 msgstr "მოსკოვის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1298
+#: timezone/_cldr_data.py:1299
 msgid "Myanmar Time"
 msgstr "მიანმარის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1299
+#: timezone/_cldr_data.py:1300
 msgid "Nauru Time"
 msgstr "ნაურუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1300
+#: timezone/_cldr_data.py:1301
 msgid "Nepal Time"
 msgstr "ნეპალის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1301
+#: timezone/_cldr_data.py:1302
 msgid "New Caledonia Time"
 msgstr "ახალი კალედონიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1302
+#: timezone/_cldr_data.py:1303
 msgid "New Zealand Time"
 msgstr "ახალი ზელანდიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1303
+#: timezone/_cldr_data.py:1304
 msgid "Newfoundland Time"
 msgstr "ნიუფაუნდლენდის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1304
+#: timezone/_cldr_data.py:1305
 msgid "Niue Time"
 msgstr "ნიუეს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1305
+#: timezone/_cldr_data.py:1306
 msgid "Norfolk Island Time"
 msgstr "ნორფოლკის კუნძულის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1306
+#: timezone/_cldr_data.py:1307
 msgid "Fernando de Noronha Time"
 msgstr "ფერნანდო-დე-ნორონიას დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1307
+#: timezone/_cldr_data.py:1308
 msgid "North Mariana Islands Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1308
+#: timezone/_cldr_data.py:1309
 msgid "Novosibirsk Time"
 msgstr "ნოვოსიბირსკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1309
+#: timezone/_cldr_data.py:1310
 msgid "Omsk Time"
 msgstr "ომსკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1310
+#: timezone/_cldr_data.py:1311
 msgid "Pakistan Time"
 msgstr "პაკისტანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1311
+#: timezone/_cldr_data.py:1312
 msgid "Palau Time"
 msgstr "პალაუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1312
+#: timezone/_cldr_data.py:1313
 msgid "Papua New Guinea Time"
 msgstr "პაპუა-ახალი გვინეის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1313
+#: timezone/_cldr_data.py:1314
 msgid "Paraguay Time"
 msgstr "პარაგვაის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1314
+#: timezone/_cldr_data.py:1315
 msgid "Peru Time"
 msgstr "პერუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1315
+#: timezone/_cldr_data.py:1316
 msgid "Philippine Time"
 msgstr "ფილიპინების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1316
+#: timezone/_cldr_data.py:1317
 msgid "Phoenix Islands Time"
 msgstr "ფენიქსის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1317
+#: timezone/_cldr_data.py:1318
 msgid "St. Pierre & Miquelon Time"
 msgstr "სენ-პიერის და მიკელონის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1318
+#: timezone/_cldr_data.py:1319
 msgid "Pitcairn Time"
 msgstr "პიტკერნის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1319
+#: timezone/_cldr_data.py:1320
 msgid "Ponape Time"
 msgstr "პონაპეს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1320
+#: timezone/_cldr_data.py:1321
 msgid "Pyongyang Time"
 msgstr "ფხენიანის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1321
+#: timezone/_cldr_data.py:1322
 msgid "Qyzylorda Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1322
-msgid "Reunion Time"
+#: timezone/_cldr_data.py:1323
+#| msgid "Reunion Time"
+msgid "Réunion Time"
 msgstr "რეიუნიონის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1323
+#: timezone/_cldr_data.py:1324
 msgid "Rothera Time"
 msgstr "როთერის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1324
+#: timezone/_cldr_data.py:1325
 msgid "Sakhalin Time"
 msgstr "სახალინის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1325
+#: timezone/_cldr_data.py:1326
 msgid "Samara Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1326
+#: timezone/_cldr_data.py:1327
 msgid "Samoa Time"
 msgstr "სამოას დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1327
+#: timezone/_cldr_data.py:1328
 msgid "Seychelles Time"
 msgstr "სეიშელის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1328
+#: timezone/_cldr_data.py:1329
 msgid "Singapore Standard Time"
 msgstr "სინგაპურის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1329
+#: timezone/_cldr_data.py:1330
 msgid "Solomon Islands Time"
 msgstr "სოლომონის კუნძულების დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1330
+#: timezone/_cldr_data.py:1331
 msgid "South Georgia Time"
 msgstr "სამხრეთ გეორგიის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1331
+#: timezone/_cldr_data.py:1332
 msgid "Suriname Time"
 msgstr "სურინამის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1332
+#: timezone/_cldr_data.py:1333
 msgid "Syowa Time"
 msgstr "სიოვას დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1333
+#: timezone/_cldr_data.py:1334
 msgid "Tahiti Time"
 msgstr "ტაიტის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1334
+#: timezone/_cldr_data.py:1335
 msgid "Taipei Time"
 msgstr "ტაიბეის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1335
+#: timezone/_cldr_data.py:1336
 msgid "Tajikistan Time"
 msgstr "ტაჯიკეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1336
+#: timezone/_cldr_data.py:1337
 msgid "Tokelau Time"
 msgstr "ტოკელაუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1337
+#: timezone/_cldr_data.py:1338
 msgid "Tonga Time"
 msgstr "ტონგის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1338
+#: timezone/_cldr_data.py:1339
 msgid "Chuuk Time"
 msgstr "ჩუუკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1339
+#: timezone/_cldr_data.py:1340
 msgid "Turkmenistan Time"
 msgstr "თურქმენეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1340
+#: timezone/_cldr_data.py:1341
 msgid "Tuvalu Time"
 msgstr "ტუვალუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1341
+#: timezone/_cldr_data.py:1342
 msgid "Uruguay Time"
 msgstr "ურუგვაის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1342
+#: timezone/_cldr_data.py:1343
 msgid "Uzbekistan Time"
 msgstr "უზბეკეთის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1343
+#: timezone/_cldr_data.py:1344
 msgid "Vanuatu Time"
 msgstr "ვანუატუს დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1344
+#: timezone/_cldr_data.py:1345
 msgid "Venezuela Time"
 msgstr "ვენესუელის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1345
+#: timezone/_cldr_data.py:1346
 msgid "Vladivostok Time"
 msgstr "ვლადივოსტოკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1346
+#: timezone/_cldr_data.py:1347
 msgid "Volgograd Time"
 msgstr "ვოლგოგრადის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1347
+#: timezone/_cldr_data.py:1348
 msgid "Vostok Time"
 msgstr "ვოსტოკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1348
+#: timezone/_cldr_data.py:1349
 msgid "Wake Island Time"
 msgstr "ვეიკის კუნძულის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1349
+#: timezone/_cldr_data.py:1350
 msgid "Wallis & Futuna Time"
 msgstr "ვოლისი და ფუტუნას დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1350
+#: timezone/_cldr_data.py:1351
 msgid "Yakutsk Time"
 msgstr "იაკუტსკის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1351
+#: timezone/_cldr_data.py:1352
 msgid "Yekaterinburg Time"
 msgstr "ეკატერინბურგის დრო"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1353
+#: timezone/_cldr_data.py:1354
 #, python-format
 msgid "%s Time"
 msgstr "დრო: %s"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1354
+#: timezone/_cldr_data.py:1355
 msgid "+HH:mm;-HH:mm"
 msgstr "+HH:mm;-HH:mm"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1355
+#: timezone/_cldr_data.py:1356
 #, python-format
 msgid "GMT%s"
 msgstr "GMT%s"
 
-#: timezone/data.py:116
+#: timezone/data.py:118
 #, python-format
 msgid "%(tzname)s"
 msgstr ""
 
-#: timezone/data.py:118
+#: timezone/data.py:120
 #, python-format
 msgid "%(tzname)s (%(cities)s)"
 msgstr ""
 
-#: timezone/data.py:120
+#: timezone/data.py:122
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s"
 msgstr ""
 
-#: timezone/data.py:122
+#: timezone/data.py:124
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
@@ -4513,6 +4524,9 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#~ msgid "Swaziland"
+#~ msgstr "სვაზილენდი"
 
 #~ msgid "Czech Republic"
 #~ msgstr "ჩეხეთის რესპუბლიკა"

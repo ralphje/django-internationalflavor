@@ -56,7 +56,7 @@ msgstr "Хойд Америк тив"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Caribbean"
-msgstr "Карибын"
+msgstr "Карибын тэнгис"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Eastern Asia"
@@ -76,7 +76,7 @@ msgstr "Өмнөд Европ"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Australasia"
-msgstr "Австралиази"
+msgstr "Австрали-Ази"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Melanesia"
@@ -120,7 +120,7 @@ msgstr "Баруун Европ"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Сахарын цөлийн урд хэсгийн Африк"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Latin America"
@@ -136,7 +136,7 @@ msgstr "Андорра"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "United Arab Emirates"
-msgstr "Арабын Нэгдсэн Эмират Улс"
+msgstr "Арабын Нэгдсэн Эмирт Улс"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Afghanistan"
@@ -268,7 +268,7 @@ msgstr "Буве арал"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Botswana"
-msgstr "Ботсвана"
+msgstr "Ботсван"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Belarus"
@@ -276,7 +276,7 @@ msgstr "Беларусь"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Belize"
-msgstr "Белиз"
+msgstr "Белизе"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Canada"
@@ -296,7 +296,7 @@ msgstr "Төв Африкийн Бүгд Найрамдах Улс"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Congo - Brazzaville"
-msgstr "Конго Браззавиль"
+msgstr "Конго-Браззавиль"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Switzerland"
@@ -428,7 +428,7 @@ msgstr "Евро бүс"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Finland"
-msgstr "Финланд"
+msgstr "Финлянд"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Fiji"
@@ -508,7 +508,7 @@ msgstr "Грек"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Өмнөд Жоржиа ба Өмнөд Сэндвичийн Арлууд"
+msgstr "Өмнөд Жоржиа ба Өмнөд Сэндвичийн арлууд"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guatemala"
@@ -708,7 +708,7 @@ msgstr "Монако"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Moldova"
-msgstr "Молдав"
+msgstr "Молдова"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Montenegro"
@@ -727,8 +727,8 @@ msgid "Marshall Islands"
 msgstr "Маршаллын арлууд"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macedonia"
-msgstr "Македон"
+msgid "North Macedonia"
+msgstr "Хойд Македон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mali"
@@ -743,7 +743,7 @@ msgid "Mongolia"
 msgstr "Монгол"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau"
+msgid "Macao"
 msgstr "Макао"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -768,7 +768,7 @@ msgstr "Мальта"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mauritius"
-msgstr "Маврики"
+msgstr "Маврикий"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Maldives"
@@ -1007,8 +1007,8 @@ msgid "Syria"
 msgstr "Сири"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Swaziland"
-msgstr "Свазиланд"
+msgid "Eswatini"
+msgstr "Эсватини"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tristan da Cunha"
@@ -1120,11 +1120,11 @@ msgstr "Венесуэл"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "British Virgin Islands"
-msgstr "Британийн Виржиний Арлууд"
+msgstr "Британийн Виржиний арлууд"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "U.S. Virgin Islands"
-msgstr "АНУ-ын Виржиний Арлууд"
+msgstr "АНУ-ын Виржиний арлууд"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Vietnam"
@@ -1141,6 +1141,14 @@ msgstr "Уоллис ба Футуна"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Samoa"
 msgstr "Самоа"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "хуурмаг аялга"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "хуурмаг хоёр чиглэлт"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kosovo"
@@ -1180,7 +1188,7 @@ msgstr "Аккра"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Addis Ababa"
-msgstr "Аддис-абеба"
+msgstr "Аддис-Aбеба"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Algiers"
@@ -1436,7 +1444,7 @@ msgstr "Белем"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Blanc-Sablon"
-msgstr "Бланк-Саблон"
+msgstr "Блан-Саблон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Boa Vista"
@@ -1452,7 +1460,7 @@ msgstr "Боисе"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Buenos Aires"
-msgstr "Буэнос Айрес"
+msgstr "Буэнос-Айрес"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cambridge Bay"
@@ -2139,6 +2147,10 @@ msgid "Pyongyang"
 msgstr "Пёньян"
 
 #. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Костанай"
+
+#. auto-generated from CLDR -- see docs before updating
 msgid "Qyzylorda"
 msgstr "Кызылорд"
 
@@ -2244,7 +2256,7 @@ msgstr "Канари"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Faroe"
-msgstr "Фароэ"
+msgstr "Фарер"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Madeira"
@@ -2392,7 +2404,7 @@ msgstr "Киров"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Lisbon"
-msgstr "Лисбон"
+msgstr "Лиссабон"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Ljubljana"
@@ -2624,11 +2636,11 @@ msgstr "Мажуро"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Marquesas"
-msgstr "Маркизас"
+msgstr "Маркез"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Midway"
-msgstr "Мидвей"
+msgstr "Мидуэй"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Norfolk"
@@ -2680,7 +2692,7 @@ msgstr "Чүүк"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Wake"
-msgstr "Уэйк"
+msgstr "Уэк"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Wallis"
@@ -2820,7 +2832,7 @@ msgstr "Бруней Даруссаламын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cape Verde Time"
-msgstr "Кабо Вердийн цаг"
+msgstr "Кабо-Вердийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Casey Time"
@@ -2860,7 +2872,7 @@ msgstr "Колумбын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cook Islands Time"
-msgstr "Күүк арлын цаг"
+msgstr "Күүкийн арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cuba Time"
@@ -2936,15 +2948,15 @@ msgstr "Гүржийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Gilbert Islands Time"
-msgstr "Жильбер арлын цаг"
+msgstr "Гильбертийн арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "East Greenland Time"
-msgstr "Зүүн Гринландын цаг"
+msgstr "Зүүн Гренландын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "West Greenland Time"
-msgstr "Баруун Гринландын цаг"
+msgstr "Баруун Гренландын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guam Standard Time"
@@ -2952,7 +2964,7 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Gulf Standard Time"
-msgstr "Галфийн стандарт цаг"
+msgstr "Персийн булангийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guyana Time"
@@ -3044,14 +3056,14 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Line Islands Time"
-msgstr "Лайн арлын цаг"
+msgstr "Лайн арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Lord Howe Time"
 msgstr "Лорд Хоугийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau Time"
+msgid "Macao Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3072,11 +3084,11 @@ msgstr "Мальдивийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Marquesas Time"
-msgstr "Маркесасын цаг"
+msgstr "Маркезын арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Marshall Islands Time"
-msgstr "Маршаллын арлын цаг"
+msgstr "Маршаллын арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mauritius Time"
@@ -3180,7 +3192,7 @@ msgstr "Феникс арлын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Pierre & Miquelon Time"
-msgstr "Сен-Пьер ба Микелоны цаг"
+msgstr "Сент-Пьер ба Микелоны цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pitcairn Time"
@@ -3199,7 +3211,7 @@ msgid "Qyzylorda Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Reunion Time"
+msgid "Réunion Time"
 msgstr "Реюнионы цаг"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3232,7 +3244,7 @@ msgstr "Соломоны арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia Time"
-msgstr "Өмнөд Жоржийн цаг"
+msgstr "Өмнөд Жоржиагийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Suriname Time"
@@ -3304,7 +3316,7 @@ msgstr "Востокийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Wake Island Time"
-msgstr "Вейк арлын цаг"
+msgstr "Уэкийн арлуудын цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Wallis & Futuna Time"
@@ -3320,7 +3332,7 @@ msgstr "Екатеринбургийн цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "%s Time"
-msgstr "%s цаг"
+msgstr "%s-н цаг"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "+HH:mm;-HH:mm"

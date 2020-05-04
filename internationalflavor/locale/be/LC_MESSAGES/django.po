@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -129,7 +129,7 @@ msgstr "Паўночная Афрыка"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:18
 msgid "Middle Africa"
-msgstr "Цэнтральная Афрыка"
+msgstr "Сярэдняя Афрыка"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:19
@@ -222,7 +222,7 @@ msgstr "Паўночнаамерыканскі рэгіён"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:22
 msgid "Caribbean"
-msgstr "Карыбскія астравы"
+msgstr "Карыбскі рэгіён"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:23
@@ -374,7 +374,7 @@ msgstr "Заходняя Еўропа"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Трапічная Афрыка"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -639,7 +639,7 @@ msgstr "Калумбія"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:90
 msgid "Clipperton Island"
-msgstr "Востраў Кліпертон"
+msgstr "Востраў Кліпертан"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:91 timezone/_cldr_data.py:852
@@ -714,7 +714,7 @@ msgstr "Алжыр"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:105
 msgid "Ceuta & Melilla"
-msgstr "Сеўта і Мелілья"
+msgstr "Сеута і Мелілья"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:106
@@ -865,7 +865,7 @@ msgstr "Грэцыя"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:135
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы"
+msgstr "Паўднёвая Георгія і Паўднёвыя Сандвічавы астравы"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:136 timezone/_cldr_data.py:873
@@ -1140,7 +1140,7 @@ msgstr "Маршалавы астравы"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Македонія"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Манголія"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Макаа"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1360,7 +1360,7 @@ msgstr "Катар"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:234
 msgid "Outlying Oceania"
-msgstr "Знешняя Акіянія"
+msgstr "Аддаленыя тэрыторыі Акіяніі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:235 timezone/_cldr_data.py:1152
@@ -1490,7 +1490,7 @@ msgstr "Сірыя"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Свазіленд"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1596,12 +1596,12 @@ msgstr "Малыя Аддаленыя астравы ЗША"
 #: countries/_cldr_data.py:281
 #| msgid "United States"
 msgid "United Nations"
-msgstr "ААН"
+msgstr "Арганізацыя Аб’яднаных Нацый"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:282
 msgid "United States"
-msgstr "Злучаныя Штаты Амерыкі"
+msgstr "Злучаныя Штаты"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:283
@@ -1777,7 +1777,7 @@ msgstr "Бангі"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:772
 msgid "Banjul"
-msgstr "Банжул"
+msgstr "Банджул"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:773
@@ -1812,7 +1812,7 @@ msgstr "Касабланка"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:779
 msgid "Ceuta"
-msgstr "Сеўта"
+msgstr "Сеута"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:780
@@ -2337,7 +2337,7 @@ msgstr "Луісвіл"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:898
 msgid "Lower Prince’s Quarter"
-msgstr "Лоўэр Прынсіз Квортэр"
+msgstr "Лоўэр Прынсіз Квотэр"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:899
@@ -2402,7 +2402,7 @@ msgstr "Мікелон"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:912
 msgid "Moncton"
-msgstr "Манктан"
+msgstr "Монктан"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:913
@@ -2462,7 +2462,7 @@ msgstr "Ахінага"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:926
 msgid "Pangnirtung"
-msgstr "Пангніртунг"
+msgstr "Пангніртанг"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:927
@@ -2492,7 +2492,7 @@ msgstr "Порту-Велью"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:933
 msgid "Punta Arenas"
-msgstr "Пунта Арэнас"
+msgstr "Пунта-Арэнас"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:934
@@ -2547,7 +2547,7 @@ msgstr "Сан-Паўлу"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:944
 msgid "Ittoqqortoormiit"
-msgstr "Ітакортаарміут"
+msgstr "Ітакартаарміт"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:945
@@ -2587,7 +2587,7 @@ msgstr "Тэгусігальпа"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:954
 msgid "Thule"
-msgstr "Каанаак"
+msgstr "Туле"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:955
@@ -2632,7 +2632,7 @@ msgstr "Якутат"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:963
 msgid "Yellowknife"
-msgstr "Йелаўнайф"
+msgstr "Елаўнайф"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:964
@@ -2727,7 +2727,7 @@ msgstr "Актабэ"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:982
 msgid "Ashgabat"
-msgstr "Ашгабад"
+msgstr "Ашгабат"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:983
@@ -2952,7 +2952,7 @@ msgstr "Пхеньян"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1033
 msgid "Qyzylorda"
-msgstr "Кзыларда"
+msgstr "Кзыл-Арда"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1034
@@ -3043,7 +3043,7 @@ msgstr "Урумчы"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1052
 msgid "Ust-Nera"
-msgstr "Вусць-Нера"
+msgstr "Усць-Нера"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1053
@@ -3098,12 +3098,12 @@ msgstr "Рэйк’явік"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1065
 msgid "South Georgia"
-msgstr "Паўднёвая Джорджыя"
+msgstr "Паўднёвая Георгія"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1067
 msgid "Stanley"
-msgstr "Стэнлі"
+msgstr "Порт-Стэнлі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1068
@@ -3289,7 +3289,7 @@ msgstr "Мадрыд"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1111
 msgid "Mariehamn"
-msgstr "Марыехамн"
+msgstr "Марыянхаміна"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1112
@@ -3455,7 +3455,7 @@ msgstr "Какосавыя астравы"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1146
 msgid "Comoro"
-msgstr "Камор"
+msgstr "Каморскія астравы"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1147
@@ -3490,7 +3490,7 @@ msgstr "Чатэм"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1157
 msgid "Easter"
-msgstr "Пасхі востраў"
+msgstr "Вялікадня востраў"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1158
@@ -3590,7 +3590,7 @@ msgstr "Піткэрн"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1182
 msgid "Pohnpei"
-msgstr "Понпеі"
+msgstr "Панпеі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1183
@@ -3625,7 +3625,7 @@ msgstr "Тангатапу"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1189
 msgid "Chuuk"
-msgstr "Чуук"
+msgstr "Трук"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1190
@@ -3755,7 +3755,7 @@ msgstr "Час цэнтральнай Аўстраліі"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1217
 msgid "Australian Central Western Time"
-msgstr "Заходні час Цэнтральнай Аўстраліі"
+msgstr "Цэнтральна-заходні час Аўстраліі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1218
@@ -3880,7 +3880,7 @@ msgstr "Час Усходняга Тымора"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1242
 msgid "Easter Island Time"
-msgstr "Час вострава Пасхі"
+msgstr "Час вострава Вялікадня"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1243
@@ -4065,7 +4065,7 @@ msgstr "Час Карэі"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1279
 msgid "Kosrae Time"
-msgstr "Час вострава Касрае"
+msgstr "Час астравоў Кусаіе"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1280
@@ -4116,7 +4116,7 @@ msgstr "Час Малайзіі"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1289
 msgid "Maldives Time"
-msgstr "Час Мальдыў"
+msgstr "Час Мальдываў"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1290
@@ -4202,7 +4202,7 @@ msgstr "Час вострава Норфалк"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1306
 msgid "Fernando de Noronha Time"
-msgstr "Час Фернанду-ды-Наронья"
+msgstr "Час Фернанду-дзі-Наронья"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1307
@@ -4267,7 +4267,7 @@ msgstr "Час вострава Піткэрн"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1319
 msgid "Ponape Time"
-msgstr "Час вострава Понпеі"
+msgstr "Час вострава Панпеі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1320
@@ -4282,12 +4282,12 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Час Рэюньёна"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
 msgid "Rothera Time"
-msgstr "Час станцыі Ратэра"
+msgstr "Час станцыі Ротэра"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1324
@@ -4322,7 +4322,7 @@ msgstr "Час Саламонавых астравоў"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1330
 msgid "South Georgia Time"
-msgstr "Час Паўднёвай Джорджыі"
+msgstr "Час Паўднёвай Георгіі"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1331
@@ -4362,7 +4362,7 @@ msgstr "Час Тонга"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1338
 msgid "Chuuk Time"
-msgstr "Час Чуук"
+msgstr "Час Трука"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1339
@@ -4438,7 +4438,7 @@ msgstr "Час: %s"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1354
 msgid "+HH:mm;-HH:mm"
-msgstr "+HH.mm;-HH.mm"
+msgstr "+HH:mm;-HH:mm"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1355
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Паўночная Македонія"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Макаа"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Эсватыні"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Псеўдаакцэнты"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Псеўда-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Кустанай"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Час Рэюньёна"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Чэхія"

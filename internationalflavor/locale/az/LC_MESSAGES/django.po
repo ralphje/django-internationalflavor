@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "Qərbi Avropa"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Saharadan cənub"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "Marşal adaları"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Makedoniya"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Monqolustan"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Makao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "Suriya"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Svazilend"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -2132,7 +2132,7 @@ msgstr "Kayman"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:848
 msgid "Chicago"
-msgstr "Cikaqo"
+msgstr "Çikaqo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:849
@@ -2622,7 +2622,7 @@ msgstr "Uaythors"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:961
 msgid "Winnipeg"
-msgstr "Vinipeq"
+msgstr "Vinnipeq"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:962
@@ -2767,7 +2767,7 @@ msgstr "Bişkek"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:992
 msgid "Kolkata"
-msgstr "Kolkata"
+msgstr "Kəlkətə"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:993
@@ -2912,7 +2912,7 @@ msgstr "Muskat"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1024
 msgid "Nicosia"
-msgstr "Nikosia"
+msgstr "Nikosiya"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1025
@@ -2998,7 +2998,7 @@ msgstr "Srednekolımsk"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1043
 msgid "Taipei"
-msgstr "Taipei"
+msgstr "Taybey"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1044
@@ -3158,7 +3158,7 @@ msgstr "Melburn"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1078
 msgid "Perth"
-msgstr "Perth"
+msgstr "Pert"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1079
@@ -3360,7 +3360,7 @@ msgstr "Skopye"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1127
 msgid "Sofia"
-msgstr "Sofia"
+msgstr "Sofiya"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1128
@@ -3405,7 +3405,7 @@ msgstr "Vyana"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1136
 msgid "Vilnius"
-msgstr "Vilnyus"
+msgstr "Vilnüs"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1137
@@ -3475,7 +3475,7 @@ msgstr "Apia"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1154
 msgid "Auckland"
-msgstr "Aukland"
+msgstr "Oklənd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1155
@@ -3605,7 +3605,7 @@ msgstr "Rarotonqa"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1185
 msgid "Saipan"
-msgstr "Saipan"
+msgstr "Saypan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1186
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Reunion Vaxtı"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Şimali Makedoniya"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Makao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Esvatini"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Psevdo-Aksent"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Psevdo-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Qostanay"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Reyunyon"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Çexiya"

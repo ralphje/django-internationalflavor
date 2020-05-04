@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "ಪಶ್ಚಿಮ ಯೂರೋಪ್"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "ಉಪ-ಸಹಾರನ್ ಆಫ್ರಿಕಾ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -800,7 +800,7 @@ msgstr "ಗೆಬೊನ್"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:122
 msgid "United Kingdom"
-msgstr "ಬ್ರಿಟನ್/ಇಂಗ್ಲೆಂಡ್"
+msgstr "ಯುನೈಟೆಡ್ ಕಿಂಗ್‌ಡಮ್"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:123 timezone/_cldr_data.py:871
@@ -1140,7 +1140,7 @@ msgstr "ಮಾರ್ಷಲ್ ದ್ವೀಪಗಳು"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "ಮ್ಯಾಸಿಡೋನಿಯಾ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "ಮಂಗೋಲಿಯಾ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "ಮಕಾವು"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1415,7 +1415,7 @@ msgstr "ಸ್ವೀಡನ್"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:245 timezone/_cldr_data.py:1041
 msgid "Singapore"
-msgstr "ಸಿಂಗಾಪುರ್"
+msgstr "ಸಿಂಗಪುರ್"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:246 timezone/_cldr_data.py:1066
@@ -1490,7 +1490,7 @@ msgstr "ಸಿರಿಯಾ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "ಸ್ವಾಜಿಲ್ಯಾಂಡ್"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1601,7 +1601,7 @@ msgstr "ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನಗಳು"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:282
 msgid "United States"
-msgstr "ಅಮೇರಿಕಾ ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನ"
+msgstr "ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:283
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "ರಿಯೂನಿಯನ್ ಸಮಯ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4312,7 +4312,7 @@ msgstr "ಸೀಷೆಲ್ಸ್ ಸಮಯ"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1328
 msgid "Singapore Standard Time"
-msgstr "ಸಿಂಗಾಪುರ್ ಪ್ರಮಾಣಿತ ಸಮಯ"
+msgstr "ಸಿಂಗಪುರ್ ಪ್ರಮಾಣಿತ ಸಮಯ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1329
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "ಉತ್ತರ ಮ್ಯಾಸಿಡೋನಿಯಾ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "ಮಕಾವು"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "ಸ್ವಾತಿನಿ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "ಸ್ಯುಡೊ ಉಚ್ಛಾರಣೆಗಳು"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "ಸ್ಯುಡೊ-ಬಿಡಿ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "ಕೊಸ್ಟನಯ್"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "ರಿಯೂನಿಯನ್ ಸಮಯ"
 
 #~ msgid "Czech Republic"
 #~ msgstr "ಚೆಕ್ ರಿಪಬ್ಲಿಕ್"

@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "Gorllewin Ewrop"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Affrica Is-Sahara"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "Ynysoedd Marshall"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Macedonia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Mongolia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macau"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "Syria"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Gwlad Swazi"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1762,7 +1762,7 @@ msgstr "Alger"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:769
 msgid "Asmara"
-msgstr "Asmera"
+msgstr "Asmara"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:770
@@ -3425,7 +3425,7 @@ msgstr "Zagreb"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1140
 msgid "Zaporozhye"
-msgstr "Zaporizhzhya"
+msgstr "Zaporozhye"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1141
@@ -4055,7 +4055,7 @@ msgstr "Amser Dwyrain Kazakhstan"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1277
 msgid "West Kazakhstan Time"
-msgstr "Amser Gorllewin Casachstan"
+msgstr "Amser Gorllewin Kazakhstan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1278
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Amser Réunion"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4382,7 +4382,7 @@ msgstr "Amser Uruguay"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1342
 msgid "Uzbekistan Time"
-msgstr "Amser Wsbecistan"
+msgstr "Amser Uzbekistan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1343
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Gogledd Macedonia"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macau"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Eswatini"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Acenion Ffug"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Bidi Ffug"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanay"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Amser Réunion"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Gweriniaeth Tsiec"

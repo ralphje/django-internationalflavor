@@ -1,103 +1,127 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# F Wolff <friedel@translate.org.za>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-24 16:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2014-08-10 21:24+0200\n"
+"PO-Revision-Date: 2019-01-21 08:36+0000\n"
+"Last-Translator: F Wolff <friedel@translate.org.za>\n"
+"Language-Team: Afrikaans (http://www.transifex.com/ralphje/django-internationalflavor/language/af/)\n"
+"Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: countries/models.py:13
 msgid "A country"
-msgstr ""
+msgstr "’n Land"
 
 #: iban/models.py:28
 msgid "An International Bank Account Number"
-msgstr ""
+msgstr "’n Internasionale bankrekeningnommer"
 
 #: iban/models.py:74
 msgid "An International Bank Code"
-msgstr ""
+msgstr "’n Internasionale bankkode"
+
+#: iban/validators.py:70
+#, python-format
+msgid "%(country)s IBANs are not allowed in this field."
+msgstr "IBAN’e van %(country)s word nie in dié veld toegelaat nie."
+
+#: iban/validators.py:89
+msgid "This IBAN does not have a valid checksum."
+msgstr "Dié IBAN het nie ’n geldige kontrolesom nie."
+
+#: iban/validators.py:100
+msgid "This Bank Identifier Code (BIC) is invalid."
+msgstr "Dié bankidentifikasiekode (BIC) is ongeldig."
+
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr "’n Nommer wat vir BTW-registrasie gebruik word"
+
+#: vat_number/validators.py:111
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr "BTW-nommers van %(country)s word nie in dié veld toegelaat nie."
+
+#: vat_number/validators.py:79
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr "Dié BTW-nommer voldoen nie aan %(country)s se vereistes nie."
+
+#: vat_number/validators.py:117
+msgid "This VAT number is not for a known country."
+msgstr "Dié BTW-nommer is nie vir ’n bekende land nie."
+
+#: vat_number/validators.py:161 vat_number/validators.py:181
+msgid "This VAT number does not exist."
+msgstr "Dié BTW-nommer bestaan nie."
 
 #: iban/validators.py:62
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
 msgstr ""
-
-#: iban/validators.py:70
-#, python-format
-msgid "%(country)s IBANs are not allowed in this field."
-msgstr ""
+"Dié IBAN begin nie met ’n landkode en kontrolesom nie, of bevat ongeldige "
+"karakters."
 
 #: iban/validators.py:74
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
-msgstr ""
+msgstr "Dié IBAN voldoen nie aan %(country)s se vereistes nie."
 
 #: iban/validators.py:76
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
-msgstr ""
-
-#: iban/validators.py:89
-msgid "This IBAN does not have a valid checksum."
-msgstr ""
-
-#: iban/validators.py:100
-msgid "This Bank Identifier Code (BIC) is invalid."
-msgstr ""
+msgstr "%(country)s is nie ’n geldige landkode vir IBAN nie."
 
 #: iban/validators.py:103
 #, python-format
 msgid "%(country)s is not a valid country code."
-msgstr ""
+msgstr "%(country)s is nie ’n geldige landkode nie."
 
 #: timezone/models.py:28
 msgid "A timezone"
-msgstr ""
+msgstr "’n Tydsone"
 
 #: timezone/models.py:73
 #, python-format
 msgid "Timezone %s is invalid"
-msgstr ""
-
-#: vat_number/models.py:25
-msgid "A number used for VAT registration"
-msgstr ""
+msgstr "Tydsone %s is ongeldig"
 
 #: vat_number/validators.py:105
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
+"Dié BTW-nommer begin nie met ’n landkode nie, of bevat ongeldige karakters."
 
-#: vat_number/validators.py:111
+#: timezone/data.py:118
 #, python-format
-msgid "%(country)s VAT numbers are not allowed in this field."
+msgid "%(tzname)s"
 msgstr ""
 
-#: vat_number/validators.py:79
+#: timezone/data.py:120
 #, python-format
-msgid "This VAT number does not match the requirements for %(country)s."
+msgid "%(tzname)s (%(cities)s)"
 msgstr ""
 
-#: vat_number/validators.py:117
-msgid "This VAT number is not for a known country."
+#: timezone/data.py:122
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s"
 msgstr ""
 
-#: vat_number/validators.py:161 vat_number/validators.py:181
-msgid "This VAT number does not exist."
+#: timezone/data.py:124
+#, python-format
+msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
 
 #: timezone/models.py:145
@@ -105,34 +129,14 @@ msgstr ""
 msgid "Metazone %s is invalid"
 msgstr ""
 
-#: timezone/data.py:116
-#, python-format
-msgid "%(tzname)s"
-msgstr ""
-
-#: timezone/data.py:118
-#, python-format
-msgid "%(tzname)s (%(cities)s)"
-msgstr ""
-
-#: timezone/data.py:120
-#, python-format
-msgid "%(gmt_offset)s %(tzname)s"
-msgstr ""
-
-#: timezone/data.py:122
-#, python-format
-msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
-msgstr ""
-
-#~ msgid "%(tz)s (%(cities)s)"
+#~ msgid "This IBAN does not start with a country code and checksum."
 #~ msgstr ""
 
-#~ msgid "%(offset)s %(tz)s (%(cities)s)"
+#~ msgid "This IBAN does not match the requirements for %(country)s ."
 #~ msgstr ""
 
-#~ msgid "Netherlands Antilles"
+#~ msgid "This IBAN is not for a known country."
 #~ msgstr ""
 
-#~ msgid "Santa Isabel"
+#~ msgid "This VAT number does not start with a country code."
 #~ msgstr ""

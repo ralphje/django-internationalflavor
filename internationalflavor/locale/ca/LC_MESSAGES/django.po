@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "Europa occidental"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Àfrica subsahariana"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -484,7 +484,7 @@ msgstr "Barbados"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:59
 msgid "Bangladesh"
-msgstr "Bangla Desh"
+msgstr "Bangladesh"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:60
@@ -609,7 +609,7 @@ msgstr "Suïssa"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:84
 msgid "Côte d’Ivoire"
-msgstr "Costa d’Ivori"
+msgstr "Côte d’Ivoire"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:85
@@ -835,7 +835,7 @@ msgstr "Gibraltar"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:129
 msgid "Greenland"
-msgstr "Grenlàndia"
+msgstr "Groenlàndia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:130
@@ -1140,7 +1140,7 @@ msgstr "Illes Marshall"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Macedònia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Mongòlia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macau"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,12 +1490,12 @@ msgstr "Síria"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Swazilàndia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
 msgid "Tristan da Cunha"
-msgstr "Tristão da Cunha"
+msgstr "Tristan da Cunha"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:262
@@ -1691,7 +1691,7 @@ msgstr "Zimbàbue"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:300
 msgid "Unknown Region"
-msgstr "Regió desconeguda"
+msgstr "regió desconeguda"
 
 #: countries/models.py:13
 msgid "A country"
@@ -1837,7 +1837,7 @@ msgstr "Douala"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:785
 msgid "El Aaiun"
-msgstr "Al-aaiun"
+msgstr "Al-Aaiun"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:786
@@ -2958,7 +2958,7 @@ msgstr "Kizil-Orda"
 #: timezone/_cldr_data.py:1034
 #| msgid "Rangoon"
 msgid "Yangon"
-msgstr "Rangoon"
+msgstr "Yangôn"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1035
@@ -3008,7 +3008,7 @@ msgstr "Taixkent"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1045
 msgid "Tbilisi"
-msgstr "Tbilisi"
+msgstr "Tbilissi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1046
@@ -3033,7 +3033,7 @@ msgstr "Tomsk"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1050
 msgid "Ulaanbaatar"
-msgstr "Ulaanbaatar"
+msgstr "Ulan Bator"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1051
@@ -3063,7 +3063,7 @@ msgstr "Jakutsk"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1056
 msgid "Yekaterinburg"
-msgstr "Jekaterinburg"
+msgstr "Iekaterinburg"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1057
@@ -3700,7 +3700,7 @@ msgstr "Hora de muntanya d’Amèrica del Nord"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1206
 msgid "Pacific Time"
-msgstr "Hora del Pacífic"
+msgstr "Hora del Pacífic d’Amèrica del Nord"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1207
@@ -3870,7 +3870,7 @@ msgstr "Hora de Davis"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1240
 msgid "Dumont-d’Urville Time"
-msgstr "Hora de Dumont-d’Urville"
+msgstr "Hora de Dumont d’Urville"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1241
@@ -3955,12 +3955,12 @@ msgstr "Hora de les illes Gilbert"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1257
 msgid "East Greenland Time"
-msgstr "Hora de l’Est de Grenlàndia"
+msgstr "Hora de l’Est de Groenlàndia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1258
 msgid "West Greenland Time"
-msgstr "Hora de l’Oest de Grenlàndia"
+msgstr "Hora de l’Oest de Groenlàndia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1259
@@ -3995,7 +3995,7 @@ msgstr "Hora de Hovd"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1265
 msgid "India Standard Time"
-msgstr "Hora estàndard de l’Índia"
+msgstr "Hora de l’Índia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1266
@@ -4096,7 +4096,7 @@ msgstr "Hora de Lord Howe"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Hora de Macau"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4212,7 +4212,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1308
 msgid "Novosibirsk Time"
-msgstr "Hora de Novosibirsk"
+msgstr "Hora de Novossibirsk"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1309
@@ -4257,7 +4257,7 @@ msgstr "Hora de les illes Phoenix"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1317
 msgid "St. Pierre & Miquelon Time"
-msgstr "Hora de Saint-Pierre i Miquelon"
+msgstr "Hora de Saint-Pierre-et-Miquelon"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1318
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Hora de Reunió"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Macedònia del Nord"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macau"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "eSwatini"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "pseudoaccents"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "pseudobidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanai"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Hora de Macau"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Hora de Reunió"
 
 #~ msgid "Czech Republic"
 #~ msgstr "República Txeca"

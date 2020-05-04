@@ -48,7 +48,7 @@ msgstr "Det sydlige Afrika"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Americas"
-msgstr "Amerika"
+msgstr "Nord-, Mellem- og Sydamerika"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Northern America"
@@ -120,7 +120,7 @@ msgstr "Vesteuropa"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Subsaharisk Afrika"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Latin America"
@@ -576,7 +576,7 @@ msgstr "Indien"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "British Indian Ocean Territory"
-msgstr "Det britiske territorium i Det Indiske Ocean"
+msgstr "Det Britiske Territorium i Det Indiske Ocean"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Iraq"
@@ -727,8 +727,8 @@ msgid "Marshall Islands"
 msgstr "Marshalløerne"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macedonia"
-msgstr "Makedonien"
+msgid "North Macedonia"
+msgstr "Nordmakedonien"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mali"
@@ -743,7 +743,7 @@ msgid "Mongolia"
 msgstr "Mongoliet"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau"
+msgid "Macao"
 msgstr "Macao"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -1007,8 +1007,8 @@ msgid "Syria"
 msgstr "Syrien"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Swaziland"
-msgstr "Swaziland"
+msgid "Eswatini"
+msgstr "Eswatini"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tristan da Cunha"
@@ -1024,7 +1024,7 @@ msgstr "Tchad"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Southern Territories"
-msgstr "De franske besiddelser i Det Sydlige Indiske Ocean"
+msgstr "De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Togo"
@@ -1141,6 +1141,14 @@ msgstr "Wallis og Futuna"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Samoa"
 msgstr "Samoa"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "pseudo-accenter"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "pseudo-bidi"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kosovo"
@@ -1968,7 +1976,7 @@ msgstr "Atyrau"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Baghdad"
-msgstr "Baghdad"
+msgstr "Bagdad"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Baku"
@@ -2137,6 +2145,10 @@ msgstr "Pontianak"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pyongyang"
 msgstr "Pyongyang"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanay"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Qyzylorda"
@@ -2484,7 +2496,7 @@ msgstr "Uljanovsk"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Uzhhorod"
-msgstr "Uzhgorod"
+msgstr "Uzjhorod"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Vaduz"
@@ -2532,7 +2544,7 @@ msgstr "Chagos"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Christmas"
-msgstr "Christmas"
+msgstr "Juleøen"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cocos"
@@ -2768,7 +2780,7 @@ msgstr "Vestargentinsk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Armenia Time"
-msgstr "Armenien-tid"
+msgstr "Armensk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Atlantic Time"
@@ -2792,7 +2804,7 @@ msgstr "Vestaustralsk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Azerbaijan Time"
-msgstr "Aserbajdsjan-tid"
+msgstr "Aserbajdsjansk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Azores Time"
@@ -2820,7 +2832,7 @@ msgstr "Brunei Darussalam-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Cape Verde Time"
-msgstr "Cabo Verde-tid"
+msgstr "Kap Verde-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Casey Time"
@@ -2908,7 +2920,7 @@ msgstr "Falklandsøerne-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Fiji Time"
-msgstr "Fiji-tid"
+msgstr "Fijiansk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Guiana Time"
@@ -2932,7 +2944,7 @@ msgstr "Gambier-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Georgia Time"
-msgstr "Georgien-tid"
+msgstr "Georgisk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Gilbert Islands Time"
@@ -2972,7 +2984,7 @@ msgstr "Hovd-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "India Standard Time"
-msgstr "Indien-normaltid"
+msgstr "Indisk normaltid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Indian Ocean Time"
@@ -2996,7 +3008,7 @@ msgstr "Vestindonesisk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Iran Time"
-msgstr "Iran-tid"
+msgstr "Iransk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Irkutsk Time"
@@ -3051,7 +3063,7 @@ msgid "Lord Howe Time"
 msgstr "Lord Howe-tid"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau Time"
+msgid "Macao Time"
 msgstr "Macao-tid"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3112,7 +3124,7 @@ msgstr "Nauru-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Nepal Time"
-msgstr "Nepal-tid"
+msgstr "Nepalesisk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "New Caledonia Time"
@@ -3120,7 +3132,7 @@ msgstr "Ny Kaledonien-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "New Zealand Time"
-msgstr "New Zealand-tid"
+msgstr "Newzealandsk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Newfoundland Time"
@@ -3152,7 +3164,7 @@ msgstr "Omsk-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pakistan Time"
-msgstr "Pakistan-tid"
+msgstr "Pakistansk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Palau Time"
@@ -3199,7 +3211,7 @@ msgid "Qyzylorda Time"
 msgstr "Qyzylorda-tid"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Reunion Time"
+msgid "Réunion Time"
 msgstr "Reunion-tid"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3216,7 +3228,7 @@ msgstr "Samara-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Samoa Time"
-msgstr "Samoa-tid"
+msgstr "Samoansk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Seychelles Time"
@@ -3260,7 +3272,7 @@ msgstr "Tokelau-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tonga Time"
-msgstr "Tonga-tid"
+msgstr "Tongansk tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Chuuk Time"
@@ -3312,7 +3324,7 @@ msgstr "Wallis og Futuna-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Yakutsk Time"
-msgstr "Yakutsk-tid"
+msgstr "Jakutsk-tid"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Yekaterinburg Time"

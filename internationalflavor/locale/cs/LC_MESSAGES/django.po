@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "západní Evropa"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "subsaharská Afrika"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "Marshallovy ostrovy"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Makedonie"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Mongolsko"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "Sýrie"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Svazijsko"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -3173,7 +3173,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1081
 msgid "Unknown City"
-msgstr "Neznámé město"
+msgstr "neznámé město"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1082
@@ -4096,7 +4096,7 @@ msgstr "Čas ostrova lorda Howa"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Macajský čas"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4197,7 +4197,7 @@ msgstr "Niuejský čas"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1305
 msgid "Norfolk Island Time"
-msgstr "Norfolský čas"
+msgstr "Norfolkský čas"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1306
@@ -4262,7 +4262,7 @@ msgstr "Pierre-miquelonský čas"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1318
 msgid "Pitcairn Time"
-msgstr "Čas Pitcairnova ostrova"
+msgstr "Čas Pitcairnových ostrovů"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1319
@@ -4282,7 +4282,7 @@ msgstr "Kyzylordský čas"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Réunionský čas"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Severní Makedonie"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Svazijsko"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "simulovaná diakritika"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "simulovaný obousměrný zápis"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanaj"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Macajský čas"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Réunionský čas"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Česká republika"

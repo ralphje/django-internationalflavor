@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -247,7 +247,7 @@ msgstr "Nam Âu"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:27
 msgid "Australasia"
-msgstr "Úc và New Zealand"
+msgstr "Australasia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:28
@@ -257,7 +257,7 @@ msgstr "Melanesia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:29
 msgid "Micronesian Region"
-msgstr "Vùng Micronesian"
+msgstr "Vùng Micronesia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:30
@@ -374,7 +374,7 @@ msgstr "Tây Âu"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Châu Phi hạ Sahara"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -444,7 +444,7 @@ msgstr "Argentina"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:51
 msgid "American Samoa"
-msgstr "Đảo Somoa thuộc Mỹ"
+msgstr "Samoa thuộc Mỹ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:52
@@ -810,7 +810,7 @@ msgstr "Grenada"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:124
 msgid "Georgia"
-msgstr "Gruzia"
+msgstr "Georgia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:125
@@ -950,7 +950,7 @@ msgstr "Ấn Độ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:152
 msgid "British Indian Ocean Territory"
-msgstr "Lãnh thổ Ấn độ dương thuộc Anh"
+msgstr "Lãnh thổ Ấn Độ Dương thuộc Anh"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:153
@@ -1140,7 +1140,7 @@ msgstr "Quần đảo Marshall"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Macedonia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Mông Cổ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "Syria"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Swaziland"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -3810,7 +3810,7 @@ msgstr "Giờ Cape Verde"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1228
 msgid "Casey Time"
-msgstr ""
+msgstr "Giờ Casey"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1229
@@ -3945,7 +3945,7 @@ msgstr "Giờ Gambier"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1255
 msgid "Georgia Time"
-msgstr "Giờ Gruzia"
+msgstr "Giờ Georgia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1256
@@ -4096,7 +4096,7 @@ msgstr "Giờ Lord Howe"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Giờ Ma Cao"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4282,7 +4282,7 @@ msgstr "Giờ Qyzylorda"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Giờ Reunion"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Bắc Macedonia"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Swaziland"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Pseudo-Accents"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Pseudo-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanay"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Giờ Ma Cao"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Giờ Reunion"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Cộng hòa Séc"

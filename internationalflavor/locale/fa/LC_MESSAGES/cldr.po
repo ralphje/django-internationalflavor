@@ -120,7 +120,7 @@ msgstr "غرب اروپا"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "افریقای جنوب صحرا"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Latin America"
@@ -356,7 +356,7 @@ msgstr "قبرس"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Czechia"
-msgstr "جمهوری چک"
+msgstr "چک"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Germany"
@@ -424,7 +424,7 @@ msgstr "اتحادیهٔ اروپا"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Eurozone"
-msgstr "منطقه یورو"
+msgstr "منطقهٔ یورو"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Finland"
@@ -508,7 +508,7 @@ msgstr "یونان"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia & South Sandwich Islands"
-msgstr "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+msgstr "جورجیای جنوبی و جزایر ساندویچ جنوبی"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guatemala"
@@ -532,7 +532,7 @@ msgstr "هنگ‌کنگ"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Heard & McDonald Islands"
-msgstr "جزیرهٔ هرد و جزایر مک‌دونالد"
+msgstr "هرد و جزایر مک‌دونالد"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Honduras"
@@ -628,7 +628,7 @@ msgstr "کیریباتی"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Comoros"
-msgstr "کومورو"
+msgstr "کومور"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Kitts & Nevis"
@@ -727,8 +727,8 @@ msgid "Marshall Islands"
 msgstr "جزایر مارشال"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macedonia"
-msgstr "مقدونیه"
+msgid "North Macedonia"
+msgstr "مقدونیهٔ شمالی"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mali"
@@ -743,7 +743,7 @@ msgid "Mongolia"
 msgstr "مغولستان"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau"
+msgid "Macao"
 msgstr "ماکائو"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -960,7 +960,7 @@ msgstr "اسلوونی"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Svalbard & Jan Mayen"
-msgstr "اسوالبارد و جان‌ماین"
+msgstr "سوالبارد و یان ماین"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Slovakia"
@@ -1007,8 +1007,8 @@ msgid "Syria"
 msgstr "سوریه"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Swaziland"
-msgstr "سوازیلند"
+msgid "Eswatini"
+msgstr "اسواتینی"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tristan da Cunha"
@@ -1024,7 +1024,7 @@ msgstr "چاد"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Southern Territories"
-msgstr "قلمروهای جنوبی فرانسه"
+msgstr "سرزمین‌های جنوب فرانسه"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Togo"
@@ -1141,6 +1141,14 @@ msgstr "والیس و فوتونا"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Samoa"
 msgstr "ساموآ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "مجازی - دوجهته"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kosovo"
@@ -1368,7 +1376,7 @@ msgstr "طرابلس"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tunis"
-msgstr "شهر تونس"
+msgstr "تونس"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Windhoek"
@@ -2137,6 +2145,10 @@ msgstr "پونتیاناک"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pyongyang"
 msgstr "پیونگ‌یانگ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "قوستانای"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Qyzylorda"
@@ -3051,7 +3063,7 @@ msgid "Lord Howe Time"
 msgstr "وقت لردهو"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Macau Time"
+msgid "Macao Time"
 msgstr "وقت ماکائو"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -3132,7 +3144,7 @@ msgstr "وقت نیوئه"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Norfolk Island Time"
-msgstr "وقت جزایر نورفولک"
+msgstr "وقت جزیرهٔ نورفولک"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Fernando de Noronha Time"
@@ -3199,8 +3211,8 @@ msgid "Qyzylorda Time"
 msgstr "وقت قیزیل‌اوردا"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Reunion Time"
-msgstr "وقت ریونیون"
+msgid "Réunion Time"
+msgstr "وقت رئونیون"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Rothera Time"

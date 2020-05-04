@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-10 21:24+0200\n"
-"PO-Revision-Date: 2014-12-24 17:04+0000\n"
+"PO-Revision-Date: 2017-09-23 20:37+0000\n"
 "Last-Translator: Ralph Broenink\n"
 "Language-Team: Dutch (http://www.transifex.com/ralphje/django-internationalflavor/language/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -375,7 +375,7 @@ msgstr "West-Europa"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Sub-Saharaans Afrika"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1141,7 +1141,7 @@ msgstr "Marshalleilanden"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Macedonië"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1161,7 +1161,7 @@ msgstr "Mongolië"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macau"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1491,7 +1491,7 @@ msgstr "Syrië"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Swaziland"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -2560,22 +2560,22 @@ msgstr "Sitka"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:947
 msgid "St. John’s"
-msgstr "St. John’s"
+msgstr "Saint John’s"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:948
 msgid "St. Kitts"
-msgstr "St. Kitts"
+msgstr "Saint Kitts"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:950
 msgid "St. Thomas"
-msgstr "St. Thomas"
+msgstr "Saint Thomas"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:951
 msgid "St. Vincent"
-msgstr "St. Vincent"
+msgstr "Saint Vincent"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:952
@@ -3938,7 +3938,7 @@ msgstr "Greenwich Mean Time"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1253
 msgid "Galapagos Time"
-msgstr "Galapagoseilandse standaardtijd"
+msgstr "Galapagoseilandse tijd"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1254
@@ -4099,7 +4099,7 @@ msgstr "Lord Howe-eilandse tijd"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Macause tijd"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4285,7 +4285,7 @@ msgstr "Qyzylorda-tijd"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Réunionse tijd"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4518,6 +4518,38 @@ msgstr "Dit btw-nummer is niet voor een bekend land."
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr "Dit btw-nummer bestaat niet."
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Noord-Macedonië"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macau"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "eSwatini"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Pseudo-Accenten"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Pseudo-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Qostanay"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Macause tijd"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Réunionse tijd"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Tsjechië"

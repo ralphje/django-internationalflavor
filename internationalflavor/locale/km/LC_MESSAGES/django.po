@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "អឺរ៉ុប​ខាង​លិច"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "អនុតំបន់សាហារ៉ាអាហ្វ្រិក"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "កោះ​ម៉ាស់សល"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "ម៉ាសេដ្វាន"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "ម៉ុងហ្គោលី"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "ម៉ាកាវ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "ស៊ីរី"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "ស្វាស៊ីឡង់"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1535,7 +1535,7 @@ msgstr "តូខេឡៅ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:269
 msgid "Timor-Leste"
-msgstr "ទីម័រលីស"
+msgstr "ទីម័រលេស្តេ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:270
@@ -2492,7 +2492,7 @@ msgstr "ព័រតូ​វិលហូ"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:933
 msgid "Punta Arenas"
-msgstr "Punta Arenas"
+msgstr "ពុនតា អារ៉េណា"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:934
@@ -2732,7 +2732,7 @@ msgstr "អាសហ្គាបាត"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:983
 msgid "Atyrau"
-msgstr "Atyrau"
+msgstr "អាទីរ៉ូ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:984
@@ -2812,7 +2812,7 @@ msgstr "ឌូស្ហាន់បេ"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1001
 msgid "Famagusta"
-msgstr "Famagusta"
+msgstr "ហ្វ៉ាម៉ាហ្គុស្តា"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1002
@@ -3345,7 +3345,7 @@ msgstr "សារ៉ាយ៉េវ៉ូ"
 #: timezone/_cldr_data.py:1124
 #| msgid "Sarajevo"
 msgid "Saratov"
-msgstr "Saratov"
+msgstr "សារ៉ាតាវ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1125
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "ម៉ោងនៅរេអ៊ុយ៉ុង"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "ម៉ាសេដ្វានខាងជើង"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "ម៉ាកាវ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "ស្វាស៊ីឡង់"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "Pseudo-Accents"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "Pseudo-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "កូស្ដេណេ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "ម៉ោងនៅរេអ៊ុយ៉ុង"
 
 #~ msgid "Czech Republic"
 #~ msgstr "សាធារណរដ្ឋឆេក"

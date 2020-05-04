@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "مغربی یورپ"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "ذیلی صحارن افریقہ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "مارشل آئلینڈز"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "مقدونیہ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "منگولیا"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "مکاؤ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1470,7 +1470,7 @@ msgstr "جنوبی سوڈان"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:256
 msgid "São Tomé & Príncipe"
-msgstr "ساؤ ٹوم اور پرنسپے"
+msgstr "ساؤ ٹومے اور پرنسپے"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:257 timezone/_cldr_data.py:864
@@ -1490,7 +1490,7 @@ msgstr "شام"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "سوازی لینڈ"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1500,7 +1500,7 @@ msgstr "ٹرسٹن ڈا کیونہا"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:262
 msgid "Turks & Caicos Islands"
-msgstr "ترکس اور کیکاؤس جزائر"
+msgstr "ٹرکس اور کیکوس جزائر"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:263
@@ -1601,7 +1601,7 @@ msgstr "اقوام متحدہ"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:282
 msgid "United States"
-msgstr "ریاستہائے متحدہ"
+msgstr "ریاست ہائے متحدہ امریکہ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:283
@@ -2492,7 +2492,7 @@ msgstr "پورٹو ویلہو"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:933
 msgid "Punta Arenas"
-msgstr "پنٹا یریناس"
+msgstr "پنٹا اریناس"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:934
@@ -3254,12 +3254,12 @@ msgstr "استنبول"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1102
 msgid "Kaliningrad"
-msgstr "كالينينغراد"
+msgstr "کالينينغراد"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1103
 msgid "Kiev"
-msgstr "کیوو"
+msgstr "کیو"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1104
@@ -3385,7 +3385,7 @@ msgstr "الیانوسک"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1132
 msgid "Uzhhorod"
-msgstr "ازگوروڈ"
+msgstr "ازہوراڈ"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1133
@@ -3730,7 +3730,7 @@ msgstr "عرب کا وقت"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1212
 msgid "Argentina Time"
-msgstr "ارجنٹینا ٹائم"
+msgstr "ارجنٹینا کا وقت"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1213
@@ -3830,7 +3830,7 @@ msgstr "چلی کا وقت"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1232
 msgid "China Time"
-msgstr "چین ٹائم"
+msgstr "چین کا وقت"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1233
@@ -4282,7 +4282,7 @@ msgstr ""
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "ری یونین ٹائم"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "شمالی مقدونیہ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "مکاؤ"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "سواتنی"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "بناوٹی لہجے"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "مصنوعی بیڑی"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "کوستانے"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "ری یونین ٹائم"
 
 #~ msgid "Czech Republic"
 #~ msgstr "چیک جمہوریہ"

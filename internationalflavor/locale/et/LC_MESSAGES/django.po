@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -374,7 +374,7 @@ msgstr "Lääne-Euroopa"
 #: countries/_cldr_data.py:38
 #| msgid "Southern Africa"
 msgid "Sub-Saharan Africa"
-msgstr ""
+msgstr "Sahara-tagune Aafrika"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
@@ -1140,7 +1140,7 @@ msgstr "Marshalli Saared"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:190
 msgid "Macedonia"
-msgstr "Makedoonia"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:191
@@ -1160,7 +1160,7 @@ msgstr "Mongoolia"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:194 timezone/_cldr_data.py:1019
 msgid "Macau"
-msgstr "Macau"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:195
@@ -1490,7 +1490,7 @@ msgstr "Süüria"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:260
 msgid "Swaziland"
-msgstr "Svaasimaa"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:261
@@ -1596,7 +1596,7 @@ msgstr "Ühendriikide hajasaared"
 #: countries/_cldr_data.py:281
 #| msgid "United States"
 msgid "United Nations"
-msgstr "Ühendatud Rahvaste Organisatsioon"
+msgstr "Ühinenud Rahvaste Organisatsioon"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:282
@@ -1691,7 +1691,7 @@ msgstr "Zimbabwe"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:300
 msgid "Unknown Region"
-msgstr "Tundmatu piirkond"
+msgstr "tundmatu piirkond"
 
 #: countries/models.py:13
 msgid "A country"
@@ -4096,7 +4096,7 @@ msgstr "Lord Howe’i aeg"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1285
 msgid "Macau Time"
-msgstr "Macau aeg"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1286
@@ -4111,7 +4111,7 @@ msgstr "Magadani aeg"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1288
 msgid "Malaysia Time"
-msgstr "Malaisia ​​aeg"
+msgstr "Malaisia aeg"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1289
@@ -4282,7 +4282,7 @@ msgstr "Kõzõlorda aeg"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1322
 msgid "Reunion Time"
-msgstr "Réunioni aeg"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1323
@@ -4427,7 +4427,7 @@ msgstr "Jakutski aeg"
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1351
 msgid "Yekaterinburg Time"
-msgstr "Jakaterinburgi aeg"
+msgstr "Jekaterinburgi aeg"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1353
@@ -4513,6 +4513,38 @@ msgstr ""
 #: vat_number/validators.py:161 vat_number/validators.py:181
 msgid "This VAT number does not exist."
 msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "North Macedonia"
+msgstr "Põhja-Makedoonia"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao"
+msgstr "Macau"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Eswatini"
+msgstr "Svaasimaa"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Accents"
+msgstr "pseudo-aktsent"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Pseudo-Bidi"
+msgstr "pseudo-Bidi"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kostanay"
+msgstr "Kostanaj"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Macao Time"
+msgstr "Macau aeg"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Réunion Time"
+msgstr "Réunioni aeg"
 
 #~ msgid "Czech Republic"
 #~ msgstr "Tšehhi"
