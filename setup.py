@@ -100,6 +100,11 @@ def find_package_data(where='.', package='',
 
 version = find_version("internationalflavor", "__init__.py")
 
+try:
+    long_description = open("README.rst", "r").read()
+except Exception:
+    long_description = None
+
 setup(
     name='django-internationalflavor',
     version=version,
@@ -111,6 +116,7 @@ setup(
     author='Ralph Broenink',
     author_email='ralph@ralphbroenink.net',
     description='Complementing django-localflavor with fields that are applicable to multiple countries',
+    long_description=long_description,
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
