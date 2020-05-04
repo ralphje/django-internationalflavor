@@ -1,4 +1,3 @@
-sudo: no
 language: python
 install:
   - mkdir -p $PIP_WHEEL_DIR
