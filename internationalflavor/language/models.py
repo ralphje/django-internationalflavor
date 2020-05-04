@@ -33,7 +33,8 @@ class LanguageField(models.CharField):
             kwargs['exclude'] = self.exclude
         if 'max_length' in kwargs and kwargs["max_length"] == LANG_MAX_LENGTH:
             del kwargs["max_length"]
-        del kwargs["choices"]
+        if "choices" in kwargs:
+            del kwargs["choices"]
         return name, path, args, kwargs
 
     def formfield(self, **kwargs):
