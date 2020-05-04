@@ -169,4 +169,5 @@ def get_countries(countries=None, exclude=None):
 
     return [(k, v) for k, v in COUNTRY_NAMES.items() if k in countries and k not in exclude]
 
+
 get_countries_lazy = lazy(get_countries, list)

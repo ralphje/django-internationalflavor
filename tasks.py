@@ -6,17 +6,17 @@ from invoke import run, task
 
 
 @task
-def clean():
+def clean(ctx):
     run('git clean -Xfd')
 
 
 @task
-def test():
+def test(ctx):
     print('Python version: ' + sys.version)
     # For some reason, the rcfile does not work properly under Py2.6 and Py2.7, so setting it explicitly here
     test_cmd = 'coverage run --source=internationalflavor --branch ' \
-               '`which django-admin.py` test --settings=tests.settings'
-    flake_cmd = 'flake8 --ignore=W801,E128,E501,W402'
+               '-m django test --settings=tests.settings'
+    flake_cmd = 'flake8 --ignore=W801,E128,E501,W402,W503'
 
     cwp = os.path.dirname(os.path.abspath(__name__))
     pythonpath = os.environ.get('PYTHONPATH', '').split(os.pathsep)
@@ -29,13 +29,13 @@ def test():
 
 
 @task
-def compile_translations():
+def compile_translations(ctx):
     run('python scripts/mergemessages.py')
     # run('cd internationalflavor; django-admin.py compilemessages; cd ..')
 
 
 @task(post=[compile_translations])
-def pull_translations(locale=None):
+def pull_translations(ctx, locale=None):
     if locale:
         run('tx pull -f -l {0}'.format(locale))
     else:
@@ -43,20 +43,20 @@ def pull_translations(locale=None):
 
 
 @task(post=[compile_translations])
-def make_translations(locale=None):
+def make_translations(ctx, locale=None):
     if locale:
-        run('cd internationalflavor; django-admin.py makemessages -l {0}; cd ..'.format(locale))
+        run('cd internationalflavor; python -m django makemessages -l {0}; cd ..'.format(locale))
     else:
-        run('cd internationalflavor; django-admin.py makemessages -a; cd ..')
+        run('cd internationalflavor; python -m django makemessages -a; cd ..')
 
 
 @task(pre=[make_translations])
-def push_translations():
+def push_translations(ctx):
     run('tx push -s')
 
 
 @task(post=[make_translations])
-def pull_cldr():
+def pull_cldr(ctx):
     if not os.path.exists("_cldr"):
         run('mkdir _cldr')
     run('cd _cldr; bower install cldr-localenames-full cldr-dates-full cldr-core; cd ..')
@@ -64,5 +64,5 @@ def pull_cldr():
 
 
 @task
-def docs():
+def docs(ctx):
     run('cd docs; make html; cd ..')

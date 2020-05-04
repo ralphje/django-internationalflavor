@@ -1,4 +1,3 @@
-from django.utils import six
 from django.utils.functional import lazy
 
 
@@ -12,4 +11,6 @@ def _string_format(str, format):
     formatting may be evaluated before it is calculated
     """
     return str % format
-string_format = lazy(_string_format, six.text_type)
+
+
+string_format = lazy(_string_format, str)

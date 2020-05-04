@@ -3,10 +3,10 @@ from __future__ import unicode_literals
 
 import re
 import socket
+import urllib.request
 
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
-from django.utils.six.moves.urllib import request
 
 from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
@@ -137,8 +137,8 @@ class VATNumberValidator(object):
         elif country == 'RU':
             if len(rest) == 10 and _get_check_digit(rest, [2, 4, 10, 3, 5, 9, 4, 6, 8]) % 10 != int(rest[9]):
                 raise ValidationError(self.country_failure % {'country': country})
-            elif len(rest) == 12 and (_get_check_digit(rest, [7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[10]) or
-                                      _get_check_digit(rest, [3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[11])):
+            elif len(rest) == 12 and (_get_check_digit(rest, [7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[10])
+                                      or _get_check_digit(rest, [3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8]) != int(rest[11])):
                 raise ValidationError(self.country_failure % {'country': country})
 
     def _check_vies_native(self, country, rest):
@@ -153,8 +153,8 @@ class VATNumberValidator(object):
         """
         try:
             data = envelope % (country, rest)
-            req = request.Request(VIES_CHECK_URL, data.encode())
-            response = request.urlopen(req)
+            req = urllib.request.Request(VIES_CHECK_URL, data.encode())
+            response = urllib.request.urlopen(req)
             result = response.read()
 
             if b'<valid>false</valid>' in result:

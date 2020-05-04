@@ -3,7 +3,6 @@ from __future__ import absolute_import, division
 import datetime
 
 from django.core.exceptions import ImproperlyConfigured
-from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
 from django.utils.translation import ugettext_lazy as _, ugettext
@@ -38,6 +37,7 @@ def get_timezones_cities(timezones=None, exclude=None):
             result.append((territory, items))
     return result
 
+
 get_timezones_cities_lazy = lazy(get_timezones_cities, list)
 
 
@@ -50,7 +50,8 @@ def _get_metazone_cities(metazone, limit=5):
     else:
         return ", ".join(map(force_text, cities))
 
-_get_metazone_cities_lazy = lazy(_get_metazone_cities, six.text_type)
+
+_get_metazone_cities_lazy = lazy(_get_metazone_cities, str)
 
 
 def _get_metazone_offset(metazone, correct_dst=True):
@@ -87,7 +88,8 @@ def _get_metazone_offset_str(metazone, correct_dst=True, include_gmt=True):
     else:
         return offset_str
 
-_get_metazone_offset_str_lazy = lazy(_get_metazone_offset_str, six.text_type)
+
+_get_metazone_offset_str_lazy = lazy(_get_metazone_offset_str, str)
 
 
 def get_metazone_name(metazone, display_format='name'):
@@ -134,7 +136,8 @@ def get_metazone_name(metazone, display_format='name'):
 
     return result
 
-get_metazone_name_lazy = lazy(get_metazone_name, six.text_type)
+
+get_metazone_name_lazy = lazy(get_metazone_name, str)
 
 
 def get_metazones(metazones=None, exclude=None, display_format='name'):
@@ -147,6 +150,7 @@ def get_metazones(metazones=None, exclude=None, display_format='name'):
     exclude = exclude if exclude else []
 
     return [(k, get_metazone_name_lazy(k, display_format)) for k in metazones if k not in exclude]
+
 
 get_metazones_lazy = lazy(get_metazones, list)
 
@@ -164,7 +168,7 @@ def get_timezone_by_metazone(metazone, territories=None, fallback='001'):
 
     if territories is None:
         territories = []
-    elif isinstance(territories, six.text_type):
+    elif isinstance(territories, str):
         territories = [territories]
 
     for ter in territories:
