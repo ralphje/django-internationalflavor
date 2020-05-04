@@ -71,9 +71,7 @@ def find_package_data(where='.', package='',
                     if (fnmatchcase(name, pattern) or fn.lower() == pattern.lower()):
                         bad_name = True
                         if show_ignored:
-                            print >> sys.stderr, (
-                                "Directory %s ignored by pattern %s"
-                                % (fn, pattern))
+                            sys.stderr.write("Directory %s ignored by pattern %s" % (fn, pattern))
                         break
                 if bad_name:
                     continue
@@ -92,9 +90,7 @@ def find_package_data(where='.', package='',
                     if (fnmatchcase(name, pattern) or fn.lower() == pattern.lower()):
                         bad_name = True
                         if show_ignored:
-                            print >> sys.stderr, (
-                                "File %s ignored by pattern %s"
-                                % (fn, pattern))
+                            sys.stderr.write("File %s ignored by pattern %s" % (fn, pattern))
                         break
                 if bad_name:
                     continue
@@ -123,12 +119,11 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Internet :: WWW/HTTP',
     ],
     zip_safe=False,
