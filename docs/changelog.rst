@@ -4,7 +4,7 @@ Changelog
 
 This file contains the changelog for the project.
 
-0.4.0 (unreleased)
+0.4.0 (2020-05-04)
 ==================
 * Updates Django support, removing 1.x support
 * Updates Python support, removing 2.x support
@@ -12,6 +12,8 @@ This file contains the changelog for the project.
 * Updated IBAN data, renaming Nordea extensions to experimental countries (based off SWIFT list)
 * Updated VAT data, fixing the validation for Dutch VAT numbers
 * Added a language field
+
+Due to a packaging error, v0.4.0 as re-uploaded to PyPI without changes to the source itself.
 
 0.3.1 (2017-01-28)
 ==================
