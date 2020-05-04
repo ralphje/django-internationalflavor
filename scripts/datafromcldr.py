@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 import zipfile
 import django
 from django.conf import settings
@@ -32,6 +33,9 @@ def translate(language, original, translated):
 class Command(BaseCommand):
     help = ('Updates localized data of the internationalflavor module using data from the Unicode '
             'Common Locale Data Repository (CLDR)')
+
+    def add_arguments(self, parser):
+        parser.add_argument('path_to_cldr', help='Path to a zip file containing CLDR JSON files.')
 
     def handle(self, *args, **options):
         translation.deactivate_all()
@@ -230,12 +234,5 @@ class Command(BaseCommand):
 
 if __name__ == '__main__':
     settings.configure()
-    if hasattr(django, 'setup'):
-        django.setup()
-
-    # We parse arguments ourselves. Django 1.8 uses argparse (finally) but we can just as easily use it ourselves.
-    parser = argparse.ArgumentParser(description=Command.help)
-    parser.add_argument('path_to_cldr', help='Path to a zip file containing CLDR JSON files.')
-    args = parser.parse_args()
-
-    Command().execute(**vars(args))
+    django.setup()
+    Command().run_from_argv(["django-admin.py", "datafromcldr"] + sys.argv[1:])

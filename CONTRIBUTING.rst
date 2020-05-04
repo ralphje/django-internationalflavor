@@ -50,7 +50,7 @@ Common Locale Data Repository
 We use the CLDR for several pieces of international data. The following command can be ran to update the repository
 data with the latest CLDR (requires bower as it uses this to pull the data off GitHub)::
 
-    invoke pull_cldr
+    invoke pull-cldr
 
 This will generate (or update) two types of files: all ``_cldr_data.py`` files, with dicts containing translatable
 strings, and ``cldr.po`` files, that contain the translations of all CLDR strings.
@@ -67,7 +67,7 @@ Since we use the CLDR as an additional source of translations, we need to merge 
 running ``django-admin.py makemessages`` and ``django-admin.py compilemessages`` after changing any translation
 strings, you should run::
 
-    invoke make_translations
+    invoke make-translations
 
 This will automatically find the translation strings (just as ``makemessages`` would), but additionally merges and
 compiles the correct files. This should result in the following files in the repository:
@@ -86,10 +86,13 @@ Transifex sync
 --------------
 This section only applies to those having maintainer access to the Transifex repository.
 
+For these commands you need the Transifex client on your system, see
+https://docs.transifex.com/client/installing-the-client
+
 You can synchronize the translations with Transifex by running::
 
-    invoke pull_translations
+    invoke pull-translations
 
 After new translations have been added, please run::
 
-    invoke push_translations
+    invoke push-translations

@@ -1,5 +1,7 @@
 import argparse
 import os
+import sys
+
 import polib
 import django
 from django.conf import settings
@@ -97,14 +99,11 @@ class Command(BaseCommand):
             except Exception as e:
                 self.stderr.write("Error while handling %s: %s" % (language, e))
 
+    def add_arguments(self, parser):
+        parser.add_argument('-l')
+
+
 if __name__ == '__main__':
     settings.configure()
-    if hasattr(django, 'setup'):
-        django.setup()
-
-    # We parse arguments ourselves. Django 1.8 uses argparse (finally) but we can just as easily use it ourselves.
-    parser = argparse.ArgumentParser(description=Command.help)
-    parser.add_argument('-l')
-    args = parser.parse_args()
-
-    Command().execute(**vars(args))
+    django.setup()
+    Command().run_from_argv(["django-admin.py", "mergemessages"] + sys.argv[1:])
