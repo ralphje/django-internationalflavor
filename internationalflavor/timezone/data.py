@@ -1,5 +1,3 @@
-from __future__ import absolute_import, division
-
 import datetime
 
 from django.core.exceptions import ImproperlyConfigured

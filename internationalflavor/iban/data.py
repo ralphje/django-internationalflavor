@@ -1,9 +1,6 @@
 """Contains a list of all known IBAN regexes.
 """
 
-from __future__ import absolute_import
-from __future__ import unicode_literals
-
 IBAN_REGEXES = {
     'AD': r'^\d{10}[0-9A-Z]{12}$',  # AD2!n4!n4!n12!c
     'AE': r'^\d{21}$',  # AE2!n3!n16!n

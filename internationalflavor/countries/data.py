@@ -53,8 +53,6 @@ HK Hong Kong
 PR Puerto Rico
 """
 
-from __future__ import absolute_import
-from __future__ import unicode_literals
 from django.utils.functional import lazy
 from ._cldr_data import COUNTRY_NAMES
 

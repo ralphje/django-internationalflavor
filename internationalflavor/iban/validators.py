@@ -1,6 +1,3 @@
-from __future__ import absolute_import
-from __future__ import unicode_literals
-
 import re
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
@@ -25,7 +22,7 @@ class IBANValidator(object):
     are localized characters (the so-called BBAN).
 
     :param countries: If set, the list of source countries will be limited to the provided list. Otherwise, all
-        available IBANs are included (with the exception of Nordea IBANs if ``accept_nordea_extensions`` is not set).
+        available IBANs are included (with the exception of experimental IBANs if ``accept_experimental`` is not set).
 
     :param exclude: You can use this parameter to exclude items from the list of countries.
 
@@ -34,14 +31,14 @@ class IBANValidator(object):
         to perform direct debits, you can set this to True. This is equivalent to setting the exclude list to all
         countries without SEPA.
 
-    :param bool accept_nordea_extensions: By default, this validator will validate any IBAN that is recognized by the
-        SWIFT organization, but Nordea has  specified a few additional IBAN formats. By setting this parameter to True,
-        these extensions are also allowed.
+    :param bool accept_experimental: By default, this validator will validate any IBAN that is recognized by the
+        SWIFT organization, but SWIFT has specified a few additional IBAN formats and defined them as 'experimental'.
+        By setting this parameter to True, these extensions are also allowed.
 
     .. warning::
 
-       The validation of the Nordea extensions may be wrong for some countries, as there is no standard for these
-       numbers.
+       The validation of the experimental numbers may be wrong for some countries, as only their length is published
+       by the SWIFT organization
     """
 
     def __init__(self, countries=None, exclude=None, sepa_only=False, accept_experimental=False):
