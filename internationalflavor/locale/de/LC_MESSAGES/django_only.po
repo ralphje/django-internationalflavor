@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-10 21:24+0200\n"
-"PO-Revision-Date: 2017-09-22 22:17+0000\n"
+"PO-Revision-Date: 2020-09-14 09:00+0000\n"
 "Last-Translator: Ralph Broenink\n"
 "Language-Team: German (http://www.transifex.com/ralphje/django-internationalflavor/language/de/)\n"
 "Language: de\n"
@@ -43,26 +43,25 @@ msgstr "Diese IBAN hat eine ungültige Prüfsumme."
 msgid "This Bank Identifier Code (BIC) is invalid."
 msgstr "Diese internationale Bankleitzahl (BIC) ist ungültig."
 
-#: language/models.py:25 vat_number/models.py:25
+#: vat_number/models.py:25
 msgid "A number used for VAT registration"
 msgstr "Eine Nummer, welche zur Umsatzsteuer-Anmeldung genutzt wird"
 
-#: language/validators.py:119 vat_number/validators.py:119
+#: vat_number/validators.py:119
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr "USt-ID-Nummern aus %(country)s sind in diesem Feld nicht zugelassen."
 
-#: language/validators.py:83 vat_number/validators.py:83
+#: vat_number/validators.py:83
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 "Diese USt-ID-Nummer erfüllt nicht die Voraussetzungen für %(country)s."
 
-#: language/validators.py:125 vat_number/validators.py:125
+#: vat_number/validators.py:125
 msgid "This VAT number is not for a known country."
 msgstr "Das Land dieser USt-ID-Nummer ist nicht unterstützt."
 
-#: language/validators.py:171 language/validators.py:191
 #: vat_number/validators.py:171 vat_number/validators.py:191
 msgid "This VAT number does not exist."
 msgstr "Diese USt-ID-Nummer existiert nicht."
@@ -99,13 +98,18 @@ msgstr "Eine Zeitzone"
 msgid "Timezone %s is invalid"
 msgstr "Die Zeitzone %s ist ungültig"
 
-#: language/validators.py:112 vat_number/validators.py:112
+#: vat_number/validators.py:112
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
 "Diese USt-ID-Nummer beginnt nicht mit einem Ländercode oder enthält "
 "ungültige Zeichen"
+
+#: timezone/models.py:143
+#, python-format
+msgid "Metazone %s is invalid"
+msgstr ""
 
 #: timezone/data.py:116
 #, python-format
@@ -126,6 +130,41 @@ msgstr ""
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
+
+#: language/models.py:14
+msgid "A language"
+msgstr ""
+
+#: timezone/models.py:96
+msgid "A metazone"
+msgstr ""
+
+#~ msgid "Macedonia"
+#~ msgstr ""
+
+#~ msgid "Macau"
+#~ msgstr ""
+
+#~ msgid "Swaziland"
+#~ msgstr ""
+
+#~ msgid "Macau Time"
+#~ msgstr ""
+
+#~ msgid "Reunion Time"
+#~ msgstr ""
+
+#~ msgid "%(tz)s (%(cities)s)"
+#~ msgstr ""
+
+#~ msgid "%(offset)s %(tz)s (%(cities)s)"
+#~ msgstr ""
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr ""
+
+#~ msgid "Santa Isabel"
+#~ msgstr ""
 
 #~ msgid "This IBAN does not start with a country code and checksum."
 #~ msgstr ""

@@ -41,25 +41,24 @@ msgstr ""
 msgid "This Bank Identifier Code (BIC) is invalid."
 msgstr ""
 
-#: language/models.py:25 vat_number/models.py:25
+#: vat_number/models.py:25
 msgid "A number used for VAT registration"
 msgstr ""
 
-#: language/validators.py:119 vat_number/validators.py:119
+#: vat_number/validators.py:119
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr ""
 
-#: language/validators.py:83 vat_number/validators.py:83
+#: vat_number/validators.py:83
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 
-#: language/validators.py:125 vat_number/validators.py:125
+#: vat_number/validators.py:125
 msgid "This VAT number is not for a known country."
 msgstr ""
 
-#: language/validators.py:171 language/validators.py:191
 #: vat_number/validators.py:171 vat_number/validators.py:191
 msgid "This VAT number does not exist."
 msgstr ""
@@ -94,7 +93,7 @@ msgstr ""
 msgid "Timezone %s is invalid"
 msgstr ""
 
-#: language/validators.py:112 vat_number/validators.py:112
+#: vat_number/validators.py:112
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
@@ -123,6 +122,14 @@ msgstr ""
 #: timezone/data.py:122
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
+msgstr ""
+
+#: language/models.py:14
+msgid "A language"
+msgstr ""
+
+#: timezone/models.py:96
+msgid "A metazone"
 msgstr ""
 
 #~ msgid "%(tz)s (%(cities)s)"

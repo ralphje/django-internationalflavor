@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-10 21:24+0200\n"
-"PO-Revision-Date: 2017-09-22 22:17+0000\n"
+"PO-Revision-Date: 2020-09-14 09:00+0000\n"
 "Last-Translator: Ralph Broenink\n"
 "Language-Team: German (http://www.transifex.com/ralphje/django-internationalflavor/language/de/)\n"
 "Language: de\n"
@@ -1787,13 +1787,11 @@ msgstr "Avestisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:15
-#| msgid "Tunisia"
 msgid "Tunisian Arabic"
 msgstr "Tunesisches Arabisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:16
-#| msgid "Africa"
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
@@ -1834,13 +1832,11 @@ msgstr "Aleutisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:24
-#| msgid "Albania"
 msgid "Gheg Albanian"
 msgstr "Gegisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:25
-#| msgid "Southern Asia"
 msgid "Southern Altai"
 msgstr "Süd-Altaisch"
 
@@ -1876,13 +1872,11 @@ msgstr "Modernes Hocharabisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:32
-#| msgid "Jamaica"
 msgid "Aramaic"
 msgstr "Aramäisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:33
-#| msgid "Maputo"
 msgid "Mapuche"
 msgstr "Mapudungun"
 
@@ -1898,19 +1892,16 @@ msgstr "Arapaho"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:36
-#| msgid "Algeria"
 msgid "Algerian Arabic"
 msgstr "Algerisches Arabisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:37
-#| msgid "Saudi Arabia"
 msgid "Najdi Arabic"
 msgstr "Arabisch (Nadschd)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:38
-#| msgid "Tarawa"
 msgid "Arawak"
 msgstr "Arawak"
 
@@ -1936,7 +1927,6 @@ msgstr "Asu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:43
-#| msgid "American Samoa"
 msgid "American Sign Language"
 msgstr "Amerikanische Gebärdensprache"
 
@@ -1962,19 +1952,16 @@ msgstr "Awadhi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:48
-#| msgid "Asmara"
 msgid "Aymara"
 msgstr "Aymara"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:49
-#| msgid "Azerbaijan"
 msgid "Azerbaijani"
 msgstr "Aserbaidschanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:50
-#| msgid "Azerbaijan"
 msgid "Azeri"
 msgstr "Aserbaidschanisch"
 
@@ -1995,7 +1982,6 @@ msgstr "Balinesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:54
-#| msgid "Bulgaria"
 msgid "Bavarian"
 msgstr "Bairisch"
 
@@ -2016,13 +2002,11 @@ msgstr "Batak Toba"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:58
-#| msgid "Somalia"
 msgid "Ghomala"
 msgstr "Ghomala"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:59
-#| msgid "Belarus"
 msgid "Belarusian"
 msgstr "Weißrussisch"
 
@@ -2048,25 +2032,21 @@ msgstr "Bena"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:64
-#| msgid "Funafuti"
 msgid "Bafut"
 msgstr "Bafut"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:65
-#| msgid "Madagascar"
 msgid "Badaga"
 msgstr "Badaga"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:66
-#| msgid "Bulgaria"
 msgid "Bulgarian"
 msgstr "Bulgarisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:67
-#| msgid "Western Sahara"
 msgid "Western Balochi"
 msgstr "Westliches Belutschi"
 
@@ -2077,7 +2057,6 @@ msgstr "Bhodschpuri"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:69
-#| msgid "Bratislava"
 msgid "Bislama"
 msgstr "Bislama"
 
@@ -2093,7 +2072,6 @@ msgstr "Bini"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:72
-#| msgid "Banjul"
 msgid "Banjar"
 msgstr "Banjaresisch"
 
@@ -2114,7 +2092,6 @@ msgstr "Bambara"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:76
-#| msgid "Bangladesh"
 msgid "Bangla"
 msgstr "Bengalisch"
 
@@ -2190,7 +2167,6 @@ msgstr "Medumba"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:91
-#| msgid "Catamarca"
 msgid "Catalan"
 msgstr "Katalanisch"
 
@@ -2201,7 +2177,6 @@ msgstr "Caddo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:93
-#| msgid "Caribbean"
 msgid "Carib"
 msgstr "Karibisch"
 
@@ -2252,13 +2227,11 @@ msgstr "Tschagataisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:103
-#| msgid "Chuuk"
 msgid "Chuukese"
 msgstr "Chuukesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:104
-#| msgid "Marigot"
 msgid "Mari"
 msgstr "Mari"
 
@@ -2284,19 +2257,16 @@ msgstr "Cherokee"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:109
-#| msgid "Cayenne"
 msgid "Cheyenne"
 msgstr "Cheyenne"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:110
-#| msgid "Chicago"
 msgid "Chickasaw"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:111
-#| msgid "Central America"
 msgid "Central Kurdish"
 msgstr "Zentralkurdisch"
 
@@ -2322,7 +2292,6 @@ msgstr "Cree"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:116
-#| msgid "Grand Turk"
 msgid "Crimean Turkish"
 msgstr "Krimtatarisch"
 
@@ -2333,13 +2302,11 @@ msgstr "Seychellenkreol"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:118
-#| msgid "Czechia"
 msgid "Czech"
 msgstr "Tschechisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:119
-#| msgid "Kashgar"
 msgid "Kashubian"
 msgstr "Kaschubisch"
 
@@ -2380,13 +2347,11 @@ msgstr "Taita"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:127
-#| msgid "Germany"
 msgid "German"
 msgstr "Deutsch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:128
-#| msgid "Austria"
 msgid "Austrian German"
 msgstr "Österreichisches Deutsch"
 
@@ -2432,19 +2397,16 @@ msgstr "Niedersorbisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:137
-#| msgid "Central Asia"
 msgid "Central Dusun"
 msgstr "Zentral-Dusun"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:138
-#| msgid "Douala"
 msgid "Duala"
 msgstr "Duala"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:139
-#| msgid "Middle Africa"
 msgid "Middle Dutch"
 msgstr "Mittelniederländisch"
 
@@ -2505,7 +2467,6 @@ msgstr "Ekajuk"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:151
-#| msgid "Greece"
 msgid "Greek"
 msgstr "Griechisch"
 
@@ -2521,7 +2482,6 @@ msgstr "Englisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:154
-#| msgid "Australia"
 msgid "Australian English"
 msgstr "Englisch (Australien)"
 
@@ -2542,7 +2502,6 @@ msgstr "Englisch (GB)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:158
-#| msgid "Americas"
 msgid "American English"
 msgstr "Englisch (Vereinigte Staaten)"
 
@@ -2568,13 +2527,11 @@ msgstr "Spanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:163
-#| msgid "Latin America"
 msgid "Latin American Spanish"
 msgstr "Spanisch (Lateinamerika)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:164
-#| msgid "European Union"
 msgid "European Spanish"
 msgstr "Spanisch (Spanien)"
 
@@ -2585,13 +2542,11 @@ msgstr "Spanisch (Mexiko)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:166
-#| msgid "Central Asia"
 msgid "Central Yupik"
 msgstr "Zentral-Alaska-Yupik"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:167
-#| msgid "Estonia"
 msgid "Estonian"
 msgstr "Estnisch"
 
@@ -2602,7 +2557,6 @@ msgstr "Baskisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:169
-#| msgid "London"
 msgid "Ewondo"
 msgstr "Ewondo"
 
@@ -2628,7 +2582,6 @@ msgstr "Pangwe"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:174
-#| msgid "Santiago"
 msgid "Fanti"
 msgstr "Fanti"
 
@@ -2644,7 +2597,6 @@ msgstr "Finnisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:177
-#| msgid "Philippines"
 msgid "Filipino"
 msgstr "Filipino"
 
@@ -2655,13 +2607,11 @@ msgstr "Meänkieli"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:179
-#| msgid "Fiji"
 msgid "Fijian"
 msgstr "Fidschi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:180
-#| msgid "Faroe"
 msgid "Faroese"
 msgstr "Färöisch"
 
@@ -2672,7 +2622,6 @@ msgstr "Fon"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:182
-#| msgid "French Guiana"
 msgid "French"
 msgstr "Französisch"
 
@@ -2693,7 +2642,6 @@ msgstr "Cajun"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:186
-#| msgid "Middle Africa"
 msgid "Middle French"
 msgstr "Mittelfranzösisch"
 
@@ -2709,13 +2657,11 @@ msgstr "Frankoprovenzalisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:189
-#| msgid "Northern Africa"
 msgid "Northern Frisian"
 msgstr "Nordfriesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:190
-#| msgid "Eastern Asia"
 msgid "Eastern Frisian"
 msgstr "Ostfriesisch"
 
@@ -2726,7 +2672,6 @@ msgstr "Friaulisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:192
-#| msgid "Western Asia"
 msgid "Western Frisian"
 msgstr "Westfriesisch"
 
@@ -2737,7 +2682,6 @@ msgstr "Irisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:194
-#| msgid "Guam"
 msgid "Ga"
 msgstr "Ga"
 
@@ -2778,7 +2722,6 @@ msgstr "Geez"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:202
-#| msgid "Gilbert Islands Time"
 msgid "Gilbertese"
 msgstr "Kiribatisch"
 
@@ -2819,7 +2762,6 @@ msgstr "Gondi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:210
-#| msgid "Toronto"
 msgid "Gorontalo"
 msgstr "Mongondou"
 
@@ -2840,7 +2782,6 @@ msgstr "Altgriechisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:214
-#| msgid "Germany"
 msgid "Swiss German"
 msgstr "Schweizerdeutsch"
 
@@ -2896,7 +2837,6 @@ msgstr "Hawaiisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:225
-#| msgid "Hebron"
 msgid "Hebrew"
 msgstr "Hebräisch"
 
@@ -2907,7 +2847,6 @@ msgstr "Hindi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:227
-#| msgid "Fiji Time"
 msgid "Fiji Hindi"
 msgstr "Fidschi-Hindi"
 
@@ -2933,7 +2872,6 @@ msgstr "Hiri-Motu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:232
-#| msgid "Croatia"
 msgid "Croatian"
 msgstr "Kroatisch"
 
@@ -2954,7 +2892,6 @@ msgstr "Haiti-Kreolisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:236
-#| msgid "Hungary"
 msgid "Hungarian"
 msgstr "Ungarisch"
 
@@ -2965,7 +2902,6 @@ msgstr "Hupa"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:238
-#| msgid "Armenia"
 msgid "Armenian"
 msgstr "Armenisch"
 
@@ -2991,7 +2927,6 @@ msgstr "Ibibio"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:243
-#| msgid "Indonesia"
 msgid "Indonesian"
 msgstr "Indonesisch"
 
@@ -3007,7 +2942,6 @@ msgstr "Igbo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:246
-#| msgid "Lithuania"
 msgid "Sichuan Yi"
 msgstr "Yi"
 
@@ -3033,13 +2967,11 @@ msgstr "Ido"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:251
-#| msgid "Iceland"
 msgid "Icelandic"
 msgstr "Isländisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:252
-#| msgid "Italy"
 msgid "Italian"
 msgstr "Italienisch"
 
@@ -3055,7 +2987,6 @@ msgstr "Ischorisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:255
-#| msgid "Japan"
 msgid "Japanese"
 msgstr "Japanisch"
 
@@ -3101,7 +3032,6 @@ msgstr "Javanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:264
-#| msgid "Georgia"
 msgid "Georgian"
 msgstr "Georgisch"
 
@@ -3117,13 +3047,11 @@ msgstr "Kabylisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:267
-#| msgid "Karachi"
 msgid "Kachin"
 msgstr "Kachin"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:268
-#| msgid "Jujuy"
 msgid "Jju"
 msgstr "Jju"
 
@@ -3164,7 +3092,6 @@ msgstr "Kabuverdianu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:276
-#| msgid "Kenya"
 msgid "Kenyang"
 msgstr "Kenyang"
 
@@ -3175,7 +3102,6 @@ msgstr "Koro"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:278
-#| msgid "Mongolia"
 msgid "Kongo"
 msgstr "Kongolesisch"
 
@@ -3221,7 +3147,6 @@ msgstr "Kwanyama"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:287
-#| msgid "Kazakhstan"
 msgid "Kazakh"
 msgstr "Kasachisch"
 
@@ -3237,7 +3162,6 @@ msgstr "Grönländisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:290
-#| msgid "Kralendijk"
 msgid "Kalenjin"
 msgstr "Kalenjin"
 
@@ -3253,13 +3177,11 @@ msgstr "Kimbundu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:293
-#| msgid "Canada"
 msgid "Kannada"
 msgstr "Kannada"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:294
-#| msgid "Korean Time"
 msgid "Korean"
 msgstr "Koreanisch"
 
@@ -3275,7 +3197,6 @@ msgstr "Konkani"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:297
-#| msgid "Kosrae"
 msgid "Kosraean"
 msgstr "Kosraeanisch"
 
@@ -3316,7 +3237,6 @@ msgstr "Oraon"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:305
-#| msgid "Kashgar"
 msgid "Kashmiri"
 msgstr "Kaschmiri"
 
@@ -3332,7 +3252,6 @@ msgstr "Bafia"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:308
-#| msgid "Colombia"
 msgid "Colognian"
 msgstr "Kölsch"
 
@@ -3363,7 +3282,6 @@ msgstr "Kornisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:314
-#| msgid "Kyrgyzstan"
 msgid "Kyrgyz"
 msgstr "Kirgisisch"
 
@@ -3374,7 +3292,6 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:316
-#| msgid "Eswatini"
 msgid "Latin"
 msgstr "Latein"
 
@@ -3400,7 +3317,6 @@ msgstr "Lamba"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:321
-#| msgid "Luxembourg"
 msgid "Luxembourgish"
 msgstr "Luxemburgisch"
 
@@ -3416,7 +3332,6 @@ msgstr "Lingua Franca Nova"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:324
-#| msgid "Rwanda"
 msgid "Ganda"
 msgstr "Ganda"
 
@@ -3452,19 +3367,16 @@ msgstr "Lingala"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:331
-#| msgid "Laos"
 msgid "Lao"
 msgstr "Laotisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:332
-#| msgid "Mongolia"
 msgid "Mongo"
 msgstr "Mongo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:333
-#| msgid "Louisville"
 msgid "Louisiana Creole"
 msgstr "Kreol (Louisiana)"
 
@@ -3475,13 +3387,11 @@ msgstr "Lozi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:335
-#| msgid "Northern Africa"
 msgid "Northern Luri"
 msgstr "Nördliches Luri"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:336
-#| msgid "Lithuania"
 msgid "Lithuanian"
 msgstr "Litauisch"
 
@@ -3527,7 +3437,6 @@ msgstr "Luhya"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:345
-#| msgid "Latvia"
 msgid "Latvian"
 msgstr "Lettisch"
 
@@ -3538,7 +3447,6 @@ msgstr "Klassisches Chinesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:347
-#| msgid "La Paz"
 msgid "Laz"
 msgstr "Lasisch"
 
@@ -3554,7 +3462,6 @@ msgstr "Mafa"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:350
-#| msgid "Magadan"
 msgid "Magahi"
 msgstr "Khotta"
 
@@ -3565,7 +3472,6 @@ msgstr "Maithili"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:352
-#| msgid "Makassar"
 msgid "Makasar"
 msgstr "Makassarisch"
 
@@ -3591,13 +3497,11 @@ msgstr "Mokschanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:357
-#| msgid "Rwanda"
 msgid "Mandar"
 msgstr "Mandaresisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:358
-#| msgid "Mendoza"
 msgid "Mende"
 msgstr "Mende"
 
@@ -3613,13 +3517,11 @@ msgstr "Morisyen"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:361
-#| msgid "Madagascar"
 msgid "Malagasy"
 msgstr "Madagassisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:362
-#| msgid "Middle Africa"
 msgid "Middle Irish"
 msgstr "Mittelirisch"
 
@@ -3635,7 +3537,6 @@ msgstr "Meta’"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:365
-#| msgid "Marshall Islands"
 msgid "Marshallese"
 msgstr "Marschallesisch"
 
@@ -3656,19 +3557,16 @@ msgstr "Minangkabau"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:369
-#| msgid "North Macedonia"
 msgid "Macedonian"
 msgstr "Mazedonisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:370
-#| msgid "Malaysia"
 msgid "Malayalam"
 msgstr "Malayalam"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:371
-#| msgid "Mongolia"
 msgid "Mongolian"
 msgstr "Mongolisch"
 
@@ -3699,19 +3597,16 @@ msgstr "Marathi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:377
-#| msgid "Western Africa"
 msgid "Western Mari"
 msgstr "Bergmari"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:378
-#| msgid "Malaysia"
 msgid "Malay"
 msgstr "Malaiisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:379
-#| msgid "Malta"
 msgid "Maltese"
 msgstr "Maltesisch"
 
@@ -3732,7 +3627,6 @@ msgstr "Muskogee"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:383
-#| msgid "Tirane"
 msgid "Mirandese"
 msgstr "Mirandesisch"
 
@@ -3753,7 +3647,6 @@ msgstr "Birmanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:387
-#| msgid "Myanmar (Burma)"
 msgid "Myanmar Language"
 msgstr ""
 
@@ -3769,7 +3662,6 @@ msgstr "Ersja-Mordwinisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:390
-#| msgid "Mazatlan"
 msgid "Mazanderani"
 msgstr "Masanderanisch"
 
@@ -3800,7 +3692,6 @@ msgstr "Nord-Ndebele"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:397
-#| msgid "Germany"
 msgid "Low German"
 msgstr "Niederdeutsch"
 
@@ -3811,7 +3702,6 @@ msgstr "Niedersächsisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:399
-#| msgid "Nepal"
 msgid "Nepali"
 msgstr "Nepalesisch"
 
@@ -3822,7 +3712,6 @@ msgstr "Newari"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:401
-#| msgid "Tonga"
 msgid "Ndonga"
 msgstr "Ndonga"
 
@@ -3833,7 +3722,6 @@ msgstr "Nias"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:403
-#| msgid "Niue"
 msgid "Niuean"
 msgstr "Niue"
 
@@ -3869,7 +3757,6 @@ msgstr "Ngiemboon"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:410
-#| msgid "Norway"
 msgid "Norwegian"
 msgstr "Norwegisch"
 
@@ -3900,7 +3787,6 @@ msgstr "Süd-Ndebele"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:416
-#| msgid "Northern Europe"
 msgid "Northern Sotho"
 msgstr "Nord-Sotho"
 
@@ -3996,7 +3882,6 @@ msgstr "Mittelpersisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:435
-#| msgid "Kampala"
 msgid "Pampanga"
 msgstr "Pampanggan"
 
@@ -4007,7 +3892,6 @@ msgstr "Papiamento"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:437
-#| msgid "Palau"
 msgid "Palauan"
 msgstr "Palau"
 
@@ -4018,7 +3902,6 @@ msgstr "Picardisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:439
-#| msgid "Nigeria"
 msgid "Nigerian Pidgin"
 msgstr "Nigerianisches Pidgin"
 
@@ -4044,7 +3927,6 @@ msgstr "Pfälzisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:444
-#| msgid "Phoenix"
 msgid "Phoenician"
 msgstr "Phönizisch"
 
@@ -4065,19 +3947,16 @@ msgstr "Piemontesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:448
-#| msgid "Pontianak"
 msgid "Pontic"
 msgstr "Pontisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:449
-#| msgid "Pohnpei"
 msgid "Pohnpeian"
 msgstr "Ponapeanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:450
-#| msgid "Russia"
 msgid "Prussian"
 msgstr "Altpreußisch"
 
@@ -4098,7 +3977,6 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:454
-#| msgid "Portugal"
 msgid "Portuguese"
 msgstr "Portugiesisch"
 
@@ -4109,7 +3987,6 @@ msgstr "Portugiesisch (Brasilien)"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:456
-#| msgid "European Union"
 msgid "European Portuguese"
 msgstr "Portugiesisch (Portugal)"
 
@@ -4135,19 +4012,16 @@ msgstr "Rajasthani"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:461
-#| msgid "Japan"
 msgid "Rapanui"
 msgstr "Rapanui"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:462
-#| msgid "Rarotonga"
 msgid "Rarotongan"
 msgstr "Rarotonganisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:463
-#| msgid "Romania"
 msgid "Romagnol"
 msgstr "Romagnol"
 
@@ -4158,37 +4032,31 @@ msgstr "Tarifit"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:465
-#| msgid "Romania"
 msgid "Romansh"
 msgstr "Rätoromanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:466
-#| msgid "Burundi"
 msgid "Rundi"
 msgstr "Rundi"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:467
-#| msgid "Romania"
 msgid "Romanian"
 msgstr "Rumänisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:468
-#| msgid "Moldova"
 msgid "Moldavian"
 msgstr "Moldauisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:469
-#| msgid "Colombo"
 msgid "Rombo"
 msgstr "Rombo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:470
-#| msgid "Romania"
 msgid "Romany"
 msgstr "Romani"
 
@@ -4204,7 +4072,6 @@ msgstr "Rotumanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:473
-#| msgid "Russia"
 msgid "Russian"
 msgstr "Russisch"
 
@@ -4215,13 +4082,11 @@ msgstr "Russinisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:475
-#| msgid "Pontianak"
 msgid "Roviana"
 msgstr "Roviana"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:476
-#| msgid "Romania"
 msgid "Aromanian"
 msgstr "Aromunisch"
 
@@ -4232,7 +4097,6 @@ msgstr "Kinyarwanda"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:478
-#| msgid "Rwanda"
 msgid "Rwa"
 msgstr "Rwa"
 
@@ -4243,19 +4107,16 @@ msgstr "Sanskrit"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:480
-#| msgid "Rwanda"
 msgid "Sandawe"
 msgstr "Sandawe"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:481
-#| msgid "Sakhalin"
 msgid "Sakha"
 msgstr "Jakutisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:482
-#| msgid "Sub-Saharan Africa"
 msgid "Samaritan Aramaic"
 msgstr "Samaritanisch"
 
@@ -4271,7 +4132,6 @@ msgstr "Sasak"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:485
-#| msgid "Santarem"
 msgid "Santali"
 msgstr "Santali"
 
@@ -4287,7 +4147,6 @@ msgstr "Ngambay"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:488
-#| msgid "Bangui"
 msgid "Sangu"
 msgstr "Sangu"
 
@@ -4318,19 +4177,16 @@ msgstr "Sassarisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:494
-#| msgid "Southern Africa"
 msgid "Southern Kurdish"
 msgstr "Südkurdisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:495
-#| msgid "Northern America"
 msgid "Northern Sami"
 msgstr "Nordsamisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:496
-#| msgid "Senegal"
 msgid "Seneca"
 msgstr "Seneca"
 
@@ -4356,7 +4212,6 @@ msgstr "Koyra Senni"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:501
-#| msgid "Yangon"
 msgid "Sango"
 msgstr "Sango"
 
@@ -4367,13 +4222,11 @@ msgstr "Altirisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:503
-#| msgid "Samoa"
 msgid "Samogitian"
 msgstr "Samogitisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:504
-#| msgid "Croatia"
 msgid "Serbo-Croatian"
 msgstr "Serbo-Kroatisch"
 
@@ -4384,13 +4237,11 @@ msgstr "Taschelhit"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:506
-#| msgid "Shanghai"
 msgid "Shan"
 msgstr "Schan"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:507
-#| msgid "Saudi Arabia"
 msgid "Chadian Arabic"
 msgstr "Tschadisch-Arabisch"
 
@@ -4406,13 +4257,11 @@ msgstr "Sidamo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:510
-#| msgid "Slovakia"
 msgid "Slovak"
 msgstr "Slowakisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:511
-#| msgid "Slovenia"
 msgid "Slovenian"
 msgstr "Slowenisch"
 
@@ -4428,13 +4277,11 @@ msgstr "Selayar"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:514
-#| msgid "Samoa"
 msgid "Samoan"
 msgstr "Samoanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:515
-#| msgid "Southern Asia"
 msgid "Southern Sami"
 msgstr "Südsamisch"
 
@@ -4465,7 +4312,6 @@ msgstr "Soninke"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:521
-#| msgid "Somalia"
 msgid "Somali"
 msgstr "Somali"
 
@@ -4476,19 +4322,16 @@ msgstr "Sogdisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:523
-#| msgid "Albania"
 msgid "Albanian"
 msgstr "Albanisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:524
-#| msgid "Serbia"
 msgid "Serbian"
 msgstr "Serbisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:525
-#| msgid "Montenegro"
 msgid "Montenegrin"
 msgstr ""
 
@@ -4504,7 +4347,6 @@ msgstr "Serer"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:528
-#| msgid "Eswatini"
 msgid "Swati"
 msgstr "Swazi"
 
@@ -4515,7 +4357,6 @@ msgstr "Saho"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:530
-#| msgid "Southern Europe"
 msgid "Southern Sotho"
 msgstr "Süd-Sotho"
 
@@ -4541,13 +4382,11 @@ msgstr "Susu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:535
-#| msgid "South America"
 msgid "Sumerian"
 msgstr "Sumerisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:536
-#| msgid "Sweden"
 msgid "Swedish"
 msgstr "Schwedisch"
 
@@ -4563,7 +4402,6 @@ msgstr "Kongo-Swahili"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:539
-#| msgid "Comoro"
 msgid "Comorian"
 msgstr "Komorisch"
 
@@ -4574,7 +4412,6 @@ msgstr "Altsyrisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:541
-#| msgid "Syria"
 msgid "Syriac"
 msgstr "Syrisch"
 
@@ -4620,13 +4457,11 @@ msgstr "Tetum"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:550
-#| msgid "Tajikistan"
 msgid "Tajik"
 msgstr "Tadschikisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:551
-#| msgid "Thailand"
 msgid "Thai"
 msgstr "Thailändisch"
 
@@ -4647,7 +4482,6 @@ msgstr "Tiv"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:555
-#| msgid "Turkey"
 msgid "Turkmen"
 msgstr "Turkmenisch"
 
@@ -4663,7 +4497,6 @@ msgstr "Tagalog"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:559
-#| msgid "Yangon"
 msgid "Klingon"
 msgstr "Klingonisch"
 
@@ -4684,19 +4517,16 @@ msgstr "Tamaseq"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:563
-#| msgid "Botswana"
 msgid "Tswana"
 msgstr "Tswana"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:564
-#| msgid "Tonga"
 msgid "Tongan"
 msgstr "Tongaisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:565
-#| msgid "Tonga"
 msgid "Nyasa Tonga"
 msgstr "Nyasa Tonga"
 
@@ -4707,7 +4537,6 @@ msgstr "Neumelanesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:567
-#| msgid "Turkmenistan"
 msgid "Turkish"
 msgstr "Türkisch"
 
@@ -4723,13 +4552,11 @@ msgstr "Taroko"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:570
-#| msgid "Tonga"
 msgid "Tsonga"
 msgstr "Tsonga"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:571
-#| msgid "Estonia"
 msgid "Tsakonian"
 msgstr "Tsakonisch"
 
@@ -4740,7 +4567,6 @@ msgstr "Tsimshian"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:573
-#| msgid "Qatar"
 msgid "Tatar"
 msgstr "Tatarisch"
 
@@ -4751,7 +4577,6 @@ msgstr "Tatisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:575
-#| msgid "Bujumbura"
 msgid "Tumbuka"
 msgstr "Tumbuka"
 
@@ -4767,7 +4592,6 @@ msgstr "Tasawaq"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:579
-#| msgid "Tahiti"
 msgid "Tahitian"
 msgstr "Tahitisch"
 
@@ -4778,7 +4602,6 @@ msgstr "Tuwinisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:581
-#| msgid "Central Australia Time"
 msgid "Central Atlas Tamazight"
 msgstr "Zentralatlas-Tamazight"
 
@@ -4804,7 +4627,6 @@ msgstr "Ugaritisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:586
-#| msgid "Ukraine"
 msgid "Ukrainian"
 msgstr "Ukrainisch"
 
@@ -4815,7 +4637,6 @@ msgstr "Umbundu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:588
-#| msgid "Unknown Region"
 msgid "Unknown language"
 msgstr "Unbekannte Sprache"
 
@@ -4826,13 +4647,11 @@ msgstr "Urdu"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:590
-#| msgid "Uzbekistan"
 msgid "Uzbek"
 msgstr "Usbekisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:591
-#| msgid "Vatican"
 msgid "Vai"
 msgstr "Vai"
 
@@ -4843,7 +4662,6 @@ msgstr "Venda"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:593
-#| msgid "Vientiane"
 msgid "Venetian"
 msgstr "Venetisch"
 
@@ -4854,7 +4672,6 @@ msgstr "Wepsisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:595
-#| msgid "Vietnam"
 msgid "Vietnamese"
 msgstr "Vietnamesisch"
 
@@ -4890,7 +4707,6 @@ msgstr "Vunjo"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:602
-#| msgid "Wallis"
 msgid "Walloon"
 msgstr "Wallonisch"
 
@@ -4951,7 +4767,6 @@ msgstr "Soga"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:614
-#| msgid "Yangon"
 msgid "Yao"
 msgstr "Yao"
 
@@ -4962,7 +4777,6 @@ msgstr "Yapesisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:616
-#| msgid "Yangon"
 msgid "Yangben"
 msgstr "Yangben"
 
@@ -4978,7 +4792,6 @@ msgstr "Jiddisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:619
-#| msgid "Aruba"
 msgid "Yoruba"
 msgstr "Yoruba"
 
@@ -5014,13 +4827,11 @@ msgstr "Bliss-Symbole"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:626
-#| msgid "Greenland"
 msgid "Zeelandic"
 msgstr "Seeländisch"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:627
-#| msgid "Ojinaga"
 msgid "Zenaga"
 msgstr "Zenaga"
 
@@ -5031,7 +4842,6 @@ msgstr "Tamazight"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:629
-#| msgid "China"
 msgid "Chinese"
 msgstr "Chinesisch"
 
@@ -5085,37 +4895,9 @@ msgstr "Keine Sprachinhalte"
 msgid "Zaza"
 msgstr "Zaza"
 
-#: language/models.py:25 vat_number/models.py:25
-msgid "A number used for VAT registration"
-msgstr "Eine Nummer, welche zur Umsatzsteuer-Anmeldung genutzt wird"
-
-#: language/validators.py:83 vat_number/validators.py:83
-#, python-format
-msgid "This VAT number does not match the requirements for %(country)s."
+#: language/models.py:14
+msgid "A language"
 msgstr ""
-"Diese USt-ID-Nummer erfüllt nicht die Voraussetzungen für %(country)s."
-
-#: language/validators.py:112 vat_number/validators.py:112
-msgid ""
-"This VAT number does not start with a country code, or contains invalid "
-"characters."
-msgstr ""
-"Diese USt-ID-Nummer beginnt nicht mit einem Ländercode oder enthält "
-"ungültige Zeichen"
-
-#: language/validators.py:119 vat_number/validators.py:119
-#, python-format
-msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr "USt-ID-Nummern aus %(country)s sind in diesem Feld nicht zugelassen."
-
-#: language/validators.py:125 vat_number/validators.py:125
-msgid "This VAT number is not for a known country."
-msgstr "Das Land dieser USt-ID-Nummer ist nicht unterstützt."
-
-#: language/validators.py:171 language/validators.py:191
-#: vat_number/validators.py:171 vat_number/validators.py:191
-msgid "This VAT number does not exist."
-msgstr "Diese USt-ID-Nummer existiert nicht."
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:764
@@ -7854,127 +7636,41 @@ msgid "Timezone %s is invalid"
 msgstr "Die Zeitzone %s ist ungültig"
 
 #: timezone/models.py:96
-#, fuzzy
-#| msgid "A timezone"
 msgid "A metazone"
-msgstr "Eine Zeitzone"
+msgstr ""
 
 #: timezone/models.py:143
-#, fuzzy, python-format
-#| msgid "Timezone %s is invalid"
+#, python-format
 msgid "Metazone %s is invalid"
-msgstr "Die Zeitzone %s ist ungültig"
+msgstr ""
 
-#~ msgid "Swaziland"
-#~ msgstr "Swasiland"
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr "Eine Nummer, welche zur Umsatzsteuer-Anmeldung genutzt wird"
 
-#~ msgid "Czech Republic"
-#~ msgstr "Tschechische Republik"
+#: vat_number/validators.py:83
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr ""
+"Diese USt-ID-Nummer erfüllt nicht die Voraussetzungen für %(country)s."
 
-#~ msgid "GMT"
-#~ msgstr "GMT"
+#: vat_number/validators.py:112
+msgid ""
+"This VAT number does not start with a country code, or contains invalid "
+"characters."
+msgstr ""
+"Diese USt-ID-Nummer beginnt nicht mit einem Ländercode oder enthält "
+"ungültige Zeichen"
 
-#~ msgid "GMT-1"
-#~ msgstr "GMT-1"
+#: vat_number/validators.py:119
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr "USt-ID-Nummern aus %(country)s sind in diesem Feld nicht zugelassen."
 
-#~ msgid "GMT-10"
-#~ msgstr "GMT-10"
+#: vat_number/validators.py:125
+msgid "This VAT number is not for a known country."
+msgstr "Das Land dieser USt-ID-Nummer ist nicht unterstützt."
 
-#~ msgid "GMT-11"
-#~ msgstr "GMT-11"
-
-#~ msgid "GMT-12"
-#~ msgstr "GMT-12"
-
-#~ msgid "GMT-13"
-#~ msgstr "GMT-13"
-
-#~ msgid "GMT-14"
-#~ msgstr "GMT-14"
-
-#~ msgid "GMT-2"
-#~ msgstr "GMT-2"
-
-#~ msgid "GMT-3"
-#~ msgstr "GMT-3"
-
-#~ msgid "GMT-4"
-#~ msgstr "GMT-4"
-
-#~ msgid "GMT-5"
-#~ msgstr "GMT-5"
-
-#~ msgid "GMT-6"
-#~ msgstr "GMT-6"
-
-#~ msgid "GMT-7"
-#~ msgstr "GMT-7"
-
-#~ msgid "GMT-8"
-#~ msgstr "GMT-8"
-
-#~ msgid "GMT-9"
-#~ msgstr "GMT-9"
-
-#~ msgid "GMT+1"
-#~ msgstr "GMT+1"
-
-#~ msgid "GMT+10"
-#~ msgstr "GMT+10"
-
-#~ msgid "GMT+11"
-#~ msgstr "GMT+11"
-
-#~ msgid "GMT+12"
-#~ msgstr "GMT+12"
-
-#~ msgid "GMT+2"
-#~ msgstr "GMT+2"
-
-#~ msgid "GMT+3"
-#~ msgstr "GMT+3"
-
-#~ msgid "GMT+4"
-#~ msgstr "GMT+4"
-
-#~ msgid "GMT+5"
-#~ msgstr "GMT+5"
-
-#~ msgid "GMT+6"
-#~ msgstr "GMT+6"
-
-#~ msgid "GMT+7"
-#~ msgstr "GMT+7"
-
-#~ msgid "GMT+8"
-#~ msgstr "GMT+8"
-
-#~ msgid "GMT+9"
-#~ msgstr "GMT+9"
-
-#~ msgid "Ulan Bator Time"
-#~ msgstr "Ulaanbaatar-Zeit"
-
-#~ msgid "%(location)s Time"
-#~ msgstr "%(location)s Zeit"
-
-#~ msgid "GMT{0}"
-#~ msgstr "GMT{0}"
-
-#~ msgid "{0} Time"
-#~ msgstr "{0} Zeit"
-
-#~ msgid "South-Eastern Asia"
-#~ msgstr "Südostasien"
-
-#~ msgid "Saint Lucia"
-#~ msgstr "St. Lucia"
-
-#~ msgid "Saint Helena"
-#~ msgstr "St. Helena"
-
-#~ msgid "Chongqing"
-#~ msgstr "Chongqing"
-
-#~ msgid "Harbin"
-#~ msgstr "Harbin"
+#: vat_number/validators.py:171 vat_number/validators.py:191
+msgid "This VAT number does not exist."
+msgstr "Diese USt-ID-Nummer existiert nicht."
