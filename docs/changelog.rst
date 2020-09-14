@@ -4,11 +4,17 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.4.1 (2020-09-14)
+==================
+Small release containing updates to translation files. Mostly re-releasing to ensure compatibility
+with the new Pip version resolver. Note that the CLDR update to v37 failed because the npm repositories
+have not been updated with correct tagging.
+
 0.4.0 (2020-05-04)
 ==================
 * Updates Django support, removing 1.x support
 * Updates Python support, removing 2.x support
-* Updated CLDR data to v37
+* Updated CLDR data to v36
 * Updated IBAN data, renaming Nordea extensions to experimental countries (based off SWIFT list)
 * Updated VAT data, fixing the validation for Dutch VAT numbers
 * Added a language field
