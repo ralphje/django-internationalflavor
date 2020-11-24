@@ -1703,49 +1703,49 @@ msgstr "tundmatu piirkond"
 
 #: countries/models.py:13
 msgid "A country"
-msgstr ""
+msgstr "Riik"
 
 #: iban/models.py:28
 msgid "An International Bank Account Number"
-msgstr ""
+msgstr "Rahvusvaheline pangakonto number"
 
 #: iban/models.py:74
 msgid "An International Bank Code"
-msgstr ""
+msgstr "Rahvusvaheline pangakood"
 
 #: iban/validators.py:59
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
-msgstr ""
+msgstr "See IBAN ei alga õige riigikoodiga ja kontrollsummaga või sisaldab keelatuid tähemärke."
 
 #: iban/validators.py:67
 #, python-format
 msgid "%(country)s IBANs are not allowed in this field."
-msgstr ""
+msgstr "%(country)s IBAN ei ole lubatud selles väljas."
 
 #: iban/validators.py:71
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
-msgstr ""
+msgstr "See IBAN ei vasta %(country)s riigi nõuetele."
 
 #: iban/validators.py:73
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
-msgstr ""
+msgstr "%(country)s ei ole õige riigikood sellele IBANile."
 
 #: iban/validators.py:80
 msgid "This IBAN does not have a valid checksum."
-msgstr ""
+msgstr "See IBAN ei sisalda õiget kontrollsummat."
 
 #: iban/validators.py:91
 msgid "This Bank Identifier Code (BIC) is invalid."
-msgstr ""
+msgstr "Panga tunnuskood on vale."
 
 #: iban/validators.py:94
 #, python-format
 msgid "%(country)s is not a valid country code."
-msgstr ""
+msgstr "%(country)s ei ole õige riigikood."
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:8
@@ -4894,7 +4894,7 @@ msgstr "zaza"
 
 #: language/models.py:14
 msgid "A language"
-msgstr ""
+msgstr "Keel"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:764
@@ -7625,46 +7625,46 @@ msgstr ""
 
 #: timezone/models.py:26
 msgid "A timezone"
-msgstr ""
+msgstr "Ajavöönd"
 
 #: timezone/models.py:71
 #, python-format
 msgid "Timezone %s is invalid"
-msgstr ""
+msgstr "Ajavöönd %s on vale"
 
 #: timezone/models.py:96
 msgid "A metazone"
-msgstr ""
+msgstr "Metazone"
 
 #: timezone/models.py:143
 #, python-format
 msgid "Metazone %s is invalid"
-msgstr ""
+msgstr "Metazone %s on vale"
 
 #: vat_number/models.py:25
 msgid "A number used for VAT registration"
-msgstr ""
+msgstr "KMKR registreerimisel kasutatud number"
 
 #: vat_number/validators.py:83
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
-msgstr ""
+msgstr "Sisestatud KMKR number ei vasta %(country)s KMKR numbri nõuetele."
 
 #: vat_number/validators.py:112
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
-msgstr ""
+msgstr "Sisestatud KMKR number ei alga riigikoodiga või sisaldab keelatud tähemärke."
 
 #: vat_number/validators.py:119
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr ""
+msgstr "%(country)s KMKR numbri ei ole sellel väljal lubatud."
 
 #: vat_number/validators.py:125
 msgid "This VAT number is not for a known country."
-msgstr ""
+msgstr "See KMKR ei ole teadaoleva riigi kohta."
 
 #: vat_number/validators.py:171 vat_number/validators.py:191
 msgid "This VAT number does not exist."
-msgstr ""
+msgstr "See KMKR number ei eksisteeri."
