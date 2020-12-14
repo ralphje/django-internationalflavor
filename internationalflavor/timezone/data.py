@@ -9,6 +9,11 @@ from internationalflavor.timezone._cldr_data import TIMEZONE_NAMES, METAZONE_NAM
     METAZONE_MAPPING_TO_TZ, TZ_REGION_FORMAT, TZ_GMT_FORMAT, TZ_HOUR_FORMAT
 from internationalflavor._helpers import orig_str, string_format
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 try:
     from pytz import common_timezones as COMMON_TIMEZONES
 except ImportError:

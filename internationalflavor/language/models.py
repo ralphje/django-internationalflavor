@@ -4,6 +4,11 @@ from django.utils.translation import ugettext_lazy as _
 from .forms import LanguageFormField
 from .data import LANG_MAX_LENGTH, get_languages_lazy
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 
 class LanguageField(models.CharField):
     """A model field that allows users to choose their language. By default, all languages that are defined in your

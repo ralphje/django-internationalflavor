@@ -5,6 +5,11 @@ from django.utils.translation import ugettext_lazy as _
 from django.test import SimpleTestCase
 from internationalflavor.forms import SortedSelect
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 
 class SortedSelectTest(SimpleTestCase):
     def test_simple_sorted_select(self):

@@ -6,6 +6,11 @@ from internationalflavor.validators import UpperCaseValueCleaner, _get_mod97_val
 from .data import IBAN_REGEXES, EXPERIMENTAL_IBAN_REGEXES, SEPA_COUNTRIES
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 
 class IBANCleaner(UpperCaseValueCleaner):
     """Cleaner for IBAN"""

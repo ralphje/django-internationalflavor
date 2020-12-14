@@ -8,6 +8,11 @@ from internationalflavor.timezone.data import COMMON_TIMEZONES, CURRENT_METAZONE
     METAZONE_MAPPING_FROM_TZ, get_timezones_cities_lazy, get_metazones_lazy, get_timezone_by_metazone
 from internationalflavor.timezone.forms import TimezoneFormField, MetazoneFormField
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 try:
     import pytz
 except ImportError:

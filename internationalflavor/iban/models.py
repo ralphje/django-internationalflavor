@@ -7,6 +7,11 @@ from .data import IBAN_MAX_LENGTH
 from internationalflavor.iban.forms import BICFormField
 from .validators import IBANValidator, BICValidator
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
 
 class IBANField(models.CharField):
     """A model field that applies the :class:`.validators.IBANValidator` and is represented by a

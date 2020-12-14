@@ -4,6 +4,12 @@
 
 from django.utils.translation import ugettext_lazy as _
 
+from .._helpers import django_3_allowed
+
+if django_3_allowed:
+    from django.utils.translation import gettext_lazy as _
+
+
 COUNTRY_NAMES = {
     "001": _("World"),
     "002": _("Africa"),
