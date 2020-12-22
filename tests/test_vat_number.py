@@ -1,6 +1,6 @@
 # coding=utf-8
 from __future__ import unicode_literals
-from django.core.exceptions import ValidationError, ImproperlyConfigured
+from django.core.exceptions import ValidationError
 from django.test import TestCase
 from internationalflavor.vat_number import VATNumberValidator
 from internationalflavor.vat_number.forms import VATNumberFormField

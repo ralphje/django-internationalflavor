@@ -3,8 +3,7 @@ from __future__ import unicode_literals
 from django.test import SimpleTestCase
 from django.utils import translation
 
-from internationalflavor.countries import CountryField
-from internationalflavor.countries import CountryFormField
+from internationalflavor.countries import CountryField, CountryFormField
 
 
 class CountriesFormTestCase(SimpleTestCase):

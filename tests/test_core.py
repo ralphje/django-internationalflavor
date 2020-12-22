@@ -1,14 +1,13 @@
 # coding=utf-8
 from __future__ import unicode_literals
 
-from django.utils.translation import ugettext_lazy as _
 from django.test import SimpleTestCase
 from internationalflavor.forms import SortedSelect
 
-from .._helpers import django_3_allowed
-
-if django_3_allowed:
+try:
     from django.utils.translation import gettext_lazy as _
+except ImportError:  # for Django version 2
+    from django.utils.translation import ugettext_lazy as _
 
 
 class SortedSelectTest(SimpleTestCase):
