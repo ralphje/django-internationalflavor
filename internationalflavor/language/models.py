@@ -1,13 +1,13 @@
 from django.conf import settings
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+
+try:
+    from django.utils.translation import gettext_lazy as _
+except ImportError:  # for Django version 2
+    from django.utils.translation import ugettext_lazy as _
+
 from .forms import LanguageFormField
 from .data import LANG_MAX_LENGTH, get_languages_lazy
-
-from .._helpers import django_3_allowed
-
-if django_3_allowed:
-    from django.utils.translation import gettext_lazy as _
 
 
 class LanguageField(models.CharField):

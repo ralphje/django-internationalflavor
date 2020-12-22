@@ -1,15 +1,14 @@
 import re
 from django.core.exceptions import ValidationError
-from django.utils.translation import ugettext_lazy as _
+
+try:
+    from django.utils.translation import gettext_lazy as _
+except ImportError:  # for Django version 2
+    from django.utils.translation import ugettext_lazy as _
 
 from internationalflavor.validators import UpperCaseValueCleaner, _get_mod97_value
 from .data import IBAN_REGEXES, EXPERIMENTAL_IBAN_REGEXES, SEPA_COUNTRIES
 from internationalflavor.countries.data import ISO_3166_COUNTRIES
-
-from .._helpers import django_3_allowed
-
-if django_3_allowed:
-    from django.utils.translation import gettext_lazy as _
 
 
 class IBANCleaner(UpperCaseValueCleaner):

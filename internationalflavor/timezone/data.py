@@ -3,16 +3,16 @@ import datetime
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
-from django.utils.translation import ugettext_lazy as _, ugettext
+
 import itertools
 from internationalflavor.timezone._cldr_data import TIMEZONE_NAMES, METAZONE_NAMES, METAZONE_MAPPING_FROM_TZ, \
     METAZONE_MAPPING_TO_TZ, TZ_REGION_FORMAT, TZ_GMT_FORMAT, TZ_HOUR_FORMAT
 from internationalflavor._helpers import orig_str, string_format
 
-from .._helpers import django_3_allowed
-
-if django_3_allowed:
-    from django.utils.translation import gettext_lazy as _
+try:
+    from django.utils.translation import gettext_lazy as _, gettext as ugettext
+except ImportError:
+    from django.utils.translation import ugettext_lazy as _, ugettext
 
 try:
     from pytz import common_timezones as COMMON_TIMEZONES
