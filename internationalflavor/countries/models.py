@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from internationalflavor.countries.data import UN_RECOGNIZED_COUNTRIES, get_countries_lazy
 from internationalflavor.countries.forms import CountryFormField
 

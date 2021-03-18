@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from internationalflavor.iban.validators import BICCleaner, IBANCleaner
 from .forms import IBANFormField
