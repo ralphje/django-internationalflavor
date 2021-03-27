@@ -3,7 +3,7 @@ import socket
 import urllib.request
 
 from django.core.exceptions import ValidationError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit, _get_mod97_value
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA

@@ -3,7 +3,7 @@ import datetime
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
-from django.utils.translation import ugettext_lazy as _, ugettext
+from django.utils.translation import gettext_lazy as _, gettext
 import itertools
 from internationalflavor.timezone._cldr_data import TIMEZONE_NAMES, METAZONE_NAMES, METAZONE_MAPPING_FROM_TZ, \
     METAZONE_MAPPING_TO_TZ, TZ_REGION_FORMAT, TZ_GMT_FORMAT, TZ_HOUR_FORMAT
@@ -113,13 +113,13 @@ def get_metazone_name(metazone, display_format='name'):
         * gmt_dst_offset - The above two combined
     """
     if display_format == 'name':
-        display_format = ugettext("%(tzname)s")
+        display_format = gettext("%(tzname)s")
     elif display_format == 'name_cities':
-        display_format = ugettext("%(tzname)s (%(cities)s)")
+        display_format = gettext("%(tzname)s (%(cities)s)")
     elif display_format == 'offset_name':
-        display_format = ugettext("%(gmt_offset)s %(tzname)s")
+        display_format = gettext("%(gmt_offset)s %(tzname)s")
     elif display_format == 'offset_name_cities':
-        display_format = ugettext("%(gmt_offset)s %(tzname)s (%(cities)s)")
+        display_format = gettext("%(gmt_offset)s %(tzname)s (%(cities)s)")
 
     name = force_text(METAZONE_NAMES.get(metazone, string_format(TZ_REGION_FORMAT, _(metazone))))
 

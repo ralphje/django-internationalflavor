@@ -1,6 +1,6 @@
 import re
 from django.core.exceptions import ValidationError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from internationalflavor.validators import UpperCaseValueCleaner, _get_mod97_value
 from .data import IBAN_REGEXES, EXPERIMENTAL_IBAN_REGEXES, SEPA_COUNTRIES

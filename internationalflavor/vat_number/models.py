@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from .forms import VATNumberFormField
 from .data import VAT_MAX_LENGTH
 from .validators import VATNumberValidator, VATNumberCleaner
