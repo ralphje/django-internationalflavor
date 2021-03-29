@@ -12,7 +12,7 @@ env:
 matrix:
   include:
     - env: TOXENV=docs
-    - python: 3.9
+    - python: 3.5
       env: TOXENV=py35-2.2
     - python: 3.6
       env: TOXENV=py36-2.2
@@ -20,26 +20,23 @@ matrix:
       env: TOXENV=py36-3.0
     - python: 3.6
       env: TOXENV=py36-3.1
-    - python: 3.6
-      env: TOXENV=py36-main
     - python: 3.7
       env: TOXENV=py37-2.2
     - python: 3.7
       env: TOXENV=py37-3.0
     - python: 3.7
       env: TOXENV=py37-3.1
-    - python: 3.7
-      env: TOXENV=py37-main
     - python: 3.8
       env: TOXENV=py38-2.2
     - python: 3.8
       env: TOXENV=py38-3.0
     - python: 3.8
       env: TOXENV=py38-3.1
-    - python: 3.8
-      env: TOXENV=py38-main
     - python: 3.9
       env: TOXENV=py39-3.1
+  allow_failures:
+    - python: 3.8
+      env: TOXENV=py38-main
     - python: 3.9
       env: TOXENV=py39-main
 after_success: codecov
