@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "World"
+msgid "world"
 msgstr "세계"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -16,7 +16,7 @@ msgstr "북아메리카"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South America"
-msgstr "남아메리카(남미)"
+msgstr "남아메리카"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Oceania"
@@ -328,7 +328,7 @@ msgstr "콜롬비아"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Clipperton Island"
-msgstr "클립퍼튼 섬"
+msgstr "클리퍼턴섬"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Costa Rica"
@@ -568,7 +568,7 @@ msgstr "이스라엘"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Isle of Man"
-msgstr "맨 섬"
+msgstr "맨섬"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "India"
@@ -876,7 +876,7 @@ msgstr "생피에르 미클롱"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pitcairn Islands"
-msgstr "핏케언 섬"
+msgstr "핏케언 제도"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Puerto Rico"
@@ -908,7 +908,7 @@ msgstr "오세아니아 외곽"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Réunion"
-msgstr "리유니온"
+msgstr "레위니옹"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Romania"
@@ -1092,7 +1092,7 @@ msgstr "미국령 해외 제도"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "United Nations"
-msgstr "유엔"
+msgstr "국제연합"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "United States"
@@ -1297,6 +1297,10 @@ msgstr "알제리 아랍어"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Najdi Arabic"
 msgstr "아랍어(나즈디)"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Arabic, Najdi"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Arawak"
@@ -1595,6 +1599,14 @@ msgid "Central Kurdish"
 msgstr "소라니 쿠르드어"
 
 #. auto-generated from CLDR -- see docs before updating
+msgid "Kurdish, Central"
+msgstr "쿠르드어(소라니)"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kurdish, Sorani"
+msgstr "쿠르드어(소라니)"
+
+#. auto-generated from CLDR -- see docs before updating
 msgid "Corsican"
 msgstr "코르시카어"
 
@@ -1764,7 +1776,7 @@ msgstr "영어"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Australian English"
-msgstr "영어(호주)"
+msgstr "영어(오스트레일리아)"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Canadian English"
@@ -1836,7 +1848,7 @@ msgstr "페르시아어"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Dari"
-msgstr ""
+msgstr "다리어"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Fang"
@@ -3027,10 +3039,6 @@ msgid "Romany"
 msgstr "집시어"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Root"
-msgstr "어근"
-
-#. auto-generated from CLDR -- see docs before updating
 msgid "Rotuman"
 msgstr ""
 
@@ -3176,7 +3184,7 @@ msgstr "차디언 아라비아어"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sinhala"
-msgstr "스리랑카어"
+msgstr "싱할라어"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Sidamo"
@@ -4100,11 +4108,11 @@ msgstr "에르모시요"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Knox, Indiana"
-msgstr "인디애나주 녹스"
+msgstr "인디애나주, 녹스"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Marengo, Indiana"
-msgstr "인디애나주, 마렝고"
+msgstr "인디애나주, 머렝고"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Petersburg, Indiana"
@@ -4112,19 +4120,19 @@ msgstr "인디애나주, 피츠버그"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tell City, Indiana"
-msgstr "인디아나주, 텔시티"
+msgstr "인디애나주, 텔시티"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Vevay, Indiana"
-msgstr "비비"
+msgstr "인디애나주, 비비"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Vincennes, Indiana"
-msgstr "인디아나주, 뱅센"
+msgstr "인디애나주, 빈센스"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Winamac, Indiana"
-msgstr "인디아나주, 워너맥"
+msgstr "인디애나주, 위너맥"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Indianapolis"
@@ -4264,7 +4272,7 @@ msgstr "중부, 노스다코타"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "New Salem, North Dakota"
-msgstr "노스 다코타주, 뉴살렘"
+msgstr "노스다코타주, 뉴살렘"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Ojinaga"
@@ -4352,15 +4360,15 @@ msgstr "세인트존스"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Kitts"
-msgstr "세인트 키츠"
+msgstr "세인트키츠"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Thomas"
-msgstr "세인트 토마스"
+msgstr "세인트토마스"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "St. Vincent"
-msgstr "세인트 빈센트"
+msgstr "세인트빈센트"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Swift Current"
@@ -4801,10 +4809,6 @@ msgstr "브리스베인"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Broken Hill"
 msgstr "브로컨힐"
-
-#. auto-generated from CLDR -- see docs before updating
-msgid "Currie"
-msgstr "퀴리"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Darwin"
@@ -5416,7 +5420,7 @@ msgstr "에콰도르 시간"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Central European Time"
-msgstr "중부 유럽 시간"
+msgstr "중부유럽 시간"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Eastern European Time"
@@ -5424,7 +5428,7 @@ msgstr "동유럽 시간"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Further-eastern European Time"
-msgstr "극동 유럽 표준시"
+msgstr "극동유럽 표준시"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Western European Time"

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-10 21:24+0200\n"
-"PO-Revision-Date: 2020-09-14 09:03+0000\n"
+"PO-Revision-Date: 2020-09-14 09:29+0000\n"
 "Last-Translator: Ralph Broenink\n"
 "Language-Team: Dutch (http://www.transifex.com/ralphje/django-internationalflavor/language/nl/)\n"
 "Language: nl\n"
@@ -132,11 +132,11 @@ msgstr "%(gmt_offset)s %(tzname)s (%(cities)s)"
 
 #: language/models.py:14
 msgid "A language"
-msgstr ""
+msgstr "Een taal"
 
 #: timezone/models.py:96
 msgid "A metazone"
-msgstr ""
+msgstr "Een metazone"
 
 #~ msgid "Macedonia"
 #~ msgstr ""

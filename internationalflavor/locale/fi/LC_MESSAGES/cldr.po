@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "World"
+msgid "world"
 msgstr "maailma"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -84,7 +84,7 @@ msgstr "Melanesia"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Micronesian Region"
-msgstr "Mikronesia"
+msgstr "Mikronesian alue"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Polynesia"
@@ -440,7 +440,7 @@ msgstr "Falklandinsaaret"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Micronesia"
-msgstr "Mikronesian liittovaltio"
+msgstr "Mikronesia"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Faroe Islands"
@@ -508,7 +508,7 @@ msgstr "Kreikka"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "South Georgia & South Sandwich Islands"
-msgstr "Etelä-Georgia ja Eteläiset Sandwichsaaret"
+msgstr "Etelä-Georgia ja Eteläiset Sandwichinsaaret"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Guatemala"
@@ -904,7 +904,7 @@ msgstr "Qatar"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Outlying Oceania"
-msgstr "ulkomeri"
+msgstr "Oseanian erillissaaret"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Réunion"
@@ -960,7 +960,7 @@ msgstr "Slovenia"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Svalbard & Jan Mayen"
-msgstr "Huippuvuoret ja Jan Mayen"
+msgstr "Svalbard ja Jan Mayen"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Slovakia"
@@ -1008,7 +1008,7 @@ msgstr "Syyria"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Eswatini"
-msgstr "Swazimaa"
+msgstr "Eswatini"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Tristan da Cunha"
@@ -1024,7 +1024,7 @@ msgstr "Tšad"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "French Southern Territories"
-msgstr "Ranskan eteläiset alueet"
+msgstr "Ranskan eteläiset ja antarktiset alueet"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Togo"
@@ -1144,11 +1144,11 @@ msgstr "Samoa"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pseudo-Accents"
-msgstr ""
+msgstr "pseudoaksentit"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Pseudo-Bidi"
-msgstr ""
+msgstr "kaksisuuntainen pseudo"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kosovo"
@@ -1297,6 +1297,10 @@ msgstr "algerianarabia"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Najdi Arabic"
 msgstr "arabia – najd"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Arabic, Najdi"
+msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Arawak"
@@ -1592,7 +1596,15 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Central Kurdish"
-msgstr "sorani"
+msgstr "soranî"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kurdish, Central"
+msgstr "kurdi – soranî"
+
+#. auto-generated from CLDR -- see docs before updating
+msgid "Kurdish, Sorani"
+msgstr "soranî"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Corsican"
@@ -1776,7 +1788,7 @@ msgstr "britannianenglanti"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "UK English"
-msgstr "englanti (Britannia)"
+msgstr "britannianenglanti"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "American English"
@@ -1784,7 +1796,7 @@ msgstr "amerikanenglanti"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "US English"
-msgstr "englanti (USA)"
+msgstr "amerikanenglanti"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Middle English"
@@ -1836,7 +1848,7 @@ msgstr "persia"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Dari"
-msgstr ""
+msgstr "dari"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Fang"
@@ -3027,10 +3039,6 @@ msgid "Romany"
 msgstr "romani"
 
 #. auto-generated from CLDR -- see docs before updating
-msgid "Root"
-msgstr "juuri"
-
-#. auto-generated from CLDR -- see docs before updating
 msgid "Rotuman"
 msgstr "rotuma"
 
@@ -3656,19 +3664,19 @@ msgstr "kiina"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Simplified Chinese"
-msgstr "yksinkertaistettu kiina"
-
-#. auto-generated from CLDR -- see docs before updating
-msgid "Simplified Mandarin Chinese"
 msgstr "kiina (yksinkertaistettu)"
 
 #. auto-generated from CLDR -- see docs before updating
+msgid "Simplified Mandarin Chinese"
+msgstr "mandariinikiina (yksinkertaistettu)"
+
+#. auto-generated from CLDR -- see docs before updating
 msgid "Traditional Chinese"
-msgstr "perinteinen kiina"
+msgstr "kiina (perinteinen)"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Traditional Mandarin Chinese"
-msgstr "kiina (perinteinen)"
+msgstr "mandariinikiina (perinteinen)"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Mandarin Chinese"
@@ -4664,7 +4672,7 @@ msgstr "Pjongjang"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Kostanay"
-msgstr "Qostanay"
+msgstr "Kostanai"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Qyzylorda"
@@ -4801,10 +4809,6 @@ msgstr "Brisbane"
 #. auto-generated from CLDR -- see docs before updating
 msgid "Broken Hill"
 msgstr "Broken Hill"
-
-#. auto-generated from CLDR -- see docs before updating
-msgid "Currie"
-msgstr "Currie"
 
 #. auto-generated from CLDR -- see docs before updating
 msgid "Darwin"

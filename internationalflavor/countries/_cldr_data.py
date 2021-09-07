@@ -5,7 +5,7 @@
 from django.utils.translation import gettext_lazy as _
 
 COUNTRY_NAMES = {
-    "001": _("World"),
+    "001": _("world"),
     "002": _("Africa"),
     "003": _("North America"),
     "005": _("South America"),

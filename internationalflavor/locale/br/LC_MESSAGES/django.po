@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-24 16:02+0100\n"
+"POT-Creation-Date: 2021-09-07 10:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:8 timezone/_cldr_data.py:974
@@ -25,33 +25,33 @@ msgstr ""
 #: timezone/_cldr_data.py:1062 timezone/_cldr_data.py:1063
 #: timezone/_cldr_data.py:1064 timezone/_cldr_data.py:1065
 #: timezone/_cldr_data.py:1066 timezone/_cldr_data.py:1067
-#: timezone/_cldr_data.py:1080 timezone/_cldr_data.py:1081
-#: timezone/_cldr_data.py:1142 timezone/_cldr_data.py:1143
-#: timezone/_cldr_data.py:1144 timezone/_cldr_data.py:1145
-#: timezone/_cldr_data.py:1146 timezone/_cldr_data.py:1147
-#: timezone/_cldr_data.py:1148 timezone/_cldr_data.py:1149
-#: timezone/_cldr_data.py:1150 timezone/_cldr_data.py:1151
-#: timezone/_cldr_data.py:1152 timezone/_cldr_data.py:1153
-#: timezone/_cldr_data.py:1154 timezone/_cldr_data.py:1155
-#: timezone/_cldr_data.py:1156 timezone/_cldr_data.py:1157
-#: timezone/_cldr_data.py:1158 timezone/_cldr_data.py:1159
-#: timezone/_cldr_data.py:1160 timezone/_cldr_data.py:1161
-#: timezone/_cldr_data.py:1162 timezone/_cldr_data.py:1163
-#: timezone/_cldr_data.py:1164 timezone/_cldr_data.py:1165
-#: timezone/_cldr_data.py:1166 timezone/_cldr_data.py:1167
-#: timezone/_cldr_data.py:1168 timezone/_cldr_data.py:1169
-#: timezone/_cldr_data.py:1170 timezone/_cldr_data.py:1171
-#: timezone/_cldr_data.py:1172 timezone/_cldr_data.py:1173
-#: timezone/_cldr_data.py:1174 timezone/_cldr_data.py:1175
-#: timezone/_cldr_data.py:1176 timezone/_cldr_data.py:1177
-#: timezone/_cldr_data.py:1178 timezone/_cldr_data.py:1179
-#: timezone/_cldr_data.py:1180 timezone/_cldr_data.py:1181
-#: timezone/_cldr_data.py:1182 timezone/_cldr_data.py:1183
-#: timezone/_cldr_data.py:1184 timezone/_cldr_data.py:1185
-#: timezone/_cldr_data.py:1186 timezone/_cldr_data.py:1187
-#: timezone/_cldr_data.py:1188 timezone/_cldr_data.py:1189
-#: timezone/_cldr_data.py:1190 timezone/_cldr_data.py:1191
-msgid "World"
+#: timezone/_cldr_data.py:1079 timezone/_cldr_data.py:1080
+#: timezone/_cldr_data.py:1141 timezone/_cldr_data.py:1142
+#: timezone/_cldr_data.py:1143 timezone/_cldr_data.py:1144
+#: timezone/_cldr_data.py:1145 timezone/_cldr_data.py:1146
+#: timezone/_cldr_data.py:1147 timezone/_cldr_data.py:1148
+#: timezone/_cldr_data.py:1149 timezone/_cldr_data.py:1150
+#: timezone/_cldr_data.py:1151 timezone/_cldr_data.py:1152
+#: timezone/_cldr_data.py:1153 timezone/_cldr_data.py:1154
+#: timezone/_cldr_data.py:1155 timezone/_cldr_data.py:1156
+#: timezone/_cldr_data.py:1157 timezone/_cldr_data.py:1158
+#: timezone/_cldr_data.py:1159 timezone/_cldr_data.py:1160
+#: timezone/_cldr_data.py:1161 timezone/_cldr_data.py:1162
+#: timezone/_cldr_data.py:1163 timezone/_cldr_data.py:1164
+#: timezone/_cldr_data.py:1165 timezone/_cldr_data.py:1166
+#: timezone/_cldr_data.py:1167 timezone/_cldr_data.py:1168
+#: timezone/_cldr_data.py:1169 timezone/_cldr_data.py:1170
+#: timezone/_cldr_data.py:1171 timezone/_cldr_data.py:1172
+#: timezone/_cldr_data.py:1173 timezone/_cldr_data.py:1174
+#: timezone/_cldr_data.py:1175 timezone/_cldr_data.py:1176
+#: timezone/_cldr_data.py:1177 timezone/_cldr_data.py:1178
+#: timezone/_cldr_data.py:1179 timezone/_cldr_data.py:1180
+#: timezone/_cldr_data.py:1181 timezone/_cldr_data.py:1182
+#: timezone/_cldr_data.py:1183 timezone/_cldr_data.py:1184
+#: timezone/_cldr_data.py:1185 timezone/_cldr_data.py:1186
+#: timezone/_cldr_data.py:1187 timezone/_cldr_data.py:1188
+#: timezone/_cldr_data.py:1189 timezone/_cldr_data.py:1190
+msgid "world"
 msgstr "Bed"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -102,7 +102,6 @@ msgstr "Suamerika"
 #: timezone/_cldr_data.py:1073 timezone/_cldr_data.py:1074
 #: timezone/_cldr_data.py:1075 timezone/_cldr_data.py:1076
 #: timezone/_cldr_data.py:1077 timezone/_cldr_data.py:1078
-#: timezone/_cldr_data.py:1079
 msgid "Oceania"
 msgstr "Oseania"
 
@@ -321,37 +320,37 @@ msgid "Western Asia"
 msgstr "Azia ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:33 timezone/_cldr_data.py:1082
-#: timezone/_cldr_data.py:1083 timezone/_cldr_data.py:1084
-#: timezone/_cldr_data.py:1085 timezone/_cldr_data.py:1086
-#: timezone/_cldr_data.py:1087 timezone/_cldr_data.py:1088
-#: timezone/_cldr_data.py:1089 timezone/_cldr_data.py:1090
-#: timezone/_cldr_data.py:1091 timezone/_cldr_data.py:1092
-#: timezone/_cldr_data.py:1093 timezone/_cldr_data.py:1094
-#: timezone/_cldr_data.py:1095 timezone/_cldr_data.py:1096
-#: timezone/_cldr_data.py:1097 timezone/_cldr_data.py:1098
-#: timezone/_cldr_data.py:1099 timezone/_cldr_data.py:1100
-#: timezone/_cldr_data.py:1101 timezone/_cldr_data.py:1102
-#: timezone/_cldr_data.py:1103 timezone/_cldr_data.py:1104
-#: timezone/_cldr_data.py:1105 timezone/_cldr_data.py:1106
-#: timezone/_cldr_data.py:1107 timezone/_cldr_data.py:1108
-#: timezone/_cldr_data.py:1109 timezone/_cldr_data.py:1110
-#: timezone/_cldr_data.py:1111 timezone/_cldr_data.py:1112
-#: timezone/_cldr_data.py:1113 timezone/_cldr_data.py:1114
-#: timezone/_cldr_data.py:1115 timezone/_cldr_data.py:1116
-#: timezone/_cldr_data.py:1117 timezone/_cldr_data.py:1118
-#: timezone/_cldr_data.py:1119 timezone/_cldr_data.py:1120
-#: timezone/_cldr_data.py:1121 timezone/_cldr_data.py:1122
-#: timezone/_cldr_data.py:1123 timezone/_cldr_data.py:1124
-#: timezone/_cldr_data.py:1125 timezone/_cldr_data.py:1126
-#: timezone/_cldr_data.py:1127 timezone/_cldr_data.py:1128
-#: timezone/_cldr_data.py:1129 timezone/_cldr_data.py:1130
-#: timezone/_cldr_data.py:1131 timezone/_cldr_data.py:1132
-#: timezone/_cldr_data.py:1133 timezone/_cldr_data.py:1134
-#: timezone/_cldr_data.py:1135 timezone/_cldr_data.py:1136
-#: timezone/_cldr_data.py:1137 timezone/_cldr_data.py:1138
-#: timezone/_cldr_data.py:1139 timezone/_cldr_data.py:1140
-#: timezone/_cldr_data.py:1141
+#: countries/_cldr_data.py:33 timezone/_cldr_data.py:1081
+#: timezone/_cldr_data.py:1082 timezone/_cldr_data.py:1083
+#: timezone/_cldr_data.py:1084 timezone/_cldr_data.py:1085
+#: timezone/_cldr_data.py:1086 timezone/_cldr_data.py:1087
+#: timezone/_cldr_data.py:1088 timezone/_cldr_data.py:1089
+#: timezone/_cldr_data.py:1090 timezone/_cldr_data.py:1091
+#: timezone/_cldr_data.py:1092 timezone/_cldr_data.py:1093
+#: timezone/_cldr_data.py:1094 timezone/_cldr_data.py:1095
+#: timezone/_cldr_data.py:1096 timezone/_cldr_data.py:1097
+#: timezone/_cldr_data.py:1098 timezone/_cldr_data.py:1099
+#: timezone/_cldr_data.py:1100 timezone/_cldr_data.py:1101
+#: timezone/_cldr_data.py:1102 timezone/_cldr_data.py:1103
+#: timezone/_cldr_data.py:1104 timezone/_cldr_data.py:1105
+#: timezone/_cldr_data.py:1106 timezone/_cldr_data.py:1107
+#: timezone/_cldr_data.py:1108 timezone/_cldr_data.py:1109
+#: timezone/_cldr_data.py:1110 timezone/_cldr_data.py:1111
+#: timezone/_cldr_data.py:1112 timezone/_cldr_data.py:1113
+#: timezone/_cldr_data.py:1114 timezone/_cldr_data.py:1115
+#: timezone/_cldr_data.py:1116 timezone/_cldr_data.py:1117
+#: timezone/_cldr_data.py:1118 timezone/_cldr_data.py:1119
+#: timezone/_cldr_data.py:1120 timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1122 timezone/_cldr_data.py:1123
+#: timezone/_cldr_data.py:1124 timezone/_cldr_data.py:1125
+#: timezone/_cldr_data.py:1126 timezone/_cldr_data.py:1127
+#: timezone/_cldr_data.py:1128 timezone/_cldr_data.py:1129
+#: timezone/_cldr_data.py:1130 timezone/_cldr_data.py:1131
+#: timezone/_cldr_data.py:1132 timezone/_cldr_data.py:1133
+#: timezone/_cldr_data.py:1134 timezone/_cldr_data.py:1135
+#: timezone/_cldr_data.py:1136 timezone/_cldr_data.py:1137
+#: timezone/_cldr_data.py:1138 timezone/_cldr_data.py:1139
+#: timezone/_cldr_data.py:1140
 msgid "Europe"
 msgstr "Europa"
 
@@ -386,7 +385,7 @@ msgid "Ascension Island"
 msgstr "Enez Ascension"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:40 timezone/_cldr_data.py:1083
+#: countries/_cldr_data.py:40 timezone/_cldr_data.py:1082
 msgid "Andorra"
 msgstr "Andorra"
 
@@ -766,7 +765,7 @@ msgid "Finland"
 msgstr "Finland"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:115 timezone/_cldr_data.py:1161
+#: countries/_cldr_data.py:115 timezone/_cldr_data.py:1160
 msgid "Fiji"
 msgstr "Fidji"
 
@@ -816,7 +815,7 @@ msgid "French Guiana"
 msgstr "Gwiana cʼhall"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:125 timezone/_cldr_data.py:1097
+#: countries/_cldr_data.py:125 timezone/_cldr_data.py:1096
 msgid "Guernsey"
 msgstr "Gwernenez"
 
@@ -826,7 +825,7 @@ msgid "Ghana"
 msgstr "Ghana"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:127 timezone/_cldr_data.py:1096
+#: countries/_cldr_data.py:127 timezone/_cldr_data.py:1095
 msgid "Gibraltar"
 msgstr "Jibraltar"
 
@@ -871,7 +870,7 @@ msgid "Guatemala"
 msgstr "Guatemala"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:136 timezone/_cldr_data.py:1166
+#: countries/_cldr_data.py:136 timezone/_cldr_data.py:1165
 msgid "Guam"
 msgstr "Guam"
 
@@ -936,7 +935,7 @@ msgid "Israel"
 msgstr "Israel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:149 timezone/_cldr_data.py:1099
+#: countries/_cldr_data.py:149 timezone/_cldr_data.py:1098
 msgid "Isle of Man"
 msgstr "Enez Vanav"
 
@@ -971,7 +970,7 @@ msgid "Italy"
 msgstr "Italia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:156 timezone/_cldr_data.py:1101
+#: countries/_cldr_data.py:156 timezone/_cldr_data.py:1100
 msgid "Jersey"
 msgstr "Jerzenez"
 
@@ -1086,7 +1085,7 @@ msgid "Lithuania"
 msgstr "Lituania"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:179 timezone/_cldr_data.py:1108
+#: countries/_cldr_data.py:179 timezone/_cldr_data.py:1107
 msgid "Luxembourg"
 msgstr "Luksembourg"
 
@@ -1106,7 +1105,7 @@ msgid "Morocco"
 msgstr "Maroko"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:183 timezone/_cldr_data.py:1113
+#: countries/_cldr_data.py:183 timezone/_cldr_data.py:1112
 msgid "Monaco"
 msgstr "Monaco"
 
@@ -1181,17 +1180,17 @@ msgid "Montserrat"
 msgstr "Montserrat"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:198 timezone/_cldr_data.py:1110
+#: countries/_cldr_data.py:198 timezone/_cldr_data.py:1109
 msgid "Malta"
 msgstr "Malta"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1150
+#: countries/_cldr_data.py:199 timezone/_cldr_data.py:1149
 msgid "Mauritius"
 msgstr "Moris"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:200 timezone/_cldr_data.py:1149
+#: countries/_cldr_data.py:200 timezone/_cldr_data.py:1148
 msgid "Maldives"
 msgstr "Maldivez"
 
@@ -1261,13 +1260,13 @@ msgid "Nepal"
 msgstr "Nepal"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:214 language/_cldr_data.py:391
-#: timezone/_cldr_data.py:1175
+#: countries/_cldr_data.py:214 language/_cldr_data.py:394
+#: timezone/_cldr_data.py:1174
 msgid "Nauru"
 msgstr "Nauru"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:215 timezone/_cldr_data.py:1176
+#: countries/_cldr_data.py:215 timezone/_cldr_data.py:1175
 msgid "Niue"
 msgstr "Niue"
 
@@ -1342,7 +1341,7 @@ msgid "Portugal"
 msgstr "Portugal"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:230 timezone/_cldr_data.py:1180
+#: countries/_cldr_data.py:230 timezone/_cldr_data.py:1179
 msgid "Palau"
 msgstr "Palau"
 
@@ -1362,7 +1361,7 @@ msgid "Outlying Oceania"
 msgstr "Oseania diabell"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:234 timezone/_cldr_data.py:1152
+#: countries/_cldr_data.py:234 timezone/_cldr_data.py:1151
 msgid "Réunion"
 msgstr "Ar Reünion"
 
@@ -1442,7 +1441,7 @@ msgid "Sierra Leone"
 msgstr "Sierra Leone"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:250 timezone/_cldr_data.py:1122
+#: countries/_cldr_data.py:250 timezone/_cldr_data.py:1121
 msgid "San Marino"
 msgstr "San Marino"
 
@@ -1527,7 +1526,7 @@ msgid "Tajikistan"
 msgstr "Tadjikistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:267 language/_cldr_data.py:556
+#: countries/_cldr_data.py:267 language/_cldr_data.py:558
 msgid "Tokelau"
 msgstr "Tokelau"
 
@@ -1562,7 +1561,7 @@ msgid "Trinidad & Tobago"
 msgstr "Trinidad ha Tobago"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:274 language/_cldr_data.py:576
+#: countries/_cldr_data.py:274 language/_cldr_data.py:578
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
@@ -1677,7 +1676,7 @@ msgid "Yemen"
 msgstr "Yemen"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:297 timezone/_cldr_data.py:1151
+#: countries/_cldr_data.py:297 timezone/_cldr_data.py:1150
 msgid "Mayotte"
 msgstr "Mayotte"
 
@@ -1899,2996 +1898,3006 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:38
+msgid "Arabic, Najdi"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:39
 msgid "Arawak"
 msgstr "arawakeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:39
+#: language/_cldr_data.py:40
 msgid "Moroccan Arabic"
 msgstr "arabeg Maroko"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:40
+#: language/_cldr_data.py:41
 msgid "Egyptian Arabic"
 msgstr "arabeg Egipt"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:41
+#: language/_cldr_data.py:42
 msgid "Assamese"
 msgstr "asameg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:42
+#: language/_cldr_data.py:43
 msgid "Asu"
 msgstr "asu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:43
+#: language/_cldr_data.py:44
 msgid "American Sign Language"
 msgstr "yezh sinoù Amerika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:44
+#: language/_cldr_data.py:45
 msgid "Asturian"
 msgstr "asturianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:45
+#: language/_cldr_data.py:46
 msgid "Avaric"
 msgstr "avar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:46
+#: language/_cldr_data.py:47
 msgid "Kotava"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:47
+#: language/_cldr_data.py:48
 msgid "Awadhi"
 msgstr "awadhi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:48
+#: language/_cldr_data.py:49
 msgid "Aymara"
 msgstr "aymara"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:49
+#: language/_cldr_data.py:50
 msgid "Azerbaijani"
 msgstr "azerbaidjaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:50
+#: language/_cldr_data.py:51
 msgid "Azeri"
 msgstr "azeri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:51
+#: language/_cldr_data.py:52
 msgid "Bashkir"
 msgstr "bachkir"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:52
+#: language/_cldr_data.py:53
 msgid "Baluchi"
 msgstr "baloutchi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:53
+#: language/_cldr_data.py:54
 msgid "Balinese"
 msgstr "balineg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:54
+#: language/_cldr_data.py:55
 msgid "Bavarian"
 msgstr "bavarieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:55
+#: language/_cldr_data.py:56
 msgid "Basaa"
 msgstr "basaa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:56
+#: language/_cldr_data.py:57
 msgid "Bamun"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:57
+#: language/_cldr_data.py:58
 msgid "Batak Toba"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:58
+#: language/_cldr_data.py:59
 msgid "Ghomala"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:59
+#: language/_cldr_data.py:60
 msgid "Belarusian"
 msgstr "belaruseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:60
+#: language/_cldr_data.py:61
 msgid "Beja"
 msgstr "bedawieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:61
+#: language/_cldr_data.py:62
 msgid "Bemba"
 msgstr "bemba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:62
+#: language/_cldr_data.py:63
 msgid "Betawi"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:63
+#: language/_cldr_data.py:64
 msgid "Bena"
 msgstr "bena"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:64
+#: language/_cldr_data.py:65
 msgid "Bafut"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:65
+#: language/_cldr_data.py:66
 msgid "Badaga"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:66
+#: language/_cldr_data.py:67
 msgid "Bulgarian"
 msgstr "bulgareg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:67
+#: language/_cldr_data.py:68
 msgid "Western Balochi"
 msgstr "baloutchi ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:68
+#: language/_cldr_data.py:69
 msgid "Bhojpuri"
 msgstr "bhojpuri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:69
+#: language/_cldr_data.py:70
 msgid "Bislama"
 msgstr "bislama"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:70
+#: language/_cldr_data.py:71
 msgid "Bikol"
 msgstr "bikol"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:71
+#: language/_cldr_data.py:72
 msgid "Bini"
 msgstr "bini"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:72
+#: language/_cldr_data.py:73
 msgid "Banjar"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:73
+#: language/_cldr_data.py:74
 msgid "Kom"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:74
+#: language/_cldr_data.py:75
 msgid "Siksika"
 msgstr "siksika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:75
+#: language/_cldr_data.py:76
 msgid "Bambara"
 msgstr "bambara"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:76
+#: language/_cldr_data.py:77
 msgid "Bangla"
 msgstr "bengali"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:77
+#: language/_cldr_data.py:78
 msgid "Tibetan"
 msgstr "tibetaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:78
+#: language/_cldr_data.py:79
 msgid "Bishnupriya"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:79
+#: language/_cldr_data.py:80
 msgid "Bakhtiari"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:80
+#: language/_cldr_data.py:81
 msgid "Breton"
 msgstr "brezhoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:81
+#: language/_cldr_data.py:82
 msgid "Braj"
 msgstr "braj"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:82
+#: language/_cldr_data.py:83
 msgid "Brahui"
 msgstr "brahweg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:83
+#: language/_cldr_data.py:84
 msgid "Bodo"
 msgstr "bodo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:84
+#: language/_cldr_data.py:85
 msgid "Bosnian"
 msgstr "bosneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:85
+#: language/_cldr_data.py:86
 msgid "Akoose"
 msgstr "akoose"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:86
+#: language/_cldr_data.py:87
 msgid "Buriat"
 msgstr "bouriat"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:87
+#: language/_cldr_data.py:88
 msgid "Buginese"
 msgstr "bugi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:88
+#: language/_cldr_data.py:89
 msgid "Bulu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:89
+#: language/_cldr_data.py:90
 msgid "Blin"
 msgstr "blin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:90
+#: language/_cldr_data.py:91
 msgid "Medumba"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:91
+#: language/_cldr_data.py:92
 msgid "Catalan"
 msgstr "katalaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:92
+#: language/_cldr_data.py:93
 msgid "Caddo"
 msgstr "caddo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:93
+#: language/_cldr_data.py:94
 msgid "Carib"
 msgstr "karibeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:94
+#: language/_cldr_data.py:95
 msgid "Cayuga"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:95
+#: language/_cldr_data.py:96
 msgid "Atsam"
 msgstr "atsam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:96
+#: language/_cldr_data.py:97
 msgid "Chakma"
 msgstr "chakmaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:97
+#: language/_cldr_data.py:98
 msgid "Chechen"
 msgstr "tchetcheneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:98
+#: language/_cldr_data.py:99
 msgid "Cebuano"
 msgstr "cebuano"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:99
+#: language/_cldr_data.py:100
 msgid "Chiga"
 msgstr "chigaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:100
+#: language/_cldr_data.py:101
 msgid "Chamorro"
 msgstr "chamorru"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:101
+#: language/_cldr_data.py:102
 msgid "Chibcha"
 msgstr "chibcha"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:102
+#: language/_cldr_data.py:103
 msgid "Chagatai"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:103
+#: language/_cldr_data.py:104
 msgid "Chuukese"
 msgstr "chuuk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:104
+#: language/_cldr_data.py:105
 msgid "Mari"
 msgstr "marieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:105
+#: language/_cldr_data.py:106
 msgid "Chinook Jargon"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:106
+#: language/_cldr_data.py:107
 msgid "Choctaw"
 msgstr "choktaw"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:107
+#: language/_cldr_data.py:108
 msgid "Chipewyan"
 msgstr "chipewyan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:108
+#: language/_cldr_data.py:109
 msgid "Cherokee"
 msgstr "cherokee"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:109
+#: language/_cldr_data.py:110
 msgid "Cheyenne"
 msgstr "cheyenne"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:110
+#: language/_cldr_data.py:111
 msgid "Chickasaw"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:111
+#: language/_cldr_data.py:112
 msgid "Central Kurdish"
 msgstr "kurdeg sorani"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:112
+#: language/_cldr_data.py:113
+msgid "Kurdish, Central"
+msgstr "kurdeg kreiz"
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:114
+msgid "Kurdish, Sorani"
+msgstr "kurdeg sorani"
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:115
 msgid "Corsican"
 msgstr "korseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:113
+#: language/_cldr_data.py:116
 msgid "Coptic"
 msgstr "kopteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:114
+#: language/_cldr_data.py:117
 msgid "Capiznon"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:115
+#: language/_cldr_data.py:118
 msgid "Cree"
 msgstr "kri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:116
+#: language/_cldr_data.py:119
 msgid "Crimean Turkish"
 msgstr "turkeg Krimea"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:117
+#: language/_cldr_data.py:120
 msgid "Seselwa Creole French"
 msgstr "kreoleg Sechelez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:118
+#: language/_cldr_data.py:121
 msgid "Czech"
 msgstr "tchekeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:119
+#: language/_cldr_data.py:122
 msgid "Kashubian"
 msgstr "kachoubeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:120
+#: language/_cldr_data.py:123
 msgid "Church Slavic"
 msgstr "slavoneg iliz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:121
+#: language/_cldr_data.py:124
 msgid "Chuvash"
 msgstr "tchouvatch"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:122
+#: language/_cldr_data.py:125
 msgid "Welsh"
 msgstr "kembraeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:123
+#: language/_cldr_data.py:126
 msgid "Danish"
 msgstr "daneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:124
+#: language/_cldr_data.py:127
 msgid "Dakota"
 msgstr "dakota"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:125
+#: language/_cldr_data.py:128
 msgid "Dargwa"
 msgstr "dargwa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:126
+#: language/_cldr_data.py:129
 msgid "Taita"
 msgstr "taita"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:127
+#: language/_cldr_data.py:130
 msgid "German"
 msgstr "alamaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:128
+#: language/_cldr_data.py:131
 msgid "Austrian German"
 msgstr "alamaneg Aostria"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:129
+#: language/_cldr_data.py:132
 msgid "Swiss High German"
 msgstr "alamaneg uhel Suis"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:130
+#: language/_cldr_data.py:133
 msgid "Delaware"
 msgstr "delaware"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:131
+#: language/_cldr_data.py:134
 msgid "Slave"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:132
+#: language/_cldr_data.py:135
 msgid "Dogrib"
 msgstr "dogrib"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:133
+#: language/_cldr_data.py:136
 msgid "Dinka"
 msgstr "dinka"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:134
+#: language/_cldr_data.py:137
 msgid "Zarma"
 msgstr "zarma"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:135
+#: language/_cldr_data.py:138
 msgid "Dogri"
 msgstr "dogri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:136
+#: language/_cldr_data.py:139
 msgid "Lower Sorbian"
 msgstr "izelsorabeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:137
+#: language/_cldr_data.py:140
 msgid "Central Dusun"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:138
+#: language/_cldr_data.py:141
 msgid "Duala"
 msgstr "douala"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:139
+#: language/_cldr_data.py:142
 msgid "Middle Dutch"
 msgstr "nederlandeg krenn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:140
+#: language/_cldr_data.py:143
 msgid "Divehi"
 msgstr "divehi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:141
+#: language/_cldr_data.py:144
 msgid "Jola-Fonyi"
 msgstr "diola"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:142
+#: language/_cldr_data.py:145
 msgid "Dyula"
 msgstr "dyula"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:143
+#: language/_cldr_data.py:146
 msgid "Dzongkha"
 msgstr "dzongkha"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:144
+#: language/_cldr_data.py:147
 msgid "Dazaga"
 msgstr "dazagaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:145
+#: language/_cldr_data.py:148
 msgid "Embu"
 msgstr "embu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:146
+#: language/_cldr_data.py:149
 msgid "Ewe"
 msgstr "ewe"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:147
+#: language/_cldr_data.py:150
 msgid "Efik"
 msgstr "efik"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:148
+#: language/_cldr_data.py:151
 msgid "Emilian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:149
+#: language/_cldr_data.py:152
 msgid "Ancient Egyptian"
 msgstr "henegipteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:150
+#: language/_cldr_data.py:153
 msgid "Ekajuk"
 msgstr "ekajuk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:151
+#: language/_cldr_data.py:154
 msgid "Greek"
 msgstr "gresianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:152
+#: language/_cldr_data.py:155
 msgid "Elamite"
 msgstr "elameg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:153
+#: language/_cldr_data.py:156
 msgid "English"
 msgstr "saozneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:154
+#: language/_cldr_data.py:157
 msgid "Australian English"
 msgstr "saozneg Aostralia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:155
+#: language/_cldr_data.py:158
 msgid "Canadian English"
 msgstr "saozneg Kanada"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:156
+#: language/_cldr_data.py:159
 msgid "British English"
 msgstr "saozneg Breizh-Veur"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:157
+#: language/_cldr_data.py:160
 msgid "UK English"
 msgstr "saozneg RU"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:158
+#: language/_cldr_data.py:161
 msgid "American English"
 msgstr "saozneg Amerika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:159
+#: language/_cldr_data.py:162
 msgid "US English"
 msgstr "saozneg SU"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:160
+#: language/_cldr_data.py:163
 msgid "Middle English"
 msgstr "krennsaozneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:161
+#: language/_cldr_data.py:164
 msgid "Esperanto"
 msgstr "esperanteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:162
+#: language/_cldr_data.py:165
 msgid "Spanish"
 msgstr "spagnoleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:163
+#: language/_cldr_data.py:166
 msgid "Latin American Spanish"
 msgstr "spagnoleg Amerika latin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:164
+#: language/_cldr_data.py:167
 msgid "European Spanish"
 msgstr "spagnoleg Europa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:165
+#: language/_cldr_data.py:168
 msgid "Mexican Spanish"
 msgstr "spagnoleg Mecʼhiko"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:166
+#: language/_cldr_data.py:169
 msgid "Central Yupik"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:167
+#: language/_cldr_data.py:170
 msgid "Estonian"
 msgstr "estoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:168
+#: language/_cldr_data.py:171
 msgid "Basque"
 msgstr "euskareg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:169
+#: language/_cldr_data.py:172
 msgid "Ewondo"
 msgstr "ewondo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:170
+#: language/_cldr_data.py:173
 msgid "Extremaduran"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:171
+#: language/_cldr_data.py:174
 msgid "Persian"
 msgstr "perseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:172
+#: language/_cldr_data.py:175
 msgid "Dari"
-msgstr ""
+msgstr "dareg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:173
+#: language/_cldr_data.py:176
 msgid "Fang"
 msgstr "fang"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:174
+#: language/_cldr_data.py:177
 msgid "Fanti"
 msgstr "fanti"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:175
+#: language/_cldr_data.py:178
 msgid "Fulah"
 msgstr "fula"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:176
+#: language/_cldr_data.py:179
 msgid "Finnish"
 msgstr "finneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:177
+#: language/_cldr_data.py:180
 msgid "Filipino"
 msgstr "filipineg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:178
+#: language/_cldr_data.py:181
 msgid "Tornedalen Finnish"
 msgstr "finneg traoñienn an Torne"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:179
+#: language/_cldr_data.py:182
 msgid "Fijian"
 msgstr "fidjieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:180
+#: language/_cldr_data.py:183
 msgid "Faroese"
 msgstr "faeroeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:181
+#: language/_cldr_data.py:184
 msgid "Fon"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:182
+#: language/_cldr_data.py:185
 msgid "French"
 msgstr "galleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:183
+#: language/_cldr_data.py:186
 msgid "Canadian French"
 msgstr "galleg Kanada"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:184
+#: language/_cldr_data.py:187
 msgid "Swiss French"
 msgstr "galleg Suis"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:185
+#: language/_cldr_data.py:188
 msgid "Cajun French"
 msgstr "galleg cajun"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:186
+#: language/_cldr_data.py:189
 msgid "Middle French"
 msgstr "krenncʼhalleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:187
+#: language/_cldr_data.py:190
 msgid "Old French"
 msgstr "hencʼhalleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:188
+#: language/_cldr_data.py:191
 msgid "Arpitan"
 msgstr "arpitaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:189
+#: language/_cldr_data.py:192
 msgid "Northern Frisian"
 msgstr "frizeg an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:190
+#: language/_cldr_data.py:193
 msgid "Eastern Frisian"
 msgstr "frizeg ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:191
+#: language/_cldr_data.py:194
 msgid "Friulian"
 msgstr "frioulaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:192
+#: language/_cldr_data.py:195
 msgid "Western Frisian"
 msgstr "frizeg ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:193
+#: language/_cldr_data.py:196
 msgid "Irish"
 msgstr "iwerzhoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:194
+#: language/_cldr_data.py:197
 msgid "Ga"
 msgstr "ga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:195
+#: language/_cldr_data.py:198
 msgid "Gagauz"
 msgstr "gagaouzeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:196
+#: language/_cldr_data.py:199
 msgid "Gan Chinese"
 msgstr "sinaeg Gan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:197
+#: language/_cldr_data.py:200
 msgid "Gayo"
 msgstr "gayo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:198
+#: language/_cldr_data.py:201
 msgid "Gbaya"
 msgstr "gbaya"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:199
+#: language/_cldr_data.py:202
 msgid "Zoroastrian Dari"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:200
+#: language/_cldr_data.py:203
 msgid "Scottish Gaelic"
 msgstr "skoseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:201
+#: language/_cldr_data.py:204
 msgid "Geez"
 msgstr "gezeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:202
+#: language/_cldr_data.py:205
 msgid "Gilbertese"
 msgstr "gilberteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:203
+#: language/_cldr_data.py:206
 msgid "Galician"
 msgstr "galizeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:204
+#: language/_cldr_data.py:207
 msgid "Gilaki"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:205
+#: language/_cldr_data.py:208
 msgid "Middle High German"
 msgstr "krennalamaneg uhel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:206
+#: language/_cldr_data.py:209
 msgid "Guarani"
 msgstr "guarani"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:207
+#: language/_cldr_data.py:210
 msgid "Old High German"
 msgstr "henalamaneg uhel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:208
+#: language/_cldr_data.py:211
 msgid "Goan Konkani"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:209
+#: language/_cldr_data.py:212
 msgid "Gondi"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:210
+#: language/_cldr_data.py:213
 msgid "Gorontalo"
 msgstr "gorontalo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:211
+#: language/_cldr_data.py:214
 msgid "Gothic"
 msgstr "goteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:212
+#: language/_cldr_data.py:215
 msgid "Grebo"
 msgstr "grebo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:213
+#: language/_cldr_data.py:216
 msgid "Ancient Greek"
 msgstr "hencʼhresianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:214
+#: language/_cldr_data.py:217
 msgid "Swiss German"
 msgstr "alamaneg Suis"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:215
+#: language/_cldr_data.py:218
 msgid "Gujarati"
 msgstr "gujarati"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:216
+#: language/_cldr_data.py:219
 msgid "Wayuu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:217
+#: language/_cldr_data.py:220
 msgid "Frafra"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:218
+#: language/_cldr_data.py:221
 msgid "Gusii"
 msgstr "gusiieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:219
+#: language/_cldr_data.py:222
 msgid "Manx"
 msgstr "manaveg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:220
+#: language/_cldr_data.py:223
 msgid "Gwichʼin"
 msgstr "gwich’in"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:221
+#: language/_cldr_data.py:224
 msgid "Hausa"
 msgstr "haousa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:222
+#: language/_cldr_data.py:225
 msgid "Haida"
 msgstr "haida"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:223
+#: language/_cldr_data.py:226
 msgid "Hakka Chinese"
 msgstr "sinaeg Hakka"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:224
+#: language/_cldr_data.py:227
 msgid "Hawaiian"
 msgstr "hawaieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:225
+#: language/_cldr_data.py:228
 msgid "Hebrew"
 msgstr "hebraeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:226
+#: language/_cldr_data.py:229
 msgid "Hindi"
 msgstr "hindi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:227
+#: language/_cldr_data.py:230
 msgid "Fiji Hindi"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:228
+#: language/_cldr_data.py:231
 msgid "Hiligaynon"
 msgstr "hiligaynon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:229
+#: language/_cldr_data.py:232
 msgid "Hittite"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:230
+#: language/_cldr_data.py:233
 msgid "Hmong"
 msgstr "hmong"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:231
+#: language/_cldr_data.py:234
 msgid "Hiri Motu"
 msgstr "hiri motu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:232
+#: language/_cldr_data.py:235
 msgid "Croatian"
 msgstr "kroateg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:233
+#: language/_cldr_data.py:236
 msgid "Upper Sorbian"
 msgstr "uhelsorabeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:234
+#: language/_cldr_data.py:237
 msgid "Xiang Chinese"
 msgstr "sinaeg Xian"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:235
+#: language/_cldr_data.py:238
 msgid "Haitian Creole"
 msgstr "haitieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:236
+#: language/_cldr_data.py:239
 msgid "Hungarian"
 msgstr "hungareg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:237
+#: language/_cldr_data.py:240
 msgid "Hupa"
 msgstr "hupa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:238
+#: language/_cldr_data.py:241
 msgid "Armenian"
 msgstr "armenianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:239
+#: language/_cldr_data.py:242
 msgid "Herero"
 msgstr "herero"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:240
+#: language/_cldr_data.py:243
 msgid "Interlingua"
 msgstr "interlingua"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:241
+#: language/_cldr_data.py:244
 msgid "Iban"
 msgstr "iban"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:242
+#: language/_cldr_data.py:245
 msgid "Ibibio"
 msgstr "ibibio"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:243
+#: language/_cldr_data.py:246
 msgid "Indonesian"
 msgstr "indonezeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:244
+#: language/_cldr_data.py:247
 msgid "Interlingue"
 msgstr "interlingue"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:245
+#: language/_cldr_data.py:248
 msgid "Igbo"
 msgstr "igbo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:246
+#: language/_cldr_data.py:249
 msgid "Sichuan Yi"
 msgstr "yieg Sichuan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:247
+#: language/_cldr_data.py:250
 msgid "Inupiaq"
 msgstr "inupiaq"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:248
+#: language/_cldr_data.py:251
 msgid "Iloko"
 msgstr "ilokanoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:249
+#: language/_cldr_data.py:252
 msgid "Ingush"
 msgstr "ingoucheg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:250
+#: language/_cldr_data.py:253
 msgid "Ido"
 msgstr "ido"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:251
+#: language/_cldr_data.py:254
 msgid "Icelandic"
 msgstr "islandeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:252
+#: language/_cldr_data.py:255
 msgid "Italian"
 msgstr "italianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:253
+#: language/_cldr_data.py:256
 msgid "Inuktitut"
 msgstr "inuktitut"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:254
+#: language/_cldr_data.py:257
 msgid "Ingrian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:255
+#: language/_cldr_data.py:258
 msgid "Japanese"
 msgstr "japaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:256
+#: language/_cldr_data.py:259
 msgid "Jamaican Creole English"
 msgstr "kreoleg Jamaika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:257
+#: language/_cldr_data.py:260
 msgid "Lojban"
 msgstr "lojban"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:258
+#: language/_cldr_data.py:261
 msgid "Ngomba"
 msgstr "ngomba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:259
+#: language/_cldr_data.py:262
 msgid "Machame"
 msgstr "machame"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:260
+#: language/_cldr_data.py:263
 msgid "Judeo-Persian"
 msgstr "yuzev-perseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:261
+#: language/_cldr_data.py:264
 msgid "Judeo-Arabic"
 msgstr "yuzev-arabeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:262
+#: language/_cldr_data.py:265
 msgid "Jutish"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:263
+#: language/_cldr_data.py:266
 msgid "Javanese"
 msgstr "javaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:264
+#: language/_cldr_data.py:267
 msgid "Georgian"
 msgstr "jorjianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:265
+#: language/_cldr_data.py:268
 msgid "Kara-Kalpak"
 msgstr "karakalpak"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:266
+#: language/_cldr_data.py:269
 msgid "Kabyle"
 msgstr "kabileg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:267
+#: language/_cldr_data.py:270
 msgid "Kachin"
 msgstr "kachin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:268
+#: language/_cldr_data.py:271
 msgid "Jju"
 msgstr "jju"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:269
+#: language/_cldr_data.py:272
 msgid "Kamba"
 msgstr "kamba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:270
+#: language/_cldr_data.py:273
 msgid "Kawi"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:271
+#: language/_cldr_data.py:274
 msgid "Kabardian"
 msgstr "kabardeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:272
+#: language/_cldr_data.py:275
 msgid "Kanembu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:273
+#: language/_cldr_data.py:276
 msgid "Tyap"
 msgstr "tyap"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:274
+#: language/_cldr_data.py:277
 msgid "Makonde"
 msgstr "makonde"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:275
+#: language/_cldr_data.py:278
 msgid "Kabuverdianu"
 msgstr "kabuverdianu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:276
+#: language/_cldr_data.py:279
 msgid "Kenyang"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:277
+#: language/_cldr_data.py:280
 msgid "Koro"
 msgstr "koroeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:278
+#: language/_cldr_data.py:281
 msgid "Kongo"
 msgstr "kongo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:279
+#: language/_cldr_data.py:282
 msgid "Kaingang"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:280
+#: language/_cldr_data.py:283
 msgid "Khasi"
 msgstr "khasi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:281
+#: language/_cldr_data.py:284
 msgid "Khotanese"
 msgstr "khotaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:282
+#: language/_cldr_data.py:285
 msgid "Koyra Chiini"
 msgstr "koyra chiini"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:283
+#: language/_cldr_data.py:286
 msgid "Khowar"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:284
+#: language/_cldr_data.py:287
 msgid "Kikuyu"
 msgstr "kikuyu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:285
+#: language/_cldr_data.py:288
 msgid "Kirmanjki"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:286
+#: language/_cldr_data.py:289
 msgid "Kuanyama"
 msgstr "kwanyama"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:287
+#: language/_cldr_data.py:290
 msgid "Kazakh"
 msgstr "kazak"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:288
+#: language/_cldr_data.py:291
 msgid "Kako"
 msgstr "kakoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:289
+#: language/_cldr_data.py:292
 msgid "Kalaallisut"
 msgstr "greunlandeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:290
+#: language/_cldr_data.py:293
 msgid "Kalenjin"
 msgstr "kalendjineg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:291
+#: language/_cldr_data.py:294
 msgid "Khmer"
 msgstr "khmer"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:292
+#: language/_cldr_data.py:295
 msgid "Kimbundu"
 msgstr "kimbundu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:293
+#: language/_cldr_data.py:296
 msgid "Kannada"
 msgstr "kanareg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:294
+#: language/_cldr_data.py:297
 msgid "Korean"
 msgstr "koreaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:295
+#: language/_cldr_data.py:298
 msgid "Komi-Permyak"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:296
+#: language/_cldr_data.py:299
 msgid "Konkani"
 msgstr "konkani"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:297
+#: language/_cldr_data.py:300
 msgid "Kosraean"
 msgstr "kosrae"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:298
+#: language/_cldr_data.py:301
 msgid "Kpelle"
 msgstr "kpelle"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:299
+#: language/_cldr_data.py:302
 msgid "Kanuri"
 msgstr "kanouri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:300
+#: language/_cldr_data.py:303
 msgid "Karachay-Balkar"
 msgstr "karatchay-balkar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:301
+#: language/_cldr_data.py:304
 msgid "Krio"
 msgstr "krio"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:302
+#: language/_cldr_data.py:305
 msgid "Kinaray-a"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:303
+#: language/_cldr_data.py:306
 msgid "Karelian"
 msgstr "karelieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:304
+#: language/_cldr_data.py:307
 msgid "Kurukh"
 msgstr "kurukh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:305
+#: language/_cldr_data.py:308
 msgid "Kashmiri"
 msgstr "kashmiri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:306
+#: language/_cldr_data.py:309
 msgid "Shambala"
 msgstr "shambala"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:307
+#: language/_cldr_data.py:310
 msgid "Bafia"
 msgstr "bafiaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:308
+#: language/_cldr_data.py:311
 msgid "Colognian"
 msgstr "koluneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:309
+#: language/_cldr_data.py:312
 msgid "Kurdish"
 msgstr "kurdeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:310
+#: language/_cldr_data.py:313
 msgid "Kumyk"
 msgstr "koumikeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:311
+#: language/_cldr_data.py:314
 msgid "Kutenai"
 msgstr "kutenai"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:312
+#: language/_cldr_data.py:315
 msgid "Komi"
 msgstr "komieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:313
+#: language/_cldr_data.py:316
 msgid "Cornish"
 msgstr "kerneveureg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:314
+#: language/_cldr_data.py:317
 msgid "Kyrgyz"
 msgstr "kirgiz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:315
+#: language/_cldr_data.py:318
 msgid "Kirghiz"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:316
+#: language/_cldr_data.py:319
 msgid "Latin"
 msgstr "latin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:317
+#: language/_cldr_data.py:320
 msgid "Ladino"
 msgstr "ladino"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:318
+#: language/_cldr_data.py:321
 msgid "Langi"
 msgstr "langi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:319
+#: language/_cldr_data.py:322
 msgid "Lahnda"
 msgstr "lahnda"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:320
+#: language/_cldr_data.py:323
 msgid "Lamba"
 msgstr "lamba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:321
+#: language/_cldr_data.py:324
 msgid "Luxembourgish"
 msgstr "luksembourgeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:322
+#: language/_cldr_data.py:325
 msgid "Lezghian"
 msgstr "lezgi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:323
+#: language/_cldr_data.py:326
 msgid "Lingua Franca Nova"
 msgstr "lingua franca nova"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:324
+#: language/_cldr_data.py:327
 msgid "Ganda"
 msgstr "ganda"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:325
+#: language/_cldr_data.py:328
 msgid "Limburgish"
 msgstr "limbourgeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:326
+#: language/_cldr_data.py:329
 msgid "Ligurian"
 msgstr "ligurieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:327
+#: language/_cldr_data.py:330
 msgid "Livonian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:328
+#: language/_cldr_data.py:331
 msgid "Lakota"
 msgstr "lakota"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:329
+#: language/_cldr_data.py:332
 msgid "Lombard"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:330
+#: language/_cldr_data.py:333
 msgid "Lingala"
 msgstr "lingala"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:331
+#: language/_cldr_data.py:334
 msgid "Lao"
 msgstr "laoseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:332
+#: language/_cldr_data.py:335
 msgid "Mongo"
 msgstr "mongo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:333
+#: language/_cldr_data.py:336
 msgid "Louisiana Creole"
 msgstr "kreoleg Louiziana"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:334
+#: language/_cldr_data.py:337
 msgid "Lozi"
 msgstr "lozi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:335
+#: language/_cldr_data.py:338
 msgid "Northern Luri"
 msgstr "loureg an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:336
+#: language/_cldr_data.py:339
 msgid "Lithuanian"
 msgstr "lituaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:337
+#: language/_cldr_data.py:340
 msgid "Latgalian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:338
+#: language/_cldr_data.py:341
 msgid "Luba-Katanga"
 msgstr "luba-katanga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:339
+#: language/_cldr_data.py:342
 msgid "Luba-Lulua"
 msgstr "luba-lulua"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:340
+#: language/_cldr_data.py:343
 msgid "Luiseno"
 msgstr "luiseno"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:341
+#: language/_cldr_data.py:344
 msgid "Lunda"
 msgstr "lunda"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:342
+#: language/_cldr_data.py:345
 msgid "Luo"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:343
+#: language/_cldr_data.py:346
 msgid "Mizo"
 msgstr "lushai"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:344
+#: language/_cldr_data.py:347
 msgid "Luyia"
 msgstr "luyia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:345
+#: language/_cldr_data.py:348
 msgid "Latvian"
 msgstr "latvieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:346
+#: language/_cldr_data.py:349
 msgid "Literary Chinese"
 msgstr "sinaeg lennegel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:347
+#: language/_cldr_data.py:350
 msgid "Laz"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:348
+#: language/_cldr_data.py:351
 msgid "Madurese"
 msgstr "madoureg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:349
+#: language/_cldr_data.py:352
 msgid "Mafa"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:350
+#: language/_cldr_data.py:353
 msgid "Magahi"
 msgstr "magahi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:351
+#: language/_cldr_data.py:354
 msgid "Maithili"
 msgstr "maithili"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:352
+#: language/_cldr_data.py:355
 msgid "Makasar"
 msgstr "makasar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:353
+#: language/_cldr_data.py:356
 msgid "Mandingo"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:354
+#: language/_cldr_data.py:357
 msgid "Masai"
 msgstr "masai"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:355
+#: language/_cldr_data.py:358
 msgid "Maba"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:356
+#: language/_cldr_data.py:359
 msgid "Moksha"
 msgstr "moksha"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:357
+#: language/_cldr_data.py:360
 msgid "Mandar"
 msgstr "mandar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:358
+#: language/_cldr_data.py:361
 msgid "Mende"
 msgstr "mende"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:359
+#: language/_cldr_data.py:362
 msgid "Meru"
 msgstr "meru"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:360
+#: language/_cldr_data.py:363
 msgid "Morisyen"
 msgstr "moriseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:361
+#: language/_cldr_data.py:364
 msgid "Malagasy"
 msgstr "malgacheg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:362
+#: language/_cldr_data.py:365
 msgid "Middle Irish"
 msgstr "krenniwerzhoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:363
+#: language/_cldr_data.py:366
 msgid "Makhuwa-Meetto"
 msgstr "makhuwa-meetto"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:364
+#: language/_cldr_data.py:367
 msgid "Metaʼ"
 msgstr "metaʼ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:365
+#: language/_cldr_data.py:368
 msgid "Marshallese"
 msgstr "marshall"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:366
+#: language/_cldr_data.py:369
 msgid "Maori"
 msgstr "maori"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:367
+#: language/_cldr_data.py:370
 msgid "Mi'kmaq"
 msgstr "mikmakeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:368
+#: language/_cldr_data.py:371
 msgid "Minangkabau"
 msgstr "minangkabau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:369
+#: language/_cldr_data.py:372
 msgid "Macedonian"
 msgstr "makedoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:370
+#: language/_cldr_data.py:373
 msgid "Malayalam"
 msgstr "malayalam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:371
+#: language/_cldr_data.py:374
 msgid "Mongolian"
 msgstr "mongoleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:372
+#: language/_cldr_data.py:375
 msgid "Manchu"
 msgstr "manchou"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:373
+#: language/_cldr_data.py:376
 msgid "Manipuri"
 msgstr "manipuri"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:374
+#: language/_cldr_data.py:377
 msgid "Mohawk"
 msgstr "mohawk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:375
+#: language/_cldr_data.py:378
 msgid "Mossi"
 msgstr "more"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:376
+#: language/_cldr_data.py:379
 msgid "Marathi"
 msgstr "marathi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:377
+#: language/_cldr_data.py:380
 msgid "Western Mari"
 msgstr "marieg ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:378
+#: language/_cldr_data.py:381
 msgid "Malay"
 msgstr "malayseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:379
+#: language/_cldr_data.py:382
 msgid "Maltese"
 msgstr "malteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:380
+#: language/_cldr_data.py:383
 msgid "Mundang"
 msgstr "moundangeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:381
+#: language/_cldr_data.py:384
 msgid "Multiple languages"
 msgstr "yezhoù lies"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:382
+#: language/_cldr_data.py:385
 msgid "Muscogee"
 msgstr "muskogi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:383
+#: language/_cldr_data.py:386
 msgid "Mirandese"
 msgstr "mirandeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:384
+#: language/_cldr_data.py:387
 msgid "Marwari"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:385
+#: language/_cldr_data.py:388
 msgid "Mentawai"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:386
+#: language/_cldr_data.py:389
 msgid "Burmese"
 msgstr "birmaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:387
+#: language/_cldr_data.py:390
 msgid "Myanmar Language"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:388
+#: language/_cldr_data.py:391
 msgid "Myene"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:389
+#: language/_cldr_data.py:392
 msgid "Erzya"
 msgstr "erza"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:390
+#: language/_cldr_data.py:393
 msgid "Mazanderani"
 msgstr "mazanderaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:392
+#: language/_cldr_data.py:395
 msgid "Min Nan Chinese"
 msgstr "sinaeg Min Nan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:393
+#: language/_cldr_data.py:396
 msgid "Neapolitan"
 msgstr "napolitaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:394
+#: language/_cldr_data.py:397
 msgid "Nama"
 msgstr "nama"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:395
+#: language/_cldr_data.py:398
 msgid "Norwegian Bokmål"
 msgstr "norvegeg bokmål"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:396
+#: language/_cldr_data.py:399
 msgid "North Ndebele"
 msgstr "ndebele an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:397
+#: language/_cldr_data.py:400
 msgid "Low German"
 msgstr "alamaneg izel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:398
+#: language/_cldr_data.py:401
 msgid "Low Saxon"
 msgstr "saksoneg izel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:399
+#: language/_cldr_data.py:402
 msgid "Nepali"
 msgstr "nepaleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:400
+#: language/_cldr_data.py:403
 msgid "Newari"
 msgstr "newari"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:401
+#: language/_cldr_data.py:404
 msgid "Ndonga"
 msgstr "ndonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:402
+#: language/_cldr_data.py:405
 msgid "Nias"
 msgstr "nias"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:403
+#: language/_cldr_data.py:406
 msgid "Niuean"
 msgstr "niue"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:404
+#: language/_cldr_data.py:407
 msgid "Ao Naga"
 msgstr "aoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:405
+#: language/_cldr_data.py:408
 msgid "Dutch"
 msgstr "nederlandeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:406
+#: language/_cldr_data.py:409
 msgid "Flemish"
 msgstr "flandrezeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:407
+#: language/_cldr_data.py:410
 msgid "Kwasio"
 msgstr "ngoumbeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:408
+#: language/_cldr_data.py:411
 msgid "Norwegian Nynorsk"
 msgstr "norvegeg nynorsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:409
+#: language/_cldr_data.py:412
 msgid "Ngiemboon"
 msgstr "ngiemboon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:410
+#: language/_cldr_data.py:413
 msgid "Norwegian"
 msgstr "norvegeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:411
+#: language/_cldr_data.py:414
 msgid "Nogai"
 msgstr "nogay"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:412
+#: language/_cldr_data.py:415
 msgid "Old Norse"
 msgstr "hennorseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:413
+#: language/_cldr_data.py:416
 msgid "Novial"
 msgstr "novial"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:414
+#: language/_cldr_data.py:417
 msgid "N’Ko"
 msgstr "nkoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:415
+#: language/_cldr_data.py:418
 msgid "South Ndebele"
 msgstr "ndebele ar Su"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:416
+#: language/_cldr_data.py:419
 msgid "Northern Sotho"
 msgstr "sotho an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:417
+#: language/_cldr_data.py:420
 msgid "Nuer"
 msgstr "nouereg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:418
+#: language/_cldr_data.py:421
 msgid "Navajo"
 msgstr "navacʼho"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:419
+#: language/_cldr_data.py:422
 msgid "Classical Newari"
 msgstr "newari klasel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:420
+#: language/_cldr_data.py:423
 msgid "Nyanja"
 msgstr "nyanja"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:421
+#: language/_cldr_data.py:424
 msgid "Nyamwezi"
 msgstr "nyamwezi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:422
+#: language/_cldr_data.py:425
 msgid "Nyankole"
 msgstr "nyankole"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:423
+#: language/_cldr_data.py:426
 msgid "Nyoro"
 msgstr "nyoro"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:424
+#: language/_cldr_data.py:427
 msgid "Nzima"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:425
+#: language/_cldr_data.py:428
 msgid "Occitan"
 msgstr "okitaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:426
+#: language/_cldr_data.py:429
 msgid "Ojibwa"
 msgstr "ojibwa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:427
+#: language/_cldr_data.py:430
 msgid "Oromo"
 msgstr "oromoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:428
+#: language/_cldr_data.py:431
 msgid "Odia"
 msgstr "oriya"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:429
+#: language/_cldr_data.py:432
 msgid "Ossetic"
 msgstr "oseteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:430
+#: language/_cldr_data.py:433
 msgid "Osage"
 msgstr "osage"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:431
+#: language/_cldr_data.py:434
 msgid "Ottoman Turkish"
 msgstr "turkeg otoman"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:432
+#: language/_cldr_data.py:435
 msgid "Punjabi"
 msgstr "punjabi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:433
+#: language/_cldr_data.py:436
 msgid "Pangasinan"
 msgstr "pangasinan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:434
+#: language/_cldr_data.py:437
 msgid "Pahlavi"
 msgstr "pahlavi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:435
+#: language/_cldr_data.py:438
 msgid "Pampanga"
 msgstr "pampanga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:436
+#: language/_cldr_data.py:439
 msgid "Papiamento"
 msgstr "papiamento"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:437
+#: language/_cldr_data.py:440
 msgid "Palauan"
 msgstr "palau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:438
+#: language/_cldr_data.py:441
 msgid "Picard"
 msgstr "pikardeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:439
+#: language/_cldr_data.py:442
 msgid "Nigerian Pidgin"
 msgstr "pidjin Nigeria"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:440
+#: language/_cldr_data.py:443
 msgid "Pennsylvania German"
 msgstr "alamaneg Pennsylvania"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:441
+#: language/_cldr_data.py:444
 msgid "Plautdietsch"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:442
+#: language/_cldr_data.py:445
 msgid "Old Persian"
 msgstr "henberseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:443
+#: language/_cldr_data.py:446
 msgid "Palatine German"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:444
+#: language/_cldr_data.py:447
 msgid "Phoenician"
 msgstr "fenikianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:445
+#: language/_cldr_data.py:448
 msgid "Pali"
 msgstr "pali"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:446
+#: language/_cldr_data.py:449
 msgid "Polish"
 msgstr "poloneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:447
+#: language/_cldr_data.py:450
 msgid "Piedmontese"
 msgstr "piemonteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:448
+#: language/_cldr_data.py:451
 msgid "Pontic"
 msgstr "ponteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:449
+#: language/_cldr_data.py:452
 msgid "Pohnpeian"
 msgstr "pohnpei"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:450
+#: language/_cldr_data.py:453
 msgid "Prussian"
 msgstr "henbruseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:451
+#: language/_cldr_data.py:454
 msgid "Old Provençal"
 msgstr "henbrovañseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:452
+#: language/_cldr_data.py:455
 msgid "Pashto"
 msgstr "pachto"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:453
+#: language/_cldr_data.py:456
 msgid "Pushto"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:454
+#: language/_cldr_data.py:457
 msgid "Portuguese"
 msgstr "portugaleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:455
+#: language/_cldr_data.py:458
 msgid "Brazilian Portuguese"
 msgstr "portugaleg Brazil"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:456
+#: language/_cldr_data.py:459
 msgid "European Portuguese"
 msgstr "portugaleg Europa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:457
+#: language/_cldr_data.py:460
 msgid "Quechua"
 msgstr "kechuaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:458
+#: language/_cldr_data.py:461
 msgid "Kʼicheʼ"
 msgstr "kʼicheʼ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:459
+#: language/_cldr_data.py:462
 msgid "Chimborazo Highland Quichua"
 msgstr "kichuaeg Chimborazo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:460
+#: language/_cldr_data.py:463
 msgid "Rajasthani"
 msgstr "rajasthani"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:461
+#: language/_cldr_data.py:464
 msgid "Rapanui"
 msgstr "rapanui"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:462
+#: language/_cldr_data.py:465
 msgid "Rarotongan"
 msgstr "rarotonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:463
+#: language/_cldr_data.py:466
 msgid "Romagnol"
 msgstr "romagnoleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:464
+#: language/_cldr_data.py:467
 msgid "Riffian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:465
+#: language/_cldr_data.py:468
 msgid "Romansh"
 msgstr "romañcheg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:466
+#: language/_cldr_data.py:469
 msgid "Rundi"
 msgstr "rundi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:467
+#: language/_cldr_data.py:470
 msgid "Romanian"
 msgstr "roumaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:468
+#: language/_cldr_data.py:471
 msgid "Moldavian"
 msgstr "moldoveg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:469
+#: language/_cldr_data.py:472
 msgid "Rombo"
 msgstr "rombo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:470
+#: language/_cldr_data.py:473
 msgid "Romany"
 msgstr "romanieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:471
-msgid "Root"
-msgstr "gwrizienn"
-
-#. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:472
+#: language/_cldr_data.py:474
 msgid "Rotuman"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:473
+#: language/_cldr_data.py:475
 msgid "Russian"
 msgstr "rusianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:474
+#: language/_cldr_data.py:476
 msgid "Rusyn"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:475
+#: language/_cldr_data.py:477
 msgid "Roviana"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:476
+#: language/_cldr_data.py:478
 msgid "Aromanian"
 msgstr "aroumaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:477
+#: language/_cldr_data.py:479
 msgid "Kinyarwanda"
 msgstr "kinyarwanda"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:478
+#: language/_cldr_data.py:480
 msgid "Rwa"
 msgstr "rwa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:479
+#: language/_cldr_data.py:481
 msgid "Sanskrit"
 msgstr "sanskriteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:480
+#: language/_cldr_data.py:482
 msgid "Sandawe"
 msgstr "sandawe"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:481
+#: language/_cldr_data.py:483
 msgid "Sakha"
 msgstr "yakouteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:482
+#: language/_cldr_data.py:484
 msgid "Samaritan Aramaic"
 msgstr "arameeg ar Samaritaned"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:483
+#: language/_cldr_data.py:485
 msgid "Samburu"
 msgstr "samburu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:484
+#: language/_cldr_data.py:486
 msgid "Sasak"
 msgstr "sasak"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:485
+#: language/_cldr_data.py:487
 msgid "Santali"
 msgstr "santali"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:486
+#: language/_cldr_data.py:488
 msgid "Saurashtra"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:487
+#: language/_cldr_data.py:489
 msgid "Ngambay"
 msgstr "ngambayeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:488
+#: language/_cldr_data.py:490
 msgid "Sangu"
 msgstr "sangu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:489
+#: language/_cldr_data.py:491
 msgid "Sardinian"
 msgstr "sardeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:490
+#: language/_cldr_data.py:492
 msgid "Sicilian"
 msgstr "sikilieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:491
+#: language/_cldr_data.py:493
 msgid "Scots"
 msgstr "skoteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:492
+#: language/_cldr_data.py:494
 msgid "Sindhi"
 msgstr "sindhi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:493
+#: language/_cldr_data.py:495
 msgid "Sassarese Sardinian"
 msgstr "sasareseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:494
+#: language/_cldr_data.py:496
 msgid "Southern Kurdish"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:495
+#: language/_cldr_data.py:497
 msgid "Northern Sami"
 msgstr "sámi an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:496
+#: language/_cldr_data.py:498
 msgid "Seneca"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:497
+#: language/_cldr_data.py:499
 msgid "Sena"
 msgstr "sena"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:498
+#: language/_cldr_data.py:500
 msgid "Seri"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:499
+#: language/_cldr_data.py:501
 msgid "Selkup"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:500
+#: language/_cldr_data.py:502
 msgid "Koyraboro Senni"
 msgstr "koyraboro senni"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:501
+#: language/_cldr_data.py:503
 msgid "Sango"
 msgstr "sango"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:502
+#: language/_cldr_data.py:504
 msgid "Old Irish"
 msgstr "heniwerzhoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:503
+#: language/_cldr_data.py:505
 msgid "Samogitian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:504
+#: language/_cldr_data.py:506
 msgid "Serbo-Croatian"
 msgstr "serb-kroateg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:505
+#: language/_cldr_data.py:507
 msgid "Tachelhit"
 msgstr "tacheliteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:506
+#: language/_cldr_data.py:508
 msgid "Shan"
 msgstr "shan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:507
+#: language/_cldr_data.py:509
 msgid "Chadian Arabic"
 msgstr "arabeg Tchad"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:508
+#: language/_cldr_data.py:510
 msgid "Sinhala"
 msgstr "singhaleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:509
+#: language/_cldr_data.py:511
 msgid "Sidamo"
 msgstr "sidamo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:510
+#: language/_cldr_data.py:512
 msgid "Slovak"
 msgstr "slovakeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:511
+#: language/_cldr_data.py:513
 msgid "Slovenian"
 msgstr "sloveneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:512
+#: language/_cldr_data.py:514
 msgid "Lower Silesian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:513
+#: language/_cldr_data.py:515
 msgid "Selayar"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:514
+#: language/_cldr_data.py:516
 msgid "Samoan"
 msgstr "samoan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:515
+#: language/_cldr_data.py:517
 msgid "Southern Sami"
 msgstr "sámi ar Su"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:516
+#: language/_cldr_data.py:518
 msgid "Lule Sami"
 msgstr "sámi Luleå"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:517
+#: language/_cldr_data.py:519
 msgid "Inari Sami"
 msgstr "sámi Inari"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:518
+#: language/_cldr_data.py:520
 msgid "Skolt Sami"
 msgstr "sámi Skolt"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:519
+#: language/_cldr_data.py:521
 msgid "Shona"
 msgstr "shona"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:520
+#: language/_cldr_data.py:522
 msgid "Soninke"
 msgstr "soninke"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:521
+#: language/_cldr_data.py:523
 msgid "Somali"
 msgstr "somali"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:522
+#: language/_cldr_data.py:524
 msgid "Sogdien"
 msgstr "sogdieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:523
+#: language/_cldr_data.py:525
 msgid "Albanian"
 msgstr "albaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:524
+#: language/_cldr_data.py:526
 msgid "Serbian"
 msgstr "serbeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:525
+#: language/_cldr_data.py:527
 msgid "Montenegrin"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:526
+#: language/_cldr_data.py:528
 msgid "Sranan Tongo"
 msgstr "sranan tongo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:527
+#: language/_cldr_data.py:529
 msgid "Serer"
 msgstr "serer"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:528
+#: language/_cldr_data.py:530
 msgid "Swati"
 msgstr "swati"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:529
+#: language/_cldr_data.py:531
 msgid "Saho"
 msgstr "sahoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:530
+#: language/_cldr_data.py:532
 msgid "Southern Sotho"
 msgstr "sotho ar Su"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:531
+#: language/_cldr_data.py:533
 msgid "Saterland Frisian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:532
+#: language/_cldr_data.py:534
 msgid "Sundanese"
 msgstr "sundaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:533
+#: language/_cldr_data.py:535
 msgid "Sukuma"
 msgstr "sukuma"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:534
+#: language/_cldr_data.py:536
 msgid "Susu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:535
+#: language/_cldr_data.py:537
 msgid "Sumerian"
 msgstr "sumereg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:536
+#: language/_cldr_data.py:538
 msgid "Swedish"
 msgstr "svedeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:537
+#: language/_cldr_data.py:539
 msgid "Swahili"
 msgstr "swahili"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:538
+#: language/_cldr_data.py:540
 msgid "Congo Swahili"
 msgstr "swahili Kongo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:539
+#: language/_cldr_data.py:541
 msgid "Comorian"
 msgstr "komoreg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:540
+#: language/_cldr_data.py:542
 msgid "Classical Syriac"
 msgstr "sirieg klasel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:541
+#: language/_cldr_data.py:543
 msgid "Syriac"
 msgstr "sirieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:542
+#: language/_cldr_data.py:544
 msgid "Silesian"
 msgstr "silezieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:543
+#: language/_cldr_data.py:545
 msgid "Tamil"
 msgstr "tamileg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:544
+#: language/_cldr_data.py:546
 msgid "Tulu"
 msgstr "touloueg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:545
+#: language/_cldr_data.py:547
 msgid "Telugu"
 msgstr "telougou"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:546
+#: language/_cldr_data.py:548
 msgid "Timne"
 msgstr "temne"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:547
+#: language/_cldr_data.py:549
 msgid "Teso"
 msgstr "tesoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:548
+#: language/_cldr_data.py:550
 msgid "Tereno"
 msgstr "tereno"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:549
+#: language/_cldr_data.py:551
 msgid "Tetum"
 msgstr "tetum"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:550
+#: language/_cldr_data.py:552
 msgid "Tajik"
 msgstr "tadjik"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:551
+#: language/_cldr_data.py:553
 msgid "Thai"
 msgstr "thai"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:552
+#: language/_cldr_data.py:554
 msgid "Tigrinya"
 msgstr "tigrigna"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:553
+#: language/_cldr_data.py:555
 msgid "Tigre"
 msgstr "tigreaneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:554
+#: language/_cldr_data.py:556
 msgid "Tiv"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:555
+#: language/_cldr_data.py:557
 msgid "Turkmen"
 msgstr "turkmeneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:557
+#: language/_cldr_data.py:559
 msgid "Tsakhur"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:558
+#: language/_cldr_data.py:560
 msgid "Tagalog"
 msgstr "tagalog"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:559
+#: language/_cldr_data.py:561
 msgid "Klingon"
 msgstr "klingon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:560
+#: language/_cldr_data.py:562
 msgid "Tlingit"
 msgstr "tinglit"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:561
+#: language/_cldr_data.py:563
 msgid "Talysh"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:562
+#: language/_cldr_data.py:564
 msgid "Tamashek"
 msgstr "tamacheg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:563
+#: language/_cldr_data.py:565
 msgid "Tswana"
 msgstr "tswana"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:564
+#: language/_cldr_data.py:566
 msgid "Tongan"
 msgstr "tonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:565
+#: language/_cldr_data.py:567
 msgid "Nyasa Tonga"
 msgstr "nyasa tonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:566
+#: language/_cldr_data.py:568
 msgid "Tok Pisin"
 msgstr "tok pisin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:567
+#: language/_cldr_data.py:569
 msgid "Turkish"
 msgstr "turkeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:568
+#: language/_cldr_data.py:570
 msgid "Turoyo"
 msgstr "turoyoeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:569
+#: language/_cldr_data.py:571
 msgid "Taroko"
 msgstr "taroko"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:570
+#: language/_cldr_data.py:572
 msgid "Tsonga"
 msgstr "tsonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:571
+#: language/_cldr_data.py:573
 msgid "Tsakonian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:572
+#: language/_cldr_data.py:574
 msgid "Tsimshian"
 msgstr "tsimshian"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:573
+#: language/_cldr_data.py:575
 msgid "Tatar"
 msgstr "tatar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:574
+#: language/_cldr_data.py:576
 msgid "Muslim Tat"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:575
+#: language/_cldr_data.py:577
 msgid "Tumbuka"
 msgstr "tumbuka"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:577
+#: language/_cldr_data.py:579
 msgid "Twi"
 msgstr "twi"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:578
+#: language/_cldr_data.py:580
 msgid "Tasawaq"
 msgstr "tasawakeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:579
+#: language/_cldr_data.py:581
 msgid "Tahitian"
 msgstr "tahitianeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:580
+#: language/_cldr_data.py:582
 msgid "Tuvinian"
 msgstr "touva"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:581
+#: language/_cldr_data.py:583
 msgid "Central Atlas Tamazight"
 msgstr "tamazigteg Kreizatlas"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:582
+#: language/_cldr_data.py:584
 msgid "Udmurt"
 msgstr "oudmourteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:583
+#: language/_cldr_data.py:585
 msgid "Uyghur"
 msgstr "ouigoureg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:584
+#: language/_cldr_data.py:586
 msgid "Uighur"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:585
+#: language/_cldr_data.py:587
 msgid "Ugaritic"
 msgstr "ougariteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:586
+#: language/_cldr_data.py:588
 msgid "Ukrainian"
 msgstr "ukraineg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:587
+#: language/_cldr_data.py:589
 msgid "Umbundu"
 msgstr "umbundu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:588
+#: language/_cldr_data.py:590
 msgid "Unknown language"
 msgstr "yezh dianav"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:589
+#: language/_cldr_data.py:591
 msgid "Urdu"
 msgstr "ourdou"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:590
+#: language/_cldr_data.py:592
 msgid "Uzbek"
 msgstr "ouzbekeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:591
+#: language/_cldr_data.py:593
 msgid "Vai"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:592
+#: language/_cldr_data.py:594
 msgid "Venda"
 msgstr "venda"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:593
+#: language/_cldr_data.py:595
 msgid "Venetian"
 msgstr "venezieg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:594
+#: language/_cldr_data.py:596
 msgid "Veps"
 msgstr "vepseg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:595
+#: language/_cldr_data.py:597
 msgid "Vietnamese"
 msgstr "vietnameg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:596
+#: language/_cldr_data.py:598
 msgid "West Flemish"
 msgstr "flandrezeg ar c’hornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:597
+#: language/_cldr_data.py:599
 msgid "Main-Franconian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:598
+#: language/_cldr_data.py:600
 msgid "Volapük"
 msgstr "volapük"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:599
+#: language/_cldr_data.py:601
 msgid "Votic"
 msgstr "votyakeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:600
+#: language/_cldr_data.py:602
 msgid "Võro"
 msgstr "voroeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:601
+#: language/_cldr_data.py:603
 msgid "Vunjo"
 msgstr "vunjo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:602
+#: language/_cldr_data.py:604
 msgid "Walloon"
 msgstr "walloneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:603
+#: language/_cldr_data.py:605
 msgid "Walser"
 msgstr "walser"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:604
+#: language/_cldr_data.py:606
 msgid "Wolaytta"
 msgstr "walamo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:605
+#: language/_cldr_data.py:607
 msgid "Waray"
 msgstr "waray"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:606
+#: language/_cldr_data.py:608
 msgid "Washo"
 msgstr "washo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:607
+#: language/_cldr_data.py:609
 msgid "Warlpiri"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:608
+#: language/_cldr_data.py:610
 msgid "Wolof"
 msgstr "wolof"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:609
+#: language/_cldr_data.py:611
 msgid "Wu Chinese"
 msgstr "sinaeg Wu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:610
+#: language/_cldr_data.py:612
 msgid "Kalmyk"
 msgstr "kalmouk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:611
+#: language/_cldr_data.py:613
 msgid "Xhosa"
 msgstr "xhosa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:612
+#: language/_cldr_data.py:614
 msgid "Mingrelian"
 msgstr "megreleg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:613
+#: language/_cldr_data.py:615
 msgid "Soga"
 msgstr "sogaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:614
+#: language/_cldr_data.py:616
 msgid "Yao"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:615
+#: language/_cldr_data.py:617
 msgid "Yapese"
 msgstr "yapeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:616
+#: language/_cldr_data.py:618
 msgid "Yangben"
 msgstr "yangben"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:617
+#: language/_cldr_data.py:619
 msgid "Yemba"
 msgstr "yemba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:618
+#: language/_cldr_data.py:620
 msgid "Yiddish"
 msgstr "yiddish"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:619
+#: language/_cldr_data.py:621
 msgid "Yoruba"
 msgstr "yorouba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:620
+#: language/_cldr_data.py:622
 msgid "Nheengatu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:621
+#: language/_cldr_data.py:623
 msgid "Cantonese"
 msgstr "kantoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:622
+#: language/_cldr_data.py:624
 msgid "Chinese, Cantonese"
 msgstr "sinaeg, kantoneg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:623
+#: language/_cldr_data.py:625
 msgid "Zhuang"
 msgstr "zhuang"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:624
+#: language/_cldr_data.py:626
 msgid "Zapotec"
 msgstr "zapoteg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:625
+#: language/_cldr_data.py:627
 msgid "Blissymbols"
-msgstr "Bliss"
+msgstr "arouezioù Bliss"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:626
+#: language/_cldr_data.py:628
 msgid "Zeelandic"
 msgstr "zelandeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:627
+#: language/_cldr_data.py:629
 msgid "Zenaga"
 msgstr "zenaga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:628
+#: language/_cldr_data.py:630
 msgid "Standard Moroccan Tamazight"
 msgstr "tamacheg Maroko standart"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:629
+#: language/_cldr_data.py:631
 msgid "Chinese"
 msgstr "sinaeg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:630
+#: language/_cldr_data.py:632
 msgid "Simplified Chinese"
 msgstr "sinaeg eeunaet"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:631
+#: language/_cldr_data.py:633
 msgid "Simplified Mandarin Chinese"
 msgstr "sinaeg mandarinek eeunaet"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:632
+#: language/_cldr_data.py:634
 msgid "Traditional Chinese"
 msgstr "sinaeg hengounel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:633
+#: language/_cldr_data.py:635
 msgid "Traditional Mandarin Chinese"
 msgstr "sinaeg mandarinek hengounel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:634
+#: language/_cldr_data.py:636
 msgid "Mandarin Chinese"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:635
+#: language/_cldr_data.py:637
 msgid "Chinese, Mandarin"
 msgstr "sinaeg, mandarineg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:636
+#: language/_cldr_data.py:638
 msgid "Zulu"
 msgstr "zouloueg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:637
+#: language/_cldr_data.py:639
 msgid "Zuni"
 msgstr "zuni"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:638
+#: language/_cldr_data.py:640
 msgid "No linguistic content"
 msgstr "diyezh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:639
+#: language/_cldr_data.py:641
 msgid "Zaza"
 msgstr "zazakeg"
 
@@ -6283,1322 +6292,1317 @@ msgstr "Broken Hill"
 
 #. auto-generated from CLDR -- see docs before updating
 #: timezone/_cldr_data.py:1071
-msgid "Currie"
-msgstr "Currie"
-
-#. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1072
 msgid "Darwin"
 msgstr "Darwin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1073
+#: timezone/_cldr_data.py:1072
 msgid "Eucla"
 msgstr "Eucla"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1074
+#: timezone/_cldr_data.py:1073
 msgid "Hobart"
 msgstr "Hobart"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1075
+#: timezone/_cldr_data.py:1074
 msgid "Lindeman"
 msgstr "Lindeman"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1076
+#: timezone/_cldr_data.py:1075
 msgid "Lord Howe"
 msgstr "Lord Howe"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1077
+#: timezone/_cldr_data.py:1076
 msgid "Melbourne"
 msgstr "Melbourne"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1078
+#: timezone/_cldr_data.py:1077
 msgid "Perth"
 msgstr "Perth"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1079
+#: timezone/_cldr_data.py:1078
 msgid "Sydney"
 msgstr "Sydney"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1080
+#: timezone/_cldr_data.py:1079
 msgid "UTC"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1081
+#: timezone/_cldr_data.py:1080
 msgid "Unknown City"
 msgstr "kêr dianav"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1082
+#: timezone/_cldr_data.py:1081
 msgid "Amsterdam"
 msgstr "Amsterdam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1084
+#: timezone/_cldr_data.py:1083
 msgid "Astrakhan"
 msgstr "Astrakhan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1085
+#: timezone/_cldr_data.py:1084
 msgid "Athens"
 msgstr "Aten"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1086
+#: timezone/_cldr_data.py:1085
 msgid "Belgrade"
 msgstr "Beograd"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1087
+#: timezone/_cldr_data.py:1086
 msgid "Berlin"
 msgstr "Berlin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1088
+#: timezone/_cldr_data.py:1087
 msgid "Bratislava"
 msgstr "Bratislava"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1089
+#: timezone/_cldr_data.py:1088
 msgid "Brussels"
 msgstr "Brusel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1090
+#: timezone/_cldr_data.py:1089
 msgid "Bucharest"
 msgstr "Bukarest"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1091
+#: timezone/_cldr_data.py:1090
 msgid "Budapest"
 msgstr "Budapest"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1092
+#: timezone/_cldr_data.py:1091
 msgid "Busingen"
 msgstr "Busingen"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1093
+#: timezone/_cldr_data.py:1092
 msgid "Chisinau"
 msgstr "Chisinau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1094
+#: timezone/_cldr_data.py:1093
 msgid "Copenhagen"
 msgstr "Kopenhagen"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1095
+#: timezone/_cldr_data.py:1094
 msgid "Dublin"
 msgstr "Dulenn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1098
+#: timezone/_cldr_data.py:1097
 msgid "Helsinki"
 msgstr "Helsinki"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1100
+#: timezone/_cldr_data.py:1099
 msgid "Istanbul"
 msgstr "Istanbul"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1102
+#: timezone/_cldr_data.py:1101
 msgid "Kaliningrad"
 msgstr "Kaliningrad"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1103
+#: timezone/_cldr_data.py:1102
 msgid "Kiev"
 msgstr "Kiev"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1104
+#: timezone/_cldr_data.py:1103
 msgid "Kirov"
 msgstr "Kirov"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1105
+#: timezone/_cldr_data.py:1104
 msgid "Lisbon"
 msgstr "Lisboa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1106
+#: timezone/_cldr_data.py:1105
 msgid "Ljubljana"
 msgstr "Ljubljana"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1107
+#: timezone/_cldr_data.py:1106
 msgid "London"
 msgstr "Londrez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1109
+#: timezone/_cldr_data.py:1108
 msgid "Madrid"
 msgstr "Madrid"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1111
+#: timezone/_cldr_data.py:1110
 msgid "Mariehamn"
 msgstr "Marjehamn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1112
+#: timezone/_cldr_data.py:1111
 msgid "Minsk"
 msgstr "Mensk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1114
+#: timezone/_cldr_data.py:1113
 msgid "Moscow"
 msgstr "Moskov"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1115
+#: timezone/_cldr_data.py:1114
 msgid "Oslo"
 msgstr "Oslo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1116
+#: timezone/_cldr_data.py:1115
 msgid "Paris"
 msgstr "Pariz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1117
+#: timezone/_cldr_data.py:1116
 msgid "Podgorica"
 msgstr "Podgorica"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1118
+#: timezone/_cldr_data.py:1117
 msgid "Prague"
 msgstr "Praha"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1119
+#: timezone/_cldr_data.py:1118
 msgid "Riga"
 msgstr "Riga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1120
+#: timezone/_cldr_data.py:1119
 msgid "Rome"
 msgstr "Roma"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1121
+#: timezone/_cldr_data.py:1120
 msgid "Samara"
 msgstr "Samara"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1123
+#: timezone/_cldr_data.py:1122
 msgid "Sarajevo"
 msgstr "Sarajevo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1124
+#: timezone/_cldr_data.py:1123
 msgid "Saratov"
 msgstr "Saratov"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1125
+#: timezone/_cldr_data.py:1124
 msgid "Simferopol"
 msgstr "Simferopol"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1126
+#: timezone/_cldr_data.py:1125
 msgid "Skopje"
 msgstr "Skopje"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1127
+#: timezone/_cldr_data.py:1126
 msgid "Sofia"
 msgstr "Sofia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1128
+#: timezone/_cldr_data.py:1127
 msgid "Stockholm"
 msgstr "Stockholm"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1129
+#: timezone/_cldr_data.py:1128
 msgid "Tallinn"
 msgstr "Tallinn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1130
+#: timezone/_cldr_data.py:1129
 msgid "Tirane"
 msgstr "Tiranë"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1131
+#: timezone/_cldr_data.py:1130
 msgid "Ulyanovsk"
 msgstr "Ulyanovsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1132
+#: timezone/_cldr_data.py:1131
 msgid "Uzhhorod"
 msgstr "Uzhgorod"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1133
+#: timezone/_cldr_data.py:1132
 msgid "Vaduz"
 msgstr "Vaduz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1134
+#: timezone/_cldr_data.py:1133
 msgid "Vatican"
 msgstr "Vatikan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1135
+#: timezone/_cldr_data.py:1134
 msgid "Vienna"
 msgstr "Vienna"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1136
+#: timezone/_cldr_data.py:1135
 msgid "Vilnius"
 msgstr "Vilnius"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1137
+#: timezone/_cldr_data.py:1136
 msgid "Volgograd"
 msgstr "Volgograd"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1138
+#: timezone/_cldr_data.py:1137
 msgid "Warsaw"
 msgstr "Varsovia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1139
+#: timezone/_cldr_data.py:1138
 msgid "Zagreb"
 msgstr "Zagreb"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1140
+#: timezone/_cldr_data.py:1139
 msgid "Zaporozhye"
 msgstr "Zaporozhye"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1141
+#: timezone/_cldr_data.py:1140
 msgid "Zurich"
 msgstr "Zurich"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1142
+#: timezone/_cldr_data.py:1141
 msgid "Antananarivo"
 msgstr "Antananarivo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1143
+#: timezone/_cldr_data.py:1142
 msgid "Chagos"
 msgstr "Chagos"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1144
+#: timezone/_cldr_data.py:1143
 msgid "Christmas"
 msgstr "Christmas"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1145
+#: timezone/_cldr_data.py:1144
 msgid "Cocos"
 msgstr "Kokoz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1146
+#: timezone/_cldr_data.py:1145
 msgid "Comoro"
 msgstr "Komorez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1147
+#: timezone/_cldr_data.py:1146
 msgid "Kerguelen"
 msgstr "Kergelenn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1148
+#: timezone/_cldr_data.py:1147
 msgid "Mahe"
 msgstr "Mahe"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1153
+#: timezone/_cldr_data.py:1152
 msgid "Apia"
 msgstr "Apia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1154
+#: timezone/_cldr_data.py:1153
 msgid "Auckland"
 msgstr "Auckland"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1155
+#: timezone/_cldr_data.py:1154
 msgid "Bougainville"
 msgstr "Bougainville"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1156
+#: timezone/_cldr_data.py:1155
 msgid "Chatham"
 msgstr "Chatham"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1157
+#: timezone/_cldr_data.py:1156
 msgid "Easter"
 msgstr "Enez Pask"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1158
+#: timezone/_cldr_data.py:1157
 msgid "Efate"
 msgstr "Efate"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1159
+#: timezone/_cldr_data.py:1158
 msgid "Enderbury"
 msgstr "Enderbury"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1160
+#: timezone/_cldr_data.py:1159
 msgid "Fakaofo"
 msgstr "Fakaofo"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1162
+#: timezone/_cldr_data.py:1161
 msgid "Funafuti"
 msgstr "Funafuti"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1163
+#: timezone/_cldr_data.py:1162
 msgid "Galapagos"
 msgstr "Galápagos"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1164
+#: timezone/_cldr_data.py:1163
 msgid "Gambier"
 msgstr "Gambier"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1165
+#: timezone/_cldr_data.py:1164
 msgid "Guadalcanal"
 msgstr "Guadalcanal"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1167
+#: timezone/_cldr_data.py:1166
 msgid "Honolulu"
 msgstr "Honolulu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1168
+#: timezone/_cldr_data.py:1167
 msgid "Johnston"
 msgstr "Johnston"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1169
+#: timezone/_cldr_data.py:1168
 msgid "Kiritimati"
 msgstr "Kiritimati"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1170
+#: timezone/_cldr_data.py:1169
 msgid "Kosrae"
 msgstr "Kosrae"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1171
+#: timezone/_cldr_data.py:1170
 msgid "Kwajalein"
 msgstr "Kwajalein"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1172
+#: timezone/_cldr_data.py:1171
 msgid "Majuro"
 msgstr "Majuro"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1173
+#: timezone/_cldr_data.py:1172
 msgid "Marquesas"
 msgstr "Markiz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1174
+#: timezone/_cldr_data.py:1173
 msgid "Midway"
 msgstr "Midway"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1177
+#: timezone/_cldr_data.py:1176
 msgid "Norfolk"
 msgstr "Norfolk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1178
+#: timezone/_cldr_data.py:1177
 msgid "Noumea"
 msgstr "Noumea"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1179
+#: timezone/_cldr_data.py:1178
 msgid "Pago Pago"
 msgstr "Pago Pago"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1181
+#: timezone/_cldr_data.py:1180
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1182
+#: timezone/_cldr_data.py:1181
 msgid "Pohnpei"
 msgstr "Pohnpei"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1183
+#: timezone/_cldr_data.py:1182
 msgid "Port Moresby"
 msgstr "Port Moresby"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1184
+#: timezone/_cldr_data.py:1183
 msgid "Rarotonga"
 msgstr "Rarotonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1185
+#: timezone/_cldr_data.py:1184
 msgid "Saipan"
 msgstr "Saipan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1186
+#: timezone/_cldr_data.py:1185
 msgid "Tahiti"
 msgstr "Tahiti"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1187
+#: timezone/_cldr_data.py:1186
 msgid "Tarawa"
 msgstr "Tarawa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1188
+#: timezone/_cldr_data.py:1187
 msgid "Tongatapu"
 msgstr "Tongatapu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1189
+#: timezone/_cldr_data.py:1188
 msgid "Chuuk"
 msgstr "Chuuk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1190
+#: timezone/_cldr_data.py:1189
 msgid "Wake"
 msgstr "Wake"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1191
+#: timezone/_cldr_data.py:1190
 msgid "Wallis"
 msgstr "Wallis"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1194
+#: timezone/_cldr_data.py:1193
 msgid "Acre Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1195
+#: timezone/_cldr_data.py:1194
 msgid "Afghanistan Time"
 msgstr "eur Afghanistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1196
+#: timezone/_cldr_data.py:1195
 msgid "Central Africa Time"
 msgstr "eur Kreizafrika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1197
+#: timezone/_cldr_data.py:1196
 msgid "East Africa Time"
 msgstr "eur Afrika ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1198
+#: timezone/_cldr_data.py:1197
 msgid "South Africa Standard Time"
 msgstr "eur cʼhoañv Suafrika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1199
+#: timezone/_cldr_data.py:1198
 msgid "West Africa Time"
 msgstr "eur Afrika ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1200
+#: timezone/_cldr_data.py:1199
 msgid "Alaska Time"
 msgstr "eur Alaska"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1201
+#: timezone/_cldr_data.py:1200
 msgid "Almaty Time"
 msgstr "eur Almaty"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1202
+#: timezone/_cldr_data.py:1201
 msgid "Amazon Time"
 msgstr "eur an Amazon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1203
+#: timezone/_cldr_data.py:1202
 msgid "Central Time"
 msgstr "eur ar Cʼhreiz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1204
+#: timezone/_cldr_data.py:1203
 msgid "Eastern Time"
 msgstr "eur ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1205
+#: timezone/_cldr_data.py:1204
 msgid "Mountain Time"
 msgstr "eur ar Menezioù"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1206
+#: timezone/_cldr_data.py:1205
 msgid "Pacific Time"
 msgstr "eur an Habask"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1207
+#: timezone/_cldr_data.py:1206
 msgid "Anadyr Time"
 msgstr "eur Anadyrʼ"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1208
+#: timezone/_cldr_data.py:1207
 msgid "Apia Time"
 msgstr "eur Apia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1209
+#: timezone/_cldr_data.py:1208
 msgid "Aqtau Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1210
+#: timezone/_cldr_data.py:1209
 msgid "Aqtobe Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1211
+#: timezone/_cldr_data.py:1210
 msgid "Arabian Time"
 msgstr "eur Arabia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1212
+#: timezone/_cldr_data.py:1211
 msgid "Argentina Time"
 msgstr "eur Arcʼhantina"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1213
+#: timezone/_cldr_data.py:1212
 msgid "Western Argentina Time"
 msgstr "eur Arcʼhantina ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1214
+#: timezone/_cldr_data.py:1213
 msgid "Armenia Time"
 msgstr "eur Armenia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1215
+#: timezone/_cldr_data.py:1214
 msgid "Atlantic Time"
 msgstr "eur an Atlantel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1216
+#: timezone/_cldr_data.py:1215
 msgid "Central Australia Time"
 msgstr "eur Kreizaostralia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1217
+#: timezone/_cldr_data.py:1216
 msgid "Australian Central Western Time"
 msgstr "eur Kreizaostralia ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1218
+#: timezone/_cldr_data.py:1217
 msgid "Eastern Australia Time"
 msgstr "eur Aostralia ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1219
+#: timezone/_cldr_data.py:1218
 msgid "Western Australia Time"
 msgstr "eur Aostralia ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1220
+#: timezone/_cldr_data.py:1219
 msgid "Azerbaijan Time"
 msgstr "eur Azerbaidjan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1221
+#: timezone/_cldr_data.py:1220
 msgid "Azores Time"
 msgstr "eur an Azorez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1222
+#: timezone/_cldr_data.py:1221
 msgid "Bangladesh Time"
 msgstr "eur Bangladesh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1223
+#: timezone/_cldr_data.py:1222
 msgid "Bhutan Time"
 msgstr "eur Bhoutan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1224
+#: timezone/_cldr_data.py:1223
 msgid "Bolivia Time"
 msgstr "eur Bolivia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1225
+#: timezone/_cldr_data.py:1224
 msgid "Brasilia Time"
 msgstr "eur Brasília"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1226
+#: timezone/_cldr_data.py:1225
 msgid "Brunei Darussalam Time"
 msgstr "eur Brunei Darussalam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1227
+#: timezone/_cldr_data.py:1226
 msgid "Cape Verde Time"
 msgstr "eur ar Cʼhab-Glas"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1228
+#: timezone/_cldr_data.py:1227
 msgid "Casey Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1229
+#: timezone/_cldr_data.py:1228
 msgid "Chamorro Standard Time"
 msgstr "eur Chamorro"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1230
+#: timezone/_cldr_data.py:1229
 msgid "Chatham Time"
 msgstr "eur Chatham"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1231
+#: timezone/_cldr_data.py:1230
 msgid "Chile Time"
 msgstr "eur Chile"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1232
+#: timezone/_cldr_data.py:1231
 msgid "China Time"
 msgstr "eur Sina"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1233
+#: timezone/_cldr_data.py:1232
 msgid "Choibalsan Time"
 msgstr "eur Choibalsan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1234
+#: timezone/_cldr_data.py:1233
 msgid "Christmas Island Time"
 msgstr "eur Enez Christmas"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1235
+#: timezone/_cldr_data.py:1234
 msgid "Cocos Islands Time"
 msgstr "eur Inizi Kokoz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1236
+#: timezone/_cldr_data.py:1235
 msgid "Colombia Time"
 msgstr "eur Kolombia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1237
+#: timezone/_cldr_data.py:1236
 msgid "Cook Islands Time"
 msgstr "eur Inizi Cook"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1238
+#: timezone/_cldr_data.py:1237
 msgid "Cuba Time"
 msgstr "eur Kuba"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1239
+#: timezone/_cldr_data.py:1238
 msgid "Davis Time"
 msgstr "eur Davis"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1240
+#: timezone/_cldr_data.py:1239
 msgid "Dumont-d’Urville Time"
 msgstr "eur Dumont-d’Urville"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1241
+#: timezone/_cldr_data.py:1240
 msgid "East Timor Time"
 msgstr "eur Timor ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1242
+#: timezone/_cldr_data.py:1241
 msgid "Easter Island Time"
 msgstr "eur Enez Pask"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1243
+#: timezone/_cldr_data.py:1242
 msgid "Ecuador Time"
 msgstr "eur Ecuador"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1244
+#: timezone/_cldr_data.py:1243
 msgid "Central European Time"
 msgstr "eur Kreizeuropa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1245
+#: timezone/_cldr_data.py:1244
 msgid "Eastern European Time"
 msgstr "eur Europa ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1246
+#: timezone/_cldr_data.py:1245
 msgid "Further-eastern European Time"
-msgstr ""
+msgstr "eur Kaliningrad"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1247
+#: timezone/_cldr_data.py:1246
 msgid "Western European Time"
 msgstr "eur Europa ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1248
+#: timezone/_cldr_data.py:1247
 msgid "Falkland Islands Time"
 msgstr "eur Inizi Falkland"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1249
+#: timezone/_cldr_data.py:1248
 msgid "Fiji Time"
 msgstr "eur Fidji"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1250
+#: timezone/_cldr_data.py:1249
 msgid "French Guiana Time"
 msgstr "eur Gwiana cʼhall"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1251
+#: timezone/_cldr_data.py:1250
 msgid "French Southern & Antarctic Time"
 msgstr "eur Douaroù aostral Frañs hag Antarktika"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1252
+#: timezone/_cldr_data.py:1251
 msgid "Greenwich Mean Time"
 msgstr "Amzer keitat Greenwich (AKG)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1253
+#: timezone/_cldr_data.py:1252
 msgid "Galapagos Time"
 msgstr "eur Inizi Galápagos"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1254
+#: timezone/_cldr_data.py:1253
 msgid "Gambier Time"
 msgstr "eur Inizi Gambier"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1255
+#: timezone/_cldr_data.py:1254
 msgid "Georgia Time"
 msgstr "eur Jorjia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1256
+#: timezone/_cldr_data.py:1255
 msgid "Gilbert Islands Time"
 msgstr "eur Inizi Gilbert"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1257
+#: timezone/_cldr_data.py:1256
 msgid "East Greenland Time"
 msgstr "eur Greunland ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1258
+#: timezone/_cldr_data.py:1257
 msgid "West Greenland Time"
 msgstr "eur Greunland ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1259
+#: timezone/_cldr_data.py:1258
 msgid "Guam Standard Time"
 msgstr "eur cʼhoañv Guam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1260
+#: timezone/_cldr_data.py:1259
 msgid "Gulf Standard Time"
 msgstr "eur cʼhoañv ar Pleg-mor Arab-ha-Pers"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1261
+#: timezone/_cldr_data.py:1260
 msgid "Guyana Time"
 msgstr "eur Guyana"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1262
+#: timezone/_cldr_data.py:1261
 msgid "Hawaii-Aleutian Time"
-msgstr ""
+msgstr "eur Hawaii hag an Aleouted"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1263
+#: timezone/_cldr_data.py:1262
 msgid "Hong Kong Time"
 msgstr "eur Hong Kong"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1264
+#: timezone/_cldr_data.py:1263
 msgid "Hovd Time"
 msgstr "eur Hovd"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1265
+#: timezone/_cldr_data.py:1264
 msgid "India Standard Time"
 msgstr "eur cʼhoañv India"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1266
+#: timezone/_cldr_data.py:1265
 msgid "Indian Ocean Time"
 msgstr "eur Meurvor Indez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1267
+#: timezone/_cldr_data.py:1266
 msgid "Indochina Time"
 msgstr "eur Indez-Sina"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1268
+#: timezone/_cldr_data.py:1267
 msgid "Central Indonesia Time"
 msgstr "eur Kreiz Indonezia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1269
+#: timezone/_cldr_data.py:1268
 msgid "Eastern Indonesia Time"
 msgstr "eur Indonezia ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1270
+#: timezone/_cldr_data.py:1269
 msgid "Western Indonesia Time"
 msgstr "eur Indonezia ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1271
+#: timezone/_cldr_data.py:1270
 msgid "Iran Time"
 msgstr "eur Iran"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1272
+#: timezone/_cldr_data.py:1271
 msgid "Irkutsk Time"
 msgstr "eur Irkutsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1273
+#: timezone/_cldr_data.py:1272
 msgid "Israel Time"
 msgstr "eur Israel"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1274
+#: timezone/_cldr_data.py:1273
 msgid "Japan Time"
 msgstr "eur Japan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1275
+#: timezone/_cldr_data.py:1274
 msgid "Petropavlovsk-Kamchatski Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1276
+#: timezone/_cldr_data.py:1275
 msgid "East Kazakhstan Time"
 msgstr "eur Kazakstan ar Reter"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1277
+#: timezone/_cldr_data.py:1276
 msgid "West Kazakhstan Time"
 msgstr "eur Kazakstan ar Cʼhornôg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1278
+#: timezone/_cldr_data.py:1277
 msgid "Korean Time"
 msgstr "eur Korea"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1279
+#: timezone/_cldr_data.py:1278
 msgid "Kosrae Time"
 msgstr "eur Kosrae"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1280
+#: timezone/_cldr_data.py:1279
 msgid "Krasnoyarsk Time"
 msgstr "eur Krasnoyarsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1281
+#: timezone/_cldr_data.py:1280
 msgid "Kyrgyzstan Time"
 msgstr "eur Kyrgyzstan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1282
+#: timezone/_cldr_data.py:1281
 msgid "Lanka Time"
 msgstr "eur Sri Lanka"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1283
+#: timezone/_cldr_data.py:1282
 msgid "Line Islands Time"
 msgstr "eur Line Islands"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1284
+#: timezone/_cldr_data.py:1283
 msgid "Lord Howe Time"
-msgstr ""
+msgstr "eur Lord Howe"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1285
+#: timezone/_cldr_data.py:1284
 msgid "Macao Time"
 msgstr "eur Macau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1286
+#: timezone/_cldr_data.py:1285
 msgid "Macquarie Island Time"
 msgstr "eur Enez Macquarie"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1287
+#: timezone/_cldr_data.py:1286
 msgid "Magadan Time"
 msgstr "eur Magadan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1288
+#: timezone/_cldr_data.py:1287
 msgid "Malaysia Time"
 msgstr "eur Malaysia"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1289
+#: timezone/_cldr_data.py:1288
 msgid "Maldives Time"
 msgstr "eur ar Maldivez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1290
+#: timezone/_cldr_data.py:1289
 msgid "Marquesas Time"
 msgstr "eur Inizi Markiz"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1291
+#: timezone/_cldr_data.py:1290
 msgid "Marshall Islands Time"
 msgstr "eur Inizi Marshall"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1292
+#: timezone/_cldr_data.py:1291
 msgid "Mauritius Time"
 msgstr "eur Moris"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1293
+#: timezone/_cldr_data.py:1292
 msgid "Mawson Time"
 msgstr "eur Mawson"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1294
+#: timezone/_cldr_data.py:1293
 msgid "Northwest Mexico Time"
 msgstr "eur Gwalarn Mecʼhiko"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1295
+#: timezone/_cldr_data.py:1294
 msgid "Mexican Pacific Time"
-msgstr ""
+msgstr "eur an Habask mecʼhikan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1296
+#: timezone/_cldr_data.py:1295
 msgid "Ulaanbaatar Time"
 msgstr "eur Ulaanbaatar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1297
+#: timezone/_cldr_data.py:1296
 msgid "Moscow Time"
 msgstr "eur Moskov"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1298
+#: timezone/_cldr_data.py:1297
 msgid "Myanmar Time"
 msgstr "eur Myanmar"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1299
+#: timezone/_cldr_data.py:1298
 msgid "Nauru Time"
 msgstr "eur Nauru"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1300
+#: timezone/_cldr_data.py:1299
 msgid "Nepal Time"
 msgstr "eur Nepal"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1301
+#: timezone/_cldr_data.py:1300
 msgid "New Caledonia Time"
 msgstr "eur Kaledonia Nevez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1302
+#: timezone/_cldr_data.py:1301
 msgid "New Zealand Time"
 msgstr "eur Zeland-Nevez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1303
+#: timezone/_cldr_data.py:1302
 msgid "Newfoundland Time"
 msgstr "eur Newfoundland"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1304
+#: timezone/_cldr_data.py:1303
 msgid "Niue Time"
 msgstr "eur Niue"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1305
+#: timezone/_cldr_data.py:1304
 msgid "Norfolk Island Time"
 msgstr "eur Enez Norfolk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1306
+#: timezone/_cldr_data.py:1305
 msgid "Fernando de Noronha Time"
 msgstr "eur Fernando de Noronha"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1307
+#: timezone/_cldr_data.py:1306
 msgid "North Mariana Islands Time"
-msgstr ""
+msgstr "eur Mariana an Norzh"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1308
+#: timezone/_cldr_data.py:1307
 msgid "Novosibirsk Time"
 msgstr "eur Novosibirsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1309
+#: timezone/_cldr_data.py:1308
 msgid "Omsk Time"
 msgstr "eur Omsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1310
+#: timezone/_cldr_data.py:1309
 msgid "Pakistan Time"
 msgstr "eur Pakistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1311
+#: timezone/_cldr_data.py:1310
 msgid "Palau Time"
 msgstr "eur Palau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1312
+#: timezone/_cldr_data.py:1311
 msgid "Papua New Guinea Time"
 msgstr "eur Papoua-Ginea-Nevez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1313
+#: timezone/_cldr_data.py:1312
 msgid "Paraguay Time"
 msgstr "eur Paraguay"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1314
+#: timezone/_cldr_data.py:1313
 msgid "Peru Time"
 msgstr "eur Perou"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1315
+#: timezone/_cldr_data.py:1314
 msgid "Philippine Time"
 msgstr "eur ar Filipinez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1316
+#: timezone/_cldr_data.py:1315
 msgid "Phoenix Islands Time"
 msgstr "eur Inizi Phoenix"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1317
+#: timezone/_cldr_data.py:1316
 msgid "St. Pierre & Miquelon Time"
 msgstr "eur Sant-Pêr-ha-Mikelon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1318
+#: timezone/_cldr_data.py:1317
 msgid "Pitcairn Time"
 msgstr "eur Pitcairn"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1319
+#: timezone/_cldr_data.py:1318
 msgid "Ponape Time"
-msgstr ""
+msgstr "eur Pohnpei"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1320
+#: timezone/_cldr_data.py:1319
 msgid "Pyongyang Time"
 msgstr "eur Pʼyongyang"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1321
+#: timezone/_cldr_data.py:1320
 msgid "Qyzylorda Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1322
+#: timezone/_cldr_data.py:1321
 msgid "Réunion Time"
 msgstr "eur ar Reünion"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1323
+#: timezone/_cldr_data.py:1322
 msgid "Rothera Time"
 msgstr "eur Rothera"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1324
+#: timezone/_cldr_data.py:1323
 msgid "Sakhalin Time"
 msgstr "eur Sakhalin"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1325
+#: timezone/_cldr_data.py:1324
 msgid "Samara Time"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1326
+#: timezone/_cldr_data.py:1325
 msgid "Samoa Time"
 msgstr "eur Samoa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1327
+#: timezone/_cldr_data.py:1326
 msgid "Seychelles Time"
 msgstr "eur Sechelez"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1328
+#: timezone/_cldr_data.py:1327
 msgid "Singapore Standard Time"
 msgstr "eur cʼhoañv Singapour"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1329
+#: timezone/_cldr_data.py:1328
 msgid "Solomon Islands Time"
 msgstr "eur Inizi Salomon"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1330
+#: timezone/_cldr_data.py:1329
 msgid "South Georgia Time"
 msgstr "eur Georgia ar Su"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1331
+#: timezone/_cldr_data.py:1330
 msgid "Suriname Time"
 msgstr "eur Surinam"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1332
+#: timezone/_cldr_data.py:1331
 msgid "Syowa Time"
 msgstr "eur Syowa"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1333
+#: timezone/_cldr_data.py:1332
 msgid "Tahiti Time"
 msgstr "eur Tahiti"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1334
+#: timezone/_cldr_data.py:1333
 msgid "Taipei Time"
 msgstr "eur Taipei"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1335
+#: timezone/_cldr_data.py:1334
 msgid "Tajikistan Time"
 msgstr "eur Tadjikistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1336
+#: timezone/_cldr_data.py:1335
 msgid "Tokelau Time"
 msgstr "eur Tokelau"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1337
+#: timezone/_cldr_data.py:1336
 msgid "Tonga Time"
 msgstr "eur Tonga"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1338
+#: timezone/_cldr_data.py:1337
 msgid "Chuuk Time"
 msgstr "eur Chuuk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1339
+#: timezone/_cldr_data.py:1338
 msgid "Turkmenistan Time"
 msgstr "eur Turkmenistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1340
+#: timezone/_cldr_data.py:1339
 msgid "Tuvalu Time"
 msgstr "eur Tuvalu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1341
+#: timezone/_cldr_data.py:1340
 msgid "Uruguay Time"
 msgstr "eur Uruguay"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1342
+#: timezone/_cldr_data.py:1341
 msgid "Uzbekistan Time"
 msgstr "eur Ouzbekistan"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1343
+#: timezone/_cldr_data.py:1342
 msgid "Vanuatu Time"
 msgstr "eur Vanuatu"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1344
+#: timezone/_cldr_data.py:1343
 msgid "Venezuela Time"
 msgstr "eur Venezuela"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1345
+#: timezone/_cldr_data.py:1344
 msgid "Vladivostok Time"
 msgstr "eur Vladivostok"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1346
+#: timezone/_cldr_data.py:1345
 msgid "Volgograd Time"
 msgstr "eur Volgograd"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1347
+#: timezone/_cldr_data.py:1346
 msgid "Vostok Time"
 msgstr "eur Vostok"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1348
+#: timezone/_cldr_data.py:1347
 msgid "Wake Island Time"
 msgstr "eur Wake Island"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1349
+#: timezone/_cldr_data.py:1348
 msgid "Wallis & Futuna Time"
 msgstr "eur Wallis ha Futuna"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1350
+#: timezone/_cldr_data.py:1349
 msgid "Yakutsk Time"
 msgstr "eur Yakutsk"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1351
+#: timezone/_cldr_data.py:1350
 msgid "Yekaterinburg Time"
 msgstr "eur Yekaterinbourg"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1353
+#: timezone/_cldr_data.py:1352
 #, python-format
 msgid "%s Time"
 msgstr "eur %s"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1354
+#: timezone/_cldr_data.py:1353
 msgid "+HH:mm;-HH:mm"
 msgstr "+HH:mm;-HH:mm"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1355
+#: timezone/_cldr_data.py:1354
 #, python-format
 msgid "GMT%s"
 msgstr "GMT%s"

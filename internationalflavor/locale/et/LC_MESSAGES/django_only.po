@@ -1,17 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# burak oezdemir <burak@thorgate.eu>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-internationalflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-24 16:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-08-10 21:24+0200\n"
+"PO-Revision-Date: 2020-12-03 10:13+0000\n"
+"Last-Translator: burak oezdemir <burak@thorgate.eu>\n"
+"Language-Team: Estonian (http://www.transifex.com/ralphje/django-internationalflavor/language/et/)\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,119 +20,122 @@ msgstr ""
 
 #: countries/models.py:13
 msgid "A country"
-msgstr ""
+msgstr "Riik"
 
 #: iban/models.py:28
 msgid "An International Bank Account Number"
-msgstr ""
+msgstr "Rahvusvaheline pangakonto number"
 
 #: iban/models.py:74
 msgid "An International Bank Code"
-msgstr ""
+msgstr "Rahvusvaheline pangakood"
+
+#: iban/validators.py:67
+#, python-format
+msgid "%(country)s IBANs are not allowed in this field."
+msgstr "\"%(country)s IBAN ei ole lubatud selles väljas"
+
+#: iban/validators.py:80
+msgid "This IBAN does not have a valid checksum."
+msgstr "See IBAN ei sisalda õiget kontrollsummat."
+
+#: iban/validators.py:91
+msgid "This Bank Identifier Code (BIC) is invalid."
+msgstr "Panga tunnuskood (BIC) on vale."
+
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr "KMKR registreerimisel kasutatud number"
+
+#: vat_number/validators.py:119
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr "%(country)s KMKR numbri ei ole sellel väljal lubatud."
+
+#: vat_number/validators.py:83
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr "Sisestatud KMKR number ei vasta %(country)s KMKR numbri nõuetele."
+
+#: vat_number/validators.py:125
+msgid "This VAT number is not for a known country."
+msgstr "See KMKR ei ole teadaoleva riigi kohta."
+
+#: vat_number/validators.py:171 vat_number/validators.py:191
+msgid "This VAT number does not exist."
+msgstr "See KMKR number ei eksisteeri."
 
 #: iban/validators.py:59
 msgid ""
 "This IBAN does not start with a country code and checksum, or contains "
 "invalid characters."
 msgstr ""
-
-#: iban/validators.py:67
-#, python-format
-msgid "%(country)s IBANs are not allowed in this field."
-msgstr ""
+"See IBAN ei alga õige riigikoodiga ja kontrollsummaga või sisaldab keelatuid"
+" tähemärke."
 
 #: iban/validators.py:71
 #, python-format
 msgid "This IBAN does not match the requirements for %(country)s."
-msgstr ""
+msgstr "See IBAN ei vasta %(country)s riigi nõuetele."
 
 #: iban/validators.py:73
 #, python-format
 msgid "%(country)s is not a valid country code for IBAN."
-msgstr ""
-
-#: iban/validators.py:80
-msgid "This IBAN does not have a valid checksum."
-msgstr ""
-
-#: iban/validators.py:91
-msgid "This Bank Identifier Code (BIC) is invalid."
-msgstr ""
+msgstr "%(country)s ei ole õige riigikood sellele IBANile."
 
 #: iban/validators.py:94
 #, python-format
 msgid "%(country)s is not a valid country code."
-msgstr ""
+msgstr "%(country)s ei ole õige riigikood."
 
 #: timezone/models.py:26
 msgid "A timezone"
-msgstr ""
+msgstr "Ajavöönd"
 
 #: timezone/models.py:71
 #, python-format
 msgid "Timezone %s is invalid"
-msgstr ""
-
-#: vat_number/models.py:25
-msgid "A number used for VAT registration"
-msgstr ""
+msgstr "Ajavöönd %s on vale"
 
 #: vat_number/validators.py:112
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
-
-#: vat_number/validators.py:119
-#, python-format
-msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr ""
-
-#: vat_number/validators.py:83
-#, python-format
-msgid "This VAT number does not match the requirements for %(country)s."
-msgstr ""
-
-#: vat_number/validators.py:125
-msgid "This VAT number is not for a known country."
-msgstr ""
-
-#: vat_number/validators.py:171 vat_number/validators.py:191
-msgid "This VAT number does not exist."
-msgstr ""
+"Sisestatud KMKR number ei alga riigikoodiga või sisaldab keelatud tähemärke."
 
 #: timezone/models.py:143
 #, python-format
 msgid "Metazone %s is invalid"
-msgstr ""
+msgstr "Metazone %s on vale"
 
 #: timezone/data.py:116
 #, python-format
 msgid "%(tzname)s"
-msgstr ""
+msgstr "%(tzname)s"
 
 #: timezone/data.py:118
 #, python-format
 msgid "%(tzname)s (%(cities)s)"
-msgstr ""
+msgstr "%(tzname)s (%(cities)s)"
 
 #: timezone/data.py:120
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s"
-msgstr ""
+msgstr "%(gmt_offset)s %(tzname)s"
 
 #: timezone/data.py:122
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
-msgstr ""
+msgstr "%(gmt_offset)s %(tzname)s (%(cities)s)"
 
 #: language/models.py:14
 msgid "A language"
-msgstr ""
+msgstr "Keel"
 
 #: timezone/models.py:96
 msgid "A metazone"
-msgstr ""
+msgstr "Metazone"
 
 #~ msgid "Macedonia"
 #~ msgstr ""
@@ -158,4 +162,16 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Santa Isabel"
+#~ msgstr ""
+
+#~ msgid "This IBAN does not start with a country code and checksum."
+#~ msgstr ""
+
+#~ msgid "This IBAN does not match the requirements for %(country)s ."
+#~ msgstr ""
+
+#~ msgid "This IBAN is not for a known country."
+#~ msgstr ""
+
+#~ msgid "This VAT number does not start with a country code."
 #~ msgstr ""

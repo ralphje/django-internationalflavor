@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-24 16:02+0100\n"
+"POT-Creation-Date: 2021-09-07 10:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: countries/models.py:13
 msgid "A country"
@@ -63,46 +63,8 @@ msgstr ""
 msgid "%(country)s is not a valid country code."
 msgstr ""
 
-#: timezone/models.py:26
-msgid "A timezone"
-msgstr ""
-
-#: timezone/models.py:71
-#, python-format
-msgid "Timezone %s is invalid"
-msgstr ""
-
-#: vat_number/models.py:25
-msgid "A number used for VAT registration"
-msgstr ""
-
-#: vat_number/validators.py:112
-msgid ""
-"This VAT number does not start with a country code, or contains invalid "
-"characters."
-msgstr ""
-
-#: vat_number/validators.py:119
-#, python-format
-msgid "%(country)s VAT numbers are not allowed in this field."
-msgstr ""
-
-#: vat_number/validators.py:83
-#, python-format
-msgid "This VAT number does not match the requirements for %(country)s."
-msgstr ""
-
-#: vat_number/validators.py:125
-msgid "This VAT number is not for a known country."
-msgstr ""
-
-#: vat_number/validators.py:171 vat_number/validators.py:191
-msgid "This VAT number does not exist."
-msgstr ""
-
-#: timezone/models.py:143
-#, python-format
-msgid "Metazone %s is invalid"
+#: language/models.py:14
+msgid "A language"
 msgstr ""
 
 #: timezone/data.py:116
@@ -125,37 +87,48 @@ msgstr ""
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
 
-#: language/models.py:14
-msgid "A language"
+#: timezone/models.py:26
+msgid "A timezone"
+msgstr ""
+
+#: timezone/models.py:71
+#, python-format
+msgid "Timezone %s is invalid"
 msgstr ""
 
 #: timezone/models.py:96
 msgid "A metazone"
 msgstr ""
 
-#~ msgid "Macedonia"
-#~ msgstr ""
+#: timezone/models.py:143
+#, python-format
+msgid "Metazone %s is invalid"
+msgstr ""
 
-#~ msgid "Macau"
-#~ msgstr ""
+#: vat_number/models.py:25
+msgid "A number used for VAT registration"
+msgstr ""
 
-#~ msgid "Swaziland"
-#~ msgstr ""
+#: vat_number/validators.py:83
+#, python-format
+msgid "This VAT number does not match the requirements for %(country)s."
+msgstr ""
 
-#~ msgid "Macau Time"
-#~ msgstr ""
+#: vat_number/validators.py:112
+msgid ""
+"This VAT number does not start with a country code, or contains invalid "
+"characters."
+msgstr ""
 
-#~ msgid "Reunion Time"
-#~ msgstr ""
+#: vat_number/validators.py:119
+#, python-format
+msgid "%(country)s VAT numbers are not allowed in this field."
+msgstr ""
 
-#~ msgid "%(tz)s (%(cities)s)"
-#~ msgstr ""
+#: vat_number/validators.py:125
+msgid "This VAT number is not for a known country."
+msgstr ""
 
-#~ msgid "%(offset)s %(tz)s (%(cities)s)"
-#~ msgstr ""
-
-#~ msgid "Netherlands Antilles"
-#~ msgstr ""
-
-#~ msgid "Santa Isabel"
-#~ msgstr ""
+#: vat_number/validators.py:171 vat_number/validators.py:191
+msgid "This VAT number does not exist."
+msgstr ""
