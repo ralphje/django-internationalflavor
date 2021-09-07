@@ -28,6 +28,7 @@ VAT_NUMBER_REGEXES = {
     'SE': r'^\d{12}$',
     'SI': r'^\d{8}$',
     'SK': r'^\d{10}$',
+    'XI': r'^(\d{9}|\d{12}|GD\d{3}|HA\d{3})$',
     'EU': r'^\d{9}$',
 
     # Others
@@ -83,7 +84,7 @@ CA: http://www.cra-arc.gc.ca/tx/bsnss/tpcs/bn-ne/wrks-eng.html
 others: https://en.wikipedia.org/wiki/VAT_identification_number
 """
 
-EU_VAT_AREA = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR',
+EU_VAT_AREA = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'XI', 'HR',
                'HU', 'IE', 'IT', 'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK']
 
 VAT_MIN_LENGTH = 4   # Romania seems to have the shortest
