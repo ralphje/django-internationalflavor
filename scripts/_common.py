@@ -57,9 +57,17 @@ def get_tz_info(timezones):
     return result
 
 
-def get_language(lc):
+def _capitalize(lc):
+    return lc[0:3] + lc[3:].upper().replace("LATN", "Latn").replace("HANS", "Hans").replace("HANT", "Hant")
+
+
+def get_cldr_language(lc):
     if lc == 'pt-br':
         cldr_lc = 'pt'
     else:
-        cldr_lc = lc[0:3] + lc[3:].upper().replace("LATN", "Latn").replace("HANS", "Hans").replace("HANT", "Hant")
+        cldr_lc = _capitalize(lc)
     return cldr_lc
+
+
+def get_locale_name(lc):
+    return _capitalize(lc).replace("-", "_")

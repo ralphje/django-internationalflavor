@@ -59,8 +59,8 @@ def push_translations(ctx):
 def pull_cldr(ctx):
     if not os.path.exists("_cldr"):
         run('mkdir _cldr')
-    run('cd _cldr; bower install cldr-localenames-full cldr-dates-full cldr-core; cd ..')
-    run('python scripts/datafromcldr.py _cldr/bower_components')
+    run('cd _cldr; npm install cldr-localenames-full cldr-numbers-full cldr-dates-full cldr-core; cd ..')
+    run('python scripts/datafromcldr.py _cldr/node_modules')
 
 
 @task

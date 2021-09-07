@@ -7,6 +7,8 @@ from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.utils import translation
 
+from _common import get_locale_name
+
 
 # This is almost a management command, but we do not want it to be added to the django-admin namespace for the simple
 # reason that it is not expected to be executed by package users, only by the package maintainers.
@@ -39,12 +41,12 @@ class Command(BaseCommand):
 
                 # Get some files ready
                 # The pofile is our combined file
-                pofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.po'))
+                pofile = polib.pofile(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'django.po'))
                 # The cldrfile contain only messages from CLDR
-                cldrfile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'cldr.po'))
+                cldrfile = polib.pofile(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'cldr.po'))
                 # The djangofile will only contain messages not from CLDR
                 try:
-                    djangofile = polib.pofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django_only.po'))
+                    djangofile = polib.pofile(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'django_only.po'))
                 except IOError:
                     djangofile = polib.POFile()
                     djangofile.metadata = pofile.metadata
@@ -56,7 +58,7 @@ class Command(BaseCommand):
                     if cldrfile.find(entry.msgid) is None and not entry.obsolete and not 'fuzzy' in entry.flags:
                         django_only_messages.append(entry)
                 djangofile.merge(django_only_messages)
-                djangofile.save(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django_only.po'))
+                djangofile.save(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'django_only.po'))
 
                 # Add all entries from the CLDR file to the combined file
                 for entry in cldrfile:
@@ -90,7 +92,7 @@ class Command(BaseCommand):
                 pofile.header = djangofile.header
 
                 pofile.save()
-                pofile.save_as_mofile(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'django.mo'))
+                pofile.save_as_mofile(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'django.mo'))
 
             except IOError as e:
                 self.stderr.write("Error while handling %s: %s (possibly no valid .po file)" % (language, e))

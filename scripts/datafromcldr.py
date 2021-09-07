@@ -7,7 +7,8 @@ from django.core.management.base import BaseCommand, CommandError
 from django.utils import translation
 import polib
 
-from _common import COUNTRY_ALTERNATIVE_KEYS, get_tz_info, update, get_from_path, TIMEZONE_TERRITORY_KEYS, get_language
+from _common import COUNTRY_ALTERNATIVE_KEYS, get_tz_info, update, get_from_path, TIMEZONE_TERRITORY_KEYS, \
+    get_cldr_language, get_locale_name
 
 # This is almost a management command, but we do not want it to be added to the django-admin namespace for the simple
 # reason that it is not expected to be executed by package users, only by the package maintainers.
@@ -57,13 +58,14 @@ class Command(BaseCommand):
             # Load localized data
             for lc, language in settings.LANGUAGES:
                 # Do not load data for languages that are not in my locale directory
-                if not os.path.exists(os.path.join(LOCALE_PATH, lc)):
-                    continue
+                if not os.path.exists(os.path.join(LOCALE_PATH, get_locale_name(lc))):
+                    os.mkdir(os.path.join(LOCALE_PATH, get_locale_name(lc)))
+                    os.mkdir(os.path.join(LOCALE_PATH, get_locale_name(lc), "LC_MESSAGES"))
 
                 # Always create a PO file for languages that are in my locale directory
                 LANGUAGES[lc] = polib.POFile()
                 try:
-                    cldr_lc = get_language(lc)
+                    cldr_lc = get_cldr_language(lc)
                     with open(os.path.join(cldr_path, "cldr-localenames-full", "main", cldr_lc, "territories.json"), 'rb') as f:
                         update(data, json.loads(f.read().decode("utf8")))
                     with open(os.path.join(cldr_path, "cldr-localenames-full", "main", cldr_lc, "languages.json"), 'rb') as f:
@@ -98,7 +100,7 @@ class Command(BaseCommand):
 
                     # Handle translations
                     for lc in LANGUAGES:
-                        cldr_lc = get_language(lc)
+                        cldr_lc = get_cldr_language(lc)
                         if cldr_lc in data['main']:
                             ldata = data['main'][cldr_lc]['localeDisplayNames']['territories']
                             # We check if the alternative name has some useful translation
@@ -136,7 +138,7 @@ class Command(BaseCommand):
 
                     # Handle translations
                     for lc in LANGUAGES:
-                        cldr_lc = get_language(lc)
+                        cldr_lc = get_cldr_language(lc)
                         if cldr_lc in data['main']:
                             ldata = data['main'][cldr_lc]['localeDisplayNames']['languages']
                             if language in ldata and ldata[language] != language:
@@ -207,7 +209,7 @@ class Command(BaseCommand):
                     # Handle translations, quite simply: we either get the translation, or we don't.
                     # Any translation will suffice here.
                     for lc in LANGUAGES:
-                        cldr_lc = get_language(lc)
+                        cldr_lc = get_cldr_language(lc)
                         try:
                             translate(lc, city, get_from_path(data['main'][cldr_lc]['dates']['timeZoneNames']['zone'],
                                                               region_path.split('/'))['exemplarCity'])
@@ -228,7 +230,7 @@ class Command(BaseCommand):
 
                     # Handle translations, any name will suffice.
                     for lc in LANGUAGES:
-                        cldr_lc = get_language(lc)
+                        cldr_lc = get_cldr_language(lc)
                         try:
                             ldata = data['main'][cldr_lc]['dates']['timeZoneNames']['metazone']
                             if 'generic' in ldata[metazone]['long']:
@@ -244,7 +246,7 @@ class Command(BaseCommand):
                 f.write(b'TZ_GMT_FORMAT = _("' + tz_locale_data['gmtFormat'].replace("{0}", "%s").encode('utf8') + b'")\n')
                 for lc in LANGUAGES:
                     try:
-                        ldata = data['main'][get_language(lc)]['dates']['timeZoneNames']
+                        ldata = data['main'][get_cldr_language(lc)]['dates']['timeZoneNames']
                     except KeyError:
                         translate(lc, tz_locale_data['regionFormat'].replace("{0}", "%s"), '')
                         translate(lc, tz_locale_data['hourFormat'], '')
@@ -259,7 +261,7 @@ class Command(BaseCommand):
 
         self.stdout.write("Writing CLDR language file")
         for lc, pofile in LANGUAGES.items():
-            pofile.save(os.path.join(LOCALE_PATH, lc, 'LC_MESSAGES', 'cldr.po'))
+            pofile.save(os.path.join(LOCALE_PATH, get_locale_name(lc), 'LC_MESSAGES', 'cldr.po'))
 
 
 if __name__ == '__main__':
