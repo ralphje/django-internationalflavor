@@ -24,8 +24,8 @@ class LanguageTestCase(SimpleTestCase):
 
         with translation.override('de'):
             out = '''<select name="languages">
+                <option value="be">Belarussisch</option>
                 <option value="nl" selected="selected">Niederländisch</option>
-                <option value="be">Weißrussisch</option>
                 </select>'''
 
             self.assertHTMLEqual(field.widget.render('languages', 'nl'), out)

@@ -12,7 +12,7 @@ from internationalflavor.timezone.forms import TimezoneFormField, MetazoneFormFi
 class TimezoneTestCase(SimpleTestCase):
     def test_form_field(self):
         field = TimezoneFormField(timezones=['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/UTC'])
-        self.assertEqual(set([force_text(f[0]) for f in field.choices]), set(['Europe', 'Americas', 'World']))
+        self.assertEqual(set([force_text(f[0]) for f in field.choices]), set(['Europe', 'Americas', 'world']))
         self.assertEqual(set([force_text(g[0]) for f in field.choices for g in f[1]]),
                          set(['Europe/Amsterdam', 'Europe/Berlin', 'America/New_York', 'Etc/UTC']))
 
@@ -26,7 +26,7 @@ class TimezoneTestCase(SimpleTestCase):
             <option value="Europe/Amsterdam">Amsterdam</option>
             <option value="Europe/Berlin" selected="selected">Berlin</option>
             </optgroup>
-            <optgroup label="World">
+            <optgroup label="world">
             <option value="Indian/Christmas">Christmas</option>
             <option value="Etc/UTC">UTC</option>
             </optgroup>
