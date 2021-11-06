@@ -4,6 +4,12 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.4.2 (2021-11-06)
+==================
+* Updates CLDR data to v39
+* Support for Django 3.x
+* Fixes for Brexit meaning change in VAT numbers
+
 0.4.1 (2020-09-14)
 ==================
 Small release containing updates to translation files. Mostly re-releasing to ensure compatibility
