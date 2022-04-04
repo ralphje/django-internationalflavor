@@ -382,7 +382,7 @@ msgstr "라틴 아메리카"
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:39
 msgid "Ascension Island"
-msgstr "어센션 섬"
+msgstr "어센션섬"
 
 #. auto-generated from CLDR -- see docs before updating
 #: countries/_cldr_data.py:40 timezone/_cldr_data.py:1082
@@ -1526,7 +1526,7 @@ msgid "Tajikistan"
 msgstr "타지키스탄"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:267 language/_cldr_data.py:558
+#: countries/_cldr_data.py:267 language/_cldr_data.py:564
 msgid "Tokelau"
 msgstr "토켈라우"
 
@@ -1561,7 +1561,7 @@ msgid "Trinidad & Tobago"
 msgstr "트리니다드 토바고"
 
 #. auto-generated from CLDR -- see docs before updating
-#: countries/_cldr_data.py:274 language/_cldr_data.py:578
+#: countries/_cldr_data.py:274 language/_cldr_data.py:584
 msgid "Tuvalu"
 msgstr "투발루"
 
@@ -3553,7 +3553,7 @@ msgstr "마셜어"
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:369
-msgid "Maori"
+msgid "Māori"
 msgstr "마오리어"
 
 #. auto-generated from CLDR -- see docs before updating
@@ -4038,866 +4038,896 @@ msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
 #: language/_cldr_data.py:467
+msgid "Rohingya"
+msgstr "로힝야어"
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:468
 msgid "Riffian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:468
+#: language/_cldr_data.py:469
 msgid "Romansh"
 msgstr "로만시어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:469
+#: language/_cldr_data.py:470
 msgid "Rundi"
 msgstr "룬디어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:470
+#: language/_cldr_data.py:471
 msgid "Romanian"
 msgstr "루마니아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:471
+#: language/_cldr_data.py:472
 msgid "Moldavian"
 msgstr "몰도바어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:472
+#: language/_cldr_data.py:473
 msgid "Rombo"
 msgstr "롬보어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:473
+#: language/_cldr_data.py:474
 msgid "Romany"
 msgstr "집시어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:474
+#: language/_cldr_data.py:475
 msgid "Rotuman"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:475
+#: language/_cldr_data.py:476
 msgid "Russian"
 msgstr "러시아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:476
+#: language/_cldr_data.py:477
 msgid "Rusyn"
 msgstr "루신어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:477
+#: language/_cldr_data.py:478
 msgid "Roviana"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:478
+#: language/_cldr_data.py:479
 msgid "Aromanian"
 msgstr "아로마니아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:479
+#: language/_cldr_data.py:480
 msgid "Kinyarwanda"
 msgstr "르완다어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:480
+#: language/_cldr_data.py:481
 msgid "Rwa"
 msgstr "르와어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:481
+#: language/_cldr_data.py:482
 msgid "Sanskrit"
 msgstr "산스크리트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:482
+#: language/_cldr_data.py:483
 msgid "Sandawe"
 msgstr "산다웨어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:483
+#: language/_cldr_data.py:484
 msgid "Sakha"
 msgstr "야쿠트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:484
+#: language/_cldr_data.py:485
 msgid "Samaritan Aramaic"
 msgstr "사마리아 아랍어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:485
+#: language/_cldr_data.py:486
 msgid "Samburu"
 msgstr "삼부루어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:486
+#: language/_cldr_data.py:487
 msgid "Sasak"
 msgstr "사사크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:487
+#: language/_cldr_data.py:488
 msgid "Santali"
 msgstr "산탈리어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:488
+#: language/_cldr_data.py:489
 msgid "Saurashtra"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:489
+#: language/_cldr_data.py:490
 msgid "Ngambay"
 msgstr "느감바이어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:490
+#: language/_cldr_data.py:491
 msgid "Sangu"
 msgstr "상구어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:491
+#: language/_cldr_data.py:492
 msgid "Sardinian"
 msgstr "사르디니아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:492
+#: language/_cldr_data.py:493
 msgid "Sicilian"
 msgstr "시칠리아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:493
+#: language/_cldr_data.py:494
 msgid "Scots"
 msgstr "스코틀랜드어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:494
+#: language/_cldr_data.py:495
 msgid "Sindhi"
 msgstr "신디어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:495
+#: language/_cldr_data.py:496
 msgid "Sassarese Sardinian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:496
+#: language/_cldr_data.py:497
 msgid "Southern Kurdish"
 msgstr "남부 쿠르드어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:497
+#: language/_cldr_data.py:498
 msgid "Northern Sami"
 msgstr "북부 사미어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:498
+#: language/_cldr_data.py:499
+msgid "Sami, Northern"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:500
 msgid "Seneca"
 msgstr "세네카어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:499
+#: language/_cldr_data.py:501
 msgid "Sena"
 msgstr "세나어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:500
+#: language/_cldr_data.py:502
 msgid "Seri"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:501
+#: language/_cldr_data.py:503
 msgid "Selkup"
 msgstr "셀쿠프어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:502
+#: language/_cldr_data.py:504
 msgid "Koyraboro Senni"
 msgstr "코이야보로 세니어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:503
+#: language/_cldr_data.py:505
 msgid "Sango"
 msgstr "산고어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:504
+#: language/_cldr_data.py:506
 msgid "Old Irish"
 msgstr "고대 아일랜드어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:505
+#: language/_cldr_data.py:507
 msgid "Samogitian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:506
+#: language/_cldr_data.py:508
 msgid "Serbo-Croatian"
 msgstr "세르비아-크로아티아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:507
+#: language/_cldr_data.py:509
 msgid "Tachelhit"
 msgstr "타셸히트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:508
+#: language/_cldr_data.py:510
 msgid "Shan"
 msgstr "샨어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:509
+#: language/_cldr_data.py:511
 msgid "Chadian Arabic"
 msgstr "차디언 아라비아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:510
+#: language/_cldr_data.py:512
 msgid "Sinhala"
 msgstr "싱할라어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:511
+#: language/_cldr_data.py:513
 msgid "Sidamo"
 msgstr "시다모어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:512
+#: language/_cldr_data.py:514
 msgid "Slovak"
 msgstr "슬로바키아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:513
+#: language/_cldr_data.py:515
 msgid "Slovenian"
 msgstr "슬로베니아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:514
+#: language/_cldr_data.py:516
 msgid "Lower Silesian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:515
+#: language/_cldr_data.py:517
 msgid "Selayar"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:516
+#: language/_cldr_data.py:518
 msgid "Samoan"
 msgstr "사모아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:517
+#: language/_cldr_data.py:519
 msgid "Southern Sami"
 msgstr "남부 사미어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:518
+#: language/_cldr_data.py:520
+msgid "Sami, Southern"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:521
 msgid "Lule Sami"
 msgstr "룰레 사미어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:519
+#: language/_cldr_data.py:522
+msgid "Sami, Lule"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:523
 msgid "Inari Sami"
 msgstr "이나리 사미어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:520
+#: language/_cldr_data.py:524
+msgid "Sami, Inari"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:525
 msgid "Skolt Sami"
 msgstr "스콜트 사미어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:521
+#: language/_cldr_data.py:526
+msgid "Sami, Skolt"
+msgstr ""
+
+#. auto-generated from CLDR -- see docs before updating
+#: language/_cldr_data.py:527
 msgid "Shona"
 msgstr "쇼나어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:522
+#: language/_cldr_data.py:528
 msgid "Soninke"
 msgstr "소닌케어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:523
+#: language/_cldr_data.py:529
 msgid "Somali"
 msgstr "소말리아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:524
+#: language/_cldr_data.py:530
 msgid "Sogdien"
 msgstr "소그디엔어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:525
+#: language/_cldr_data.py:531
 msgid "Albanian"
 msgstr "알바니아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:526
+#: language/_cldr_data.py:532
 msgid "Serbian"
 msgstr "세르비아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:527
+#: language/_cldr_data.py:533
 msgid "Montenegrin"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:528
+#: language/_cldr_data.py:534
 msgid "Sranan Tongo"
 msgstr "스라난 통가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:529
+#: language/_cldr_data.py:535
 msgid "Serer"
 msgstr "세레르어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:530
+#: language/_cldr_data.py:536
 msgid "Swati"
 msgstr "시스와티어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:531
+#: language/_cldr_data.py:537
 msgid "Saho"
 msgstr "사호어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:532
+#: language/_cldr_data.py:538
 msgid "Southern Sotho"
 msgstr "남부 소토어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:533
+#: language/_cldr_data.py:539
 msgid "Saterland Frisian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:534
+#: language/_cldr_data.py:540
 msgid "Sundanese"
 msgstr "순다어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:535
+#: language/_cldr_data.py:541
 msgid "Sukuma"
 msgstr "수쿠마어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:536
+#: language/_cldr_data.py:542
 msgid "Susu"
 msgstr "수수어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:537
+#: language/_cldr_data.py:543
 msgid "Sumerian"
 msgstr "수메르어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:538
+#: language/_cldr_data.py:544
 msgid "Swedish"
 msgstr "스웨덴어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:539
+#: language/_cldr_data.py:545
 msgid "Swahili"
 msgstr "스와힐리어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:540
+#: language/_cldr_data.py:546
 msgid "Congo Swahili"
 msgstr "콩고 스와힐리어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:541
+#: language/_cldr_data.py:547
 msgid "Comorian"
 msgstr "코모로어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:542
+#: language/_cldr_data.py:548
 msgid "Classical Syriac"
 msgstr "고전 시리아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:543
+#: language/_cldr_data.py:549
 msgid "Syriac"
 msgstr "시리아어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:544
+#: language/_cldr_data.py:550
 msgid "Silesian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:545
+#: language/_cldr_data.py:551
 msgid "Tamil"
 msgstr "타밀어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:546
+#: language/_cldr_data.py:552
 msgid "Tulu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:547
+#: language/_cldr_data.py:553
 msgid "Telugu"
 msgstr "텔루구어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:548
+#: language/_cldr_data.py:554
 msgid "Timne"
 msgstr "팀니어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:549
+#: language/_cldr_data.py:555
 msgid "Teso"
 msgstr "테조어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:550
+#: language/_cldr_data.py:556
 msgid "Tereno"
 msgstr "테레노어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:551
+#: language/_cldr_data.py:557
 msgid "Tetum"
 msgstr "테툼어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:552
+#: language/_cldr_data.py:558
 msgid "Tajik"
 msgstr "타지크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:553
+#: language/_cldr_data.py:559
 msgid "Thai"
 msgstr "태국어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:554
+#: language/_cldr_data.py:560
 msgid "Tigrinya"
 msgstr "티그리냐어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:555
+#: language/_cldr_data.py:561
 msgid "Tigre"
 msgstr "티그레어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:556
+#: language/_cldr_data.py:562
 msgid "Tiv"
 msgstr "티브어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:557
+#: language/_cldr_data.py:563
 msgid "Turkmen"
 msgstr "투르크멘어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:559
+#: language/_cldr_data.py:565
 msgid "Tsakhur"
 msgstr "차후르어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:560
+#: language/_cldr_data.py:566
 msgid "Tagalog"
 msgstr "타갈로그어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:561
+#: language/_cldr_data.py:567
 msgid "Klingon"
 msgstr "클링온어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:562
+#: language/_cldr_data.py:568
 msgid "Tlingit"
 msgstr "틀링깃족어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:563
+#: language/_cldr_data.py:569
 msgid "Talysh"
 msgstr "탈리쉬어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:564
+#: language/_cldr_data.py:570
 msgid "Tamashek"
 msgstr "타마섹어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:565
+#: language/_cldr_data.py:571
 msgid "Tswana"
 msgstr "츠와나어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:566
+#: language/_cldr_data.py:572
 msgid "Tongan"
 msgstr "통가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:567
+#: language/_cldr_data.py:573
 msgid "Nyasa Tonga"
 msgstr "니아사 통가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:568
+#: language/_cldr_data.py:574
 msgid "Tok Pisin"
 msgstr "토크 피신어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:569
+#: language/_cldr_data.py:575
 msgid "Turkish"
 msgstr "터키어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:570
+#: language/_cldr_data.py:576
 msgid "Turoyo"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:571
+#: language/_cldr_data.py:577
 msgid "Taroko"
 msgstr "타로코어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:572
+#: language/_cldr_data.py:578
 msgid "Tsonga"
 msgstr "총가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:573
+#: language/_cldr_data.py:579
 msgid "Tsakonian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:574
+#: language/_cldr_data.py:580
 msgid "Tsimshian"
 msgstr "트심시안어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:575
+#: language/_cldr_data.py:581
 msgid "Tatar"
 msgstr "타타르어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:576
+#: language/_cldr_data.py:582
 msgid "Muslim Tat"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:577
+#: language/_cldr_data.py:583
 msgid "Tumbuka"
 msgstr "툼부카어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:579
+#: language/_cldr_data.py:585
 msgid "Twi"
 msgstr "트위어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:580
+#: language/_cldr_data.py:586
 msgid "Tasawaq"
 msgstr "타사와크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:581
+#: language/_cldr_data.py:587
 msgid "Tahitian"
 msgstr "타히티어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:582
+#: language/_cldr_data.py:588
 msgid "Tuvinian"
 msgstr "투비니안어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:583
+#: language/_cldr_data.py:589
 msgid "Central Atlas Tamazight"
 msgstr "중앙 모로코 타마지트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:584
+#: language/_cldr_data.py:590
 msgid "Udmurt"
 msgstr "우드말트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:585
+#: language/_cldr_data.py:591
 msgid "Uyghur"
 msgstr "위구르어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:586
+#: language/_cldr_data.py:592
 msgid "Uighur"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:587
+#: language/_cldr_data.py:593
 msgid "Ugaritic"
 msgstr "유가리틱어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:588
+#: language/_cldr_data.py:594
 msgid "Ukrainian"
 msgstr "우크라이나어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:589
+#: language/_cldr_data.py:595
 msgid "Umbundu"
 msgstr "움분두어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:590
+#: language/_cldr_data.py:596
 msgid "Unknown language"
 msgstr "알 수 없는 언어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:591
+#: language/_cldr_data.py:597
 msgid "Urdu"
 msgstr "우르두어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:592
+#: language/_cldr_data.py:598
 msgid "Uzbek"
 msgstr "우즈베크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:593
+#: language/_cldr_data.py:599
 msgid "Vai"
 msgstr "바이어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:594
+#: language/_cldr_data.py:600
 msgid "Venda"
 msgstr "벤다어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:595
+#: language/_cldr_data.py:601
 msgid "Venetian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:596
+#: language/_cldr_data.py:602
 msgid "Veps"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:597
+#: language/_cldr_data.py:603
 msgid "Vietnamese"
 msgstr "베트남어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:598
+#: language/_cldr_data.py:604
 msgid "West Flemish"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:599
+#: language/_cldr_data.py:605
 msgid "Main-Franconian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:600
+#: language/_cldr_data.py:606
 msgid "Volapük"
 msgstr "볼라퓌크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:601
+#: language/_cldr_data.py:607
 msgid "Votic"
 msgstr "보틱어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:602
+#: language/_cldr_data.py:608
 msgid "Võro"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:603
+#: language/_cldr_data.py:609
 msgid "Vunjo"
 msgstr "분조어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:604
+#: language/_cldr_data.py:610
 msgid "Walloon"
 msgstr "왈론어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:605
+#: language/_cldr_data.py:611
 msgid "Walser"
 msgstr "월저어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:606
+#: language/_cldr_data.py:612
 msgid "Wolaytta"
 msgstr "월라이타어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:607
+#: language/_cldr_data.py:613
 msgid "Waray"
 msgstr "와라이어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:608
+#: language/_cldr_data.py:614
 msgid "Washo"
 msgstr "와쇼어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:609
+#: language/_cldr_data.py:615
 msgid "Warlpiri"
 msgstr "왈피리어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:610
+#: language/_cldr_data.py:616
 msgid "Wolof"
 msgstr "월로프어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:611
+#: language/_cldr_data.py:617
 msgid "Wu Chinese"
 msgstr "우어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:612
+#: language/_cldr_data.py:618
 msgid "Kalmyk"
 msgstr "칼미크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:613
+#: language/_cldr_data.py:619
 msgid "Xhosa"
 msgstr "코사어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:614
+#: language/_cldr_data.py:620
 msgid "Mingrelian"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:615
+#: language/_cldr_data.py:621
 msgid "Soga"
 msgstr "소가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:616
+#: language/_cldr_data.py:622
 msgid "Yao"
 msgstr "야오족어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:617
+#: language/_cldr_data.py:623
 msgid "Yapese"
 msgstr "얍페세어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:618
+#: language/_cldr_data.py:624
 msgid "Yangben"
 msgstr "양본어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:619
+#: language/_cldr_data.py:625
 msgid "Yemba"
 msgstr "옘바어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:620
+#: language/_cldr_data.py:626
 msgid "Yiddish"
 msgstr "이디시어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:621
+#: language/_cldr_data.py:627
 msgid "Yoruba"
 msgstr "요루바어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:622
+#: language/_cldr_data.py:628
 msgid "Nheengatu"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:623
+#: language/_cldr_data.py:629
 msgid "Cantonese"
 msgstr "광둥어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:624
+#: language/_cldr_data.py:630
 msgid "Chinese, Cantonese"
 msgstr "중국어(광둥어)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:625
+#: language/_cldr_data.py:631
 msgid "Zhuang"
 msgstr "주앙어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:626
+#: language/_cldr_data.py:632
 msgid "Zapotec"
 msgstr "사포테크어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:627
+#: language/_cldr_data.py:633
 msgid "Blissymbols"
 msgstr "블리스 심볼"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:628
+#: language/_cldr_data.py:634
 msgid "Zeelandic"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:629
+#: language/_cldr_data.py:635
 msgid "Zenaga"
 msgstr "제나가어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:630
+#: language/_cldr_data.py:636
 msgid "Standard Moroccan Tamazight"
 msgstr "표준 모로코 타마지트어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:631
+#: language/_cldr_data.py:637
 msgid "Chinese"
 msgstr "중국어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:632
+#: language/_cldr_data.py:638
 msgid "Simplified Chinese"
 msgstr "중국어(간체)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:633
+#: language/_cldr_data.py:639
 msgid "Simplified Mandarin Chinese"
 msgstr "중국어(만다린, 간체)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:634
+#: language/_cldr_data.py:640
 msgid "Traditional Chinese"
 msgstr "중국어(번체)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:635
+#: language/_cldr_data.py:641
 msgid "Traditional Mandarin Chinese"
 msgstr "중국어(만다린, 번체)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:636
+#: language/_cldr_data.py:642
 msgid "Mandarin Chinese"
 msgstr ""
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:637
+#: language/_cldr_data.py:643
 msgid "Chinese, Mandarin"
 msgstr "중국어(만다린)"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:638
+#: language/_cldr_data.py:644
 msgid "Zulu"
 msgstr "줄루어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:639
+#: language/_cldr_data.py:645
 msgid "Zuni"
 msgstr "주니어"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:640
+#: language/_cldr_data.py:646
 msgid "No linguistic content"
 msgstr "언어 관련 내용 없음"
 
 #. auto-generated from CLDR -- see docs before updating
-#: language/_cldr_data.py:641
+#: language/_cldr_data.py:647
 msgid "Zaza"
 msgstr "자자어"
 
@@ -7591,38 +7621,44 @@ msgid "Yekaterinburg Time"
 msgstr "예카테린부르크 시간"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1352
+#: timezone/_cldr_data.py:1351
+#| msgid "Yakutsk Time"
+msgid "Yukon Time"
+msgstr "유콘 시간"
+
+#. auto-generated from CLDR -- see docs before updating
+#: timezone/_cldr_data.py:1353
 #, python-format
 msgid "%s Time"
 msgstr "%s 시간"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1353
+#: timezone/_cldr_data.py:1354
 msgid "+HH:mm;-HH:mm"
 msgstr "+HH:mm;-HH:mm"
 
 #. auto-generated from CLDR -- see docs before updating
-#: timezone/_cldr_data.py:1354
+#: timezone/_cldr_data.py:1355
 #, python-format
 msgid "GMT%s"
 msgstr "GMT%s"
 
-#: timezone/data.py:116
+#: timezone/data.py:119
 #, python-format
 msgid "%(tzname)s"
 msgstr ""
 
-#: timezone/data.py:118
+#: timezone/data.py:121
 #, python-format
 msgid "%(tzname)s (%(cities)s)"
 msgstr ""
 
-#: timezone/data.py:120
+#: timezone/data.py:123
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s"
 msgstr ""
 
-#: timezone/data.py:122
+#: timezone/data.py:125
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""
@@ -7672,3 +7708,6 @@ msgstr ""
 #: vat_number/validators.py:171 vat_number/validators.py:191
 msgid "This VAT number does not exist."
 msgstr ""
+
+#~ msgid "Maori"
+#~ msgstr "마오리어"

@@ -97,7 +97,7 @@ METAZONE_MAPPING_FROM_TZ = {
     "America/Cuiaba": "Amazon",
     "America/Curacao": "Atlantic",
     "America/Danmarkshavn": "GMT",
-    "America/Dawson": "America_Mountain",
+    "America/Dawson": "Yukon",
     "America/Dawson_Creek": "America_Mountain",
     "America/Denver": "America_Mountain",
     "America/Detroit": "America_Eastern",
@@ -200,7 +200,7 @@ METAZONE_MAPPING_FROM_TZ = {
     "America/Toronto": "America_Eastern",
     "America/Tortola": "Atlantic",
     "America/Vancouver": "America_Pacific",
-    "America/Whitehorse": "America_Mountain",
+    "America/Whitehorse": "Yukon",
     "America/Winnipeg": "America_Central",
     "America/Yakutat": "Alaska",
     "America/Yellowknife": "America_Mountain",
@@ -758,7 +758,7 @@ METAZONE_MAPPING_TO_TZ = {
     ("Yakutsk", "001"): "Asia/Yakutsk",
     ("Yekaterinburg", "001"): "Asia/Yekaterinburg",
     ("Yerevan", "001"): "Asia/Yerevan",
-    ("Yukon", "001"): "America/Yakutat",
+    ("Yukon", "001"): "America/Whitehorse",
 }
 TIMEZONE_NAMES = {
     "Africa/Abidjan": (_("Africa"), _("Abidjan")),
@@ -1348,6 +1348,7 @@ METAZONE_NAMES = {
     "Wallis": _("Wallis & Futuna Time"),
     "Yakutsk": _("Yakutsk Time"),
     "Yekaterinburg": _("Yekaterinburg Time"),
+    "Yukon": _("Yukon Time"),
 }
 TZ_REGION_FORMAT = _("%s Time")
 TZ_HOUR_FORMAT = _("+HH:mm;-HH:mm")
