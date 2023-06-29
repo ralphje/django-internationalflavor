@@ -20,8 +20,6 @@ class VATNumberCleaner(UpperCaseValueCleaner):
         if value is not None:
             value = super(VATNumberCleaner, self).__call__(value)
             if value.startswith("CH"):
-                if value.startswith("CHE"):
-                    value = "CH" + value[3:]
                 if value.endswith("MWST"):
                     value = value[:-4]
                 elif value.endswith("TVA") or value.endswith("IVA"):
@@ -29,12 +27,6 @@ class VATNumberCleaner(UpperCaseValueCleaner):
             if value.startswith("GR"):
                 value = "EL" + value[2:]
             return value
-        return value
-
-    def display_value(self, value):
-        value = super(VATNumberCleaner, self).display_value(value)
-        if value.startswith("CH"):
-            value = "CHE" + value[2:]
         return value
 
 
@@ -108,11 +100,13 @@ class VATNumberValidator(object):
         if value is None:
             return value
 
-        if not re.match(r"^[A-Z]{2}[A-Z0-9]+$", value):
+        if not re.match(r"^[A-Z]{2}[A-Z0-9]+$", value) and not re.match(r"^CHE[A-Z0-9]+$", value):
             raise ValidationError(_('This VAT number does not start with a country code, or contains invalid '
                                     'characters.'))
 
         country, rest = value[0:2], value[2:]
+        if re.match(r"^CHE[A-Z0-9]+$", value):
+            country, rest = value[0:3], value[3:]
 
         # Greek VAT numbers start with EL instead of GR
         if country not in self.countries:
