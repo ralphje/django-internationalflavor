@@ -29,6 +29,12 @@ class VATNumberCleaner(UpperCaseValueCleaner):
             return value
         return value
 
+    def display_value(self, value):
+        value = super(VATNumberCleaner, self).display_value(value)
+        if value.startswith("CH") and not value.startswith("CHE"):
+            value = "CHE" + value[2:]
+        return value
+
 
 class VATNumberValidator(object):
     """Validator for checking whether a given VAT number is valid. A VAT number starts with two characters representing
