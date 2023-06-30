@@ -8,7 +8,6 @@ from django.utils.translation import gettext_lazy as _
 from internationalflavor.validators import UpperCaseValueCleaner, _get_check_digit, _get_mod97_value
 from .data import VAT_NUMBER_REGEXES, EU_VAT_AREA
 
-
 VIES_CHECK_WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl"
 VIES_CHECK_URL = "http://ec.europa.eu/taxation_customs/vies/services/checkVatService"
 
@@ -106,13 +105,7 @@ class VATNumberValidator(object):
         if value is None:
             return value
 
-        if not re.match(r"^[A-Z]{2}[A-Z0-9]+$", value) and not re.match(r"^CHE[A-Z0-9]+$", value):
-            raise ValidationError(_('This VAT number does not start with a country code, or contains invalid '
-                                    'characters.'))
-
-        country, rest = value[0:2], value[2:]
-        if re.match(r"^CHE[A-Z0-9]+$", value):
-            country, rest = value[0:3], value[3:]
+        country, rest = self._is_valid_vat_number(value)
 
         # Greek VAT numbers start with EL instead of GR
         if country not in self.countries:
@@ -130,6 +123,21 @@ class VATNumberValidator(object):
         # Check with WSDL services for valid VAT number
         if self.vies_check and country in EU_VAT_AREA:
             self._check_vies(country, rest)
+
+    @staticmethod
+    def _is_valid_vat_number(vat_number):
+        """
+        We expect VAT numbers to start with a two-letter country code followed by a variable length of digits.
+        Switzerland has both CH and CHE country codes, being the only known exception with three letters for country code.
+        """
+        pattern = r"^(CHE|[A-Z]{2})([A-Z0-9]+)$"
+        match = re.match(pattern, vat_number)
+        if not match:
+            raise ValidationError('This VAT number does not start with a country code, or contains invalid '
+                                  'characters.')
+        country_code = match.group(1)
+        rest = match.group(2)
+        return country_code, rest
 
     def _country_specific_check(self, country, rest):
         """Place for country specific validations."""
