@@ -4,6 +4,10 @@ Changelog
 
 This file contains the changelog for the project.
 
+0.4.3 (2022-04-04)
+==================
+* Fix force_text import error on Django4
+
 0.4.2 (2021-11-06)
 ==================
 * Updates CLDR data to v39
