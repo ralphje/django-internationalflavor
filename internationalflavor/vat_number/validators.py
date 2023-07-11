@@ -106,7 +106,11 @@ class VATNumberValidator(object):
         if value is None:
             return value
 
-        country, rest = self._is_valid_vat_number(value)
+        if not re.match(r"^[A-Z]{2}[A-Z0-9]+$", value):
+            raise ValidationError(_('This VAT number does not start with a country code, or contains invalid '
+                                    'characters.'))
+
+        country, rest = value[0:2], value[2:]
 
         # Greek VAT numbers start with EL instead of GR
         if country not in self.countries:
@@ -124,21 +128,6 @@ class VATNumberValidator(object):
         # Check with WSDL services for valid VAT number
         if self.vies_check and country in EU_VAT_AREA:
             self._check_vies(country, rest)
-
-    @staticmethod
-    def _is_valid_vat_number(vat_number):
-        """
-        We expect VAT numbers to start with a two-letter country code followed by a variable length of digits.
-        Switzerland has both CH and CHE country codes, being the only known exception with three letters for country code.
-        """
-        pattern = r"^(CHE|[A-Z]{2})([A-Z0-9]+)$"
-        match = re.match(pattern, vat_number)
-        if not match:
-            raise ValidationError('This VAT number does not start with a country code, or contains invalid '
-                                  'characters.')
-        country_code = match.group(1)
-        rest = match.group(2)
-        return country_code, rest
 
     def _country_specific_check(self, country, rest):
         """Place for country specific validations."""

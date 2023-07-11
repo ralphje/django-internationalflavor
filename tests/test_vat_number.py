@@ -40,7 +40,7 @@ class VATNumberTestCase(TestCase):
         'IE0É12345A': ['This VAT number does not start with a country code, or contains invalid characters.'],
         'RU5505035012': ['This VAT number does not match the requirements for RU.'],
         'RU550501929015': ['This VAT number does not match the requirements for RU.'],
-        'CHE123': ['This VAT number does not match the requirements for CHE.'],
+        'CHE123': ['This VAT number does not match the requirements for CH.'],
     }
 
     def test_validator(self):
