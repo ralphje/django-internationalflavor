@@ -20,8 +20,6 @@ class VATNumberCleaner(UpperCaseValueCleaner):
         if value is not None:
             value = super(VATNumberCleaner, self).__call__(value)
             if value.startswith("CH"):
-                if value.startswith("CHE"):
-                    value = "CH" + value[3:]
                 if value.endswith("MWST"):
                     value = value[:-4]
                 elif value.endswith("TVA") or value.endswith("IVA"):
@@ -33,7 +31,7 @@ class VATNumberCleaner(UpperCaseValueCleaner):
 
     def display_value(self, value):
         value = super(VATNumberCleaner, self).display_value(value)
-        if value.startswith("CH"):
+        if value.startswith("CH") and not value.startswith("CHE"):
             value = "CHE" + value[2:]
         return value
 
