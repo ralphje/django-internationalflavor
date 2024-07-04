@@ -1,5 +1,7 @@
 import locale
 from django import forms
+
+
 try:
     from django.utils.encoding import force_text
 except ImportError:

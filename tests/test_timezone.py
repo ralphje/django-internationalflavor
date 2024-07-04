@@ -3,7 +3,10 @@
 from __future__ import unicode_literals
 from django.test import SimpleTestCase
 from django.utils import translation
-from django.utils.encoding import force_text
+try:
+    from django.utils.encoding import force_text
+except ImportError:
+    from django.utils.encoding import force_str as force_text
 
 from internationalflavor.timezone.data import get_metazone_name, CURRENT_METAZONES
 from internationalflavor.timezone.forms import TimezoneFormField, MetazoneFormField

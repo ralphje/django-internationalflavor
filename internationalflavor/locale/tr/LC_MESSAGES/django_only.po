@@ -67,22 +67,22 @@ msgstr ""
 msgid "A language"
 msgstr ""
 
-#: timezone/data.py:116
+#: timezone/data.py:119
 #, python-format
 msgid "%(tzname)s"
 msgstr ""
 
-#: timezone/data.py:118
+#: timezone/data.py:121
 #, python-format
 msgid "%(tzname)s (%(cities)s)"
 msgstr ""
 
-#: timezone/data.py:120
+#: timezone/data.py:123
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s"
 msgstr ""
 
-#: timezone/data.py:122
+#: timezone/data.py:125
 #, python-format
 msgid "%(gmt_offset)s %(tzname)s (%(cities)s)"
 msgstr ""

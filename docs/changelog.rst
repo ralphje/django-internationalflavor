@@ -6,11 +6,13 @@ This file contains the changelog for the project.
 
 0.4.4 (2023-07-04)
 ==================
-* Allow new VAT number format for Switzerland (CHE-XXX)
+* [tk] Allow new VAT number format for Switzerland (CHE-XXX)
 
 0.4.3 (2022-04-04)
 ==================
-* Fix force_text import error on Django4
+* [tk] Fix force_text import error on Django4
+* Updates CLDR data to v40
+* Support for Django 4.x
 
 0.4.2 (2021-11-06)
 ==================

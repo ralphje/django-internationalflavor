@@ -1,7 +1,10 @@
 import datetime
 
 from django.core.exceptions import ImproperlyConfigured
-from django.utils.encoding import force_text
+try:
+    from django.utils.encoding import force_str as force_text
+except ImportError:
+    from django.utils.encoding import force_text
 from django.utils.functional import lazy
 from django.utils.translation import gettext_lazy as _, gettext
 import itertools
