@@ -106,7 +106,7 @@ except Exception:
     long_description = None
 
 setup(
-    name='django-internationalflavor',
+    name='tk-django-internationalflavor',
     version=version,
     packages=find_packages(exclude=['tests', 'tests.*']),
     package_data=find_package_data(),
