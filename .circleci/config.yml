@@ -1,0 +1,41 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@1.2
+  common: travelperk/common@3.1.0
+
+workflows:
+  main:
+    jobs:
+      - test:
+          context: [aws, codeartifact]
+      - publish:
+          context: [aws, codeartifact]
+          requires:
+            - test
+          # filters:
+          #   branches:
+          #     only:
+          #       - main
+
+jobs:
+  test:
+    resource_class: small
+    docker:
+      - image: $AWS_ECR_ACCOUNT_URL_US/tk-python:v6.5-3.10.11
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: "pip install -r tests/requirements.txt && pip install tox==4.14.2"
+      - run:
+          name: Run tests
+          command: tox -e py310-4.0
+  publish:
+    resource_class: small
+    docker:
+      - image: $AWS_ECR_ACCOUNT_URL_US/tk-python-ci:v6.5-3.10.11
+    steps:
+      - checkout
+      - run: python setup.py sdist bdist_wheel
+      - run: twine upload dist/* --skip-existing
