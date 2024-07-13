@@ -48,21 +48,21 @@ msgstr "Deze Bank Identificatie Code (BIC) is ongeldig."
 msgid "A number used for VAT registration"
 msgstr "Een nummer gebruikt voor btw-registratie."
 
-#: vat_number/validators.py:119
+#: vat_number/validators.py:118
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr "%(country)s btw-nummers zijn niet toegestaan in dit veld."
 
-#: vat_number/validators.py:83
+#: vat_number/validators.py:82
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr "Dit btw-nummer voldoet niet aan de vereisten voor %(country)s."
 
-#: vat_number/validators.py:125
+#: vat_number/validators.py:124
 msgid "This VAT number is not for a known country."
 msgstr "Dit btw-nummer is niet voor een bekend land."
 
-#: vat_number/validators.py:171 vat_number/validators.py:191
+#: vat_number/validators.py:170 vat_number/validators.py:189
 msgid "This VAT number does not exist."
 msgstr "Dit btw-nummer bestaat niet."
 
@@ -98,7 +98,7 @@ msgstr "Een tijdzone"
 msgid "Timezone %s is invalid"
 msgstr "Tijdzone %s is ongeldig."
 
-#: vat_number/validators.py:112
+#: vat_number/validators.py:111
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."

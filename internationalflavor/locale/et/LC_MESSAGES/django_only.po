@@ -47,21 +47,21 @@ msgstr "Panga tunnuskood (BIC) on vale."
 msgid "A number used for VAT registration"
 msgstr "KMKR registreerimisel kasutatud number"
 
-#: vat_number/validators.py:119
+#: vat_number/validators.py:118
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr "%(country)s KMKR numbri ei ole sellel väljal lubatud."
 
-#: vat_number/validators.py:83
+#: vat_number/validators.py:82
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr "Sisestatud KMKR number ei vasta %(country)s KMKR numbri nõuetele."
 
-#: vat_number/validators.py:125
+#: vat_number/validators.py:124
 msgid "This VAT number is not for a known country."
 msgstr "See KMKR ei ole teadaoleva riigi kohta."
 
-#: vat_number/validators.py:171 vat_number/validators.py:191
+#: vat_number/validators.py:170 vat_number/validators.py:189
 msgid "This VAT number does not exist."
 msgstr "See KMKR number ei eksisteeri."
 
@@ -97,7 +97,7 @@ msgstr "Ajavöönd"
 msgid "Timezone %s is invalid"
 msgstr "Ajavöönd %s on vale"
 
-#: vat_number/validators.py:112
+#: vat_number/validators.py:111
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."

@@ -109,26 +109,26 @@ msgstr ""
 msgid "A number used for VAT registration"
 msgstr ""
 
-#: vat_number/validators.py:83
+#: vat_number/validators.py:82
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 
-#: vat_number/validators.py:112
+#: vat_number/validators.py:111
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
 msgstr ""
 
-#: vat_number/validators.py:119
+#: vat_number/validators.py:118
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr ""
 
-#: vat_number/validators.py:125
+#: vat_number/validators.py:124
 msgid "This VAT number is not for a known country."
 msgstr ""
 
-#: vat_number/validators.py:171 vat_number/validators.py:191
+#: vat_number/validators.py:170 vat_number/validators.py:189
 msgid "This VAT number does not exist."
 msgstr ""

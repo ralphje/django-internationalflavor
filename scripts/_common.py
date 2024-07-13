@@ -1,5 +1,3 @@
-import collections
-
 COUNTRY_ALTERNATIVE_KEYS = {'HK': 'HK-alt-short', 'MO': 'MO-alt-short', 'PS': 'PS-alt-short'}
 TIMEZONE_TERRITORY_KEYS = {
     'Africa': '002',
@@ -19,7 +17,7 @@ TIMEZONE_TERRITORY_KEYS = {
 def update(d, u):
     """Method to update a dict recursively, from https://stackoverflow.com/questions/3232943/"""
     for k, v in u.items():
-        if isinstance(v, collections.Mapping):
+        if isinstance(v, dict):
             r = update(d.get(k, {}), v)
             d[k] = r
         else:
@@ -40,7 +38,7 @@ def _get_tz_info(region_path, rest):
     if 'exemplarCity' in rest:
         city = rest['exemplarCity']
         return [(region_path, city)]
-    elif 'short' in rest:
+    elif 'short' in rest or 'long' in rest:
         return [(region_path, region_path[-1])]
     else:
         result = []

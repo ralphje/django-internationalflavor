@@ -47,22 +47,22 @@ msgstr "Diese internationale Bankleitzahl (BIC) ist ungültig."
 msgid "A number used for VAT registration"
 msgstr "Eine Nummer, welche zur Umsatzsteuer-Anmeldung genutzt wird"
 
-#: vat_number/validators.py:119
+#: vat_number/validators.py:118
 #, python-format
 msgid "%(country)s VAT numbers are not allowed in this field."
 msgstr "USt-ID-Nummern aus %(country)s sind in diesem Feld nicht zugelassen."
 
-#: vat_number/validators.py:83
+#: vat_number/validators.py:82
 #, python-format
 msgid "This VAT number does not match the requirements for %(country)s."
 msgstr ""
 "Diese USt-ID-Nummer erfüllt nicht die Voraussetzungen für %(country)s."
 
-#: vat_number/validators.py:125
+#: vat_number/validators.py:124
 msgid "This VAT number is not for a known country."
 msgstr "Das Land dieser USt-ID-Nummer ist nicht unterstützt."
 
-#: vat_number/validators.py:171 vat_number/validators.py:191
+#: vat_number/validators.py:170 vat_number/validators.py:189
 msgid "This VAT number does not exist."
 msgstr "Diese USt-ID-Nummer existiert nicht."
 
@@ -98,7 +98,7 @@ msgstr "Eine Zeitzone"
 msgid "Timezone %s is invalid"
 msgstr "Die Zeitzone %s ist ungültig"
 
-#: vat_number/validators.py:112
+#: vat_number/validators.py:111
 msgid ""
 "This VAT number does not start with a country code, or contains invalid "
 "characters."
