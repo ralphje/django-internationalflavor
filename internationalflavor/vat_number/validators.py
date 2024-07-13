@@ -1,5 +1,4 @@
 import re
-import socket
 import urllib.request
 
 from django.core.exceptions import ValidationError
@@ -176,7 +175,6 @@ class VATNumberValidator(object):
     def _check_vies_suds(self, country, rest):
         """Method to validate against the VIES WSDL services."""
 
-        import suds
         import suds.client
         import suds.transport
 
@@ -184,7 +182,7 @@ class VATNumberValidator(object):
             c = suds.client.Client(VIES_CHECK_WSDL, timeout=3)
             res = c.service.checkVat(country, rest)
             valid = res.valid is not False
-        except (suds.WebFault, suds.transport.TransportError, socket.timeout, OSError, IOError) as e:
+        except Exception as e:
             self._wsdl_exception = e
         else:
             if not valid:
