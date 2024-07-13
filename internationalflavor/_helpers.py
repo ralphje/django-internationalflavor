@@ -2,7 +2,9 @@ from django.utils.functional import lazy
 
 
 def orig_str(lazy_str):
-    return lazy_str._proxy____args[0]
+    if hasattr(lazy_str, "_proxy____args"):
+        return lazy_str._proxy____args[0]
+    return lazy_str._args[0]
 
 
 def _string_format(str, format):
