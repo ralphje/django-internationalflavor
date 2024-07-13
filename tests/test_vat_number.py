@@ -1,13 +1,13 @@
 # coding=utf-8
 from __future__ import unicode_literals
 from django.core.exceptions import ValidationError, ImproperlyConfigured
-from django.test import TestCase
+from django.test import SimpleTestCase
 from internationalflavor.vat_number import VATNumberValidator
 from internationalflavor.vat_number.forms import VATNumberFormField
 from internationalflavor.vat_number.models import VATNumberField
 
 
-class VATNumberTestCase(TestCase):
+class VATNumberTestCase(SimpleTestCase):
     valid = {
         'NL820646660B01': 'NL820646660B01',
         'NL82064-6660.B01': 'NL820646660B01',

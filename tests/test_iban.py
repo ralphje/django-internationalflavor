@@ -1,11 +1,11 @@
 # coding=utf-8
 from __future__ import unicode_literals
 from django.core.exceptions import ValidationError, ImproperlyConfigured
-from django.test import TestCase
+from django.test import SimpleTestCase
 from internationalflavor.iban import IBANValidator, IBANFormField, IBANField, BICValidator, BICFormField, BICField
 
 
-class IBANTestCase(TestCase):
+class IBANTestCase(SimpleTestCase):
     # Note: use https://www.swift.com/resource/iban-registry-txt
     swift_iban_examples = [
         "AD1200012030200359100100",
@@ -261,7 +261,7 @@ class IBANTestCase(TestCase):
             self.assertEqual(context_manager.exception.messages, errors[::-1])
 
 
-class BICTestCase(TestCase):
+class BICTestCase(SimpleTestCase):
     valid = {
         'deutdeff': 'DEUTDEFF',
         'DEUTDEFF': 'DEUTDEFF',
